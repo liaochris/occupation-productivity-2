@@ -1,0 +1,441 @@
+National Compensation Survey (NB)
+nb.txt
+
+Section Listing
+
+1.  Survey definition
+2.  Download files listed in the survey directory
+3.  Series file, data file, and mapping file definitions and relationships
+4.  Series file format and field definitions
+5.  Data file format and field definitions
+6.  Mapping file formats and field definitions
+7.  Data element dictionary
+
+===============================================================================
+Section 1: Survey definition 
+===============================================================================
+
+Survey Description: The National Compensation Survey provides comprehensive 
+measures of compensation cost trends and the coverage, costs, and provisions
+of employer-sponsored benefits in the United States. Estimates include 
+incidence and key provisions of employer-sponsored benefits for civilian 
+workers, private industry workers, as well as state and local government 
+workers by worker and establishment characteristics. Detailed health and 
+retirement provisions are also published. 
+
+The survey covers occupations in the civilian economy, which includes the 
+total private economy (excluding farms and households), and the public sector
+(excluding the federal government). Statistics are published for the private
+and public sectors separately, and the data are combined in a measure for the
+civilian economy.
+
+For more information about the sample size, see the technical note section of
+the Employee Benefits in the United States news release
+www.bls.gov/news.release/ebs2.nr0.htm. The sampled establishments are 
+classified in industry categories based on the North American Industrial 
+Classification System (NAICS). Within an establishment, specific jobs are 
+selected and are classified according to the Standard Occupational 
+Classification (SOC) system.
+
+Summary Data Available: Data for national benefits (nb) begin with March 2010. 
+
+Benefits published include:
+Retirement benefits 
+	Defined benefit plans
+	Defined contribution plans
+Healthcare benefits
+	Medical care 
+		Share of premiums paid by employer and employee
+		Monthly employee contributions for single and family coverage
+	Dental plans
+	Vision plans
+Insurance benefits
+	Life
+	Short-term disability
+	Long-term disability 
+Leave benefits 
+	Sick leave 
+	Vacation leave 
+	Family leave (paid and unpaid)
+Other benefits 
+	Financial benefits
+	Child care
+	Wellness
+
+Frequency of Observations: 
+• Employee benefits in the United States are published annually for the March
+  reference month.  
+• Health and retirement provisions are published annually for the prior 
+  reference year. 
+
+Data Characteristics: 
+• Access, participation, and take-up rates presented as the percent of 
+  workers 
+• Percent of establishments offering benefits 
+• Share of premiums (in percent) paid by employers and employees
+• Dollar amounts for medical premiums
+• Dollar amounts for weekly and monthly insurance benefits
+
+Data from the Employee Benefits Survey (eb) are also available in the 
+database www.bls.gov/ncs/ebs/data.htm. For more information, see 
+https://download.bls.gov/pub/time.series/eb/eb.txt
+
+Detailed information on survey concepts, coverage, and methods can be found 
+in the BLS Handbook of Methods, "National Compensation Measures," 
+www.bls.gov/opub/hom/ncs/home.htm.
+
+===============================================================================
+Section 2: Download files listed in the survey directory
+===============================================================================
+
+The following benefits files are on the BLS internet site at 
+https://download.bls.gov/pub/time.series/nb:
+	
+File Name		Contents				File Type
+nb.series		- all series and their beginning        series file
+			  and end dates			
+nb.aspect		- all available standard errors		data file 
+nb.contacts		- contact information 			N/A
+nb.data.1.Alldata	- all available estimates		data file
+nb.datatype		- datatype codes 		    	mapping file
+nb.estimate		- estimate identification codes    	mapping file
+nb.footnote		- footnote codes 		    	mapping file
+nb.industry		- industry codes 		    	mapping file
+nb.occupation		- occupation codes 		    	mapping file
+nb.ownership		- ownership (sector) codes 	    	mapping file
+nb.provision		- description of coverage,          	mapping file
+			  features, or limits of benefit 
+			  plans
+nb.seasonal		- seasonal codes 		    	mapping file
+nb.subcell		- job characteristic codes 	    	mapping file
+nb.survey		- survey codes 			    	mapping file
+nb.txt			- general information in this           N/A
+			  document			    	
+
+===============================================================================
+Section 3: Series file, data files, and mapping files definitions and 
+relationships
+===============================================================================
+
+The series file contains a unique series identification code for each 
+published series and columns of associated codes defining the code segments.
+Additionally, the series file also contains the following series-level 
+information:
+
+a) the period and year corresponding to the first data observation 
+b) the period and year corresponding to the most recent data observation
+
+The following set of files are provided:
+
+a) a series file (only one series file per survey)
+b) data files
+c) mapping files
+
+The data files contain the series ids, reference period, measures of 
+reliability, and estimates. 
+
+The mapping files are definition files that contain explanatory text 
+descriptions which correspond to each of the various codes used to define 
+each series identification code.
+
+===============================================================================
+Section 4: Series file format and field definitions
+===============================================================================
+
+The following represents the file format used to define the nb.series file. 
+Note that the field numbers are for reference only; they do not exist in the 
+database. Data elements are separated by tabs. The first record of each file 
+contains the column headers for the data elements stored in each field. Each 
+record ends with a new line character. 
+
+File Name: nb.series
+Field #/Data Element		Length	    	Value(Example)		
+
+1. series_id			23		NBU10000000000000028007
+
+2. seasonal			1		U	
+
+3. ownership_code	 	1		1		
+
+4. estimate_code		2	      	00	
+
+5. industry_code	 	6		000000
+
+6. ocupational_code	 	6		000000
+
+7. subcell_code	 		2		00
+
+8. datatype_code	 	2		28
+
+9. provision_code	 	3		007
+
+10. survey_code	 		2		IP
+
+11. footnote_codes	 	1		1
+
+12. begin_year	 		4		2010
+
+13. begin_period	 	3		A01
+
+14. end_year	 		4		2019
+
+15. end_period	 		3		A01
+
+
+The series_id (NBU20530000000000033030) can be broken out into:
+
+Code					Value
+survey abbreviation		=	NB
+seasonal(code)			=	U
+ownership_code			=	2
+estimate_code			=	05
+industry_code			=	3000
+occupation_code			=	000000
+subcell_code			=	00
+datatype_code			=	33
+provision_code			=	030
+
+===============================================================================
+Section 5: Data file formats and field definitions
+===============================================================================
+
+The following represents the file format used to define each data file. Note 
+that the field numbers are for reference only; they do not exist in the 
+database. Data files are in ASCII text format. Data elements are separated by 
+tabs. The first record of each file contains the column headers for the data 
+elements stored in each field. Each record ends with a new line character. 
+
+The nb.data file is partitioned into two separate files:  
+ 
+	1. nb.data.1.AllData	- All estimates
+	2. nb.aspect		- All available standard errors
+
+File Name: nb.data.1.Alldata
+Field #/Data Element		Length	    	Value (Example)		
+
+1. series_id			23		NBU20530000000000033030
+
+2. year				4		2010	
+
+3. period	 		3		A01		
+
+4. value			varies	      	95.00	
+
+5. footnote_codes	 	1		1
+
+File Name: nb.aspect
+Field #/Data Element		Length	    	Value(Example)		
+
+1. series_id			23		NBU20000003139000028022
+
+2. year				4		2015	
+
+3. period	 		3		A01	
+
+4. aspect_type			1		E	
+
+5. value			varies	      	2.00	
+
+6. footnote_codes	 	1		1
+
+===============================================================================
+Section 6: Mapping file formats and field definitions
+===============================================================================
+
+The following represents the file format used to define each mapping file. Note 
+that the field numbers are for reference only; they do not exist in the 
+database. Mapping files are in ASCII text format. Data elements are separated 
+by tabs. The first record of each file contains the column headers for the 
+data elements stored in each field. Each record ends with a new line character. 
+	
+File Name: nb.datatype
+Field #/Data Element		Length		Value (Example)
+1. datatype_code		2		20
+2. datatype_text		100		Percent participation
+3. display_level		1		0
+4. selectable			1		T
+5. sort_sequence		2		20
+
+File Name: nb.estimate
+Field #/Data Element		Length		Value (Example)
+1. estimate_code		2		12
+2. estimate_text		100		Nonproduction bonuses
+3. display_level		1		3
+4. selectable			1		T
+5. sort_sequence		2		12
+
+File Name: nb.footnote
+Field #/Data Element		Length		Value (Example)
+1. footnote_code		2		1
+2. footnote_text		100		Less than 0.5
+
+File Name: nb.industry
+Field #/Data Element		Length		Value (Example)
+1. industry_code		6		000000
+2. industry_text		100		All workers
+3. display_level		1		0
+4. selectable			1		T
+5. sort_sequence		2		1
+
+File Name: nb.occupation
+Field #/Data Element		Length		Value (Example)
+1. occupation_code		6		000000
+2. occupation_text		100		All workers
+3. display_level		1		0
+4. selectable			1		T
+5. sort_sequence		2		1
+
+File Name: nb.ownership
+Field #/Data Element		Length		Value (Example)
+1. ownership_code		1		1
+2. ownership_text		100		Civilian workers
+3. display_level		1		0
+4. selectable			1		T
+5. sort_sequence		2		1
+
+File Name: nb.provision
+Field #/Data Element		Length		Value (Example)
+1. provision_code		3		073
+2. provision_text		100		Access to paid holidays					
+3. display_level		1		1
+4. selectable			1		T
+5. sort_sequence		2		2
+
+File Name: nb.seasonal
+Field #/Data Element		Length		Value (Example)		
+1. seasonal_code		1		U		
+2. seasonal_text		30		Not seasonally adjusted 
+							
+File Name: nb.subcell
+Field #/Data Element      	Length      	Value (Example)
+1. subcell_code      		2           	25
+2. subcell_text      		100         	Full time
+3. display_level		1		2
+4. selectable			1		T
+5. sort_sequence		2		31
+
+File Name: nb.survey
+Field #/Data Element      	Length      	Value (Example)
+1. survey_code      		2           	DP
+2. survey_text      		100         	Detailed provision benefits 							
+3. display_level		1		0
+4. selectable			1		T
+5. sort_sequence		2		1
+
+===============================================================================
+Section 7: Data element dictionary
+===============================================================================
+
+Benefits (NB) database elements
+
+Data Element       Length       Value (Example) Description
+
+aspect_type        1            E               Identifies the type 
+                                                additional data provided for
+                                                the series id (Example: E
+                                                represents standard error)                                               
+
+begin_period       3            A01             Data are published annually 
+						and begin_period are
+						designated as A01
+
+begin_year         4            2010            Identifies first year for 
+                                                which data are available for 
+                                                a given series
+
+datatype_code      2            28              Identifies measurement type 
+						    
+datatype_text	   100	        Mean		Describes the datatype code
+						
+display_level	   2	        1		Establishes the element 
+						hierarchy 
+
+end_period         3            A01             Data are published annually 
+						and end_period are designated
+						as A01
+
+end_year           4            2019            Identifies last year for 
+                                                which data are available for 
+                                                a given series
+
+estimate_code      2            12              Identifies the type and unit 
+                                                of measure for the estimate                                                     
+
+estimate_text      100          Nonproduction   Describes the estimate code
+				bonuses         
+						    
+footnote_code      10           1               Identifies footnotes for the
+                                                series or observations
+                                                    
+footnote_text      200          Less than 0.5   Describes the footnote code
+						
+
+industry_code      6            000000          Identifies the industry
+                                                sector for the estimate, as 
+                                                classified by the North  
+                                                American Industry                                                 
+                                                Classification System (NAICS)
+                                                    
+industry_text      100          All industries  Describes the industry code 
+						    
+occupation_code    6            313900          Identifies the occupational
+                                                group, or family of jobs, for
+                                                the estimate as classified                                                              
+                                                by the Standard Occupational 
+                                                Classification (SOC) system
+                                                    
+occupation_text    100          Service         Describes the occupation code 
+				occupations		           
+                             
+ownership_code     1            1               Identifies the economic sector 
+						represented
+						 
+ownership_text     100          Civilian        Describes the ownership code
+				workers		
+
+period             3            A01             Identifies period for the
+						data
+
+provision_code	   3            073             Identifies the benefit 
+						provision code
+
+provision_text	   100	        Access to paid  Describes the benefit limit,
+				holiday		provision, or plan feature 
+				
+seasonal_code      1            U               Seasonality indicator code 
+						    
+seasonal_text      30           Not seasonally  Describes the seasonal code
+			        adjusted	
+
+selectable	   2 	        T		Identifies whether variables
+						are selectable						    		      		
+
+series_id          23           NBU22000001529  Unique code identifying the 
+			        000020S10	specific series                  
+
+sort_sequence 	   5	        45		Denotes the order in which 
+						variables are displayed   	    		
+
+subcell_code       2            28              Job characteristic code 
+						identifying worker and  
+						establishment attributes
+
+subcell_text       100          Full time       Describes the job 
+						characteristic code
+
+survey_code	   2	        DP		Identifies whether series
+					  	is included as part of  
+					  	health and retirement plan
+					  	detailed provisions (DP) or 
+					  	Employee benefits in the 
+					  	U.S. (IP) 
+					  	    
+survey_text	   100	        Detailed 	Describes the survey code
+				provisions	         
+
+value              12           63.00           Value of the estimate or
+						standard error for 
+						corresponding series id
+
+year               4            2017            Identifies year of
+						observation

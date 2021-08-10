@@ -1,0 +1,336 @@
+estimate_code,estimate_text,category_code,category_text,datatype_code,datatype_text
+00064_OR,"Percent of workers, specific vocational preparation is short demonstration only",010,Specific vocational preparation,01,Percentage
+00065_OR,"Percent of workers, specific vocational preparation is beyond short demonstration, up to and including 1 month",010,Specific vocational preparation,01,Percentage
+00066_OR,"Percent of workers, specific vocational preparation is over 1 month, up to and including 3 months",010,Specific vocational preparation,01,Percentage
+00067_OR,"Percent of workers, specific vocational preparation is over 3 months, up to and including 6 months",010,Specific vocational preparation,01,Percentage
+00068_OR,"Percent of workers, specific vocational preparation is over 6 months, up to and including 1 year",010,Specific vocational preparation,01,Percentage
+00069_OR,"Percent of workers, specific vocational preparation is over 1 year, up to and including 2 years",010,Specific vocational preparation,01,Percentage
+00070_OR,"Percent of workers, specific vocational preparation is over 2 years, up to and including 4 years",010,Specific vocational preparation,01,Percentage
+00071_OR,"Percent of workers, specific vocational preparation is over 4 years, up to and including 10 years",010,Specific vocational preparation,01,Percentage
+00072_OR,"Percent of workers, specific vocational preparation is over 10 years",010,Specific vocational preparation,01,Percentage
+00075_OR,"Percent of workers, no minimum education requirement",073,Minimum education level,01,Percentage
+00076_OR,"Percent of workers, minimum education level is a high school diploma",073,Minimum education level,01,Percentage
+00077_OR,"Percent of workers, minimum education level is an associate's degree",073,Minimum education level,01,Percentage
+00079_OR,"Percent of workers, minimum education level is a master's degree",073,Minimum education level,01,Percentage
+00080_OR,"Percent of workers, minimum education level is a professional degree",073,Minimum education level,01,Percentage
+00081_OR,"Percent of workers, minimum education level is a doctorate degree",073,Minimum education level,01,Percentage
+00085_OR,"Percent of workers, literacy is required",011,Literacy required,01,Percentage
+00086_OR,"Percent of workers, literacy is not required",011,Literacy required,01,Percentage
+00098_OR,"Percent of workers, credentials are required",012,Credentials,01,Percentage
+00099_OR,"Percent of workers, credentials are not required",012,Credentials,01,Percentage
+00107_OR,"Percent of workers, prior work experience is required",013,Prior work experience,01,Percentage
+00108_OR,"Days of prior work experience, mean",013,Prior work experience,02,Days
+00109_OR,Days of prior work experience (10th Percentile),013,Prior work experience,02,Days
+00110_OR,Days of prior work experience (25th Percentile),013,Prior work experience,02,Days
+00111_OR,Days of prior work experience (50th Percentile - median),013,Prior work experience,02,Days
+00112_OR,Days of prior work experience (75th Percentile),013,Prior work experience,02,Days
+00113_OR,Days of prior work experience (90th Percentile),013,Prior work experience,02,Days
+00114_OR,"Percent of workers, prior work experience is not required",013,Prior work experience,01,Percentage
+00116_OR,"Days of on-the-job training, mean",014,On-the-job training,02,Days
+00117_OR,Days of on-the-job training (10th Percentile),014,On-the-job training,02,Days
+00118_OR,Days of on-the-job training (25th Percentile),014,On-the-job training,02,Days
+00119_OR,Days of on-the-job training (50th Percentile - median),014,On-the-job training,02,Days
+00120_OR,Days of on-the-job training (75th Percentile),014,On-the-job training,02,Days
+00121_OR,Days of on-the-job training (90th Percentile),014,On-the-job training,02,Days
+00122_OR,"Percent of workers, on-the-job training is required",014,On-the-job training,01,Percentage
+00123_OR,"Percent of workers, on-the-job training is not required",014,On-the-job training,01,Percentage
+00125_OR,"Hours of standing, mean",077,Standing,03,Hours
+00126_OR,Hours of standing (10th Percentile),077,Standing,03,Hours
+00127_OR,Hours of standing (25th Percentile),077,Standing,03,Hours
+00128_OR,Hours of standing (50th Percentile - median),077,Standing,03,Hours
+00129_OR,Hours of standing (75th Percentile),077,Standing,03,Hours
+00130_OR,Hours of standing (90th Percentile),077,Standing,03,Hours
+00132_OR,"Hours of sitting, mean",078,Sitting,03,Hours
+00133_OR,Hours of sitting (10th Percentile),078,Sitting,03,Hours
+00134_OR,Hours of sitting (25th Percentile),078,Sitting,03,Hours
+00135_OR,Hours of sitting (50th Percentile - median),078,Sitting,03,Hours
+00136_OR,Hours of sitting (75th Percentile),078,Sitting,03,Hours
+00137_OR,Hours of sitting (90th Percentile),078,Sitting,03,Hours
+00139_OR,"Percent of workers, choice of sitting or standing is allowed",015,Choice of sitting or standing,01,Percentage
+00140_OR,"Percent of workers, choice of sitting or standing is not allowed",015,Choice of sitting or standing,01,Percentage
+00142_OR,"Percent of workers, reaching overhead is not required",016,Reaching overhead,01,Percentage
+00143_OR,"Percent of workers, reaching overhead is required, seldom",016,Reaching overhead,01,Percentage
+00144_OR,"Percent of workers, reaching overhead is required, occasionally",016,Reaching overhead,01,Percentage
+00145_OR,"Percent of workers, reaching overhead is required, frequently",016,Reaching overhead,01,Percentage
+00156_OR,"Percent of workers, reaching overhead is required, one hand",017,Reaching overhead with one or both hands,01,Percentage
+00157_OR,"Percent of workers, reaching overhead is required, both hands",017,Reaching overhead with one or both hands,01,Percentage
+00159_OR,"Percent of workers, reaching at or below the shoulder is not required",018,Reaching at or below the shoulder,01,Percentage
+00160_OR,"Percent of workers, reaching at or below the shoulder is required, seldom",018,Reaching at or below the shoulder,01,Percentage
+00161_OR,"Percent of workers, reaching at or below the shoulder is required, occasionally",018,Reaching at or below the shoulder,01,Percentage
+00162_OR,"Percent of workers, reaching at or below the shoulder is required, frequently",018,Reaching at or below the shoulder,01,Percentage
+00163_OR,"Percent of workers, reaching at or below the shoulder is required, constantly",018,Reaching at or below the shoulder,01,Percentage
+00173_OR,"Percent of workers, reaching at or below the shoulder is required, one hand",019,Reaching at or below the shoulder with one or both hands,01,Percentage
+00174_OR,"Percent of workers, reaching at or below the shoulder is required, both hands",019,Reaching at or below the shoulder with one or both hands,01,Percentage
+00176_OR,"Percent of workers, keyboarding is not required",020,Keyboarding,01,Percentage
+00177_OR,"Percent of workers, keyboarding is required, seldom",020,Keyboarding,01,Percentage
+00178_OR,"Percent of workers, keyboarding is required, occasionally",020,Keyboarding,01,Percentage
+00179_OR,"Percent of workers, keyboarding is required, frequently",020,Keyboarding,01,Percentage
+00180_OR,"Percent of workers, keyboarding is required, constantly",020,Keyboarding,01,Percentage
+00233_OR,"Pounds maximum weight lifted or carried, mean",079,Maximum weight lifted or carried,04,Pounds
+00234_OR,Pounds maximum weight lifted or carried (10th Percentile),079,Maximum weight lifted or carried,04,Pounds
+00235_OR,Pounds maximum weight lifted or carried (25th Percentile),079,Maximum weight lifted or carried,04,Pounds
+00236_OR,Pounds maximum weight lifted or carried (50th Percentile - median),079,Maximum weight lifted or carried,04,Pounds
+00237_OR,Pounds maximum weight lifted or carried (75th Percentile),079,Maximum weight lifted or carried,04,Pounds
+00238_OR,Pounds maximum weight lifted or carried (90th Percentile),079,Maximum weight lifted or carried,04,Pounds
+00239_OR,"Percent of workers, lifting or carrying >1 lb and less than or equal to 10 lbs is required, seldom",024,Lifting or carrying: Seldom,01,Percentage
+00243_OR,"Percent of workers, lifting or carrying  > 100 lbs is required, seldom",024,Lifting or carrying: Seldom,01,Percentage
+00246_OR,"Percent of workers, lifting or carrying  >1 lb and less than or equal to 10 lbs is required, occasionally",025,Lifting or carrying: Occasionally,01,Percentage
+00250_OR,"Percent of workers, lifting or carrying  > 100 lbs is required, occasionally",025,Lifting or carrying: Occasionally,01,Percentage
+00253_OR,"Percent of workers, lifting or carrying negligible weight is required, frequently",026,Lifting or carrying: Frequently,01,Percentage
+00254_OR,"Percent of workers, lifting or carrying >1 lb and less than or equal to 10 lbs is required, frequently",026,Lifting or carrying: Frequently,01,Percentage
+00255_OR,"Percent of workers, lifting or carrying > 10 lbs and less than or equal to 25 lbs is required, frequently",026,Lifting or carrying: Frequently,01,Percentage
+00256_OR,"Percent of workers, lifting or carrying > 25 lbs and less than or equal to 50 lbs is required, frequently",026,Lifting or carrying: Frequently,01,Percentage
+00257_OR,"Percent of workers, lifting or carrying > 50 lbs is required, frequently",026,Lifting or carrying: Frequently,01,Percentage
+00259_OR,"Percent of workers, lifting or carrying no weight is required, constantly",027,Lifting or carrying: Constantly,01,Percentage
+00261_OR,"Percent of workers, lifting or carrying negligible weight is required, constantly",027,Lifting or carrying: Constantly,01,Percentage
+00262_OR,"Percent of workers, lifting or carrying >1 lb and less than or equal to 10 lbs is required, constantly",027,Lifting or carrying: Constantly,01,Percentage
+00267_OR,"Percent of workers, crawling is not required",108,Crawling,01,Percentage
+00281_OR,"Percent of workers, pushing or pulling with hands or arms is not required",029,Pushing or pulling with hands or arms,01,Percentage
+00282_OR,"Percent of workers, pushing or pulling with hands or arms is required, seldom",029,Pushing or pulling with hands or arms,01,Percentage
+00283_OR,"Percent of workers, pushing or pulling with hands or arms is required, occasionally",029,Pushing or pulling with hands or arms,01,Percentage
+00284_OR,"Percent of workers, pushing or pulling with hands or arms is required, frequently",029,Pushing or pulling with hands or arms,01,Percentage
+00285_OR,"Percent of workers, pushing or pulling with hands or arms is required, constantly",029,Pushing or pulling with hands or arms,01,Percentage
+00295_OR,"Percent of workers, pushing or pulling with feet or legs is not required",030,Pushing or pulling with feet or legs,01,Percentage
+00296_OR,"Percent of workers, pushing or pulling with feet or legs is required, seldom",030,Pushing or pulling with feet or legs,01,Percentage
+00297_OR,"Percent of workers, pushing or pulling with feet or legs is required, occasionally",030,Pushing or pulling with feet or legs,01,Percentage
+00311_OR,"Percent of workers, driving is not required",031,Driving,01,Percentage
+00313_OR,"Percent of workers, foot or leg controls is not required",032,Foot or leg controls,01,Percentage
+00314_OR,"Percent of workers, foot or leg controls is required, seldom",032,Foot or leg controls,01,Percentage
+00315_OR,"Percent of workers, foot or leg controls is required, occasionally",032,Foot or leg controls,01,Percentage
+00316_OR,"Percent of workers, foot or leg controls is required, frequently",032,Foot or leg controls,01,Percentage
+00317_OR,"Percent of workers, foot or leg controls is required, constantly",032,Foot or leg controls,01,Percentage
+00327_OR,"Percent of workers, foot or leg controls is required, one foot or leg",033,Foot or leg controls with one or both feet or legs,01,Percentage
+00328_OR,"Percent of workers, foot or leg controls is required, both feet or legs",033,Foot or leg controls with one or both feet or legs,01,Percentage
+00330_OR,"Percent of workers, gross manipulation is not required",034,Gross manipulation,01,Percentage
+00331_OR,"Percent of workers, gross manipulation is required, seldom",034,Gross manipulation,01,Percentage
+00332_OR,"Percent of workers, gross manipulation is required, occasionally",034,Gross manipulation,01,Percentage
+00333_OR,"Percent of workers, gross manipulation is required, frequently",034,Gross manipulation,01,Percentage
+00334_OR,"Percent of workers, gross manipulation is required, constantly",034,Gross manipulation,01,Percentage
+00344_OR,"Percent of workers, gross manipulation is required, one hand",035,Gross manipulation with one or both hands,01,Percentage
+00345_OR,"Percent of workers, gross manipulation is required, both hands",035,Gross manipulation with one or both hands,01,Percentage
+00347_OR,"Percent of workers, fine manipulation is not required",036,Fine manipulation,01,Percentage
+00348_OR,"Percent of workers, fine manipulation is required, seldom",036,Fine manipulation,01,Percentage
+00349_OR,"Percent of workers, fine manipulation is required, occasionally",036,Fine manipulation,01,Percentage
+00350_OR,"Percent of workers, fine manipulation is required, frequently",036,Fine manipulation,01,Percentage
+00351_OR,"Percent of workers, fine manipulation is required, constantly",036,Fine manipulation,01,Percentage
+00361_OR,"Percent of workers, fine manipulation is required, one hand",037,Fine manipulation with one or both hands,01,Percentage
+00362_OR,"Percent of workers, fine manipulation is required, both hands",037,Fine manipulation with one or both hands,01,Percentage
+00364_OR,"Percent of workers, climbing structure-related ramps or stairs is required",038,Climbing structure-related ramps or stairs,01,Percentage
+00365_OR,"Percent of workers, climbing structure-related ramps or stairs is not required",038,Climbing structure-related ramps or stairs,01,Percentage
+00367_OR,"Percent of workers, climbing work-related ramps or stairs is not required",039,Climbing work-related ramps or stairs,01,Percentage
+00368_OR,"Percent of workers, climbing work-related ramps or stairs is required, seldom",039,Climbing work-related ramps or stairs,01,Percentage
+00369_OR,"Percent of workers, climbing work-related ramps or stairs is required, occasionally",039,Climbing work-related ramps or stairs,01,Percentage
+00381_OR,"Percent of workers, climbing ladders, ropes, or scaffolds is not required",040,"Climbing ladders, ropes, or scaffolds",01,Percentage
+00382_OR,"Percent of workers, climbing ladders, ropes, or scaffolds is required, seldom",040,"Climbing ladders, ropes, or scaffolds",01,Percentage
+00383_OR,"Percent of workers, climbing ladders, ropes, or scaffolds is required, occasionally",040,"Climbing ladders, ropes, or scaffolds",01,Percentage
+00395_OR,"Percent of workers, stooping is not required",109,Stooping,01,Percentage
+00409_OR,"Percent of workers, kneeling is not required",110,Kneeling,01,Percentage
+00423_OR,"Percent of workers, not exposed to extreme cold",043,Extreme cold,01,Percentage
+00424_OR,"Percent of workers, exposed to extreme cold, seldom",043,Extreme cold,01,Percentage
+00425_OR,"Percent of workers, exposed to extreme cold, occasionally",043,Extreme cold,01,Percentage
+00426_OR,"Percent of workers, exposed to extreme cold, frequently",043,Extreme cold,01,Percentage
+00427_OR,"Percent of workers, exposed to extreme cold, constantly",043,Extreme cold,01,Percentage
+00437_OR,"Percent of workers, not exposed to extreme heat",044,Extreme heat,01,Percentage
+00438_OR,"Percent of workers, exposed to extreme heat, seldom",044,Extreme heat,01,Percentage
+00439_OR,"Percent of workers, exposed to extreme heat, occasionally",044,Extreme heat,01,Percentage
+00440_OR,"Percent of workers, exposed to extreme heat, frequently",044,Extreme heat,01,Percentage
+00441_OR,"Percent of workers, exposed to extreme heat, constantly",044,Extreme heat,01,Percentage
+00451_OR,"Percent of workers, not exposed to wetness",045,Wetness,01,Percentage
+00452_OR,"Percent of workers, exposed to wetness, seldom",045,Wetness,01,Percentage
+00453_OR,"Percent of workers, exposed to wetness, occasionally",045,Wetness,01,Percentage
+00454_OR,"Percent of workers, exposed to wetness, frequently",045,Wetness,01,Percentage
+00455_OR,"Percent of workers, exposed to wetness, constantly",045,Wetness,01,Percentage
+00465_OR,"Percent of workers, not exposed to humidity",046,Humidity,01,Percentage
+00479_OR,"Percent of workers, not exposed to heavy vibrations",047,Heavy vibrations,01,Percentage
+00480_OR,"Percent of workers, exposed to heavy vibrations, seldom",047,Heavy vibrations,01,Percentage
+00481_OR,"Percent of workers, exposed to heavy vibrations, occasionally",047,Heavy vibrations,01,Percentage
+00520_OR,"Percent of workers, not exposed to heights",050,Heights,01,Percentage
+00521_OR,"Percent of workers, exposed to heights, seldom",050,Heights,01,Percentage
+00522_OR,"Percent of workers, exposed to heights, occasionally",050,Heights,01,Percentage
+00534_OR,"Percent of workers, not in proximity to moving mechanical parts",051,Proximity to moving mechanical parts,01,Percentage
+00535_OR,"Percent of workers, in proximity to moving mechanical parts, seldom",051,Proximity to moving mechanical parts,01,Percentage
+00536_OR,"Percent of workers, in proximity to moving mechanical parts, occasionally",051,Proximity to moving mechanical parts,01,Percentage
+00537_OR,"Percent of workers, in proximity to moving mechanical parts, frequently",051,Proximity to moving mechanical parts,01,Percentage
+00538_OR,"Percent of workers, in proximity to moving mechanical parts, constantly",051,Proximity to moving mechanical parts,01,Percentage
+00548_OR,"Percent of workers, near vision is required",052,Near vision,01,Percentage
+00549_OR,"Percent of workers, near vision is not required",052,Near vision,01,Percentage
+00551_OR,"Percent of workers, far vision is required",053,Far vision,01,Percentage
+00552_OR,"Percent of workers, far vision is not required",053,Far vision,01,Percentage
+00554_OR,"Percent of workers, peripheral vision is required",054,Peripheral vision,01,Percentage
+00555_OR,"Percent of workers, peripheral vision is not required",054,Peripheral vision,01,Percentage
+00557_OR,"Percent of workers, speaking is not required",055,Speaking,01,Percentage
+00558_OR,"Percent of workers, speaking is required, seldom",055,Speaking,01,Percentage
+00559_OR,"Percent of workers, speaking is required, occasionally",055,Speaking,01,Percentage
+00560_OR,"Percent of workers, speaking is required, frequently",055,Speaking,01,Percentage
+00561_OR,"Percent of workers, speaking is required, constantly",055,Speaking,01,Percentage
+00571_OR,"Percent of workers, exposed to quiet noise",056,Noise intensity level,01,Percentage
+00572_OR,"Percent of workers, exposed to moderate noise",056,Noise intensity level,01,Percentage
+00573_OR,"Percent of workers, exposed to loud noise",056,Noise intensity level,01,Percentage
+00574_OR,"Percent of workers, exposed to very loud noise",056,Noise intensity level,01,Percentage
+00583_OR,"Percent of workers, hearing over the telephone is required",059,Hearing requirements: Telephone,01,Percentage
+00584_OR,"Percent of workers, hearing over the telephone is not required",059,Hearing requirements: Telephone,01,Percentage
+00586_OR,"Percent of workers, hearing other sounds is required",060,Hearing requirements: Other sounds,01,Percentage
+00587_OR,"Percent of workers, hearing other sounds is not required",060,Hearing requirements: Other sounds,01,Percentage
+00592_OR,"Percent of workers, crouching is not required",111,Crouching,01,Percentage
+00606_OR,"Percent of workers, pushing or pulling is required, with one hand or arm",063,Pushing or pulling with one or both hands or arms,01,Percentage
+00607_OR,"Percent of workers, pushing or pulling is required, with both hands or arms",063,Pushing or pulling with one or both hands or arms,01,Percentage
+00609_OR,"Percent of workers, pushing or pulling is required, with one foot or leg",064,Pushing or pulling with one or both feet or legs,01,Percentage
+00610_OR,"Percent of workers, pushing or pulling is required, with both feet or legs",064,Pushing or pulling with one or both feet or legs,01,Percentage
+00612_OR,"Percent of workers, not exposed to outdoors",065,Outdoors,01,Percentage
+00613_OR,"Percent of workers, exposed to outdoors, seldom",065,Outdoors,01,Percentage
+00614_OR,"Percent of workers, exposed to outdoors, occasionally",065,Outdoors,01,Percentage
+00615_OR,"Percent of workers, exposed to outdoors, frequently",065,Outdoors,01,Percentage
+00616_OR,"Percent of workers, exposed to outdoors, constantly",065,Outdoors,01,Percentage
+00661_OR,"Percent of workers, strength required is sedentary",068,Strength,01,Percentage
+00662_OR,"Percent of workers, strength required is light work",068,Strength,01,Percentage
+00663_OR,"Percent of workers, strength required is medium work",068,Strength,01,Percentage
+00664_OR,"Percent of workers, strength required is heavy work",068,Strength,01,Percentage
+00665_OR,"Percent of workers, strength required is very heavy work",068,Strength,01,Percentage
+00751_OR,"Percent of workers, climbing ladders, ropes, or scaffolds is required",040,"Climbing ladders, ropes, or scaffolds",01,Percentage
+00752_OR,"Percent of workers, climbing work-related ramps or stairs is required",039,Climbing work-related ramps or stairs,01,Percentage
+00753_OR,"Percent of workers, speaking is required",055,Speaking,01,Percentage
+00767_OR,"Percent of workers, exposed to extreme cold",043,Extreme cold,01,Percentage
+00768_OR,"Percent of workers, exposed to extreme heat",044,Extreme heat,01,Percentage
+00769_OR,"Percent of workers, fine manipulation is required",036,Fine manipulation,01,Percentage
+00770_OR,"Percent of workers, foot or leg controls is required",032,Foot or leg controls,01,Percentage
+00771_OR,"Percent of workers, gross manipulation is required",034,Gross manipulation,01,Percentage
+00772_OR,"Percent of workers, not exposed to hazardous contaminants",081,Hazardous contaminants,01,Percentage
+00773_OR,"Percent of workers, exposed to hazardous contaminants, seldom",081,Hazardous contaminants,01,Percentage
+00774_OR,"Percent of workers, exposed to hazardous contaminants, occasionally",081,Hazardous contaminants,01,Percentage
+00776_OR,"Percent of workers, exposed to hazardous contaminants, constantly",081,Hazardous contaminants,01,Percentage
+00786_OR,"Percent of workers, exposed to hazardous contaminants",081,Hazardous contaminants,01,Percentage
+00787_OR,"Percent of workers, exposed to hazardous contaminants, fully mitigated",081,Hazardous contaminants,01,Percentage
+00788_OR,"Percent of workers, utilizing personal protective equipment for hazardous contaminants",081,Hazardous contaminants,01,Percentage
+00789_OR,"Percent of workers, not utilizing personal protective equipment for hazardous contaminants",081,Hazardous contaminants,01,Percentage
+00791_OR,"Percent of workers, exposed to heavy vibrations",047,Heavy vibrations,01,Percentage
+00792_OR,"Percent of workers, exposed to heights",050,Heights,01,Percentage
+00793_OR,"Percent of workers, exposed to heights, fully mitigated",050,Heights,01,Percentage
+00794_OR,"Percent of workers, utilizing personal protective equipment for heights",050,Heights,01,Percentage
+00795_OR,"Percent of workers, not utilizing personal protective equipment for heights",050,Heights,01,Percentage
+00797_OR,"Percent of workers, exposed to humidity",046,Humidity,01,Percentage
+00801_OR,"Percent of workers, keyboarding is required",020,Keyboarding,01,Percentage
+00803_OR,"Percent of workers, minimum education level is a high school vocational degree",073,Minimum education level,01,Percentage
+00804_OR,"Percent of workers, minimum education level is an associate's vocational degree",073,Minimum education level,01,Percentage
+00806_OR,"Percent of workers, utilizing personal protective equipment for noise",056,Noise intensity level,01,Percentage
+00807_OR,"Percent of workers, not utilizing personal protective equipment for noise",056,Noise intensity level,01,Percentage
+00815_OR,"Percent of workers, exposed to outdoors",065,Outdoors,01,Percentage
+00822_OR,"Percent of workers, in proximity to moving mechanical parts",051,Proximity to moving mechanical parts,01,Percentage
+00823_OR,"Percent of workers, in proximity to moving mechanical parts, fully mitigated",051,Proximity to moving mechanical parts,01,Percentage
+00824_OR,"Percent of workers, utilizing personal protective equipment for proximity to moving mechanical parts",051,Proximity to moving mechanical parts,01,Percentage
+00825_OR,"Percent of workers, not utilizing personal protective equipment for proximity to moving mechanical parts",051,Proximity to moving mechanical parts,01,Percentage
+00828_OR,"Percent of workers, pushing or pulling with feet or legs is required",030,Pushing or pulling with feet or legs,01,Percentage
+00829_OR,"Percent of workers, pushing or pulling with hands or arms is required",029,Pushing or pulling with hands or arms,01,Percentage
+00830_OR,"Percent of workers, reaching at or below the shoulder is required",018,Reaching at or below the shoulder,01,Percentage
+00831_OR,"Percent of workers, reaching overhead is required",016,Reaching overhead,01,Percentage
+00845_OR,"Percent of workers, exposed to wetness",045,Wetness,01,Percentage
+00997_OR,"Percent of day where sitting is required, mean",078,Sitting,01,Percentage
+00998_OR,Percent of day where sitting is required (10th Percentile),078,Sitting,01,Percentage
+00999_OR,Percent of day where sitting is required (25th Percentile),078,Sitting,01,Percentage
+01000_OR,Percent of day where sitting is required (50th Percentile - median),078,Sitting,01,Percentage
+01001_OR,Percent of day where sitting is required (75th Percentile),078,Sitting,01,Percentage
+01002_OR,Percent of day where sitting is required (90th Percentile),078,Sitting,01,Percentage
+01003_OR,"Percent of day where standing is required, mean",077,Standing,01,Percentage
+01004_OR,Percent of day where standing is required (10th Percentile),077,Standing,01,Percentage
+01005_OR,Percent of day where standing is required (25th Percentile),077,Standing,01,Percentage
+01006_OR,Percent of day where standing is required (50th Percentile - median),077,Standing,01,Percentage
+01007_OR,Percent of day where standing is required (75th Percentile),077,Standing,01,Percentage
+01008_OR,Percent of day where standing is required (90th Percentile),077,Standing,01,Percentage
+01029_OR,"Percent of workers, minimum education level is a bachelor's degree",073,Minimum education level,01,Percentage
+01084_OR,"Percent of workers, credentials: certification is required",089,Credentials: Certification,01,Percentage
+01085_OR,"Percent of workers, credentials: certification is not required",089,Credentials: Certification,01,Percentage
+01087_OR,"Percent of workers, credentials: license is required",090,Credentials: License,01,Percentage
+01088_OR,"Percent of workers, credentials: license is not required",090,Credentials: License,01,Percentage
+01090_OR,"Percent of workers, credentials: educational certificate is required",091,Credentials: Educational certificate,01,Percentage
+01091_OR,"Percent of workers, credentials: educational certificate is not required",091,Credentials: Educational certificate,01,Percentage
+01097_OR,"Percent of workers, driving is required",031,Driving,01,Percentage
+01099_OR,"Percent of workers, lifting or carrying negligible weight is required, seldom",024,Lifting or carrying: Seldom,01,Percentage
+01100_OR,"Percent of workers, lifting or carrying no weight is required, seldom",024,Lifting or carrying: Seldom,01,Percentage
+01101_OR,"Percent of workers, lifting or carrying negligible weight is required, occasionally",025,Lifting or carrying: Occasionally,01,Percentage
+01102_OR,"Percent of workers, lifting or carrying no weight is required, occasionally",025,Lifting or carrying: Occasionally,01,Percentage
+01103_OR,"Percent of workers, lifting or carrying no weight is required, frequently",026,Lifting or carrying: Frequently,01,Percentage
+01107_OR,"Percent of workers, credentials: certification is required, with no associated time",089,Credentials: Certification,01,Percentage
+01108_OR,"Percent of workers, credentials: certification is required, with associated time",089,Credentials: Certification,01,Percentage
+01111_OR,"Percent of workers, credentials: license is required, with no associated time",090,Credentials: License,01,Percentage
+01112_OR,"Percent of workers, credentials: license is required, with associated time",090,Credentials: License,01,Percentage
+01115_OR,"Days of credentials: certification, mean",089,Credentials: Certification,02,Days
+01116_OR,Days of credentials: certification (10th Percentile),089,Credentials: Certification,02,Days
+01117_OR,Days of credentials: certification (25th Percentile),089,Credentials: Certification,02,Days
+01118_OR,Days of credentials: certification (50th Percentile - median),089,Credentials: Certification,02,Days
+01119_OR,Days of credentials: certification (75th Percentile),089,Credentials: Certification,02,Days
+01120_OR,Days of credentials: certification (90th Percentile),089,Credentials: Certification,02,Days
+01121_OR,"Days of credentials: license, mean",090,Credentials: License,02,Days
+01122_OR,Days of credentials: license (10th Percentile),090,Credentials: License,02,Days
+01123_OR,Days of credentials: license (25th Percentile),090,Credentials: License,02,Days
+01124_OR,Days of credentials: license (50th Percentile - median),090,Credentials: License,02,Days
+01125_OR,Days of credentials: license (75th Percentile),090,Credentials: License,02,Days
+01126_OR,Days of credentials: license (90th Percentile),090,Credentials: License,02,Days
+01127_OR,"Percent of workers, credentials: educational certificate is required, with no associated time",091,Credentials: Educational certificate,01,Percentage
+01128_OR,"Percent of workers, credentials: educational certificate is required, with associated time",091,Credentials: Educational certificate,01,Percentage
+01135_OR,"Days of credentials: educational certificate, mean",091,Credentials: Educational certificate,02,Days
+01136_OR,Days of credentials: educational certificate (10th Percentile),091,Credentials: Educational certificate,02,Days
+01137_OR,Days of credentials: educational certificate (25th Percentile),091,Credentials: Educational certificate,02,Days
+01138_OR,Days of credentials: educational certificate (50th Percentile - median),091,Credentials: Educational certificate,02,Days
+01139_OR,Days of credentials: educational certificate (75th Percentile),091,Credentials: Educational certificate,02,Days
+01140_OR,Days of credentials: educational certificate (90th Percentile),091,Credentials: Educational certificate,02,Days
+01149_OR,"Percent of workers, supervisory duties are not required",095,Work review: Supervising others,01,Percentage
+01150_OR,"Percent of workers, supervisory duties are required",095,Work review: Supervising others,01,Percentage
+01154_OR,"Percent of workers, work reviewed by supervisor more than once per day",096,Work review: Frequency of work being checked,01,Percentage
+01155_OR,"Percent of workers, work reviewed by supervisor once per day",096,Work review: Frequency of work being checked,01,Percentage
+01156_OR,"Percent of workers, work reviewed by supervisor less than once per day, but at least once per week",096,Work review: Frequency of work being checked,01,Percentage
+01157_OR,"Percent of workers, work reviewed by supervisor less often than weekly",096,Work review: Frequency of work being checked,01,Percentage
+01160_OR,"Percent of workers, where supervisor is present",097,Work review: Presence of supervisor,01,Percentage
+01161_OR,"Percent of workers, where supervisor is not present",097,Work review: Presence of supervisor,01,Percentage
+01164_OR,"Percent of workers, workload is controlled by machinery, equipment, or software",098,Pace: Control of workload,01,Percentage
+01165_OR,"Percent of workers, workload is controlled by numerical performance targets",098,Pace: Control of workload,01,Percentage
+01166_OR,"Percent of workers, workload is controlled by people",098,Pace: Control of workload,01,Percentage
+01167_OR,"Percent of workers, workload is self-paced",098,Pace: Control of workload,01,Percentage
+01168_OR,"Percent of workers, workload is controlled by other external source",098,Pace: Control of workload,01,Percentage
+01171_OR,"Percent of workers, with consistent, generally fast work pace",099,Pace: Work pace,01,Percentage
+01172_OR,"Percent of workers, with consistent, generally slow work pace",099,Pace: Work pace,01,Percentage
+01173_OR,"Percent of workers, with varying work pace",099,Pace: Work pace,01,Percentage
+01176_OR,"Percent of workers, with the ability to pause work",100,Pace: Pause control,01,Percentage
+01177_OR,"Percent of workers, without the ability to pause work",100,Pace: Pause control,01,Percentage
+01180_OR,"Percent of workers, required to have verbal interaction constantly, every few minutes",101,Personal contacts: Verbal interactions,01,Percentage
+01181_OR,"Percent of workers, required to have verbal interaction not constantly, but more than once per hour",101,Personal contacts: Verbal interactions,01,Percentage
+01182_OR,"Percent of workers, required to have verbal interaction not more than once per hour, but more than once per day",101,Personal contacts: Verbal interactions,01,Percentage
+01183_OR,"Percent of workers, required to have verbal interaction once per day or less often",101,Personal contacts: Verbal interactions,01,Percentage
+01186_OR,"Percent of workers, with basic required people skills",102,Personal contacts: People skills,01,Percentage
+01187_OR,"Percent of workers, with more than basic required people skills",102,Personal contacts: People skills,01,Percentage
+01190_OR,"Percent of workers, problem solving is required more than once per day",103,Problem solving,01,Percentage
+01191_OR,"Percent of workers, problem solving is required once per day",103,Problem solving,01,Percentage
+01192_OR,"Percent of workers, problem solving is required not every day, but at least once per week",103,Problem solving,01,Percentage
+01193_OR,"Percent of workers, problem solving is required not every week, but at least once per month",103,Problem solving,01,Percentage
+01194_OR,"Percent of workers, problem solving is required less often than monthly, including never",103,Problem solving,01,Percentage
+01197_OR,"Percent of workers, interaction with general public is required",104,Interaction with general public,01,Percentage
+01198_OR,"Percent of workers, interaction with general public is not required",104,Interaction with general public,01,Percentage
+01201_OR,"Percent of workers, working around crowds is required",105,Working around crowds,01,Percentage
+01202_OR,"Percent of workers, working around crowds is not required",105,Working around crowds,01,Percentage
+01205_OR,"Percent of workers, with telework available",106,Telework,01,Percentage
+01206_OR,"Percent of workers, with telework not available",106,Telework,01,Percentage
+01209_OR,"Percent of workers, low postures are not required",107,Low postures,01,Percentage
+01210_OR,"Percent of workers, low postures are required, seldom",107,Low postures,01,Percentage
+01211_OR,"Percent of workers, low postures are required, occasionally",107,Low postures,01,Percentage
+01212_OR,"Percent of workers, low postures are required, frequently",107,Low postures,01,Percentage
+01216_OR,"Percent of workers, low postures are required",107,Low postures,01,Percentage
+01218_OR,"Percent of workers, crawling is required, worker's choice",108,Crawling,01,Percentage
+01219_OR,"Percent of workers, crawling is required",108,Crawling,01,Percentage
+01222_OR,"Percent of workers, stooping is required, worker's choice",109,Stooping,01,Percentage
+01223_OR,"Percent of workers, stooping is required",109,Stooping,01,Percentage
+01226_OR,"Percent of workers, kneeling is required, worker's choice",110,Kneeling,01,Percentage
+01227_OR,"Percent of workers, kneeling is required",110,Kneeling,01,Percentage
+01230_OR,"Percent of workers, crouching is required, worker's choice",111,Crouching,01,Percentage
+01231_OR,"Percent of workers, crouching is required",111,Crouching,01,Percentage
+01234_OR,"Percent of workers, lifting or carrying > 10 lbs and less than or equal to 25 lbs is required, seldom",024,Lifting or carrying: Seldom,01,Percentage
+01235_OR,"Percent of workers, lifting or carrying  > 25 lbs and less than or equal to 50 lbs is required, seldom",024,Lifting or carrying: Seldom,01,Percentage
+01236_OR,"Percent of workers, lifting or carrying > 50 lbs and less than or equal to 75 lbs is required, seldom",024,Lifting or carrying: Seldom,01,Percentage
+01237_OR,"Percent of workers, lifting or carrying  > 75 lbs and less than or equal to 100 lbs is required, seldom",024,Lifting or carrying: Seldom,01,Percentage
+01238_OR,"Percent of workers, lifting or carrying > 10 lbs and less than or equal to 25 lbs is required, occasionally",025,Lifting or carrying: Occasionally,01,Percentage
+01239_OR,"Percent of workers, lifting or carrying > 25 lbs and less than or equal to 50 lbs is required, occasionally",025,Lifting or carrying: Occasionally,01,Percentage
+01240_OR,"Percent of workers, lifting or carrying > 50 lbs and less than or equal to 75 lbs is required, occasionally",025,Lifting or carrying: Occasionally,01,Percentage
+01241_OR,"Percent of workers, lifting or carrying > 75 lbs and less than or equal to 100 lbs is required, occasionally",025,Lifting or carrying: Occasionally,01,Percentage
+01242_OR,"Percent of workers, lifting or carrying > 10 lbs and less than or equal to 25 lbs is required, constantly",027,Lifting or carrying: Constantly,01,Percentage
+01243_OR,"Percent of workers, lifting or carrying  > 25 lbs is required, constantly",027,Lifting or carrying: Constantly,01,Percentage
+01244_OR,"Percent of workers, hearing speech in person is required",112,Hearing requirements: Speech in-person,01,Percentage
+01245_OR,"Percent of workers, hearing speech in person is not required",112,Hearing requirements: Speech in-person,01,Percentage
+01248_OR,"Percent of workers, hearing other remote speech is required",113,Hearing requirements: Other remote speech,01,Percentage
+01249_OR,"Percent of workers, hearing other remote speech is not required",113,Hearing requirements: Other remote speech,01,Percentage

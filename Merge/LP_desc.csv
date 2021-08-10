@@ -1,0 +1,71 @@
+MEASURE_CODE_EXPANDED,MEASURE_CODE,DURATION_CODE,MEASURE_TEXT,DURATION_TEXT
+C00_0_IP,C00,0,Capital productivity (2007=100),Indexes or values
+C00_1_IP,C00,1,Capital productivity (2007=100),Annual percent changes
+C01_0_IP,C01,0,Capital (2007=100),Indexes or values
+C01_1_IP,C01,1,Capital (2007=100),Annual percent changes
+C02_0_IP,C02,0,Capital costs (Million $),Indexes or values
+C02_1_IP,C02,1,Capital costs (Million $),Annual percent changes
+C03_0_IP,C03,0,Capital cost share (percent),Indexes or values
+C03_1_IP,C03,1,Capital cost share (percent),Annual percent changes
+C06_0_IP,C06,0,Capital intensity (2007=100),Indexes or values
+C06_1_IP,C06,1,Capital intensity (2007=100),Annual percent changes
+C07_0_IP,C07,0,Contribution of capital intensity (2007=100),Indexes or values
+C07_1_IP,C07,1,Contribution of capital intensity (2007=100),Annual percent changes
+L00_0_IP,L00,0,Labor productivity (2007=100),Indexes or values
+L00_1_IP,L00,1,Labor productivity (2007=100),Annual percent changes
+L01_0_IP,L01,0,Hours worked (2007=100),Indexes or values
+L01_1_IP,L01,1,Hours worked (2007=100),Annual percent changes
+L02_0_IP,L02,0,Labor compensation (Million $),Indexes or values
+L02_1_IP,L02,1,Labor compensation (Million $),Annual percent changes
+L03_0_IP,L03,0,Labor cost share (percent),Indexes or values
+L03_1_IP,L03,1,Labor cost share (percent),Annual percent changes
+L06_0_IP,L06,0,Real labor compensation (Million $),Indexes or values
+L06_1_IP,L06,1,Real labor compensation (Million $),Annual percent changes
+L07_0_IP,L07,0,Real labor compensation (2007=100),Indexes or values
+L07_1_IP,L07,1,Real labor compensation (2007=100),Annual percent changes
+L20_0_IP,L20,0,Hours worked (millions),Indexes or values
+L20_1_IP,L20,1,Hours worked (millions),Annual percent changes
+M00_0_IP,M00,0,Multifactor productivity (2007=100),Indexes or values
+M00_1_IP,M00,1,Multifactor productivity (2007=100),Annual percent changes
+M01_0_IP,M01,0,Combined inputs (2007=100),Indexes or values
+M01_1_IP,M01,1,Combined inputs (2007=100),Annual percent changes
+M02_0_IP,M02,0,Combined inputs costs (Million $),Indexes or values
+M02_1_IP,M02,1,Combined inputs costs (Million $),Annual percent changes
+M05_0_IP,M05,0,Implicit combined inputs deflator (2007=100),Indexes or values
+M05_1_IP,M05,1,Implicit combined inputs deflator (2007=100),Annual percent changes
+P00_0_IP,P00,0,Intermediate purchases productivity (2007=100),Indexes or values
+P00_1_IP,P00,1,Intermediate purchases productivity (2007=100),Annual percent changes
+P01_0_IP,P01,0,Intermediate purchases (2007=100),Indexes or values
+P01_1_IP,P01,1,Intermediate purchases (2007=100),Annual percent changes
+P02_0_IP,P02,0,Intermediate purchases costs (Million $),Indexes or values
+P02_1_IP,P02,1,Intermediate purchases costs (Million $),Annual percent changes
+P03_0_IP,P03,0,Intermediate purchases cost share (percent),Indexes or values
+P03_1_IP,P03,1,Intermediate purchases cost share (percent),Annual percent changes
+P06_0_IP,P06,0,Intermediate purchases to hours ratio (2007=100),Indexes or values
+P06_1_IP,P06,1,Intermediate purchases to hours ratio (2007=100),Annual percent changes
+P07_0_IP,P07,0,Contribution of intermediate purchases intensity (2007=100),Indexes or values
+P07_1_IP,P07,1,Contribution of intermediate purchases intensity (2007=100),Annual percent changes
+T01_0_IP,T01,0,Output (2007=100),Indexes or values
+T01_1_IP,T01,1,Output (2007=100),Annual percent changes
+T05_0_IP,T05,0,Implicit output deflator (2007=100),Indexes or values
+T05_1_IP,T05,1,Implicit output deflator (2007=100),Annual percent changes
+T30_0_IP,T30,0,Value of production (Million $),Indexes or values
+T30_1_IP,T30,1,Value of production (Million $),Annual percent changes
+U10_0_IP,U10,0,Unit labor costs (2007=100),Indexes or values
+U10_1_IP,U10,1,Unit labor costs (2007=100),Annual percent changes
+U11_0_IP,U11,0,Labor compensation (2007=100),Indexes or values
+U11_1_IP,U11,1,Labor compensation (2007=100),Annual percent changes
+U12_0_IP,U12,0,Hourly compensation (2007=100),Indexes or values
+U12_1_IP,U12,1,Hourly compensation (2007=100),Annual percent changes
+U13_0_IP,U13,0,Hourly compensation ($ / Hour),Indexes or values
+U13_1_IP,U13,1,Hourly compensation ($ / Hour),Annual percent changes
+U14_0_IP,U14,0,Real hourly labor compensation ($ / Hour),Indexes or values
+U14_1_IP,U14,1,Real hourly labor compensation ($ / Hour),Annual percent changes
+U15_0_IP,U15,0,Real hourly labor compensation (2007=100),Indexes or values
+U15_1_IP,U15,1,Real hourly labor compensation (2007=100),Annual percent changes
+W00_0_IP,W00,0,Output per employee (2007=100),Indexes or values
+W00_1_IP,W00,1,Output per employee (2007=100),Annual percent changes
+W01_0_IP,W01,0,Employment (2007=100),Indexes or values
+W01_1_IP,W01,1,Employment (2007=100),Annual percent changes
+W20_0_IP,W20,0,Employment (thousands),Indexes or values
+W20_1_IP,W20,1,Employment (thousands),Annual percent changes

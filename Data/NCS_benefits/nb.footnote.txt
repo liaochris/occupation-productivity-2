@@ -1,0 +1,7 @@
+footnote_code	footnote_text
+0	The estimate was less than the minimum value able to be displayed
+1	Less than 0.5
+2	Less than 0.05
+3	Less than 0.005
+A	Employee contribution type of Other estimates from March 2014 forward includes contribution types not separately published such as composite rates, flexible benefits, and percent of earnings.
+B	Registered Nurses estimates from March 2014 forward are based on the 2010 Standard Occupational Classification. For more information on classification changes, please see www.bls.gov/soc.

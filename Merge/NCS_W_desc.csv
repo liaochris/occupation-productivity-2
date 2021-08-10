@@ -1,0 +1,18 @@
+datatype_estimate_code,datatype_id_code,datatype_id_text,estimate_id_code,estimate_id_text
+4_2_NW,4,Employment,2,Wages and salaries
+5_2_NW,5,Hourly mean earnings,2,Wages and salaries
+6_2_NW,6,Weekly median earnings,2,Wages and salaries
+7_2_NW,7,Weekly mean earnings,2,Wages and salaries
+8_2_NW,8,Weekly mean hours,2,Wages and salaries
+9_2_NW,9,Annual median earnings,2,Wages and salaries
+10_2_NW,10,Annual mean earnings,2,Wages and salaries
+11_2_NW,11,Annual mean hours,2,Wages and salaries
+12_2_NW,12,Hourly 10th percentile wage,2,Wages and salaries
+13_2_NW,13,Hourly 25th percentile wage,2,Wages and salaries
+14_2_NW,14,Hourly median earnings,2,Wages and salaries
+15_2_NW,15,Hourly 75th percentile wage,2,Wages and salaries
+16_2_NW,16,Hourly 90th percentile wage,2,Wages and salaries
+35_2_NW,35,Employment relative standard error,2,Wages and salaries
+36_2_NW,36,Hourly earnings relative standard error,2,Wages and salaries
+37_2_NW,37,Weekly earnings relative standard error,2,Wages and salaries
+90_2_NW,90,Model-based estimates,2,Wages and salaries

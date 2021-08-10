@@ -1,0 +1,1237 @@
+series_id        	sector_code	measure_code	duration_code	base_year	series_title	footnote_codes	begin_year	begin_period	end_year	end_period
+MPU4900012       	4900	01	2	2012	Multifactor productivity for Private Business Sector (NAICS 11-81), Indexes = 100.000	02	1987	A01	2020	A01
+MPU4900013       	4900	01	3	-	Multifactor productivity for Private Business Sector (NAICS 11-81), % Change Year Ago	02	1988	A01	2020	A01
+MPU4900022       	4900	02	2	2012	Real value-added output for Private Business Sector (NAICS 11-81), Indexes = 100.000		1987	A01	2020	A01
+MPU4900023       	4900	02	3	-	Real value-added output for Private Business Sector (NAICS 11-81), % Change Year Ago		1988	A01	2020	A01
+MPU4900032       	4900	03	2	2012	Combined inputs of value-added for Private Business Sector (NAICS 11-81), Indexes = 100.000	01	1987	A01	2020	A01
+MPU4900033       	4900	03	3	-	Combined inputs of value-added for Private Business Sector (NAICS 11-81), % Change Year Ago	01	1988	A01	2020	A01
+MPU4900042       	4900	04	2	2012	Capital input for Private Business Sector (NAICS 11-81), Indexes = 100.000	00	1987	A01	2020	A01
+MPU4900043       	4900	04	3	-	Capital input for Private Business Sector (NAICS 11-81), % Change Year Ago	00	1988	A01	2020	A01
+MPU4900052       	4900	05	2	2012	Labor input for Private Business Sector (NAICS 11-81), Indexes = 100.000	03	1987	A01	2020	A01
+MPU4900053       	4900	05	3	-	Labor input for Private Business Sector (NAICS 11-81), % Change Year Ago	03	1988	A01	2020	A01
+MPU4900062       	4900	06	2	2012	Labor productivity for Private Business Sector (NAICS 11-81), Indexes = 100.000		1987	A01	2020	A01
+MPU4900063       	4900	06	3	-	Labor productivity for Private Business Sector (NAICS 11-81), % Change Year Ago		1988	A01	2020	A01
+MPU4900072       	4900	07	2	2012	Capital productivity for Private Business Sector (NAICS 11-81), Indexes = 100.000		1987	A01	2020	A01
+MPU4900073       	4900	07	3	-	Capital productivity for Private Business Sector (NAICS 11-81), % Change Year Ago		1988	A01	2020	A01
+MPU4900082       	4900	08	2	2012	Capital intensity for Private Business Sector (NAICS 11-81), Indexes = 100.000		1987	A01	2020	A01
+MPU4900083       	4900	08	3	-	Capital intensity for Private Business Sector (NAICS 11-81), % Change Year Ago		1988	A01	2020	A01
+MPU4900092       	4900	09	2	2012	Labor composition for Private Business Sector (NAICS 11-81), Indexes = 100.000	09	1987	A01	2020	A01
+MPU4900093       	4900	09	3	-	Labor composition for Private Business Sector (NAICS 11-81), % Change Year Ago	09	1988	A01	2020	A01
+MPU4900101       	4900	10	1	-	Value-added output, current dollars for Private Business Sector (NAICS 11-81), Levels		1987	A01	2019	A01
+MPU4900111       	4900	11	1	-	Capital costs, current dollars for Private Business Sector (NAICS 11-81), Levels		1987	A01	2019	A01
+MPU4900121       	4900	12	1	-	Labor compensation, current dollars for Private Business Sector (NAICS 11-81), Levels		1987	A01	2019	A01
+MPU4900131       	4900	13	1	-	Capital costs share for Private Business Sector (NAICS 11-81), Levels		1987	A01	2019	A01
+MPU4900141       	4900	14	1	-	Labor costs share for Private Business Sector (NAICS 11-81), Levels		1987	A01	2019	A01
+MPU4900152       	4900	15	2	2012	Contribution of capital intensity  to labor productivity for Private Business Sector (NAICS 11-81), Indexes = 100.000		1987	A01	2020	A01
+MPU4900153       	4900	15	3	-	Contribution of capital intensity  to labor productivity for Private Business Sector (NAICS 11-81), % Change Year Ago		1988	A01	2020	A01
+MPU4900162       	4900	16	2	2012	Contribution of information processing equipment (IPE) intensity  to labor productivity for Private Business Sector (NAICS 11-81), Indexes = 100.000		1987	A01	2019	A01
+MPU4900163       	4900	16	3	-	Contribution of information processing equipment (IPE) intensity  to labor productivity for Private Business Sector (NAICS 11-81), % Change Year Ago		1988	A01	2019	A01
+MPU4900172       	4900	17	2	2012	Contribution of capital services excluding IPP and IPE intensity  to labor productivity for Private Business Sector (NAICS 11-81), Indexes = 100.000		1987	A01	2019	A01
+MPU4900173       	4900	17	3	-	Contribution of capital services excluding IPP and IPE intensity  to labor productivity for Private Business Sector (NAICS 11-81), % Change Year Ago		1988	A01	2019	A01
+MPU4900182       	4900	18	2	2012	Contribution of labor composition to labor productivity for Private Business Sector (NAICS 11-81), Indexes = 100.000		1987	A01	2020	A01
+MPU4900183       	4900	18	3	-	Contribution of labor composition to labor productivity for Private Business Sector (NAICS 11-81), % Change Year Ago		1988	A01	2020	A01
+MPU4900192       	4900	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity for Private Business Sector (NAICS 11-81), Indexes = 100.000		1987	A01	2019	A01
+MPU4900193       	4900	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity for Private Business Sector (NAICS 11-81), % Change Year Ago		1988	A01	2019	A01
+MPU4900202       	4900	20	2	2012	Contribution of intellectual property products excluding R&D intensity  to labor productivity for Private Business Sector (NAICS 11-81), Indexes = 100.000		1987	A01	2019	A01
+MPU4900203       	4900	20	3	-	Contribution of intellectual property products excluding R&D intensity  to labor productivity for Private Business Sector (NAICS 11-81), % Change Year Ago		1988	A01	2019	A01
+MPU4910012       	4910	01	2	2012	Multifactor productivity for Private Non-Farm Business Sector (NAICS 113-81), Indexes = 100.000	02	1987	A01	2020	A01
+MPU4910013       	4910	01	3	-	Multifactor productivity for Private Non-Farm Business Sector (NAICS 113-81), % Change Year Ago	02	1988	A01	2020	A01
+MPU4910022       	4910	02	2	2012	Real value-added output for Private Non-Farm Business Sector (NAICS 113-81), Indexes = 100.000		1987	A01	2020	A01
+MPU4910023       	4910	02	3	-	Real value-added output for Private Non-Farm Business Sector (NAICS 113-81), % Change Year Ago		1988	A01	2020	A01
+MPU4910032       	4910	03	2	2012	Combined inputs of value-added for Private Non-Farm Business Sector (NAICS 113-81), Indexes = 100.000	01	1987	A01	2020	A01
+MPU4910033       	4910	03	3	-	Combined inputs of value-added for Private Non-Farm Business Sector (NAICS 113-81), % Change Year Ago	01	1988	A01	2020	A01
+MPU4910042       	4910	04	2	2012	Capital input for Private Non-Farm Business Sector (NAICS 113-81), Indexes = 100.000	00	1987	A01	2020	A01
+MPU4910043       	4910	04	3	-	Capital input for Private Non-Farm Business Sector (NAICS 113-81), % Change Year Ago	00	1988	A01	2020	A01
+MPU4910052       	4910	05	2	2012	Labor input for Private Non-Farm Business Sector (NAICS 113-81), Indexes = 100.000	03	1987	A01	2020	A01
+MPU4910053       	4910	05	3	-	Labor input for Private Non-Farm Business Sector (NAICS 113-81), % Change Year Ago	03	1988	A01	2020	A01
+MPU4910062       	4910	06	2	2012	Labor productivity for Private Non-Farm Business Sector (NAICS 113-81), Indexes = 100.000		1987	A01	2020	A01
+MPU4910063       	4910	06	3	-	Labor productivity for Private Non-Farm Business Sector (NAICS 113-81), % Change Year Ago		1988	A01	2020	A01
+MPU4910072       	4910	07	2	2012	Capital productivity for Private Non-Farm Business Sector (NAICS 113-81), Indexes = 100.000		1987	A01	2020	A01
+MPU4910073       	4910	07	3	-	Capital productivity for Private Non-Farm Business Sector (NAICS 113-81), % Change Year Ago		1988	A01	2020	A01
+MPU4910082       	4910	08	2	2012	Capital intensity for Private Non-Farm Business Sector (NAICS 113-81), Indexes = 100.000		1987	A01	2020	A01
+MPU4910083       	4910	08	3	-	Capital intensity for Private Non-Farm Business Sector (NAICS 113-81), % Change Year Ago		1988	A01	2020	A01
+MPU4910092       	4910	09	2	2012	Labor composition for Private Non-Farm Business Sector (NAICS 113-81), Indexes = 100.000	09	1987	A01	2020	A01
+MPU4910093       	4910	09	3	-	Labor composition for Private Non-Farm Business Sector (NAICS 113-81), % Change Year Ago	09	1988	A01	2020	A01
+MPU4910101       	4910	10	1	-	Value-added output, current dollars for Private Non-Farm Business Sector (NAICS 113-81), Levels		1987	A01	2019	A01
+MPU4910111       	4910	11	1	-	Capital costs, current dollars for Private Non-Farm Business Sector (NAICS 113-81), Levels		1987	A01	2019	A01
+MPU4910121       	4910	12	1	-	Labor compensation, current dollars for Private Non-Farm Business Sector (NAICS 113-81), Levels		1987	A01	2019	A01
+MPU4910131       	4910	13	1	-	Capital costs share for Private Non-Farm Business Sector (NAICS 113-81), Levels		1987	A01	2019	A01
+MPU4910141       	4910	14	1	-	Labor costs share for Private Non-Farm Business Sector (NAICS 113-81), Levels		1987	A01	2019	A01
+MPU4910152       	4910	15	2	2012	Contribution of capital intensity  to labor productivity for Private Non-Farm Business Sector (NAICS 113-81), Indexes = 100.000		1987	A01	2020	A01
+MPU4910153       	4910	15	3	-	Contribution of capital intensity  to labor productivity for Private Non-Farm Business Sector (NAICS 113-81), % Change Year Ago		1988	A01	2020	A01
+MPU4910162       	4910	16	2	2012	Contribution of information processing equipment (IPE) intensity  to labor productivity for Private Non-Farm Business Sector (NAICS 113-81), Indexes = 100.000		1987	A01	2019	A01
+MPU4910163       	4910	16	3	-	Contribution of information processing equipment (IPE) intensity  to labor productivity for Private Non-Farm Business Sector (NAICS 113-81), % Change Year Ago		1988	A01	2019	A01
+MPU4910172       	4910	17	2	2012	Contribution of capital services excluding IPP and IPE intensity  to labor productivity for Private Non-Farm Business Sector (NAICS 113-81), Indexes = 100.000		1987	A01	2019	A01
+MPU4910173       	4910	17	3	-	Contribution of capital services excluding IPP and IPE intensity  to labor productivity for Private Non-Farm Business Sector (NAICS 113-81), % Change Year Ago		1988	A01	2019	A01
+MPU4910182       	4910	18	2	2012	Contribution of labor composition to labor productivity for Private Non-Farm Business Sector (NAICS 113-81), Indexes = 100.000		1987	A01	2020	A01
+MPU4910183       	4910	18	3	-	Contribution of labor composition to labor productivity for Private Non-Farm Business Sector (NAICS 113-81), % Change Year Ago		1988	A01	2020	A01
+MPU4910192       	4910	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity for Private Non-Farm Business Sector (NAICS 113-81), Indexes = 100.000		1987	A01	2019	A01
+MPU4910193       	4910	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity for Private Non-Farm Business Sector (NAICS 113-81), % Change Year Ago		1988	A01	2019	A01
+MPU4910202       	4910	20	2	2012	Contribution of intellectual property products excluding R&D intensity  to labor productivity for Private Non-Farm Business Sector (NAICS 113-81), Indexes = 100.000		1987	A01	2019	A01
+MPU4910203       	4910	20	3	-	Contribution of intellectual property products excluding R&D intensity  to labor productivity for Private Non-Farm Business Sector (NAICS 113-81), % Change Year Ago		1988	A01	2019	A01
+MPU5000012       	5000	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 321 )	04	1987	A01	2019	A01
+MPU5000013       	5000	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 321 )	04	1988	A01	2019	A01
+MPU5000032       	5000	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 321 )	06	1987	A01	2019	A01
+MPU5000033       	5000	03	3	-	Combined Inputs, % change year ago,  (NAICS 321 )	06	1988	A01	2019	A01
+MPU5000042       	5000	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 321 )	00	1987	A01	2019	A01
+MPU5000043       	5000	04	3	-	Capital Services, % change year ago,  (NAICS 321 )	00	1988	A01	2019	A01
+MPU5000052       	5000	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 321 )	03	1987	A01	2019	A01
+MPU5000053       	5000	05	3	-	Labor Input, % change year ago,  (NAICS 321 )	03	1988	A01	2019	A01
+MPU5000062       	5000	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 321 )	08	1987	A01	2019	A01
+MPU5000063       	5000	06	3	-	Labor Productivity, % change year ago,  (NAICS 321 )	08	1988	A01	2019	A01
+MPU5000072       	5000	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000073       	5000	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 321 )		1988	A01	2019	A01
+MPU5000082       	5000	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 321 )	11	1987	A01	2019	A01
+MPU5000083       	5000	08	3	-	Capital Intensity, % change year ago,  (NAICS 321 )	11	1988	A01	2019	A01
+MPU5000152       	5000	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000153       	5000	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 321 )		1988	A01	2019	A01
+MPU5000162       	5000	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000163       	5000	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 321 )		1988	A01	2019	A01
+MPU5000172       	5000	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000173       	5000	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 321 )		1988	A01	2019	A01
+MPU5000182       	5000	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000183       	5000	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 321 )		1988	A01	2019	A01
+MPU5000192       	5000	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 321)		1987	A01	2019	A01
+MPU5000193       	5000	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 321)		1988	A01	2019	A01
+MPU5000202       	5000	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000203       	5000	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 321 )		1988	A01	2019	A01
+MPU5000512       	5000	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 321 )	05	1987	A01	2019	A01
+MPU5000513       	5000	51	3	-	Sectoral Output, % change year ago,  (NAICS 321 )	05	1988	A01	2019	A01
+MPU5000552       	5000	55	2	2012	Energy, Indexes = 100.000,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000553       	5000	55	3	-	Energy, % change year ago,  (NAICS 321 )		1988	A01	2019	A01
+MPU5000562       	5000	56	2	2012	Materials, Indexes = 100.000,  (NAICS 321 )	07	1987	A01	2019	A01
+MPU5000563       	5000	56	3	-	Materials, % change year ago,  (NAICS 321 )	07	1988	A01	2019	A01
+MPU5000572       	5000	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000573       	5000	57	3	-	Purchased Services, % change year ago,  (NAICS 321 )		1988	A01	2019	A01
+MPU5000611       	5000	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000621       	5000	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000631       	5000	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000641       	5000	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000651       	5000	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000661       	5000	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000671       	5000	67	1	-	Capital Factor Shares, Levels,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000681       	5000	68	1	-	Labor Factor Shares, Levels,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000691       	5000	69	1	-	Energy Factor Shares, Levels,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000701       	5000	70	1	-	Materials Factor Shares, Levels,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000711       	5000	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000742       	5000	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000743       	5000	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 321 )		1988	A01	2019	A01
+MPU5000762       	5000	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000763       	5000	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 321 )		1988	A01	2019	A01
+MPU5000772       	5000	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000773       	5000	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 321 )		1988	A01	2019	A01
+MPU5000782       	5000	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 321 )		1987	A01	2019	A01
+MPU5000783       	5000	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 321 )		1988	A01	2019	A01
+MPU5050012       	5050	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 327 )	04	1987	A01	2019	A01
+MPU5050013       	5050	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 327 )	04	1988	A01	2019	A01
+MPU5050032       	5050	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 327 )	06	1987	A01	2019	A01
+MPU5050033       	5050	03	3	-	Combined Inputs, % change year ago,  (NAICS 327 )	06	1988	A01	2019	A01
+MPU5050042       	5050	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 327 )	00	1987	A01	2019	A01
+MPU5050043       	5050	04	3	-	Capital Services, % change year ago,  (NAICS 327 )	00	1988	A01	2019	A01
+MPU5050052       	5050	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 327 )	03	1987	A01	2019	A01
+MPU5050053       	5050	05	3	-	Labor Input, % change year ago,  (NAICS 327 )	03	1988	A01	2019	A01
+MPU5050062       	5050	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 327 )	08	1987	A01	2019	A01
+MPU5050063       	5050	06	3	-	Labor Productivity, % change year ago,  (NAICS 327 )	08	1988	A01	2019	A01
+MPU5050072       	5050	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050073       	5050	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 327 )		1988	A01	2019	A01
+MPU5050082       	5050	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 327 )	11	1987	A01	2019	A01
+MPU5050083       	5050	08	3	-	Capital Intensity, % change year ago,  (NAICS 327 )	11	1988	A01	2019	A01
+MPU5050152       	5050	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050153       	5050	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 327 )		1988	A01	2019	A01
+MPU5050162       	5050	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050163       	5050	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 327 )		1988	A01	2019	A01
+MPU5050172       	5050	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050173       	5050	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 327 )		1988	A01	2019	A01
+MPU5050182       	5050	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050183       	5050	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 327 )		1988	A01	2019	A01
+MPU5050192       	5050	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 327)		1987	A01	2019	A01
+MPU5050193       	5050	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 327)		1988	A01	2019	A01
+MPU5050202       	5050	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050203       	5050	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 327 )		1988	A01	2019	A01
+MPU5050512       	5050	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 327 )	05	1987	A01	2019	A01
+MPU5050513       	5050	51	3	-	Sectoral Output, % change year ago,  (NAICS 327 )	05	1988	A01	2019	A01
+MPU5050552       	5050	55	2	2012	Energy, Indexes = 100.000,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050553       	5050	55	3	-	Energy, % change year ago,  (NAICS 327 )		1988	A01	2019	A01
+MPU5050562       	5050	56	2	2012	Materials, Indexes = 100.000,  (NAICS 327 )	07	1987	A01	2019	A01
+MPU5050563       	5050	56	3	-	Materials, % change year ago,  (NAICS 327 )	07	1988	A01	2019	A01
+MPU5050572       	5050	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050573       	5050	57	3	-	Purchased Services, % change year ago,  (NAICS 327 )		1988	A01	2019	A01
+MPU5050611       	5050	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050621       	5050	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050631       	5050	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050641       	5050	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050651       	5050	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050661       	5050	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050671       	5050	67	1	-	Capital Factor Shares, Levels,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050681       	5050	68	1	-	Labor Factor Shares, Levels,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050691       	5050	69	1	-	Energy Factor Shares, Levels,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050701       	5050	70	1	-	Materials Factor Shares, Levels,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050711       	5050	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050742       	5050	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050743       	5050	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 327 )		1988	A01	2019	A01
+MPU5050762       	5050	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050763       	5050	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 327 )		1988	A01	2019	A01
+MPU5050772       	5050	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050773       	5050	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 327 )		1988	A01	2019	A01
+MPU5050782       	5050	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 327 )		1987	A01	2019	A01
+MPU5050783       	5050	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 327 )		1988	A01	2019	A01
+MPU5100012       	5100	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 331 )	04	1987	A01	2019	A01
+MPU5100013       	5100	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 331 )	04	1988	A01	2019	A01
+MPU5100032       	5100	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 331 )	06	1987	A01	2019	A01
+MPU5100033       	5100	03	3	-	Combined Inputs, % change year ago,  (NAICS 331 )	06	1988	A01	2019	A01
+MPU5100042       	5100	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 331 )	00	1987	A01	2019	A01
+MPU5100043       	5100	04	3	-	Capital Services, % change year ago,  (NAICS 331 )	00	1988	A01	2019	A01
+MPU5100052       	5100	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 331 )	03	1987	A01	2019	A01
+MPU5100053       	5100	05	3	-	Labor Input, % change year ago,  (NAICS 331 )	03	1988	A01	2019	A01
+MPU5100062       	5100	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 331 )	08	1987	A01	2019	A01
+MPU5100063       	5100	06	3	-	Labor Productivity, % change year ago,  (NAICS 331 )	08	1988	A01	2019	A01
+MPU5100072       	5100	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100073       	5100	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 331 )		1988	A01	2019	A01
+MPU5100082       	5100	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 331 )	11	1987	A01	2019	A01
+MPU5100083       	5100	08	3	-	Capital Intensity, % change year ago,  (NAICS 331 )	11	1988	A01	2019	A01
+MPU5100152       	5100	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100153       	5100	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 331 )		1988	A01	2019	A01
+MPU5100162       	5100	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100163       	5100	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 331 )		1988	A01	2019	A01
+MPU5100172       	5100	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100173       	5100	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 331 )		1988	A01	2019	A01
+MPU5100182       	5100	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100183       	5100	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 331 )		1988	A01	2019	A01
+MPU5100192       	5100	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 331)		1987	A01	2019	A01
+MPU5100193       	5100	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 331)		1988	A01	2019	A01
+MPU5100202       	5100	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100203       	5100	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 331 )		1988	A01	2019	A01
+MPU5100512       	5100	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 331 )	05	1987	A01	2019	A01
+MPU5100513       	5100	51	3	-	Sectoral Output, % change year ago,  (NAICS 331 )	05	1988	A01	2019	A01
+MPU5100552       	5100	55	2	2012	Energy, Indexes = 100.000,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100553       	5100	55	3	-	Energy, % change year ago,  (NAICS 331 )		1988	A01	2019	A01
+MPU5100562       	5100	56	2	2012	Materials, Indexes = 100.000,  (NAICS 331 )	07	1987	A01	2019	A01
+MPU5100563       	5100	56	3	-	Materials, % change year ago,  (NAICS 331 )	07	1988	A01	2019	A01
+MPU5100572       	5100	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100573       	5100	57	3	-	Purchased Services, % change year ago,  (NAICS 331 )		1988	A01	2019	A01
+MPU5100611       	5100	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100621       	5100	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100631       	5100	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100641       	5100	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100651       	5100	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100661       	5100	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100671       	5100	67	1	-	Capital Factor Shares, Levels,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100681       	5100	68	1	-	Labor Factor Shares, Levels,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100691       	5100	69	1	-	Energy Factor Shares, Levels,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100701       	5100	70	1	-	Materials Factor Shares, Levels,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100711       	5100	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100742       	5100	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100743       	5100	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 331 )		1988	A01	2019	A01
+MPU5100762       	5100	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100763       	5100	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 331 )		1988	A01	2019	A01
+MPU5100772       	5100	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100773       	5100	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 331 )		1988	A01	2019	A01
+MPU5100782       	5100	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 331 )		1987	A01	2019	A01
+MPU5100783       	5100	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 331 )		1988	A01	2019	A01
+MPU5150012       	5150	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 332 )	04	1987	A01	2019	A01
+MPU5150013       	5150	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 332 )	04	1988	A01	2019	A01
+MPU5150032       	5150	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 332 )	06	1987	A01	2019	A01
+MPU5150033       	5150	03	3	-	Combined Inputs, % change year ago,  (NAICS 332 )	06	1988	A01	2019	A01
+MPU5150042       	5150	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 332 )	00	1987	A01	2019	A01
+MPU5150043       	5150	04	3	-	Capital Services, % change year ago,  (NAICS 332 )	00	1988	A01	2019	A01
+MPU5150052       	5150	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 332 )	03	1987	A01	2019	A01
+MPU5150053       	5150	05	3	-	Labor Input, % change year ago,  (NAICS 332 )	03	1988	A01	2019	A01
+MPU5150062       	5150	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 332 )	08	1987	A01	2019	A01
+MPU5150063       	5150	06	3	-	Labor Productivity, % change year ago,  (NAICS 332 )	08	1988	A01	2019	A01
+MPU5150072       	5150	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150073       	5150	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 332 )		1988	A01	2019	A01
+MPU5150082       	5150	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 332 )	11	1987	A01	2019	A01
+MPU5150083       	5150	08	3	-	Capital Intensity, % change year ago,  (NAICS 332 )	11	1988	A01	2019	A01
+MPU5150152       	5150	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150153       	5150	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 332 )		1988	A01	2019	A01
+MPU5150162       	5150	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150163       	5150	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 332 )		1988	A01	2019	A01
+MPU5150172       	5150	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150173       	5150	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 332 )		1988	A01	2019	A01
+MPU5150182       	5150	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150183       	5150	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 332 )		1988	A01	2019	A01
+MPU5150192       	5150	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 332)		1987	A01	2019	A01
+MPU5150193       	5150	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 332)		1988	A01	2019	A01
+MPU5150202       	5150	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150203       	5150	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 332 )		1988	A01	2019	A01
+MPU5150512       	5150	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 332 )	05	1987	A01	2019	A01
+MPU5150513       	5150	51	3	-	Sectoral Output, % change year ago,  (NAICS 332 )	05	1988	A01	2019	A01
+MPU5150552       	5150	55	2	2012	Energy, Indexes = 100.000,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150553       	5150	55	3	-	Energy, % change year ago,  (NAICS 332 )		1988	A01	2019	A01
+MPU5150562       	5150	56	2	2012	Materials, Indexes = 100.000,  (NAICS 332 )	07	1987	A01	2019	A01
+MPU5150563       	5150	56	3	-	Materials, % change year ago,  (NAICS 332 )	07	1988	A01	2019	A01
+MPU5150572       	5150	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150573       	5150	57	3	-	Purchased Services, % change year ago,  (NAICS 332 )		1988	A01	2019	A01
+MPU5150611       	5150	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150621       	5150	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150631       	5150	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150641       	5150	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150651       	5150	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150661       	5150	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150671       	5150	67	1	-	Capital Factor Shares, Levels,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150681       	5150	68	1	-	Labor Factor Shares, Levels,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150691       	5150	69	1	-	Energy Factor Shares, Levels,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150701       	5150	70	1	-	Materials Factor Shares, Levels,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150711       	5150	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150742       	5150	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150743       	5150	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 332 )		1988	A01	2019	A01
+MPU5150762       	5150	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150763       	5150	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 332 )		1988	A01	2019	A01
+MPU5150772       	5150	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150773       	5150	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 332 )		1988	A01	2019	A01
+MPU5150782       	5150	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 332 )		1987	A01	2019	A01
+MPU5150783       	5150	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 332 )		1988	A01	2019	A01
+MPU5200012       	5200	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 333 )	04	1987	A01	2019	A01
+MPU5200013       	5200	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 333 )	04	1988	A01	2019	A01
+MPU5200032       	5200	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 333 )	06	1987	A01	2019	A01
+MPU5200033       	5200	03	3	-	Combined Inputs, % change year ago,  (NAICS 333 )	06	1988	A01	2019	A01
+MPU5200042       	5200	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 333 )	00	1987	A01	2019	A01
+MPU5200043       	5200	04	3	-	Capital Services, % change year ago,  (NAICS 333 )	00	1988	A01	2019	A01
+MPU5200052       	5200	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 333 )	03	1987	A01	2019	A01
+MPU5200053       	5200	05	3	-	Labor Input, % change year ago,  (NAICS 333 )	03	1988	A01	2019	A01
+MPU5200062       	5200	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 333 )	08	1987	A01	2019	A01
+MPU5200063       	5200	06	3	-	Labor Productivity, % change year ago,  (NAICS 333 )	08	1988	A01	2019	A01
+MPU5200072       	5200	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200073       	5200	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 333 )		1988	A01	2019	A01
+MPU5200082       	5200	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 333 )	11	1987	A01	2019	A01
+MPU5200083       	5200	08	3	-	Capital Intensity, % change year ago,  (NAICS 333 )	11	1988	A01	2019	A01
+MPU5200152       	5200	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200153       	5200	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 333 )		1988	A01	2019	A01
+MPU5200162       	5200	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200163       	5200	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 333 )		1988	A01	2019	A01
+MPU5200172       	5200	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200173       	5200	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 333 )		1988	A01	2019	A01
+MPU5200182       	5200	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200183       	5200	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 333 )		1988	A01	2019	A01
+MPU5200192       	5200	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 333)		1987	A01	2019	A01
+MPU5200193       	5200	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 333)		1988	A01	2019	A01
+MPU5200202       	5200	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200203       	5200	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 333 )		1988	A01	2019	A01
+MPU5200512       	5200	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 333 )	05	1987	A01	2019	A01
+MPU5200513       	5200	51	3	-	Sectoral Output, % change year ago,  (NAICS 333 )	05	1988	A01	2019	A01
+MPU5200552       	5200	55	2	2012	Energy, Indexes = 100.000,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200553       	5200	55	3	-	Energy, % change year ago,  (NAICS 333 )		1988	A01	2019	A01
+MPU5200562       	5200	56	2	2012	Materials, Indexes = 100.000,  (NAICS 333 )	07	1987	A01	2019	A01
+MPU5200563       	5200	56	3	-	Materials, % change year ago,  (NAICS 333 )	07	1988	A01	2019	A01
+MPU5200572       	5200	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200573       	5200	57	3	-	Purchased Services, % change year ago,  (NAICS 333 )		1988	A01	2019	A01
+MPU5200611       	5200	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200621       	5200	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200631       	5200	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200641       	5200	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200651       	5200	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200661       	5200	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200671       	5200	67	1	-	Capital Factor Shares, Levels,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200681       	5200	68	1	-	Labor Factor Shares, Levels,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200691       	5200	69	1	-	Energy Factor Shares, Levels,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200701       	5200	70	1	-	Materials Factor Shares, Levels,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200711       	5200	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200742       	5200	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200743       	5200	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 333 )		1988	A01	2019	A01
+MPU5200762       	5200	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200763       	5200	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 333 )		1988	A01	2019	A01
+MPU5200772       	5200	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200773       	5200	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 333 )		1988	A01	2019	A01
+MPU5200782       	5200	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 333 )		1987	A01	2019	A01
+MPU5200783       	5200	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 333 )		1988	A01	2019	A01
+MPU5250012       	5250	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 334 )	04	1987	A01	2019	A01
+MPU5250013       	5250	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 334 )	04	1988	A01	2019	A01
+MPU5250032       	5250	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 334 )	06	1987	A01	2019	A01
+MPU5250033       	5250	03	3	-	Combined Inputs, % change year ago,  (NAICS 334 )	06	1988	A01	2019	A01
+MPU5250042       	5250	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 334 )	00	1987	A01	2019	A01
+MPU5250043       	5250	04	3	-	Capital Services, % change year ago,  (NAICS 334 )	00	1988	A01	2019	A01
+MPU5250052       	5250	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 334 )	03	1987	A01	2019	A01
+MPU5250053       	5250	05	3	-	Labor Input, % change year ago,  (NAICS 334 )	03	1988	A01	2019	A01
+MPU5250062       	5250	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 334 )	08	1987	A01	2019	A01
+MPU5250063       	5250	06	3	-	Labor Productivity, % change year ago,  (NAICS 334 )	08	1988	A01	2019	A01
+MPU5250072       	5250	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250073       	5250	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 334 )		1988	A01	2019	A01
+MPU5250082       	5250	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 334 )	11	1987	A01	2019	A01
+MPU5250083       	5250	08	3	-	Capital Intensity, % change year ago,  (NAICS 334 )	11	1988	A01	2019	A01
+MPU5250152       	5250	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250153       	5250	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 334 )		1988	A01	2019	A01
+MPU5250162       	5250	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250163       	5250	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 334 )		1988	A01	2019	A01
+MPU5250172       	5250	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250173       	5250	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 334 )		1988	A01	2019	A01
+MPU5250182       	5250	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250183       	5250	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 334 )		1988	A01	2019	A01
+MPU5250192       	5250	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 334)		1987	A01	2019	A01
+MPU5250193       	5250	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 334)		1988	A01	2019	A01
+MPU5250202       	5250	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250203       	5250	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 334 )		1988	A01	2019	A01
+MPU5250512       	5250	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 334 )	05	1987	A01	2019	A01
+MPU5250513       	5250	51	3	-	Sectoral Output, % change year ago,  (NAICS 334 )	05	1988	A01	2019	A01
+MPU5250552       	5250	55	2	2012	Energy, Indexes = 100.000,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250553       	5250	55	3	-	Energy, % change year ago,  (NAICS 334 )		1988	A01	2019	A01
+MPU5250562       	5250	56	2	2012	Materials, Indexes = 100.000,  (NAICS 334 )	07	1987	A01	2019	A01
+MPU5250563       	5250	56	3	-	Materials, % change year ago,  (NAICS 334 )	07	1988	A01	2019	A01
+MPU5250572       	5250	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250573       	5250	57	3	-	Purchased Services, % change year ago,  (NAICS 334 )		1988	A01	2019	A01
+MPU5250611       	5250	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250621       	5250	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250631       	5250	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250641       	5250	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250651       	5250	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250661       	5250	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250671       	5250	67	1	-	Capital Factor Shares, Levels,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250681       	5250	68	1	-	Labor Factor Shares, Levels,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250691       	5250	69	1	-	Energy Factor Shares, Levels,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250701       	5250	70	1	-	Materials Factor Shares, Levels,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250711       	5250	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250742       	5250	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250743       	5250	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 334 )		1988	A01	2019	A01
+MPU5250762       	5250	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250763       	5250	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 334 )		1988	A01	2019	A01
+MPU5250772       	5250	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250773       	5250	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 334 )		1988	A01	2019	A01
+MPU5250782       	5250	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 334 )		1987	A01	2019	A01
+MPU5250783       	5250	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 334 )		1988	A01	2019	A01
+MPU5300012       	5300	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 335 )	04	1987	A01	2019	A01
+MPU5300013       	5300	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 335 )	04	1988	A01	2019	A01
+MPU5300032       	5300	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 335 )	06	1987	A01	2019	A01
+MPU5300033       	5300	03	3	-	Combined Inputs, % change year ago,  (NAICS 335 )	06	1988	A01	2019	A01
+MPU5300042       	5300	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 335 )	00	1987	A01	2019	A01
+MPU5300043       	5300	04	3	-	Capital Services, % change year ago,  (NAICS 335 )	00	1988	A01	2019	A01
+MPU5300052       	5300	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 335 )	03	1987	A01	2019	A01
+MPU5300053       	5300	05	3	-	Labor Input, % change year ago,  (NAICS 335 )	03	1988	A01	2019	A01
+MPU5300062       	5300	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 335 )	08	1987	A01	2019	A01
+MPU5300063       	5300	06	3	-	Labor Productivity, % change year ago,  (NAICS 335 )	08	1988	A01	2019	A01
+MPU5300072       	5300	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300073       	5300	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 335 )		1988	A01	2019	A01
+MPU5300082       	5300	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 335 )	11	1987	A01	2019	A01
+MPU5300083       	5300	08	3	-	Capital Intensity, % change year ago,  (NAICS 335 )	11	1988	A01	2019	A01
+MPU5300152       	5300	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300153       	5300	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 335 )		1988	A01	2019	A01
+MPU5300162       	5300	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300163       	5300	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 335 )		1988	A01	2019	A01
+MPU5300172       	5300	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300173       	5300	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 335 )		1988	A01	2019	A01
+MPU5300182       	5300	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300183       	5300	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 335 )		1988	A01	2019	A01
+MPU5300192       	5300	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 335)		1987	A01	2019	A01
+MPU5300193       	5300	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 335)		1988	A01	2019	A01
+MPU5300202       	5300	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300203       	5300	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 335 )		1988	A01	2019	A01
+MPU5300512       	5300	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 335 )	05	1987	A01	2019	A01
+MPU5300513       	5300	51	3	-	Sectoral Output, % change year ago,  (NAICS 335 )	05	1988	A01	2019	A01
+MPU5300552       	5300	55	2	2012	Energy, Indexes = 100.000,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300553       	5300	55	3	-	Energy, % change year ago,  (NAICS 335 )		1988	A01	2019	A01
+MPU5300562       	5300	56	2	2012	Materials, Indexes = 100.000,  (NAICS 335 )	07	1987	A01	2019	A01
+MPU5300563       	5300	56	3	-	Materials, % change year ago,  (NAICS 335 )	07	1988	A01	2019	A01
+MPU5300572       	5300	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300573       	5300	57	3	-	Purchased Services, % change year ago,  (NAICS 335 )		1988	A01	2019	A01
+MPU5300611       	5300	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300621       	5300	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300631       	5300	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300641       	5300	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300651       	5300	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300661       	5300	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300671       	5300	67	1	-	Capital Factor Shares, Levels,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300681       	5300	68	1	-	Labor Factor Shares, Levels,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300691       	5300	69	1	-	Energy Factor Shares, Levels,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300701       	5300	70	1	-	Materials Factor Shares, Levels,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300711       	5300	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300742       	5300	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300743       	5300	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 335 )		1988	A01	2019	A01
+MPU5300762       	5300	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300763       	5300	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 335 )		1988	A01	2019	A01
+MPU5300772       	5300	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300773       	5300	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 335 )		1988	A01	2019	A01
+MPU5300782       	5300	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 335 )		1987	A01	2019	A01
+MPU5300783       	5300	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 335 )		1988	A01	2019	A01
+MPU5360012       	5360	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 3361-3363 )	04	1987	A01	2019	A01
+MPU5360013       	5360	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 3361-3363 )	04	1988	A01	2019	A01
+MPU5360032       	5360	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 3361-3363 )	06	1987	A01	2019	A01
+MPU5360033       	5360	03	3	-	Combined Inputs, % change year ago,  (NAICS 3361-3363 )	06	1988	A01	2019	A01
+MPU5360042       	5360	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 3361-3363 )	00	1987	A01	2019	A01
+MPU5360043       	5360	04	3	-	Capital Services, % change year ago,  (NAICS 3361-3363 )	00	1988	A01	2019	A01
+MPU5360052       	5360	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 3361-3363 )	03	1987	A01	2019	A01
+MPU5360053       	5360	05	3	-	Labor Input, % change year ago,  (NAICS 3361-3363 )	03	1988	A01	2019	A01
+MPU5360062       	5360	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 3361-3363 )	08	1987	A01	2019	A01
+MPU5360063       	5360	06	3	-	Labor Productivity, % change year ago,  (NAICS 3361-3363 )	08	1988	A01	2019	A01
+MPU5360072       	5360	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360073       	5360	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 3361-3363 )		1988	A01	2019	A01
+MPU5360082       	5360	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 3361-3363 )	11	1987	A01	2019	A01
+MPU5360083       	5360	08	3	-	Capital Intensity, % change year ago,  (NAICS 3361-3363 )	11	1988	A01	2019	A01
+MPU5360152       	5360	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360153       	5360	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 3361-3363 )		1988	A01	2019	A01
+MPU5360162       	5360	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360163       	5360	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 3361-3363 )		1988	A01	2019	A01
+MPU5360172       	5360	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 336 )		1987	A01	2019	A01
+MPU5360173       	5360	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 336 )		1988	A01	2019	A01
+MPU5360182       	5360	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360183       	5360	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 3361-3363 )		1988	A01	2019	A01
+MPU5360192       	5360	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 3361-3363)		1987	A01	2019	A01
+MPU5360193       	5360	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 3361-3363)		1988	A01	2019	A01
+MPU5360202       	5360	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 336 )		1987	A01	2019	A01
+MPU5360203       	5360	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 336 )		1988	A01	2019	A01
+MPU5360512       	5360	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 3361-3363 )	05	1987	A01	2019	A01
+MPU5360513       	5360	51	3	-	Sectoral Output, % change year ago,  (NAICS 3361-3363 )	05	1988	A01	2019	A01
+MPU5360552       	5360	55	2	2012	Energy, Indexes = 100.000,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360553       	5360	55	3	-	Energy, % change year ago,  (NAICS 3361-3363 )		1988	A01	2019	A01
+MPU5360562       	5360	56	2	2012	Materials, Indexes = 100.000,  (NAICS 3361-3363 )	07	1987	A01	2019	A01
+MPU5360563       	5360	56	3	-	Materials, % change year ago,  (NAICS 3361-3363 )	07	1988	A01	2019	A01
+MPU5360572       	5360	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360573       	5360	57	3	-	Purchased Services, % change year ago,  (NAICS 3361-3363 )		1988	A01	2019	A01
+MPU5360611       	5360	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360621       	5360	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360631       	5360	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360641       	5360	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360651       	5360	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360661       	5360	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360671       	5360	67	1	-	Capital Factor Shares, Levels,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360681       	5360	68	1	-	Labor Factor Shares, Levels,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360691       	5360	69	1	-	Energy Factor Shares, Levels,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360701       	5360	70	1	-	Materials Factor Shares, Levels,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360711       	5360	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360742       	5360	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360743       	5360	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 3361-3363 )		1988	A01	2019	A01
+MPU5360762       	5360	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360763       	5360	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 3361-3363 )		1988	A01	2019	A01
+MPU5360772       	5360	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360773       	5360	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 3361-3363 )		1988	A01	2019	A01
+MPU5360782       	5360	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 3361-3363 )		1987	A01	2019	A01
+MPU5360783       	5360	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 3361-3363 )		1988	A01	2019	A01
+MPU5370012       	5370	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 3364-3369 )	04	1987	A01	2019	A01
+MPU5370013       	5370	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 3364-3369 )	04	1988	A01	2019	A01
+MPU5370032       	5370	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 3364-3369 )	06	1987	A01	2019	A01
+MPU5370033       	5370	03	3	-	Combined Inputs, % change year ago,  (NAICS 3364-3369 )	06	1988	A01	2019	A01
+MPU5370042       	5370	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 3364-3369 )	00	1987	A01	2019	A01
+MPU5370043       	5370	04	3	-	Capital Services, % change year ago,  (NAICS 3364-3369 )	00	1988	A01	2019	A01
+MPU5370052       	5370	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 3364-3369 )	03	1987	A01	2019	A01
+MPU5370053       	5370	05	3	-	Labor Input, % change year ago,  (NAICS 3364-3369 )	03	1988	A01	2019	A01
+MPU5370062       	5370	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 3364-3369 )	08	1987	A01	2019	A01
+MPU5370063       	5370	06	3	-	Labor Productivity, % change year ago,  (NAICS 3364-3369 )	08	1988	A01	2019	A01
+MPU5370072       	5370	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370073       	5370	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 3364-3369 )		1988	A01	2019	A01
+MPU5370082       	5370	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 3364-3369 )	11	1987	A01	2019	A01
+MPU5370083       	5370	08	3	-	Capital Intensity, % change year ago,  (NAICS 3364-3369 )	11	1988	A01	2019	A01
+MPU5370152       	5370	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370153       	5370	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 3364-3369 )		1988	A01	2019	A01
+MPU5370162       	5370	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370163       	5370	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 3364-3369 )		1988	A01	2019	A01
+MPU5370172       	5370	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 336 )		1987	A01	2019	A01
+MPU5370173       	5370	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 336 )		1988	A01	2019	A01
+MPU5370182       	5370	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370183       	5370	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 3364-3369 )		1988	A01	2019	A01
+MPU5370192       	5370	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 3364-3369)		1987	A01	2019	A01
+MPU5370193       	5370	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 3364-3369)		1988	A01	2019	A01
+MPU5370202       	5370	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 336 )		1987	A01	2019	A01
+MPU5370203       	5370	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 336 )		1988	A01	2019	A01
+MPU5370512       	5370	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 3364-3369 )	05	1987	A01	2019	A01
+MPU5370513       	5370	51	3	-	Sectoral Output, % change year ago,  (NAICS 3364-3369 )	05	1988	A01	2019	A01
+MPU5370552       	5370	55	2	2012	Energy, Indexes = 100.000,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370553       	5370	55	3	-	Energy, % change year ago,  (NAICS 3364-3369 )		1988	A01	2019	A01
+MPU5370562       	5370	56	2	2012	Materials, Indexes = 100.000,  (NAICS 3364-3369 )	07	1987	A01	2019	A01
+MPU5370563       	5370	56	3	-	Materials, % change year ago,  (NAICS 3364-3369 )	07	1988	A01	2019	A01
+MPU5370572       	5370	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370573       	5370	57	3	-	Purchased Services, % change year ago,  (NAICS 3364-3369 )		1988	A01	2019	A01
+MPU5370611       	5370	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370621       	5370	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370631       	5370	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370641       	5370	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370651       	5370	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370661       	5370	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370671       	5370	67	1	-	Capital Factor Shares, Levels,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370681       	5370	68	1	-	Labor Factor Shares, Levels,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370691       	5370	69	1	-	Energy Factor Shares, Levels,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370701       	5370	70	1	-	Materials Factor Shares, Levels,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370711       	5370	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370742       	5370	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370743       	5370	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 3364-3369 )		1988	A01	2019	A01
+MPU5370762       	5370	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370763       	5370	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 3364-3369 )		1988	A01	2019	A01
+MPU5370772       	5370	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370773       	5370	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 3364-3369 )		1988	A01	2019	A01
+MPU5370782       	5370	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 3364-3369 )		1987	A01	2019	A01
+MPU5370783       	5370	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 3364-3369 )		1988	A01	2019	A01
+MPU5400012       	5400	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 337 )	04	1987	A01	2019	A01
+MPU5400013       	5400	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 337 )	04	1988	A01	2019	A01
+MPU5400032       	5400	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 337 )	06	1987	A01	2019	A01
+MPU5400033       	5400	03	3	-	Combined Inputs, % change year ago,  (NAICS 337 )	06	1988	A01	2019	A01
+MPU5400042       	5400	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 337 )	00	1987	A01	2019	A01
+MPU5400043       	5400	04	3	-	Capital Services, % change year ago,  (NAICS 337 )	00	1988	A01	2019	A01
+MPU5400052       	5400	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 337 )	03	1987	A01	2019	A01
+MPU5400053       	5400	05	3	-	Labor Input, % change year ago,  (NAICS 337 )	03	1988	A01	2019	A01
+MPU5400062       	5400	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 337 )	08	1987	A01	2019	A01
+MPU5400063       	5400	06	3	-	Labor Productivity, % change year ago,  (NAICS 337 )	08	1988	A01	2019	A01
+MPU5400072       	5400	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400073       	5400	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 337 )		1988	A01	2019	A01
+MPU5400082       	5400	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 337 )	11	1987	A01	2019	A01
+MPU5400083       	5400	08	3	-	Capital Intensity, % change year ago,  (NAICS 337 )	11	1988	A01	2019	A01
+MPU5400152       	5400	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400153       	5400	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 337 )		1988	A01	2019	A01
+MPU5400162       	5400	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400163       	5400	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 337 )		1988	A01	2019	A01
+MPU5400172       	5400	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400173       	5400	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 337 )		1988	A01	2019	A01
+MPU5400182       	5400	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400183       	5400	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 337 )		1988	A01	2019	A01
+MPU5400192       	5400	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 337)		1987	A01	2019	A01
+MPU5400193       	5400	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 337)		1988	A01	2019	A01
+MPU5400202       	5400	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400203       	5400	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 337 )		1988	A01	2019	A01
+MPU5400512       	5400	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 337 )	05	1987	A01	2019	A01
+MPU5400513       	5400	51	3	-	Sectoral Output, % change year ago,  (NAICS 337 )	05	1988	A01	2019	A01
+MPU5400552       	5400	55	2	2012	Energy, Indexes = 100.000,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400553       	5400	55	3	-	Energy, % change year ago,  (NAICS 337 )		1988	A01	2019	A01
+MPU5400562       	5400	56	2	2012	Materials, Indexes = 100.000,  (NAICS 337 )	07	1987	A01	2019	A01
+MPU5400563       	5400	56	3	-	Materials, % change year ago,  (NAICS 337 )	07	1988	A01	2019	A01
+MPU5400572       	5400	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400573       	5400	57	3	-	Purchased Services, % change year ago,  (NAICS 337 )		1988	A01	2019	A01
+MPU5400611       	5400	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400621       	5400	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400631       	5400	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400641       	5400	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400651       	5400	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400661       	5400	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400671       	5400	67	1	-	Capital Factor Shares, Levels,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400681       	5400	68	1	-	Labor Factor Shares, Levels,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400691       	5400	69	1	-	Energy Factor Shares, Levels,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400701       	5400	70	1	-	Materials Factor Shares, Levels,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400711       	5400	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400742       	5400	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400743       	5400	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 337 )		1988	A01	2019	A01
+MPU5400762       	5400	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400763       	5400	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 337 )		1988	A01	2019	A01
+MPU5400772       	5400	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400773       	5400	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 337 )		1988	A01	2019	A01
+MPU5400782       	5400	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 337 )		1987	A01	2019	A01
+MPU5400783       	5400	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 337 )		1988	A01	2019	A01
+MPU5450012       	5450	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 339 )	04	1987	A01	2019	A01
+MPU5450013       	5450	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 339 )	04	1988	A01	2019	A01
+MPU5450032       	5450	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 339 )	06	1987	A01	2019	A01
+MPU5450033       	5450	03	3	-	Combined Inputs, % change year ago,  (NAICS 339 )	06	1988	A01	2019	A01
+MPU5450042       	5450	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 339 )	00	1987	A01	2019	A01
+MPU5450043       	5450	04	3	-	Capital Services, % change year ago,  (NAICS 339 )	00	1988	A01	2019	A01
+MPU5450052       	5450	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 339 )	03	1987	A01	2019	A01
+MPU5450053       	5450	05	3	-	Labor Input, % change year ago,  (NAICS 339 )	03	1988	A01	2019	A01
+MPU5450062       	5450	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 339 )	08	1987	A01	2019	A01
+MPU5450063       	5450	06	3	-	Labor Productivity, % change year ago,  (NAICS 339 )	08	1988	A01	2019	A01
+MPU5450072       	5450	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450073       	5450	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 339 )		1988	A01	2019	A01
+MPU5450082       	5450	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 339 )	11	1987	A01	2019	A01
+MPU5450083       	5450	08	3	-	Capital Intensity, % change year ago,  (NAICS 339 )	11	1988	A01	2019	A01
+MPU5450152       	5450	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450153       	5450	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 339 )		1988	A01	2019	A01
+MPU5450162       	5450	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450163       	5450	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 339 )		1988	A01	2019	A01
+MPU5450172       	5450	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450173       	5450	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 339 )		1988	A01	2019	A01
+MPU5450182       	5450	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450183       	5450	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 339 )		1988	A01	2019	A01
+MPU5450192       	5450	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 339)		1987	A01	2019	A01
+MPU5450193       	5450	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 339)		1988	A01	2019	A01
+MPU5450202       	5450	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450203       	5450	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 339 )		1988	A01	2019	A01
+MPU5450512       	5450	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 339 )	05	1987	A01	2019	A01
+MPU5450513       	5450	51	3	-	Sectoral Output, % change year ago,  (NAICS 339 )	05	1988	A01	2019	A01
+MPU5450552       	5450	55	2	2012	Energy, Indexes = 100.000,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450553       	5450	55	3	-	Energy, % change year ago,  (NAICS 339 )		1988	A01	2019	A01
+MPU5450562       	5450	56	2	2012	Materials, Indexes = 100.000,  (NAICS 339 )	07	1987	A01	2019	A01
+MPU5450563       	5450	56	3	-	Materials, % change year ago,  (NAICS 339 )	07	1988	A01	2019	A01
+MPU5450572       	5450	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450573       	5450	57	3	-	Purchased Services, % change year ago,  (NAICS 339 )		1988	A01	2019	A01
+MPU5450611       	5450	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450621       	5450	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450631       	5450	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450641       	5450	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450651       	5450	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450661       	5450	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450671       	5450	67	1	-	Capital Factor Shares, Levels,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450681       	5450	68	1	-	Labor Factor Shares, Levels,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450691       	5450	69	1	-	Energy Factor Shares, Levels,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450701       	5450	70	1	-	Materials Factor Shares, Levels,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450711       	5450	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450742       	5450	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450743       	5450	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 339 )		1988	A01	2019	A01
+MPU5450762       	5450	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450763       	5450	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 339 )		1988	A01	2019	A01
+MPU5450772       	5450	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450773       	5450	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 339 )		1988	A01	2019	A01
+MPU5450782       	5450	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 339 )		1987	A01	2019	A01
+MPU5450783       	5450	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 339 )		1988	A01	2019	A01
+MPU5500012       	5500	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS  311, 312 )	04	1987	A01	2019	A01
+MPU5500013       	5500	01	3	-	Multifactor Productivity, % change year ago,  (NAICS  311, 312 )	04	1988	A01	2019	A01
+MPU5500032       	5500	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS  311, 312 )	06	1987	A01	2019	A01
+MPU5500033       	5500	03	3	-	Combined Inputs, % change year ago,  (NAICS  311, 312 )	06	1988	A01	2019	A01
+MPU5500042       	5500	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS  311, 312 )	00	1987	A01	2019	A01
+MPU5500043       	5500	04	3	-	Capital Services, % change year ago,  (NAICS  311, 312 )	00	1988	A01	2019	A01
+MPU5500052       	5500	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS  311, 312 )	03	1987	A01	2019	A01
+MPU5500053       	5500	05	3	-	Labor Input, % change year ago,  (NAICS  311, 312 )	03	1988	A01	2019	A01
+MPU5500062       	5500	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS  311, 312 )	08	1987	A01	2019	A01
+MPU5500063       	5500	06	3	-	Labor Productivity, % change year ago,  (NAICS  311, 312 )	08	1988	A01	2019	A01
+MPU5500072       	5500	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500073       	5500	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS  311, 312 )		1988	A01	2019	A01
+MPU5500082       	5500	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS  311, 312 )	11	1987	A01	2019	A01
+MPU5500083       	5500	08	3	-	Capital Intensity, % change year ago,  (NAICS  311, 312 )	11	1988	A01	2019	A01
+MPU5500152       	5500	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500153       	5500	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS  311, 312 )		1988	A01	2019	A01
+MPU5500162       	5500	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500163       	5500	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS  311, 312 )		1988	A01	2019	A01
+MPU5500172       	5500	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500173       	5500	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS  311, 312 )		1988	A01	2019	A01
+MPU5500182       	5500	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500183       	5500	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS  311, 312 )		1988	A01	2019	A01
+MPU5500192       	5500	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 311,312)		1987	A01	2019	A01
+MPU5500193       	5500	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 311,312)		1988	A01	2019	A01
+MPU5500202       	5500	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500203       	5500	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS  311, 312 )		1988	A01	2019	A01
+MPU5500512       	5500	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS  311, 312 )	05	1987	A01	2019	A01
+MPU5500513       	5500	51	3	-	Sectoral Output, % change year ago,  (NAICS  311, 312 )	05	1988	A01	2019	A01
+MPU5500552       	5500	55	2	2012	Energy, Indexes = 100.000,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500553       	5500	55	3	-	Energy, % change year ago,  (NAICS  311, 312 )		1988	A01	2019	A01
+MPU5500562       	5500	56	2	2012	Materials, Indexes = 100.000,  (NAICS  311, 312 )	07	1987	A01	2019	A01
+MPU5500563       	5500	56	3	-	Materials, % change year ago,  (NAICS  311, 312 )	07	1988	A01	2019	A01
+MPU5500572       	5500	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500573       	5500	57	3	-	Purchased Services, % change year ago,  (NAICS  311, 312 )		1988	A01	2019	A01
+MPU5500611       	5500	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500621       	5500	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500631       	5500	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500641       	5500	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500651       	5500	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500661       	5500	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500671       	5500	67	1	-	Capital Factor Shares, Levels,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500681       	5500	68	1	-	Labor Factor Shares, Levels,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500691       	5500	69	1	-	Energy Factor Shares, Levels,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500701       	5500	70	1	-	Materials Factor Shares, Levels,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500711       	5500	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500742       	5500	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500743       	5500	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS  311, 312 )		1988	A01	2019	A01
+MPU5500762       	5500	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500763       	5500	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS  311, 312 )		1988	A01	2019	A01
+MPU5500772       	5500	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500773       	5500	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS  311, 312 )		1988	A01	2019	A01
+MPU5500782       	5500	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS  311, 312 )		1987	A01	2019	A01
+MPU5500783       	5500	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS  311, 312 )		1988	A01	2019	A01
+MPU5550012       	5550	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 313, 314 )	04	1987	A01	2019	A01
+MPU5550013       	5550	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 313, 314 )	04	1988	A01	2019	A01
+MPU5550032       	5550	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 313, 314 )	06	1987	A01	2019	A01
+MPU5550033       	5550	03	3	-	Combined Inputs, % change year ago,  (NAICS 313, 314 )	06	1988	A01	2019	A01
+MPU5550042       	5550	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 313, 314 )	00	1987	A01	2019	A01
+MPU5550043       	5550	04	3	-	Capital Services, % change year ago,  (NAICS 313, 314 )	00	1988	A01	2019	A01
+MPU5550052       	5550	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 313, 314 )	03	1987	A01	2019	A01
+MPU5550053       	5550	05	3	-	Labor Input, % change year ago,  (NAICS 313, 314 )	03	1988	A01	2019	A01
+MPU5550062       	5550	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 313, 314 )	08	1987	A01	2019	A01
+MPU5550063       	5550	06	3	-	Labor Productivity, % change year ago,  (NAICS 313, 314 )	08	1988	A01	2019	A01
+MPU5550072       	5550	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550073       	5550	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 313, 314 )		1988	A01	2019	A01
+MPU5550082       	5550	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 313, 314 )	11	1987	A01	2019	A01
+MPU5550083       	5550	08	3	-	Capital Intensity, % change year ago,  (NAICS 313, 314 )	11	1988	A01	2019	A01
+MPU5550152       	5550	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550153       	5550	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 313, 314 )		1988	A01	2019	A01
+MPU5550162       	5550	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550163       	5550	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 313, 314 )		1988	A01	2019	A01
+MPU5550172       	5550	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550173       	5550	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 313, 314 )		1988	A01	2019	A01
+MPU5550182       	5550	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550183       	5550	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 313, 314 )		1988	A01	2019	A01
+MPU5550192       	5550	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 313,314)		1987	A01	2019	A01
+MPU5550193       	5550	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 313,314)		1988	A01	2019	A01
+MPU5550202       	5550	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550203       	5550	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 313, 314 )		1988	A01	2019	A01
+MPU5550512       	5550	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 313, 314 )	05	1987	A01	2019	A01
+MPU5550513       	5550	51	3	-	Sectoral Output, % change year ago,  (NAICS 313, 314 )	05	1988	A01	2019	A01
+MPU5550552       	5550	55	2	2012	Energy, Indexes = 100.000,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550553       	5550	55	3	-	Energy, % change year ago,  (NAICS 313, 314 )		1988	A01	2019	A01
+MPU5550562       	5550	56	2	2012	Materials, Indexes = 100.000,  (NAICS 313, 314 )	07	1987	A01	2019	A01
+MPU5550563       	5550	56	3	-	Materials, % change year ago,  (NAICS 313, 314 )	07	1988	A01	2019	A01
+MPU5550572       	5550	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550573       	5550	57	3	-	Purchased Services, % change year ago,  (NAICS 313, 314 )		1988	A01	2019	A01
+MPU5550611       	5550	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550621       	5550	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550631       	5550	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550641       	5550	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550651       	5550	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550661       	5550	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550671       	5550	67	1	-	Capital Factor Shares, Levels,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550681       	5550	68	1	-	Labor Factor Shares, Levels,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550691       	5550	69	1	-	Energy Factor Shares, Levels,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550701       	5550	70	1	-	Materials Factor Shares, Levels,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550711       	5550	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550742       	5550	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550743       	5550	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 313, 314 )		1988	A01	2019	A01
+MPU5550762       	5550	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550763       	5550	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 313, 314 )		1988	A01	2019	A01
+MPU5550772       	5550	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550773       	5550	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 313, 314 )		1988	A01	2019	A01
+MPU5550782       	5550	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 313, 314 )		1987	A01	2019	A01
+MPU5550783       	5550	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 313, 314 )		1988	A01	2019	A01
+MPU5600012       	5600	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 315, 316 )	04	1987	A01	2019	A01
+MPU5600013       	5600	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 315, 316 )	04	1988	A01	2019	A01
+MPU5600032       	5600	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 315, 316 )	06	1987	A01	2019	A01
+MPU5600033       	5600	03	3	-	Combined Inputs, % change year ago,  (NAICS 315, 316 )	06	1988	A01	2019	A01
+MPU5600042       	5600	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 315, 316 )	00	1987	A01	2019	A01
+MPU5600043       	5600	04	3	-	Capital Services, % change year ago,  (NAICS 315, 316 )	00	1988	A01	2019	A01
+MPU5600052       	5600	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 315, 316 )	03	1987	A01	2019	A01
+MPU5600053       	5600	05	3	-	Labor Input, % change year ago,  (NAICS 315, 316 )	03	1988	A01	2019	A01
+MPU5600062       	5600	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 315, 316 )	08	1987	A01	2019	A01
+MPU5600063       	5600	06	3	-	Labor Productivity, % change year ago,  (NAICS 315, 316 )	08	1988	A01	2019	A01
+MPU5600072       	5600	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600073       	5600	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 315, 316 )		1988	A01	2019	A01
+MPU5600082       	5600	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 315, 316 )	11	1987	A01	2019	A01
+MPU5600083       	5600	08	3	-	Capital Intensity, % change year ago,  (NAICS 315, 316 )	11	1988	A01	2019	A01
+MPU5600152       	5600	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600153       	5600	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 315, 316 )		1988	A01	2019	A01
+MPU5600162       	5600	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600163       	5600	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 315, 316 )		1988	A01	2019	A01
+MPU5600172       	5600	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600173       	5600	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 315, 316 )		1988	A01	2019	A01
+MPU5600182       	5600	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600183       	5600	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 315, 316 )		1988	A01	2019	A01
+MPU5600192       	5600	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 315,316)		1987	A01	2019	A01
+MPU5600193       	5600	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 315,316)		1988	A01	2019	A01
+MPU5600202       	5600	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600203       	5600	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 315, 316 )		1988	A01	2019	A01
+MPU5600512       	5600	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 315, 316 )	05	1987	A01	2019	A01
+MPU5600513       	5600	51	3	-	Sectoral Output, % change year ago,  (NAICS 315, 316 )	05	1988	A01	2019	A01
+MPU5600552       	5600	55	2	2012	Energy, Indexes = 100.000,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600553       	5600	55	3	-	Energy, % change year ago,  (NAICS 315, 316 )		1988	A01	2019	A01
+MPU5600562       	5600	56	2	2012	Materials, Indexes = 100.000,  (NAICS 315, 316 )	07	1987	A01	2019	A01
+MPU5600563       	5600	56	3	-	Materials, % change year ago,  (NAICS 315, 316 )	07	1988	A01	2019	A01
+MPU5600572       	5600	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600573       	5600	57	3	-	Purchased Services, % change year ago,  (NAICS 315, 316 )		1988	A01	2019	A01
+MPU5600611       	5600	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600621       	5600	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600631       	5600	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600641       	5600	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600651       	5600	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600661       	5600	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600671       	5600	67	1	-	Capital Factor Shares, Levels,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600681       	5600	68	1	-	Labor Factor Shares, Levels,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600691       	5600	69	1	-	Energy Factor Shares, Levels,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600701       	5600	70	1	-	Materials Factor Shares, Levels,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600711       	5600	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600742       	5600	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600743       	5600	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 315, 316 )		1988	A01	2019	A01
+MPU5600762       	5600	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600763       	5600	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 315, 316 )		1988	A01	2019	A01
+MPU5600772       	5600	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600773       	5600	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 315, 316 )		1988	A01	2019	A01
+MPU5600782       	5600	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 315, 316 )		1987	A01	2019	A01
+MPU5600783       	5600	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 315, 316 )		1988	A01	2019	A01
+MPU5650012       	5650	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 322 )	04	1987	A01	2019	A01
+MPU5650013       	5650	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 322 )	04	1988	A01	2019	A01
+MPU5650032       	5650	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 322 )	06	1987	A01	2019	A01
+MPU5650033       	5650	03	3	-	Combined Inputs, % change year ago,  (NAICS 322 )	06	1988	A01	2019	A01
+MPU5650042       	5650	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 322 )	00	1987	A01	2019	A01
+MPU5650043       	5650	04	3	-	Capital Services, % change year ago,  (NAICS 322 )	00	1988	A01	2019	A01
+MPU5650052       	5650	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 322 )	03	1987	A01	2019	A01
+MPU5650053       	5650	05	3	-	Labor Input, % change year ago,  (NAICS 322 )	03	1988	A01	2019	A01
+MPU5650062       	5650	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 322 )	08	1987	A01	2019	A01
+MPU5650063       	5650	06	3	-	Labor Productivity, % change year ago,  (NAICS 322 )	08	1988	A01	2019	A01
+MPU5650072       	5650	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650073       	5650	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 322 )		1988	A01	2019	A01
+MPU5650082       	5650	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 322 )	11	1987	A01	2019	A01
+MPU5650083       	5650	08	3	-	Capital Intensity, % change year ago,  (NAICS 322 )	11	1988	A01	2019	A01
+MPU5650152       	5650	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650153       	5650	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 322 )		1988	A01	2019	A01
+MPU5650162       	5650	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650163       	5650	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 322 )		1988	A01	2019	A01
+MPU5650172       	5650	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650173       	5650	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 322 )		1988	A01	2019	A01
+MPU5650182       	5650	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650183       	5650	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 322 )		1988	A01	2019	A01
+MPU5650192       	5650	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 322)		1987	A01	2019	A01
+MPU5650193       	5650	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 322)		1988	A01	2019	A01
+MPU5650202       	5650	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650203       	5650	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 322 )		1988	A01	2019	A01
+MPU5650512       	5650	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 322 )	05	1987	A01	2019	A01
+MPU5650513       	5650	51	3	-	Sectoral Output, % change year ago,  (NAICS 322 )	05	1988	A01	2019	A01
+MPU5650552       	5650	55	2	2012	Energy, Indexes = 100.000,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650553       	5650	55	3	-	Energy, % change year ago,  (NAICS 322 )		1988	A01	2019	A01
+MPU5650562       	5650	56	2	2012	Materials, Indexes = 100.000,  (NAICS 322 )	07	1987	A01	2019	A01
+MPU5650563       	5650	56	3	-	Materials, % change year ago,  (NAICS 322 )	07	1988	A01	2019	A01
+MPU5650572       	5650	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650573       	5650	57	3	-	Purchased Services, % change year ago,  (NAICS 322 )		1988	A01	2019	A01
+MPU5650611       	5650	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650621       	5650	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650631       	5650	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650641       	5650	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650651       	5650	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650661       	5650	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650671       	5650	67	1	-	Capital Factor Shares, Levels,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650681       	5650	68	1	-	Labor Factor Shares, Levels,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650691       	5650	69	1	-	Energy Factor Shares, Levels,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650701       	5650	70	1	-	Materials Factor Shares, Levels,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650711       	5650	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650742       	5650	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650743       	5650	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 322 )		1988	A01	2019	A01
+MPU5650762       	5650	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650763       	5650	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 322 )		1988	A01	2019	A01
+MPU5650772       	5650	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650773       	5650	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 322 )		1988	A01	2019	A01
+MPU5650782       	5650	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 322 )		1987	A01	2019	A01
+MPU5650783       	5650	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 322 )		1988	A01	2019	A01
+MPU5700012       	5700	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 323 )	04	1987	A01	2019	A01
+MPU5700013       	5700	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 323 )	04	1988	A01	2019	A01
+MPU5700032       	5700	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 323 )	06	1987	A01	2019	A01
+MPU5700033       	5700	03	3	-	Combined Inputs, % change year ago,  (NAICS 323 )	06	1988	A01	2019	A01
+MPU5700042       	5700	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 323 )	00	1987	A01	2019	A01
+MPU5700043       	5700	04	3	-	Capital Services, % change year ago,  (NAICS 323 )	00	1988	A01	2019	A01
+MPU5700052       	5700	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 323 )	03	1987	A01	2019	A01
+MPU5700053       	5700	05	3	-	Labor Input, % change year ago,  (NAICS 323 )	03	1988	A01	2019	A01
+MPU5700062       	5700	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 323 )	08	1987	A01	2019	A01
+MPU5700063       	5700	06	3	-	Labor Productivity, % change year ago,  (NAICS 323 )	08	1988	A01	2019	A01
+MPU5700072       	5700	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700073       	5700	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 323 )		1988	A01	2019	A01
+MPU5700082       	5700	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 323 )	11	1987	A01	2019	A01
+MPU5700083       	5700	08	3	-	Capital Intensity, % change year ago,  (NAICS 323 )	11	1988	A01	2019	A01
+MPU5700152       	5700	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700153       	5700	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 323 )		1988	A01	2019	A01
+MPU5700162       	5700	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700163       	5700	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 323 )		1988	A01	2019	A01
+MPU5700172       	5700	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700173       	5700	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 323 )		1988	A01	2019	A01
+MPU5700182       	5700	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700183       	5700	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 323 )		1988	A01	2019	A01
+MPU5700192       	5700	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 323)		1987	A01	2019	A01
+MPU5700193       	5700	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 323)		1988	A01	2019	A01
+MPU5700202       	5700	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700203       	5700	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 323 )		1988	A01	2019	A01
+MPU5700512       	5700	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 323 )	05	1987	A01	2019	A01
+MPU5700513       	5700	51	3	-	Sectoral Output, % change year ago,  (NAICS 323 )	05	1988	A01	2019	A01
+MPU5700552       	5700	55	2	2012	Energy, Indexes = 100.000,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700553       	5700	55	3	-	Energy, % change year ago,  (NAICS 323 )		1988	A01	2019	A01
+MPU5700562       	5700	56	2	2012	Materials, Indexes = 100.000,  (NAICS 323 )	07	1987	A01	2019	A01
+MPU5700563       	5700	56	3	-	Materials, % change year ago,  (NAICS 323 )	07	1988	A01	2019	A01
+MPU5700572       	5700	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700573       	5700	57	3	-	Purchased Services, % change year ago,  (NAICS 323 )		1988	A01	2019	A01
+MPU5700611       	5700	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700621       	5700	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700631       	5700	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700641       	5700	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700651       	5700	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700661       	5700	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700671       	5700	67	1	-	Capital Factor Shares, Levels,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700681       	5700	68	1	-	Labor Factor Shares, Levels,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700691       	5700	69	1	-	Energy Factor Shares, Levels,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700701       	5700	70	1	-	Materials Factor Shares, Levels,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700711       	5700	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700742       	5700	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700743       	5700	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 323 )		1988	A01	2019	A01
+MPU5700762       	5700	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700763       	5700	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 323 )		1988	A01	2019	A01
+MPU5700772       	5700	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700773       	5700	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 323 )		1988	A01	2019	A01
+MPU5700782       	5700	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 323 )		1987	A01	2019	A01
+MPU5700783       	5700	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 323 )		1988	A01	2019	A01
+MPU5750012       	5750	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 324 )	04	1987	A01	2019	A01
+MPU5750013       	5750	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 324 )	04	1988	A01	2019	A01
+MPU5750032       	5750	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 324 )	06	1987	A01	2019	A01
+MPU5750033       	5750	03	3	-	Combined Inputs, % change year ago,  (NAICS 324 )	06	1988	A01	2019	A01
+MPU5750042       	5750	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 324 )	00	1987	A01	2019	A01
+MPU5750043       	5750	04	3	-	Capital Services, % change year ago,  (NAICS 324 )	00	1988	A01	2019	A01
+MPU5750052       	5750	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 324 )	03	1987	A01	2019	A01
+MPU5750053       	5750	05	3	-	Labor Input, % change year ago,  (NAICS 324 )	03	1988	A01	2019	A01
+MPU5750062       	5750	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 324 )	08	1987	A01	2019	A01
+MPU5750063       	5750	06	3	-	Labor Productivity, % change year ago,  (NAICS 324 )	08	1988	A01	2019	A01
+MPU5750072       	5750	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750073       	5750	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 324 )		1988	A01	2019	A01
+MPU5750082       	5750	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 324 )	11	1987	A01	2019	A01
+MPU5750083       	5750	08	3	-	Capital Intensity, % change year ago,  (NAICS 324 )	11	1988	A01	2019	A01
+MPU5750152       	5750	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750153       	5750	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 324 )		1988	A01	2019	A01
+MPU5750162       	5750	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750163       	5750	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 324 )		1988	A01	2019	A01
+MPU5750172       	5750	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750173       	5750	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 324 )		1988	A01	2019	A01
+MPU5750182       	5750	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750183       	5750	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 324 )		1988	A01	2019	A01
+MPU5750192       	5750	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 324)		1987	A01	2019	A01
+MPU5750193       	5750	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 324)		1988	A01	2019	A01
+MPU5750202       	5750	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750203       	5750	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 324 )		1988	A01	2019	A01
+MPU5750512       	5750	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 324 )	05	1987	A01	2019	A01
+MPU5750513       	5750	51	3	-	Sectoral Output, % change year ago,  (NAICS 324 )	05	1988	A01	2019	A01
+MPU5750552       	5750	55	2	2012	Energy, Indexes = 100.000,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750553       	5750	55	3	-	Energy, % change year ago,  (NAICS 324 )		1988	A01	2019	A01
+MPU5750562       	5750	56	2	2012	Materials, Indexes = 100.000,  (NAICS 324 )	07	1987	A01	2019	A01
+MPU5750563       	5750	56	3	-	Materials, % change year ago,  (NAICS 324 )	07	1988	A01	2019	A01
+MPU5750572       	5750	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750573       	5750	57	3	-	Purchased Services, % change year ago,  (NAICS 324 )		1988	A01	2019	A01
+MPU5750611       	5750	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750621       	5750	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750631       	5750	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750641       	5750	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750651       	5750	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750661       	5750	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750671       	5750	67	1	-	Capital Factor Shares, Levels,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750681       	5750	68	1	-	Labor Factor Shares, Levels,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750691       	5750	69	1	-	Energy Factor Shares, Levels,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750701       	5750	70	1	-	Materials Factor Shares, Levels,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750711       	5750	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750742       	5750	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750743       	5750	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 324 )		1988	A01	2019	A01
+MPU5750762       	5750	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750763       	5750	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 324 )		1988	A01	2019	A01
+MPU5750772       	5750	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750773       	5750	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 324 )		1988	A01	2019	A01
+MPU5750782       	5750	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 324 )		1987	A01	2019	A01
+MPU5750783       	5750	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 324 )		1988	A01	2019	A01
+MPU5800012       	5800	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 325 )	04	1987	A01	2019	A01
+MPU5800013       	5800	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 325 )	04	1988	A01	2019	A01
+MPU5800032       	5800	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 325 )	06	1987	A01	2019	A01
+MPU5800033       	5800	03	3	-	Combined Inputs, % change year ago,  (NAICS 325 )	06	1988	A01	2019	A01
+MPU5800042       	5800	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 325 )	00	1987	A01	2019	A01
+MPU5800043       	5800	04	3	-	Capital Services, % change year ago,  (NAICS 325 )	00	1988	A01	2019	A01
+MPU5800052       	5800	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 325 )	03	1987	A01	2019	A01
+MPU5800053       	5800	05	3	-	Labor Input, % change year ago,  (NAICS 325 )	03	1988	A01	2019	A01
+MPU5800062       	5800	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 325 )	08	1987	A01	2019	A01
+MPU5800063       	5800	06	3	-	Labor Productivity, % change year ago,  (NAICS 325 )	08	1988	A01	2019	A01
+MPU5800072       	5800	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800073       	5800	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 325 )		1988	A01	2019	A01
+MPU5800082       	5800	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 325 )	11	1987	A01	2019	A01
+MPU5800083       	5800	08	3	-	Capital Intensity, % change year ago,  (NAICS 325 )	11	1988	A01	2019	A01
+MPU5800152       	5800	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800153       	5800	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 325 )		1988	A01	2019	A01
+MPU5800162       	5800	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800163       	5800	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 325 )		1988	A01	2019	A01
+MPU5800172       	5800	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800173       	5800	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 325 )		1988	A01	2019	A01
+MPU5800182       	5800	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800183       	5800	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 325 )		1988	A01	2019	A01
+MPU5800192       	5800	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 325)		1987	A01	2019	A01
+MPU5800193       	5800	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 325)		1988	A01	2019	A01
+MPU5800202       	5800	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800203       	5800	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 325 )		1988	A01	2019	A01
+MPU5800512       	5800	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 325 )	05	1987	A01	2019	A01
+MPU5800513       	5800	51	3	-	Sectoral Output, % change year ago,  (NAICS 325 )	05	1988	A01	2019	A01
+MPU5800552       	5800	55	2	2012	Energy, Indexes = 100.000,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800553       	5800	55	3	-	Energy, % change year ago,  (NAICS 325 )		1988	A01	2019	A01
+MPU5800562       	5800	56	2	2012	Materials, Indexes = 100.000,  (NAICS 325 )	07	1987	A01	2019	A01
+MPU5800563       	5800	56	3	-	Materials, % change year ago,  (NAICS 325 )	07	1988	A01	2019	A01
+MPU5800572       	5800	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800573       	5800	57	3	-	Purchased Services, % change year ago,  (NAICS 325 )		1988	A01	2019	A01
+MPU5800611       	5800	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800621       	5800	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800631       	5800	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800641       	5800	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800651       	5800	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800661       	5800	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800671       	5800	67	1	-	Capital Factor Shares, Levels,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800681       	5800	68	1	-	Labor Factor Shares, Levels,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800691       	5800	69	1	-	Energy Factor Shares, Levels,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800701       	5800	70	1	-	Materials Factor Shares, Levels,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800711       	5800	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800742       	5800	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800743       	5800	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 325 )		1988	A01	2019	A01
+MPU5800762       	5800	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800763       	5800	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 325 )		1988	A01	2019	A01
+MPU5800772       	5800	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800773       	5800	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 325 )		1988	A01	2019	A01
+MPU5800782       	5800	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 325 )		1987	A01	2019	A01
+MPU5800783       	5800	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 325 )		1988	A01	2019	A01
+MPU5850012       	5850	01	2	2012	Multifactor Productivity, Indexes = 100.000,  (NAICS 326 )	04	1987	A01	2019	A01
+MPU5850013       	5850	01	3	-	Multifactor Productivity, % change year ago,  (NAICS 326 )	04	1988	A01	2019	A01
+MPU5850032       	5850	03	2	2012	Combined Inputs, Indexes = 100.000,  (NAICS 326 )	06	1987	A01	2019	A01
+MPU5850033       	5850	03	3	-	Combined Inputs, % change year ago,  (NAICS 326 )	06	1988	A01	2019	A01
+MPU5850042       	5850	04	2	2012	Capital Services, Indexes = 100.000,  (NAICS 326 )	00	1987	A01	2019	A01
+MPU5850043       	5850	04	3	-	Capital Services, % change year ago,  (NAICS 326 )	00	1988	A01	2019	A01
+MPU5850052       	5850	05	2	2012	Labor Input, Indexes = 100.000,  (NAICS 326 )	03	1987	A01	2019	A01
+MPU5850053       	5850	05	3	-	Labor Input, % change year ago,  (NAICS 326 )	03	1988	A01	2019	A01
+MPU5850062       	5850	06	2	2012	Labor Productivity, Indexes = 100.000,  (NAICS 326 )	08	1987	A01	2019	A01
+MPU5850063       	5850	06	3	-	Labor Productivity, % change year ago,  (NAICS 326 )	08	1988	A01	2019	A01
+MPU5850072       	5850	07	2	2012	Output per unit of Capital Services, Indexes = 100.000,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850073       	5850	07	3	-	Output per unit of Capital Services, % change year ago,  (NAICS 326 )		1988	A01	2019	A01
+MPU5850082       	5850	08	2	2012	Capital Intensity, Indexes = 100.000,  (NAICS 326 )	11	1987	A01	2019	A01
+MPU5850083       	5850	08	3	-	Capital Intensity, % change year ago,  (NAICS 326 )	11	1988	A01	2019	A01
+MPU5850152       	5850	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850153       	5850	15	3	-	Contribution of Capital Intensity, % change year ago,  (NAICS 326 )		1988	A01	2019	A01
+MPU5850162       	5850	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850163       	5850	16	3	-	Contribution of Information Capital Intensity, % change year ago,  (NAICS 326 )		1988	A01	2019	A01
+MPU5850172       	5850	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850173       	5850	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago,  (NAICS 326 )		1988	A01	2019	A01
+MPU5850182       	5850	18	2	2012	Contribution of Labor Composition, Indexes = 100.000,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850183       	5850	18	3	-	Contribution of Labor Composition, % change year ago,  (NAICS 326 )		1988	A01	2019	A01
+MPU5850192       	5850	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, (NAICS 326)		1987	A01	2019	A01
+MPU5850193       	5850	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % Change Year Ago, (NAICS 326)		1988	A01	2019	A01
+MPU5850202       	5850	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850203       	5850	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago,  (NAICS 326 )		1988	A01	2019	A01
+MPU5850512       	5850	51	2	2012	Sectoral Output, Indexes = 100.000,  (NAICS 326 )	05	1987	A01	2019	A01
+MPU5850513       	5850	51	3	-	Sectoral Output, % change year ago,  (NAICS 326 )	05	1988	A01	2019	A01
+MPU5850552       	5850	55	2	2012	Energy, Indexes = 100.000,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850553       	5850	55	3	-	Energy, % change year ago,  (NAICS 326 )		1988	A01	2019	A01
+MPU5850562       	5850	56	2	2012	Materials, Indexes = 100.000,  (NAICS 326 )	07	1987	A01	2019	A01
+MPU5850563       	5850	56	3	-	Materials, % change year ago,  (NAICS 326 )	07	1988	A01	2019	A01
+MPU5850572       	5850	57	2	2012	Purchased Services, Indexes = 100.000,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850573       	5850	57	3	-	Purchased Services, % change year ago,  (NAICS 326 )		1988	A01	2019	A01
+MPU5850611       	5850	61	1	-	Value of Production, billions of current dollars, Levels,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850621       	5850	62	1	-	Capital Payments, billions of current dollars, Levels,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850631       	5850	63	1	-	Cost of Labor, billions of current dollars, Levels,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850641       	5850	64	1	-	Cost of Energy, billions of current dollars, Levels,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850651       	5850	65	1	-	Cost of Materials, billions of current dollars, Levels,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850661       	5850	66	1	-	Cost of Purchased Services, billions of current dollars, Levels,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850671       	5850	67	1	-	Capital Factor Shares, Levels,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850681       	5850	68	1	-	Labor Factor Shares, Levels,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850691       	5850	69	1	-	Energy Factor Shares, Levels,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850701       	5850	70	1	-	Materials Factor Shares, Levels,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850711       	5850	71	1	-	Purchased Services Factor Shares, Levels,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850742       	5850	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850743       	5850	74	3	-	Contribution of Energy Intensity, % change year ago,  (NAICS 326 )		1988	A01	2019	A01
+MPU5850762       	5850	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850763       	5850	76	3	-	Contribution of Materials Intensity, % change year ago,  (NAICS 326 )		1988	A01	2019	A01
+MPU5850772       	5850	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850773       	5850	77	3	-	Contribution of Purchased Services Intensity, % change year ago,  (NAICS 326 )		1988	A01	2019	A01
+MPU5850782       	5850	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000,  (NAICS 326 )		1987	A01	2019	A01
+MPU5850783       	5850	78	3	-	Contribution of Intermediate Inputs, % change year ago,  (NAICS 326 )		1988	A01	2019	A01
+MPU9900012       	9900	01	2	2012	Multifactor Productivity, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)	04	1987	A01	2019	A01
+MPU9900013       	9900	01	3	-	Multifactor Productivity, % change year ago, Manufacturing Sector (NAICS  311-339)	04	1988	A01	2019	A01
+MPU9900032       	9900	03	2	2012	Combined Inputs, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)	06	1987	A01	2019	A01
+MPU9900033       	9900	03	3	-	Combined Inputs, % change year ago, Manufacturing Sector (NAICS  311-339)	06	1988	A01	2019	A01
+MPU9900042       	9900	04	2	2012	Capital Services, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)	00	1987	A01	2019	A01
+MPU9900043       	9900	04	3	-	Capital Services, % change year ago, Manufacturing Sector (NAICS  311-339)	00	1988	A01	2019	A01
+MPU9900052       	9900	05	2	2012	Labor Input, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)	03	1987	A01	2019	A01
+MPU9900053       	9900	05	3	-	Labor Input, % change year ago, Manufacturing Sector (NAICS  311-339)	03	1988	A01	2019	A01
+MPU9900062       	9900	06	2	2012	Labor Productivity, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)	08	1987	A01	2019	A01
+MPU9900063       	9900	06	3	-	Labor Productivity, % change year ago, Manufacturing Sector (NAICS  311-339)	08	1988	A01	2019	A01
+MPU9900072       	9900	07	2	2012	Output per unit of Capital Services, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900073       	9900	07	3	-	Output per unit of Capital Services, % change year ago, Manufacturing Sector (NAICS  311-339)		1988	A01	2019	A01
+MPU9900082       	9900	08	2	2012	Capital Intensity, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)	11	1987	A01	2019	A01
+MPU9900083       	9900	08	3	-	Capital Intensity, % change year ago, Manufacturing Sector (NAICS  311-339)	11	1988	A01	2019	A01
+MPU9900152       	9900	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900153       	9900	15	3	-	Contribution of Capital Intensity, % change year ago, Manufacturing Sector (NAICS  311-339)		1988	A01	2019	A01
+MPU9900162       	9900	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900163       	9900	16	3	-	Contribution of Information Capital Intensity, % change year ago, Manufacturing Sector (NAICS  311-339)		1988	A01	2019	A01
+MPU9900172       	9900	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900173       	9900	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago, Manufacturing Sector (NAICS  311-339)		1988	A01	2019	A01
+MPU9900182       	9900	18	2	2012	Contribution of Labor Composition, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900183       	9900	18	3	-	Contribution of Labor Composition, % change year ago, Manufacturing Sector (NAICS  311-339)		1988	A01	2019	A01
+MPU9900192       	9900	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900193       	9900	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % change year ago, Manufacturing Sector (NAICS  311-339)		1988	A01	2019	A01
+MPU9900202       	9900	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900203       	9900	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago, Manufacturing Sector (NAICS  311-339)		1988	A01	2019	A01
+MPU9900512       	9900	51	2	2012	Sectoral Output, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)	05	1987	A01	2019	A01
+MPU9900513       	9900	51	3	-	Sectoral Output, % change year ago, Manufacturing Sector (NAICS  311-339)	05	1988	A01	2019	A01
+MPU9900552       	9900	55	2	2012	Energy, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900553       	9900	55	3	-	Energy, % change year ago, Manufacturing Sector (NAICS  311-339)		1988	A01	2019	A01
+MPU9900562       	9900	56	2	2012	Materials, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)	07	1987	A01	2019	A01
+MPU9900563       	9900	56	3	-	Materials, % change year ago, Manufacturing Sector (NAICS  311-339)	07	1988	A01	2019	A01
+MPU9900572       	9900	57	2	2012	Purchased Services, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900573       	9900	57	3	-	Purchased Services, % change year ago, Manufacturing Sector (NAICS  311-339)		1988	A01	2019	A01
+MPU9900611       	9900	61	1	-	Value of Production, billions of current dollars, Levels, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900621       	9900	62	1	-	Capital Payments, billions of current dollars, Levels, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900631       	9900	63	1	-	Cost of Labor, billions of current dollars, Levels, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900641       	9900	64	1	-	Cost of Energy, billions of current dollars, Levels, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900651       	9900	65	1	-	Cost of Materials, billions of current dollars, Levels, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900661       	9900	66	1	-	Cost of Purchased Services, billions of current dollars, Levels, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900671       	9900	67	1	-	Capital Factor Shares, Levels, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900681       	9900	68	1	-	Labor Factor Shares, Levels, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900691       	9900	69	1	-	Energy Factor Shares, Levels, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900701       	9900	70	1	-	Materials Factor Shares, Levels, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900711       	9900	71	1	-	Purchased Services Factor Shares, Levels, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900742       	9900	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900743       	9900	74	3	-	Contribution of Energy Intensity, % change year ago, Manufacturing Sector (NAICS  311-339)		1988	A01	2019	A01
+MPU9900762       	9900	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900763       	9900	76	3	-	Contribution of Materials Intensity, % change year ago, Manufacturing Sector (NAICS  311-339)		1988	A01	2019	A01
+MPU9900772       	9900	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900773       	9900	77	3	-	Contribution of Purchased Services Intensity, % change year ago, Manufacturing Sector (NAICS  311-339)		1988	A01	2019	A01
+MPU9900782       	9900	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000, Manufacturing Sector (NAICS  311-339)		1987	A01	2019	A01
+MPU9900783       	9900	78	3	-	Contribution of Intermediate Inputs, % change year ago, Manufacturing Sector (NAICS  311-339)		1988	A01	2019	A01
+MPU9910012       	9910	01	2	2012	Multifactor Productivity, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)	04	1987	A01	2019	A01
+MPU9910013       	9910	01	3	-	Multifactor Productivity, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)	04	1988	A01	2019	A01
+MPU9910032       	9910	03	2	2012	Combined Inputs, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)	06	1987	A01	2019	A01
+MPU9910033       	9910	03	3	-	Combined Inputs, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)	06	1988	A01	2019	A01
+MPU9910042       	9910	04	2	2012	Capital Services, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)	00	1987	A01	2019	A01
+MPU9910043       	9910	04	3	-	Capital Services, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)	00	1988	A01	2019	A01
+MPU9910052       	9910	05	2	2012	Labor Input, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)	03	1987	A01	2019	A01
+MPU9910053       	9910	05	3	-	Labor Input, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)	03	1988	A01	2019	A01
+MPU9910062       	9910	06	2	2012	Labor Productivity, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)	08	1987	A01	2019	A01
+MPU9910063       	9910	06	3	-	Labor Productivity, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)	08	1988	A01	2019	A01
+MPU9910072       	9910	07	2	2012	Output per unit of Capital Services, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910073       	9910	07	3	-	Output per unit of Capital Services, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1988	A01	2019	A01
+MPU9910082       	9910	08	2	2012	Capital Intensity, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)	11	1987	A01	2019	A01
+MPU9910083       	9910	08	3	-	Capital Intensity, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)	11	1988	A01	2019	A01
+MPU9910152       	9910	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910153       	9910	15	3	-	Contribution of Capital Intensity, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1988	A01	2019	A01
+MPU9910162       	9910	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910163       	9910	16	3	-	Contribution of Information Capital Intensity, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1988	A01	2019	A01
+MPU9910172       	9910	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910173       	9910	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1988	A01	2019	A01
+MPU9910182       	9910	18	2	2012	Contribution of Labor Composition, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910183       	9910	18	3	-	Contribution of Labor Composition, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1988	A01	2019	A01
+MPU9910192       	9910	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910193       	9910	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1988	A01	2019	A01
+MPU9910202       	9910	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910203       	9910	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1988	A01	2019	A01
+MPU9910512       	9910	51	2	2012	Sectoral Output, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)	05	1987	A01	2019	A01
+MPU9910513       	9910	51	3	-	Sectoral Output, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)	05	1988	A01	2019	A01
+MPU9910552       	9910	55	2	2012	Energy, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910553       	9910	55	3	-	Energy, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1988	A01	2019	A01
+MPU9910562       	9910	56	2	2012	Materials, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)	07	1987	A01	2019	A01
+MPU9910563       	9910	56	3	-	Materials, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)	07	1988	A01	2019	A01
+MPU9910572       	9910	57	2	2012	Purchased Services, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910573       	9910	57	3	-	Purchased Services, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1988	A01	2019	A01
+MPU9910611       	9910	61	1	-	Value of Production, billions of current dollars, Levels, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910621       	9910	62	1	-	Capital Payments, billions of current dollars, Levels, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910631       	9910	63	1	-	Cost of Labor, billions of current dollars, Levels, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910641       	9910	64	1	-	Cost of Energy, billions of current dollars, Levels, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910651       	9910	65	1	-	Cost of Materials, billions of current dollars, Levels, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910661       	9910	66	1	-	Cost of Purchased Services, billions of current dollars, Levels, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910671       	9910	67	1	-	Capital Factor Shares, Levels, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910681       	9910	68	1	-	Labor Factor Shares, Levels, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910691       	9910	69	1	-	Energy Factor Shares, Levels, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910701       	9910	70	1	-	Materials Factor Shares, Levels, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910711       	9910	71	1	-	Purchased Services Factor Shares, Levels, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910742       	9910	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910743       	9910	74	3	-	Contribution of Energy Intensity, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1988	A01	2019	A01
+MPU9910762       	9910	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910763       	9910	76	3	-	Contribution of Materials Intensity, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1988	A01	2019	A01
+MPU9910772       	9910	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910773       	9910	77	3	-	Contribution of Purchased Services Intensity, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1988	A01	2019	A01
+MPU9910782       	9910	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1987	A01	2019	A01
+MPU9910783       	9910	78	3	-	Contribution of Intermediate Inputs, % change year ago, Non-Durable Manufacturing Sector (NAICS  311-316 322-326)		1988	A01	2019	A01
+MPU9920012       	9920	01	2	2012	Multifactor Productivity, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)	04	1987	A01	2019	A01
+MPU9920013       	9920	01	3	-	Multifactor Productivity, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)	04	1988	A01	2019	A01
+MPU9920032       	9920	03	2	2012	Combined Inputs, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)	06	1987	A01	2019	A01
+MPU9920033       	9920	03	3	-	Combined Inputs, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)	06	1988	A01	2019	A01
+MPU9920042       	9920	04	2	2012	Capital Services, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)	00	1987	A01	2019	A01
+MPU9920043       	9920	04	3	-	Capital Services, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)	00	1988	A01	2019	A01
+MPU9920052       	9920	05	2	2012	Labor Input, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)	03	1987	A01	2019	A01
+MPU9920053       	9920	05	3	-	Labor Input, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)	03	1988	A01	2019	A01
+MPU9920062       	9920	06	2	2012	Labor Productivity, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)	08	1987	A01	2019	A01
+MPU9920063       	9920	06	3	-	Labor Productivity, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)	08	1988	A01	2019	A01
+MPU9920072       	9920	07	2	2012	Output per unit of Capital Services, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920073       	9920	07	3	-	Output per unit of Capital Services, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1988	A01	2019	A01
+MPU9920082       	9920	08	2	2012	Capital Intensity, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)	11	1987	A01	2019	A01
+MPU9920083       	9920	08	3	-	Capital Intensity, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)	11	1988	A01	2019	A01
+MPU9920152       	9920	15	2	2012	Contribution of Capital Intensity, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920153       	9920	15	3	-	Contribution of Capital Intensity, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1988	A01	2019	A01
+MPU9920162       	9920	16	2	2012	Contribution of Information Capital Intensity, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920163       	9920	16	3	-	Contribution of Information Capital Intensity, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1988	A01	2019	A01
+MPU9920172       	9920	17	2	2012	Contribution of capital services excluding IPP and IPE intensity, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920173       	9920	17	3	-	Contribution of capital services excluding IPP and IPE intensity, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1988	A01	2019	A01
+MPU9920182       	9920	18	2	2012	Contribution of Labor Composition, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920183       	9920	18	3	-	Contribution of Labor Composition, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1988	A01	2019	A01
+MPU9920192       	9920	19	2	2012	Contribution of research and development (R&D) intensity  to labor productivity , Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339		1987	A01	2019	A01
+MPU9920193       	9920	19	3	-	Contribution of research and development (R&D) intensity  to labor productivity , % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339		1988	A01	2019	A01
+MPU9920202       	9920	20	2	2012	Contribution of intellectual property products excluding R&D intensity, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920203       	9920	20	3	-	Contribution of intellectual property products excluding R&D intensity, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1988	A01	2019	A01
+MPU9920512       	9920	51	2	2012	Sectoral Output, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)	05	1987	A01	2019	A01
+MPU9920513       	9920	51	3	-	Sectoral Output, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)	05	1988	A01	2019	A01
+MPU9920552       	9920	55	2	2012	Energy, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920553       	9920	55	3	-	Energy, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1988	A01	2019	A01
+MPU9920562       	9920	56	2	2012	Materials, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)	07	1987	A01	2019	A01
+MPU9920563       	9920	56	3	-	Materials, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)	07	1988	A01	2019	A01
+MPU9920572       	9920	57	2	2012	Purchased Services, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920573       	9920	57	3	-	Purchased Services, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1988	A01	2019	A01
+MPU9920611       	9920	61	1	-	Value of Production, billions of current dollars, Levels, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920621       	9920	62	1	-	Capital Payments, billions of current dollars, Levels, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920631       	9920	63	1	-	Cost of Labor, billions of current dollars, Levels, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920641       	9920	64	1	-	Cost of Energy, billions of current dollars, Levels, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920651       	9920	65	1	-	Cost of Materials, billions of current dollars, Levels, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920661       	9920	66	1	-	Cost of Purchased Services, billions of current dollars, Levels, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920671       	9920	67	1	-	Capital Factor Shares, Levels, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920681       	9920	68	1	-	Labor Factor Shares, Levels, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920691       	9920	69	1	-	Energy Factor Shares, Levels, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920701       	9920	70	1	-	Materials Factor Shares, Levels, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920711       	9920	71	1	-	Purchased Services Factor Shares, Levels, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920742       	9920	74	2	2012	Contribution of Energy Intensity, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920743       	9920	74	3	-	Contribution of Energy Intensity, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1988	A01	2019	A01
+MPU9920762       	9920	76	2	2012	Contribution of Materials Intensity, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920763       	9920	76	3	-	Contribution of Materials Intensity, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1988	A01	2019	A01
+MPU9920772       	9920	77	2	2012	Contribution of Purchased Services Intensity, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920773       	9920	77	3	-	Contribution of Purchased Services Intensity, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1988	A01	2019	A01
+MPU9920782       	9920	78	2	2012	Contribution of Intermediate Inputs, Indexes = 100.000, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1987	A01	2019	A01
+MPU9920783       	9920	78	3	-	Contribution of Intermediate Inputs, % change year ago, Durable Manufacturing Sector (NAICS 321 327 331-337 339)		1988	A01	2019	A01

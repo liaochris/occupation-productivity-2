@@ -1,0 +1,15 @@
+footnote_code	footnote_text
+1	Estimate is less than 0.5 percent.
+10	This estimate is present when workers have the flexibility to choose, there is no assigned time to do either, or no external factors cause either.
+11	Workers with minimum education requirements are not included in the percentage of workers with literacy requirements.
+12	A short demonstration is preparation time necessary to successfully perform a job and includes 4 hours or less.
+13	Time associated with the earning of the prerequisite is separate from other education, training, and experience requirements.
+14	There is no time associated with the earning of the prerequisite or it is combined with other education, training, and experience requirements.
+2	Estimate is less than 0.05 hours.
+3	Estimate is less than 0.05 pounds.
+5	Standard error is less than 0.05.
+6	Standard error is less than 0.5.
+7	This estimate is the mode for the category group.
+8	Standing estimates include time spent standing or walking.
+9	Sitting estimates include time spent sitting or lying down.
+P	These are preliminary estimates and represent the first and second sample years of a five-year sample period.

@@ -1,0 +1,111 @@
+datatype_estimate_code,datatype_code,datatype_text,estimate_code,estimate_text
+D_01_CM,D,Cost of compensation (Cost per hour worked),01,Total compensation
+L_01_CM,L,"Average employer cost per employee hour worked at 50th percentile (median), constant dollar",01,Total compensation
+M_01_CM,M,"Average employer cost per employee worked at 50th percentile (median), current dollar",01,Total compensation
+N_01_CM,N,"Average employer cost per employee hour worked at 90th percentile, current dollar",01,Total compensation
+P_01_CM,P,Percent of total compensation,01,Total compensation
+R_01_CM,R,"Average employer cost per employee hour worked at 90th percentile, constant dollar",01,Total compensation
+T_01_CM,T,"Average employer cost per employee hour worked at 10th percentile, current dollar",01,Total compensation
+X_01_CM,X,"Average employer cost per employee hour worked at 10th percentile, constant dollar",01,Total compensation
+D_02_CM,D,Cost of compensation (Cost per hour worked),02,Wages and salaries
+L_02_CM,L,"Average employer cost per employee hour worked at 50th percentile (median), constant dollar",02,Wages and salaries
+M_02_CM,M,"Average employer cost per employee worked at 50th percentile (median), current dollar",02,Wages and salaries
+N_02_CM,N,"Average employer cost per employee hour worked at 90th percentile, current dollar",02,Wages and salaries
+P_02_CM,P,Percent of total compensation,02,Wages and salaries
+R_02_CM,R,"Average employer cost per employee hour worked at 90th percentile, constant dollar",02,Wages and salaries
+T_02_CM,T,"Average employer cost per employee hour worked at 10th percentile, current dollar",02,Wages and salaries
+X_02_CM,X,"Average employer cost per employee hour worked at 10th percentile, constant dollar",02,Wages and salaries
+D_03_CM,D,Cost of compensation (Cost per hour worked),03,Total benefits
+L_03_CM,L,"Average employer cost per employee hour worked at 50th percentile (median), constant dollar",03,Total benefits
+M_03_CM,M,"Average employer cost per employee worked at 50th percentile (median), current dollar",03,Total benefits
+N_03_CM,N,"Average employer cost per employee hour worked at 90th percentile, current dollar",03,Total benefits
+P_03_CM,P,Percent of total compensation,03,Total benefits
+R_03_CM,R,"Average employer cost per employee hour worked at 90th percentile, constant dollar",03,Total benefits
+T_03_CM,T,"Average employer cost per employee hour worked at 10th percentile, current dollar",03,Total benefits
+X_03_CM,X,"Average employer cost per employee hour worked at 10th percentile, constant dollar",03,Total benefits
+D_04_CM,D,Cost of compensation (Cost per hour worked),04,Paid leave
+L_04_CM,L,"Average employer cost per employee hour worked at 50th percentile (median), constant dollar",04,Paid leave
+M_04_CM,M,"Average employer cost per employee worked at 50th percentile (median), current dollar",04,Paid leave
+N_04_CM,N,"Average employer cost per employee hour worked at 90th percentile, current dollar",04,Paid leave
+P_04_CM,P,Percent of total compensation,04,Paid leave
+R_04_CM,R,"Average employer cost per employee hour worked at 90th percentile, constant dollar",04,Paid leave
+T_04_CM,T,"Average employer cost per employee hour worked at 10th percentile, current dollar",04,Paid leave
+X_04_CM,X,"Average employer cost per employee hour worked at 10th percentile, constant dollar",04,Paid leave
+D_05_CM,D,Cost of compensation (Cost per hour worked),05,Vacation
+P_05_CM,P,Percent of total compensation,05,Vacation
+D_06_CM,D,Cost of compensation (Cost per hour worked),06,Holiday
+P_06_CM,P,Percent of total compensation,06,Holiday
+D_07_CM,D,Cost of compensation (Cost per hour worked),07,Sick leave
+P_07_CM,P,Percent of total compensation,07,Sick leave
+D_08_CM,D,Cost of compensation (Cost per hour worked),08,Personal leave
+P_08_CM,P,Percent of total compensation,08,Personal leave
+D_09_CM,D,Cost of compensation (Cost per hour worked),09,Supplemental pay
+L_09_CM,L,"Average employer cost per employee hour worked at 50th percentile (median), constant dollar",09,Supplemental pay
+M_09_CM,M,"Average employer cost per employee worked at 50th percentile (median), current dollar",09,Supplemental pay
+N_09_CM,N,"Average employer cost per employee hour worked at 90th percentile, current dollar",09,Supplemental pay
+P_09_CM,P,Percent of total compensation,09,Supplemental pay
+R_09_CM,R,"Average employer cost per employee hour worked at 90th percentile, constant dollar",09,Supplemental pay
+T_09_CM,T,"Average employer cost per employee hour worked at 10th percentile, current dollar",09,Supplemental pay
+X_09_CM,X,"Average employer cost per employee hour worked at 10th percentile, constant dollar",09,Supplemental pay
+D_10_CM,D,Cost of compensation (Cost per hour worked),10,Overtime and premium pay
+P_10_CM,P,Percent of total compensation,10,Overtime and premium pay
+D_11_CM,D,Cost of compensation (Cost per hour worked),11,Shift differentials
+P_11_CM,P,Percent of total compensation,11,Shift differentials
+D_12_CM,D,Cost of compensation (Cost per hour worked),12,Nonproduction bonuses
+P_12_CM,P,Percent of total compensation,12,Nonproduction bonuses
+D_13_CM,D,Cost of compensation (Cost per hour worked),13,Insurance
+L_13_CM,L,"Average employer cost per employee hour worked at 50th percentile (median), constant dollar",13,Insurance
+M_13_CM,M,"Average employer cost per employee worked at 50th percentile (median), current dollar",13,Insurance
+N_13_CM,N,"Average employer cost per employee hour worked at 90th percentile, current dollar",13,Insurance
+P_13_CM,P,Percent of total compensation,13,Insurance
+R_13_CM,R,"Average employer cost per employee hour worked at 90th percentile, constant dollar",13,Insurance
+T_13_CM,T,"Average employer cost per employee hour worked at 10th percentile, current dollar",13,Insurance
+X_13_CM,X,"Average employer cost per employee hour worked at 10th percentile, constant dollar",13,Insurance
+D_14_CM,D,Cost of compensation (Cost per hour worked),14,Life insurance
+P_14_CM,P,Percent of total compensation,14,Life insurance
+D_15_CM,D,Cost of compensation (Cost per hour worked),15,Health insurance
+L_15_CM,L,"Average employer cost per employee hour worked at 50th percentile (median), constant dollar",15,Health insurance
+M_15_CM,M,"Average employer cost per employee worked at 50th percentile (median), current dollar",15,Health insurance
+N_15_CM,N,"Average employer cost per employee hour worked at 90th percentile, current dollar",15,Health insurance
+P_15_CM,P,Percent of total compensation,15,Health insurance
+R_15_CM,R,"Average employer cost per employee hour worked at 90th percentile, constant dollar",15,Health insurance
+T_15_CM,T,"Average employer cost per employee hour worked at 10th percentile, current dollar",15,Health insurance
+X_15_CM,X,"Average employer cost per employee hour worked at 10th percentile, constant dollar",15,Health insurance
+D_16_CM,D,Cost of compensation (Cost per hour worked),16,Short-term disability insurance
+P_16_CM,P,Percent of total compensation,16,Short-term disability insurance
+D_17_CM,D,Cost of compensation (Cost per hour worked),17,Long-term disability insurance
+P_17_CM,P,Percent of total compensation,17,Long-term disability insurance
+D_18_CM,D,Cost of compensation (Cost per hour worked),18,Retirement and savings
+L_18_CM,L,"Average employer cost per employee hour worked at 50th percentile (median), constant dollar",18,Retirement and savings
+M_18_CM,M,"Average employer cost per employee worked at 50th percentile (median), current dollar",18,Retirement and savings
+N_18_CM,N,"Average employer cost per employee hour worked at 90th percentile, current dollar",18,Retirement and savings
+P_18_CM,P,Percent of total compensation,18,Retirement and savings
+R_18_CM,R,"Average employer cost per employee hour worked at 90th percentile, constant dollar",18,Retirement and savings
+T_18_CM,T,"Average employer cost per employee hour worked at 10th percentile, current dollar",18,Retirement and savings
+X_18_CM,X,"Average employer cost per employee hour worked at 10th percentile, constant dollar",18,Retirement and savings
+D_19_CM,D,Cost of compensation (Cost per hour worked),19,Defined benefit
+P_19_CM,P,Percent of total compensation,19,Defined benefit
+D_20_CM,D,Cost of compensation (Cost per hour worked),20,Defined contribution
+P_20_CM,P,Percent of total compensation,20,Defined contribution
+D_21_CM,D,Cost of compensation (Cost per hour worked),21,Legally Required benefits
+L_21_CM,L,"Average employer cost per employee hour worked at 50th percentile (median), constant dollar",21,Legally Required benefits
+M_21_CM,M,"Average employer cost per employee worked at 50th percentile (median), current dollar",21,Legally Required benefits
+N_21_CM,N,"Average employer cost per employee hour worked at 90th percentile, current dollar",21,Legally Required benefits
+P_21_CM,P,Percent of total compensation,21,Legally Required benefits
+R_21_CM,R,"Average employer cost per employee hour worked at 90th percentile, constant dollar",21,Legally Required benefits
+T_21_CM,T,"Average employer cost per employee hour worked at 10th percentile, current dollar",21,Legally Required benefits
+X_21_CM,X,"Average employer cost per employee hour worked at 10th percentile, constant dollar",21,Legally Required benefits
+D_22_CM,D,Cost of compensation (Cost per hour worked),22,Social Security and Medicare
+P_22_CM,P,Percent of total compensation,22,Social Security and Medicare
+D_23_CM,D,Cost of compensation (Cost per hour worked),23,Social Security
+P_23_CM,P,Percent of total compensation,23,Social Security
+D_24_CM,D,Cost of compensation (Cost per hour worked),24,Medicare
+P_24_CM,P,Percent of total compensation,24,Medicare
+D_25_CM,D,Cost of compensation (Cost per hour worked),25,Federal unemployment insurance
+P_25_CM,P,Percent of total compensation,25,Federal unemployment insurance
+D_26_CM,D,Cost of compensation (Cost per hour worked),26,State unemployment insurance
+P_26_CM,P,Percent of total compensation,26,State unemployment insurance
+D_27_CM,D,Cost of compensation (Cost per hour worked),27,Workers' compensation
+P_27_CM,P,Percent of total compensation,27,Workers' compensation
+D_28_CM,D,Cost of compensation (Cost per hour worked),28,Other benefits
+P_28_CM,P,Percent of total compensation,28,Other benefits

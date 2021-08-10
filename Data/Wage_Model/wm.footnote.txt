@@ -1,0 +1,4 @@
+footnote_code	footnote_text
+1	The average hourly wage is equal to or greater than $100.00 and does not meet publication criteria.
+2	The relative standard error is unavailable for suppressed estimates.
+3	The relative standard error is less than 0.05.

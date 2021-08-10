@@ -1,0 +1,1050 @@
+datatype_provision_code,datatype_code,datatype_text,provision_code,provision_text
+28_007_NB,28,Percent with access to benefit - occupation-level,007,Medical care and retirement benefits
+28_008_NB,28,Percent with access to benefit - occupation-level,008,Medical care and no retirement benefits
+28_009_NB,28,Percent with access to benefit - occupation-level,009,Retirement and no medical care benefits
+28_010_NB,28,Percent with access to benefit - occupation-level,010,No medical care and no retirement benefits
+28_011_NB,28,Percent with access to benefit - occupation-level,011,Medical care and life insurance benefits
+28_012_NB,28,Percent with access to benefit - occupation-level,012,Medical care and no life insurance benefits
+28_013_NB,28,Percent with access to benefit - occupation-level,013,Life insurance and no medical care benefits
+28_014_NB,28,Percent with access to benefit - occupation-level,014,No medical care and no life insurance benefits
+28_015_NB,28,Percent with access to benefit - occupation-level,015,Medical care benefits and defined benefit retirement
+28_016_NB,28,Percent with access to benefit - occupation-level,016,Defined benefit retirement and no medical care benefits
+28_017_NB,28,Percent with access to benefit - occupation-level,017,Medical care benefits and no defined benefit retirement
+28_018_NB,28,Percent with access to benefit - occupation-level,018,No medical care benefits and no defined benefit retirement
+28_019_NB,28,Percent with access to benefit - occupation-level,019,Medical care benefits and defined contrib. retirement
+28_020_NB,28,Percent with access to benefit - occupation-level,020,Defined contrib. retirement and no medical care benefits
+28_021_NB,28,Percent with access to benefit - occupation-level,021,Medical care benefits and no defined contrib. retirement
+28_022_NB,28,Percent with access to benefit - occupation-level,022,No medical care benefits and no defined contrib. retirement
+28_023_NB,28,Percent with access to benefit - occupation-level,023,"Access to personal leave, sick leave, paid family leave, or vacation"
+28_024_NB,28,Percent with access to benefit - occupation-level,024,"Access to personal leave, sick leave, or paid family leave"
+28_025_NB,28,Percent with access to benefit - occupation-level,025,Access to sick leave and vacation
+28_026_NB,28,Percent with access to benefit - occupation-level,026,Access to personal leave and sick leave
+28_027_NB,28,Percent with access to benefit - occupation-level,027,"Access to personal leave, vacation, or holidays"
+28_028_NB,28,Percent with access to benefit - occupation-level,028,Access to personal leave and vacation
+28_029_NB,28,Percent with access to benefit - occupation-level,029,Access to vacation and holidays
+20_063_NB,20,Percent participation,063,Access to consolidated leave plans
+20_068_NB,20,Percent participation,068,Access to paid vacation w/out consolidated leave plans
+23_032_NB,23,Median,032,Median # of annual paid vacation days after one yr of service
+23_040_NB,23,Median,040,Median # of annual paid vacation days after five yrs of service
+23_048_NB,23,Median,048,Median # of annual paid vacation days after ten yrs of service
+23_056_NB,23,Median,056,Median # of annual paid vacation days after twenty yrs of service
+29_033_NB,29,Access to benefit - plan-level,033,Access to less than 5 paid vacation days after one yr of service
+29_034_NB,29,Access to benefit - plan-level,034,Access to 5 to 9 paid vacation days after one yr of service
+29_035_NB,29,Access to benefit - plan-level,035,Access to 10 to 14 paid vacation days after one yr of service
+29_036_NB,29,Access to benefit - plan-level,036,Access to 15 to 19 paid vacation days after one yr of service
+29_037_NB,29,Access to benefit - plan-level,037,Access to 20 to 24 paid vacation days after one yr of service
+29_038_NB,29,Access to benefit - plan-level,038,Access to more than 24 paid vacation days after one yr of service
+29_041_NB,29,Access to benefit - plan-level,041,Access to less than 5 paid vacation days after five yrs of service
+29_042_NB,29,Access to benefit - plan-level,042,Access to 5 to 9 paid vacation days after five yrs of service
+29_043_NB,29,Access to benefit - plan-level,043,Access to 10 to 14 paid vacation days after five yrs of service
+29_044_NB,29,Access to benefit - plan-level,044,Access to 15 to 19 paid vacation days after five yrs of service
+29_045_NB,29,Access to benefit - plan-level,045,Access to 20 to 24 paid vacation days after five yrs of service
+29_046_NB,29,Access to benefit - plan-level,046,Access to more than 24 paid vacation days after five yrs of service
+29_049_NB,29,Access to benefit - plan-level,049,Access to less than 5 paid vacation days after ten yrs of service
+29_050_NB,29,Access to benefit - plan-level,050,Access to 5 to 9 paid vacation days after ten yrs of service
+29_051_NB,29,Access to benefit - plan-level,051,Access to 10 to 14 paid vacation days after ten yrs of service
+29_052_NB,29,Access to benefit - plan-level,052,Access to 15 to 19 paid vacation days after ten yrs of service
+29_053_NB,29,Access to benefit - plan-level,053,Access to 20 to 24 paid vacation days after ten yrs of service
+29_054_NB,29,Access to benefit - plan-level,054,Access to more than 24 paid vacation days after ten yrs of service
+29_057_NB,29,Access to benefit - plan-level,057,Access to less than 5 paid vacation days after twenty yrs of service
+29_058_NB,29,Access to benefit - plan-level,058,Access to 5 to 9 paid vacation days after twenty yrs of service
+29_059_NB,29,Access to benefit - plan-level,059,Access to 10 to 14 paid vacation days after twenty yrs of service
+29_060_NB,29,Access to benefit - plan-level,060,Access to 15 to 19 paid vacation days after twenty yrs of service
+29_061_NB,29,Access to benefit - plan-level,061,Access to 20 to 24 paid vacation days after twenty yrs of service
+29_062_NB,29,Access to benefit - plan-level,062,Access to more than 24 paid vacation days after twenty yrs of service
+30_031_NB,30,Mean,031,Mean # of annual paid vacation days after one yr of service
+30_039_NB,30,Mean,039,Mean # of annual paid vacation days after five yrs of service
+30_047_NB,30,Mean,047,Mean # of annual paid vacation days after ten yrs of service
+30_055_NB,30,Mean,055,Mean # of annual paid vacation days after twenty yrs of service
+30_064_NB,30,Mean,064,Mean # of paid days after 1 yr of service for workers w/ consolidated leave plans
+30_065_NB,30,Mean,065,Mean # of paid days after 5 yrs of service for workers w/ consolidated leave plans
+30_066_NB,30,Mean,066,Mean # of paid days after 10 yrs of service for workers w/ consolidated leave plans
+30_067_NB,30,Mean,067,Mean # of paid days after 20 yrs of service for workers w/ consolidated leave plans
+30_069_NB,30,Mean,069,Mean # of paid vacation days after 1 yr of service for workers w/out consolidated leave plans
+30_070_NB,30,Mean,070,Mean # of paid vacation days after 5 yrs of service for workers w/out consolidated leave plans
+30_071_NB,30,Mean,071,Mean # of paid vacation days after 10 yrs of service for workers w/out consolidated leave plans
+30_072_NB,30,Mean,072,Mean # of paid vacation days after 20 yrs of service for workers w/out consolidated leave plans
+33_030_NB,33,Access to benefit - plan and occupation-level,030,Access to paid vacation
+23_075_NB,23,Median,075,Median # of paid holidays
+29_076_NB,29,Access to benefit - plan-level,076,Access to less than 6 paid holidays
+29_077_NB,29,Access to benefit - plan-level,077,Access to 6 paid holidays
+29_078_NB,29,Access to benefit - plan-level,078,Access to 7 paid holidays
+29_079_NB,29,Access to benefit - plan-level,079,Access to 8 paid holidays
+29_080_NB,29,Access to benefit - plan-level,080,Access to 9 paid holidays
+29_081_NB,29,Access to benefit - plan-level,081,Access to 10 paid holidays
+29_082_NB,29,Access to benefit - plan-level,082,Access to 11 paid holidays
+29_083_NB,29,Access to benefit - plan-level,083,Access to 12 paid holidays
+29_084_NB,29,Access to benefit - plan-level,084,Access to 13 paid holidays
+29_085_NB,29,Access to benefit - plan-level,085,Access to 14 paid holidays
+29_086_NB,29,Access to benefit - plan-level,086,Access to more than 14 paid holidays
+29_382_NB,29,Access to benefit - plan-level,382,Access to less than 5 paid holidays
+29_383_NB,29,Access to benefit - plan-level,383,Access to 5 paid holidays
+30_074_NB,30,Mean,074,Mean # of paid holidays
+33_073_NB,33,Access to benefit - plan and occupation-level,073,Access to paid holidays
+20_088_NB,20,Percent participation,088,Access to fixed # of paid sick days per yr
+20_089_NB,20,Percent participation,089,% of workers w/ a fixed # of sick days per yr and a carryover provision
+20_090_NB,20,Percent participation,090,% of workers w/ a fixed # of sick days per yr and an unlimited accumulation carryover provision
+20_091_NB,20,Percent participation,091,% of workers w/ a fixed # of sick days per yr and a limit on days accumulated carryover provision
+20_102_NB,20,Percent participation,102,% of workers w/ a fixed # of days per yr and no carryover provision
+20_103_NB,20,Percent participation,103,Access to paid sick leave on an as needed basis
+20_104_NB,20,Percent participation,104,Access to paid sick leave as part of consolidated leave plan
+23_106_NB,23,Median,106,Median # of annual paid sick days after one yr of service
+23_113_NB,23,Median,113,Median # of annual paid sick days after five yrs of service
+23_120_NB,23,Median,120,Median # of annual paid sick days after ten yrs of service
+23_127_NB,23,Median,127,Median # of annual paid sick days after twenty yrs of service
+29_107_NB,29,Access to benefit - plan-level,107,Access to less than 5 sick days after one yr of service
+29_108_NB,29,Access to benefit - plan-level,108,Access to 5 to 9 sick days after one yr of service
+29_109_NB,29,Access to benefit - plan-level,109,Access to 10 to 14 sick days after one yr of service
+29_110_NB,29,Access to benefit - plan-level,110,Access to 15 to 29 sick days after one yr of service
+29_111_NB,29,Access to benefit - plan-level,111,Access to more than 29 sick days after one yr of service
+29_114_NB,29,Access to benefit - plan-level,114,Access to less than 5 sick days after five yrs of service
+29_115_NB,29,Access to benefit - plan-level,115,Access to 5 to 9 sick days after five yrs of service
+29_116_NB,29,Access to benefit - plan-level,116,Access to 10 to 14 sick days after five yrs of service
+29_117_NB,29,Access to benefit - plan-level,117,Access to 15 to 29 sick days after five yrs of service
+29_118_NB,29,Access to benefit - plan-level,118,Access to more than 29 sick days after five yrs of service
+29_121_NB,29,Access to benefit - plan-level,121,Access to less than 5 sick days after ten yrs of service
+29_122_NB,29,Access to benefit - plan-level,122,Access to 5 to 9 sick days after ten yrs of service
+29_123_NB,29,Access to benefit - plan-level,123,Access to 10 to 14 sick days after ten yrs of service
+29_124_NB,29,Access to benefit - plan-level,124,Access to 15 to 29 sick days after ten yrs of service
+29_125_NB,29,Access to benefit - plan-level,125,Access to more than 29 sick days after ten yrs of service
+29_128_NB,29,Access to benefit - plan-level,128,Access to less than 5 sick days after twenty yrs of service
+29_129_NB,29,Access to benefit - plan-level,129,Access to 5 to 9 sick days after twenty yrs of service
+29_130_NB,29,Access to benefit - plan-level,130,Access to 10 to 14 sick days after twenty yrs of service
+29_131_NB,29,Access to benefit - plan-level,131,Access to 15 to 29 sick days after twenty yrs of service
+29_132_NB,29,Access to benefit - plan-level,132,Access to more than 29 sick days after twenty yrs of service
+30_105_NB,30,Mean,105,Mean # of annual paid sick days after one yr of service
+30_112_NB,30,Mean,112,Mean # of annual paid sick days after five yrs of service
+30_119_NB,30,Mean,119,Mean # of annual paid sick days after ten yrs of service
+30_126_NB,30,Mean,126,Mean # of annual paid sick days after twenty yrs of service
+33_087_NB,33,Access to benefit - plan and occupation-level,087,Access to paid sick leave
+28_133_NB,28,Percent with access to benefit - occupation-level,133,Access to all nonproduction bonuses
+28_134_NB,28,Percent with access to benefit - occupation-level,134,Access to a cash profit-sharing bonus
+28_135_NB,28,Percent with access to benefit - occupation-level,135,Access to a ee recognition bonus
+28_136_NB,28,Percent with access to benefit - occupation-level,136,Access to a end-of-year bonus
+28_137_NB,28,Percent with access to benefit - occupation-level,137,Access to a holiday bonus
+28_138_NB,28,Percent with access to benefit - occupation-level,138,Access to a payment in lieu of benefits bonus
+28_139_NB,28,Percent with access to benefit - occupation-level,139,Access to a longevity bonus
+28_140_NB,28,Percent with access to benefit - occupation-level,140,Access to a referral bonus
+28_141_NB,28,Percent with access to benefit - occupation-level,141,Access to other bonuses
+20_145_NB,20,Percent participation,145,Access to basic life insurance and ee contrib. not req.
+20_146_NB,20,Percent participation,146,Access to basic life insurance and ee contrib. required
+20_147_NB,20,Percent participation,147,Access to a fixed multiple of annual earnings payment method for basic life insurance
+20_150_NB,20,Percent participation,150,< 1.0 times earnings for workers w/ a fixed multiple of annual earnings life insurance formula
+20_151_NB,20,Percent participation,151,1.0 times earnings for workers w/ a fixed multiple of annual earnings life insurance formula
+20_152_NB,20,Percent participation,152,1.0 - 2.0 times earnings for workers w/ a fixed multiple of annual earnings life insurance formula
+20_153_NB,20,Percent participation,153,2.0 times earnings for workers w/ a fixed multiple of annual earnings life insurance formula
+20_154_NB,20,Percent participation,154,> 2.0 times earnings for workers w/ a fixed multiple of annual earnings life insurance formula
+20_155_NB,20,Percent participation,155,Access to a fixed multiple of earnings and a maximum benefit amount
+20_156_NB,20,Percent participation,156,Access to a fixed multiple of earnings and no maximum benefit amount
+20_162_NB,20,Percent participation,162,Access to a variable multiple of earnings payment method for basic life insurance
+20_163_NB,20,Percent participation,163,Access to a flat dollar amount payment method for basic life insurance
+20_169_NB,20,Percent participation,169,Access to a variable dollar amount payment method for basic life insurance
+20_170_NB,20,Percent participation,170,Access to other payment methods for basic life insurance
+21_157_NB,21,10th percentile,157,Maximum benefit amount for workers w/ life insurance plans (10th percentile)
+21_164_NB,21,10th percentile,164,Life Insurance: Flat dollar amount (10th percentile)
+22_158_NB,22,25th percentile,158,Maximum benefit amount for workers w/ life insurance plans (25th percentile)
+22_165_NB,22,25th percentile,165,Life Insurance: Flat dollar amount (25th percentile)
+23_149_NB,23,Median,149,Median earnings for workers w/ a fixed multiple of annual earnings life insurance formula
+23_159_NB,23,Median,159,Maximum benefit amount for workers w/ life insurance plans (50th percentile)
+23_166_NB,23,Median,166,Life Insurance: Flat dollar amount (50th percentile)
+24_160_NB,24,75th percentile,160,Maximum benefit amount for workers w/ life insurance plans (75th percentile)
+24_167_NB,24,75th percentile,167,Life Insurance: Flat dollar amount (75th percentile)
+25_161_NB,25,90th percentile,161,Maximum benefit amount for workers w/ life insurance plans (90th percentile)
+25_168_NB,25,90th percentile,168,Life Insurance: Flat dollar amount (90th percentile)
+26_143_NB,26,Percent participation across all workers,143,% of workers in life insurance plans
+28_142_NB,28,Percent with access to benefit - occupation-level,142,Access to life insurance plans
+30_148_NB,30,Mean,148,Mean earnings for workers w/ a fixed multiple of annual earnings life insurance formula
+32_144_NB,32,Take-up rate,144,Take-up rate of workers w/ access to life insurance plans
+20_181_NB,20,Percent participation,181,All workers w/ single coverage medical care benefits = 100 percent
+20_183_NB,20,Percent participation,183,% of ees w/ single coverage medical care benefits and ee contrib. not req.
+20_185_NB,20,Percent participation,185,% of ees w/ single coverage medical care benefits and ee contrib. req.
+20_188_NB,20,Percent participation,188,All workers w/ contributory coverage for single coverage = 100 percent
+20_189_NB,20,Percent participation,189,"Medical care benefits, single coverage: ee participation by type of contrib. (Flat dollar amount)"
+20_196_NB,20,Percent participation,196,"Medical care benefits, single coverage: ee participation by type of contrib. (Composite rate)"
+20_198_NB,20,Percent participation,198,"Medical care benefits, single coverage: ee participation by type of contrib. (Varies)"
+20_200_NB,20,Percent participation,200,"Medical care benefits, single coverage: ee participation by type of contrib. (Flexible benefits)"
+20_202_NB,20,Percent participation,202,"Medical care benefits, single coverage: ee participation by type of contrib. (% of earnings)"
+20_204_NB,20,Percent participation,204,"Medical care benefits, single coverage: ee participation by type of contrib. (Exists, but amount unknown)"
+20_206_NB,20,Percent participation,206,"Medical care benefits, single coverage: ee participation by type of contrib. (Other)"
+20_210_NB,20,Percent participation,210,All workers w/ family coverage medical care benefits = 100 percent
+20_212_NB,20,Percent participation,212,% of ees w/ family coverage medical care benefits and ee contrib. not req.
+20_214_NB,20,Percent participation,214,% of ees w/ family coverage medical care benefits and ee contrib. req.
+20_217_NB,20,Percent participation,217,All workers w/ contributory coverage for family coverage = 100 percent
+20_218_NB,20,Percent participation,218,"Medical care benefits, family coverage: ee participation by type of contrib. (Flat dollar amount)"
+20_225_NB,20,Percent participation,225,"Medical care benefits, family coverage: ee participation by type of contrib. (Composite rate)"
+20_227_NB,20,Percent participation,227,"Medical care benefits, family coverage: ee participation by type of contrib. (Varies)"
+20_229_NB,20,Percent participation,229,"Medical care benefits, family coverage: ee participation by type of contrib. (Flexible benefits)"
+20_231_NB,20,Percent participation,231,"Medical care benefits, family coverage: ee participation by type of contrib. (% of earnings)"
+20_233_NB,20,Percent participation,233,"Medical care benefits, family coverage: ee participation by type of contrib. (Exists, but amount unknown)"
+20_235_NB,20,Percent participation,235,"Medical care benefits, family coverage: ee participation by type of contrib. (Other)"
+21_191_NB,21,10th percentile,191,Medical care benefits: Monthly ee contrib. for single coverage w/ flat $ amounts (10th percentile)
+21_220_NB,21,10th percentile,220,Medical care benefits: Monthly ee contrib. for family coverage w/ flat $ amounts (10th percentile)
+22_192_NB,22,25th percentile,192,Medical care benefits: Monthly ee contrib. for single coverage w/ flat $ amounts (25th percentile)
+22_221_NB,22,25th percentile,221,Medical care benefits: Monthly ee contrib. for family coverage w/ flat $ amounts (25th percentile)
+23_193_NB,23,Median,193,Medical care benefits: Monthly ee contrib. for single coverage w/ flat $ amounts (50th percentile)
+23_222_NB,23,Median,222,Medical care benefits: Monthly ee contrib. for family coverage w/ flat $ amounts (50th percentile)
+24_194_NB,24,75th percentile,194,Medical care benefits: Monthly ee contrib. for single coverage w/ flat $ amounts (75th percentile)
+24_223_NB,24,75th percentile,223,Medical care benefits: Monthly ee contrib. for family coverage w/ flat $ amounts (75th percentile)
+25_195_NB,25,90th percentile,195,Medical care benefits: Monthly ee contrib. for single coverage w/ flat $ amounts (90th percentile)
+25_224_NB,25,90th percentile,224,Medical care benefits: Monthly ee contrib. for family coverage w/ flat $ amounts (90th percentile)
+26_179_NB,26,Percent participation across all workers,179,% of workers participating in medical care
+26_240_NB,26,Percent participation across all workers,240,% of workers participating in dental care
+26_243_NB,26,Percent participation across all workers,243,% of workers participating in vision care
+26_246_NB,26,Percent participation across all workers,246,% of workers participating in outpatient prescription drug coverage
+28_171_NB,28,Percent with access to benefit - occupation-level,171,Access to health care
+28_178_NB,28,Percent with access to benefit - occupation-level,178,Access to medical care
+28_239_NB,28,Percent with access to benefit - occupation-level,239,Access to dental care
+28_242_NB,28,Percent with access to benefit - occupation-level,242,Access to vision care
+28_245_NB,28,Percent with access to benefit - occupation-level,245,Access to outpatient prescription drug coverage
+30_182_NB,30,Mean,182,Avg. flat monthly er prem for single coverage medical care benefits
+30_184_NB,30,Mean,184,Avg. flat monthly er prem for ees w/ single coverage medical care benefits and ee contrib. not req.
+30_186_NB,30,Mean,186,Avg. flat monthly er prem for ees w/ single coverage medical care benefits and ee contrib. req.
+30_187_NB,30,Mean,187,Avg. flat monthly ee contrib. for ees w/ single coverage medical care benefits and ee contrib. req.
+30_211_NB,30,Mean,211,Avg. flat monthly er prem for family coverage medical care benefits
+30_213_NB,30,Mean,213,Avg. flat monthly er prem for ees w/ family coverage medical care benefits and ee contrib. not req.
+30_215_NB,30,Mean,215,Avg. flat monthly er prem for ees w/ family coverage medical care benefits and ee contrib. req.
+30_216_NB,30,Mean,216,Avg. flat monthly ee contrib. for ees w/ family coverage medical care benefits and ee contrib. req.
+31_174_NB,31,Share of premiums,174,Er share of health prems for single coverage
+31_175_NB,31,Share of premiums,175,Ee share of health prems for single coverage
+31_176_NB,31,Share of premiums,176,Er share of health prems for family coverage
+31_177_NB,31,Share of premiums,177,Ee share of health prems for family coverage
+31_208_NB,31,Share of premiums,208,Er share of medical prem for single coverage
+31_209_NB,31,Share of premiums,209,Ee share of medical prem for single coverage
+31_237_NB,31,Share of premiums,237,Er share of medical prem for family coverage
+31_238_NB,31,Share of premiums,238,Ee share of medical prem for family coverage
+32_180_NB,32,Take-up rate,180,Take-up rate of workers w/ access to medical care
+32_241_NB,32,Take-up rate,241,Take-up rate of workers w/ access to dental care
+32_244_NB,32,Take-up rate,244,Take-up rate of workers w/ access to vision care
+32_247_NB,32,Take-up rate,247,Take-up rate of workers w/ access to outpatient prescription drug coverage
+20_251_NB,20,Percent participation,251,Method of funding short-term disability plans: Non-commercially insured
+20_252_NB,20,Percent participation,252,Method of funding short-term disability plans: Commercially insured
+20_253_NB,20,Percent participation,253,Method of funding short-term disability plans: Legally required
+20_254_NB,20,Percent participation,254,Method of funding short-term disability plans: Other
+20_255_NB,20,Percent participation,255,% of ees w/ short-term disability coverage and ee contrib. not req.
+20_256_NB,20,Percent participation,256,% of ees w/ short-term disability coverage and ee contrib. req.
+20_257_NB,20,Percent participation,257,% of ees w/ short-term disability coverage: Flat dollar amount payment method
+20_263_NB,20,Percent participation,263,% of workers w/ short-term disability coverage: Variable dollar amount payment method
+20_264_NB,20,Percent participation,264,% of workers w/ short-term disability coverage: Fixed % of earnings payment method
+20_265_NB,20,Percent participation,265,Access to a fixed % of annual earnings short-term disability coverage less than 50 %
+20_266_NB,20,Percent participation,266,Access to a fixed % of annual earnings short-term disability coverage equal to 50 %
+20_267_NB,20,Percent participation,267,Access to a fixed % of annual earnings short-term disability coverage between 51 and 59 %
+20_268_NB,20,Percent participation,268,Access to a fixed % of annual earnings short-term disability coverage equal to 60 %
+20_269_NB,20,Percent participation,269,Access to a fixed % of annual earnings short-term disability coverage between 61 and 69 %
+20_270_NB,20,Percent participation,270,Access to a fixed % of annual earnings short-term disability coverage greater than 69 %
+20_273_NB,20,Percent participation,273,Access to a maximum benefit amount for fixed % of annual earnings short-term disability coverage
+20_279_NB,20,Percent participation,279,Access to no maximum benefit amount for fixed % of annual earnings short-term disability coverage
+20_280_NB,20,Percent participation,280,% of workers w/ short-term disability coverage: Variable % of earnings payment method
+20_281_NB,20,Percent participation,281,% of workers w/ short-term disability coverage: Other payment methods
+20_282_NB,20,Percent participation,282,Access to short-term disability coverage w/ fixed duration of benefits
+20_288_NB,20,Percent participation,288,Access to short-term disability coverage w/ variable duration of benefits
+21_274_NB,21,10th percentile,274,Max wkly ben.amnt for fixed % of annual earnings short-term disability coverage (10th percentile)
+21_283_NB,21,10th percentile,283,Duration of short-term disability benefits in weeks (10th percentile)
+22_275_NB,22,25th percentile,275,Max wkly ben.amnt for fixed % of annual earnings short-term disability coverage (25th percentile)
+22_284_NB,22,25th percentile,284,Duration of short-term disability benefits in weeks (25th percentile)
+23_272_NB,23,Median,272,Median fixed % of annual earnings for short-term disability coverage
+23_276_NB,23,Median,276,Max wkly ben.amnt for fixed % of annual earnings short-term disability coverage (50th percentile)
+23_285_NB,23,Median,285,Duration of short-term disability benefits in weeks (50th percentile)
+24_277_NB,24,75th percentile,277,Max wkly ben.amnt for fixed % of annual earnings short-term disability coverage (75th percentile)
+24_286_NB,24,75th percentile,286,Duration of short-term disability benefits in weeks (75th percentile)
+25_278_NB,25,90th percentile,278,Max wkly ben.amnt for fixed % of annual earnings short-term disability coverage (90th percentile)
+25_287_NB,25,90th percentile,287,Duration of short-term disability benefits in weeks (90th percentile)
+26_249_NB,26,Percent participation across all workers,249,% of workers participating in a short-term disability plan
+28_248_NB,28,Percent with access to benefit - occupation-level,248,Access to a short-term disability plan
+30_271_NB,30,Mean,271,Mean fixed % of annual earnings for short-term disability coverage
+32_250_NB,32,Take-up rate,250,Take-up rate of workers w/ access to a short-term disability plan
+20_325_NB,20,Percent participation,325,% of ees w/ long-term disability coverage and ee contrib. not req.
+20_326_NB,20,Percent participation,326,% of ees w/ long-term disability coverage and ee contrib. req.
+20_327_NB,20,Percent participation,327,% of ees w/ long-term disability coverage: Fixed % of annual earnings payment method
+20_330_NB,20,Percent participation,330,Access to a fixed % of annual earnings long-term disability coverage less than 60 %
+20_331_NB,20,Percent participation,331,Access to a fixed % of annual earnings long-term disability coverage equal to 60 %
+20_332_NB,20,Percent participation,332,Access to a fixed % of annual earnings long-term disability coverage between 61 and 66 %
+20_333_NB,20,Percent participation,333,Access to a fixed % of annual earnings long-term disability coverage equal to 67 %
+20_334_NB,20,Percent participation,334,Access to a fixed % of annual earnings long-term disability coverage greater than 67 %
+20_335_NB,20,Percent participation,335,Access to a maximum benefit amount for fixed % of annual earnings long-term disability coverage
+20_341_NB,20,Percent participation,341,Access to no maximum benefit amount for fixed % of annual earnings long-term disability coverage
+20_342_NB,20,Percent participation,342,% of ees w/ long-term disability coverage: Variable % of annual earnings payment method
+20_343_NB,20,Percent participation,343,% of ees w/ long-term disability coverage: Flat dollar amount payment method
+20_344_NB,20,Percent participation,344,% of ees w/ long-term disability coverage: Other payment methods
+21_336_NB,21,10th percentile,336,Max. mthly ben. amnt for fixed % of annual earnings long-term disability coverage (10th percentile)
+22_337_NB,22,25th percentile,337,Max. mthly ben. amnt for fixed % of annual earnings long-term disability coverage (25th percentile)
+23_329_NB,23,Median,329,Median fixed % of annual earnings for long-term disability coverage
+23_338_NB,23,Median,338,Max. mthly ben. amnt for fixed % of annual earnings long-term disability coverage (50th percentile)
+24_339_NB,24,75th percentile,339,Max. mthly ben. amnt for fixed % of annual earnings long-term disability coverage (75th percentile)
+25_340_NB,25,90th percentile,340,Max. mthly ben. amnt for fixed % of annual earnings long-term disability coverage (90th percentile)
+26_323_NB,26,Percent participation across all workers,323,% of workers participating in a long-term disability plan
+28_322_NB,28,Percent with access to benefit - occupation-level,322,Access to a long-term disability plan
+30_328_NB,30,Mean,328,Mean fixed % of annual earnings for long-term disability coverage
+32_324_NB,32,Take-up rate,324,Take-up rate of workers w/ access to a long-term disability plan
+20_298_NB,20,Percent participation,298,% of workers participating in defined benefit plans: Open plans
+20_299_NB,20,Percent participation,299,% of workers participating in defined benefit plans: Frozen plans
+20_300_NB,20,Percent participation,300,% of workers w/ frozen defined benefit plans: All existing participants to continue benefit accrual
+20_301_NB,20,Percent participation,301,% of workers w/ frozen defined benefit plans: Some existing participants to continue benefit accrual
+20_302_NB,20,Percent participation,302,% of workers w/ frozen defined benefit plans: No existing participants to continue benefit accrual
+20_303_NB,20,Percent participation,303,Time since frozen def. benefit plan closed to new workers or stopped accruing benefits (1 yr)
+20_304_NB,20,Percent participation,304,Time since frozen def. benefit plan closed to new workers or stopped accruing benefits (2 - 5 yrs)
+20_305_NB,20,Percent participation,305,Time since frozen def. benefit plan closed to new workers or stopped accruing benefits ( > 5 yrs)
+20_306_NB,20,Percent participation,306,% of workers w/ frozen defined benefit plans w/ alternatives to frozen plans available
+20_307_NB,20,Percent participation,307,% of workers w/ a frozen defined benefit plan: New defined benefit plan alternative
+20_308_NB,20,Percent participation,308,% of workers w/ a frozen defined benefit plan: Enhanced existing defined contrib. plan alternative
+20_309_NB,20,Percent participation,309,% of workers w/ a frozen defined benefit plan: New defined contrib. plan alternative
+20_310_NB,20,Percent participation,310,% of workers w/ a frozen defined benefit plan: Other plan alternative
+20_311_NB,20,Percent participation,311,% of workers w/ frozen defined benefit plans w/ no alternatives to frozen plans available
+20_387_NB,20,Percent participation,387,% of workers participating in defined benefit plans: All participants still accruing benefits
+20_388_NB,20,Percent participation,388,% of workers participating in defined benefit plans: Some participants still accruing benefits
+20_389_NB,20,Percent participation,389,% of workers participating in defined benefit plans: Hard freeze
+20_390_NB,20,Percent participation,390,% of workers w/ a frozen defined benefit plan: Modified existing defined benefit plan alternative
+28_290_NB,28,Percent with access to benefit - occupation-level,290,Access to a defined benefit retirement plan
+28_385_NB,28,Percent with access to benefit - occupation-level,385,Access to only defined benefit retirement plans
+20_315_NB,20,Percent participation,315,% of workers participating in defined contrib. plans and ee contrib. req.
+20_316_NB,20,Percent participation,316,% of workers participating in defined contrib. plans and ee contrib. not req.
+20_317_NB,20,Percent participation,317,% of workers participating in defined contrib. plans: ee contrib. (pretax)
+20_318_NB,20,Percent participation,318,% of workers participating in defined contrib. plans: ee contrib. (not pretax)
+28_312_NB,28,Percent with access to benefit - occupation-level,312,Access to a defined contrib. retirement plan
+28_386_NB,28,Percent with access to benefit - occupation-level,386,Access to only defined contribution retirement plans
+33_375_NB,33,Access to benefit - plan and occupation-level,375,% of all workers w/ same sex health care benefits
+33_376_NB,33,Access to benefit - plan and occupation-level,376,% of all workers w/ opposite sex health care benefits
+33_373_NB,33,Access to benefit - plan and occupation-level,373,% of all workers w/ same sex defined benefit retirement survivor benefits
+33_374_NB,33,Access to benefit - plan and occupation-level,374,% of all workers w/ opposite sex defined benefit retirement survivor benefits
+33_351_NB,33,Access to benefit - plan and occupation-level,351,Access to childcare
+33_358_NB,33,Access to benefit - plan and occupation-level,358,Access to retiree health care benefits under age 65
+33_359_NB,33,Access to benefit - plan and occupation-level,359,Access to retiree health care benefits at age 65 and over
+33_352_NB,33,Access to benefit - plan and occupation-level,352,Access to financial planning
+33_353_NB,33,Access to benefit - plan and occupation-level,353,Access to wellness programs
+33_354_NB,33,Access to benefit - plan and occupation-level,354,Access to employee assistance programs
+33_355_NB,33,Access to benefit - plan and occupation-level,355,Access to subsidized commuting
+33_356_NB,33,Access to benefit - plan and occupation-level,356,Access to long-term care insurance
+33_357_NB,33,Access to benefit - plan and occupation-level,357,Access to flexible workplace
+33_361_NB,33,Access to benefit - plan and occupation-level,361,Access to savings plans w/ no er contributions
+33_362_NB,33,Access to benefit - plan and occupation-level,362,Access to flexible benefits
+33_363_NB,33,Access to benefit - plan and occupation-level,363,Access to Health care flexible spending account
+33_364_NB,33,Access to benefit - plan and occupation-level,364,Access to Dependent care flexible spending account
+33_366_NB,33,Access to benefit - plan and occupation-level,366,Access to other stock options
+33_367_NB,33,Access to benefit - plan and occupation-level,367,Access to performance stock options
+33_368_NB,33,Access to benefit - plan and occupation-level,368,Access to signing stock options
+33_345_NB,33,Access to benefit - plan and occupation-level,345,Access to paid funeral leave
+33_346_NB,33,Access to benefit - plan and occupation-level,346,Access to paid jury duty leave
+33_347_NB,33,Access to benefit - plan and occupation-level,347,Access to paid military leave
+33_348_NB,33,Access to benefit - plan and occupation-level,348,Access to paid personal leave
+33_349_NB,33,Access to benefit - plan and occupation-level,349,Access to paid family leave
+33_350_NB,33,Access to benefit - plan and occupation-level,350,Access to unpaid family leave
+33_360_NB,33,Access to benefit - plan and occupation-level,360,Access to a health savings account
+26_291_NB,26,Percent participation across all workers,291,% of workers participating in a defined benefit retirement plan
+26_313_NB,26,Percent participation across all workers,313,% of workers participating in a defined contrib. retirement plan
+26_320_NB,26,Percent participation across all workers,320,% of workers participating in all retirement benefits
+28_319_NB,28,Percent with access to benefit - occupation-level,319,Access to all retirement benefits
+28_384_NB,28,Percent with access to benefit - occupation-level,384,Access to defined benefit and defined contribution retirement plans
+32_292_NB,32,Take-up rate,292,Take-up rate of workers w/ access to a defined benefit retirement plan
+32_314_NB,32,Take-up rate,314,Take-up rate of workers w/ access to a defined contrib. retirement plan
+32_321_NB,32,Take-up rate,321,Take-up rate of workers w/ access to all retirement benefits
+26_172_NB,26,Percent participation across all workers,172,% of workers participating in health care
+32_173_NB,32,Take-up rate,173,Take-up rate of workers w/ access to health care
+28_365_NB,28,Percent with access to benefit - occupation-level,365,Access to stock options
+33_967_NB,33,Access to benefit - plan and occupation-level,967,Access to student loan repayment
+33_968_NB,33,Access to benefit - plan and occupation-level,968,Access to flexible work schedule
+21_092_NB,21,10th percentile,092,# of sick days w/ limit on accumulation for workers w/ fixed # of sick days per yr (10th percentile)
+22_093_NB,22,25th percentile,093,# of sick days w/ limit on accumulation for workers w/ fixed # of sick days per yr (25th percentile)
+23_094_NB,23,Median,094,# of sick days w/ limit on accumulation for workers w/ fixed # of sick days per yr (50th percentile)
+24_095_NB,24,75th percentile,095,# of sick days w/ limit on accumulation for workers w/ fixed # of sick days per yr (75th percentile)
+25_096_NB,25,90th percentile,096,# of sick days w/ limit on accumulation for workers w/ fixed # of sick days per yr (90th percentile)
+30_100_NB,30,Mean,100,Mean # of sick days w/ a limit on days accumulated for workers w/ fixed # of sick days per yr
+20_397_NB,20,Percent participation,397,One plan network
+20_398_NB,20,Percent participation,398,Two plan networks
+20_399_NB,20,Percent participation,399,More than two plan networks
+20_400_NB,20,Percent participation,400,Medical care plans: With plan network
+20_401_NB,20,Percent participation,401,Medical care plans: With no plan network
+20_402_NB,20,Percent participation,402,Medical care plans: With plan network not determinable
+20_403_NB,20,Percent participation,403,Medical care plans: Non-emergency services allowed outside network
+20_404_NB,20,Percent participation,404,Medical care plans: Non-emergency services not allowed outside network
+20_405_NB,20,Percent participation,405,Medical care plans: Non-emergency services outside network  not determinable
+20_406_NB,20,Percent participation,406,Medical care plans: With primary care physician
+20_407_NB,20,Percent participation,407,Medical care plans: With no primary care physician
+20_408_NB,20,Percent participation,408,Medical care plans: With primary care physician not determinable
+20_409_NB,20,Percent participation,409,Medical care plans: Coverage for hospital room and board
+20_410_NB,20,Percent participation,410,Medical care plans: Coverage for inpatient surgery
+20_411_NB,20,Percent participation,411,Medical care plans: Coverage for physician office visit
+20_412_NB,20,Percent participation,412,Medical care plans: Coverage for outpatient surgery
+20_413_NB,20,Percent participation,413,"Medical care plans: Eligibility requirements, with service requirement"
+20_414_NB,20,Percent participation,414,"Medical care plans: Eligibility requirements, with 1 month service requirement"
+20_415_NB,20,Percent participation,415,"Medical care plans: Eligibility requirements, with 2 months service requirement"
+20_416_NB,20,Percent participation,416,"Medical care plans: Eligibility requirements, with 3 months service requirement"
+20_417_NB,20,Percent participation,417,"Medical care plans: Eligibility requirements, with greater than 3 months service requirement"
+20_418_NB,20,Percent participation,418,"Medical care plans: Eligibility requirements, with service requirement time not determinable"
+20_420_NB,20,Percent participation,420,"Medical care plans: Eligibility requirements, with no service requirement"
+20_421_NB,20,Percent participation,421,"Medical care plans: Eligibility requirements, with service requirement not determinable"
+20_422_NB,20,Percent participation,422,Non-high deductible health plans
+20_423_NB,20,Percent participation,423,Non-high deductible health plans: With flexible spending account
+20_424_NB,20,Percent participation,424,Non-high deductible health plans: With health reimbursement arrangement
+20_425_NB,20,Percent participation,425,Non-high deductible health plans: With annual individual deductible
+20_431_NB,20,Percent participation,431,Non-high deductible health plans: With no annual individual deductible
+20_432_NB,20,Percent participation,432,High deductible health plans
+20_433_NB,20,Percent participation,433,High deductible health plans: With flexible spending account
+20_434_NB,20,Percent participation,434,High deductible health plans: With health reimbursement arrangement
+20_435_NB,20,Percent participation,435,High deductible health plans: With health savings account
+20_441_NB,20,Percent participation,441,Fee-for-service plans: Total
+20_442_NB,20,Percent participation,442,Fee-for-service plans: Traditional
+20_443_NB,20,Percent participation,443,Fee-for-service plans: Exclusive provider organization
+20_444_NB,20,Percent participation,444,Fee-for-service plans: Preferred provider organization
+20_445_NB,20,Percent participation,445,Fee-for-service plans: Point of service
+20_446_NB,20,Percent participation,446,Fee-for-service plans: Type of plan not determinable
+20_447_NB,20,Percent participation,447,Fee-for-service plans: With annual deductible
+20_448_NB,20,Percent participation,448,Fee-for-service plans: With no annual deductible
+20_449_NB,20,Percent participation,449,Fee-for-service plans: With annual deductible not determinable
+20_450_NB,20,Percent participation,450,Fee-for-service plans: With annual individual deductible
+20_456_NB,20,Percent participation,456,Fee-for-service plans: With no annual individual deductible
+20_459_NB,20,Percent participation,459,Fee-for-service plans: With annual variable individual deductible
+20_464_NB,20,Percent participation,464,Fee-for-service plans: With annual family deductible
+20_470_NB,20,Percent participation,470,Fee-for-service plans: With no annual family deductible
+20_473_NB,20,Percent participation,473,Fee-for-service plans: With annual variable family deductible
+20_477_NB,20,Percent participation,477,Fee-for-service plans: With coinsurance
+20_478_NB,20,Percent participation,478,Fee-for-service plans: With no coinsurance
+20_479_NB,20,Percent participation,479,Fee-for-service plans: With coinsurance not determinable
+20_481_NB,20,Percent participation,481,Fee-for-service plans: With variable coinsurance
+20_487_NB,20,Percent participation,487,Fee-for-service plans: With annual out-of-pocket maximum
+20_488_NB,20,Percent participation,488,Fee-for-service plans: With no annual out-of-pocket maximum
+20_489_NB,20,Percent participation,489,Fee-for-service plans: Annual individual with out-of-pocket maximum
+20_495_NB,20,Percent participation,495,Fee-for-service plans: With no annual individual out-of-pocket maximum
+20_496_NB,20,Percent participation,496,Fee-for-service plans: With annual individual out-of-pocket maximum not determinable
+20_497_NB,20,Percent participation,497,Fee-for-service plans: With annual family out-of-pocket maximum
+20_503_NB,20,Percent participation,503,Fee-for-service plans: With no annual family out-of-pocket maximum
+20_504_NB,20,Percent participation,504,"Fee-for-service plans: Coverage for mental health care, inpatient mental"
+20_505_NB,20,Percent participation,505,"Fee-for-service plans: Coverage for mental health care, outpatient mental"
+20_506_NB,20,Percent participation,506,"Fee-for-service plans: Coverage for selected services, hospital room and board"
+20_507_NB,20,Percent participation,507,"Fee-for-service plans: Coverage for selected services, inpatient surgery"
+20_508_NB,20,Percent participation,508,"Fee-for-service plans: Coverage for selected services, physician office visit"
+20_509_NB,20,Percent participation,509,"Fee-for-service plans: Coverage for selected services, outpatient surgery"
+20_510_NB,20,Percent participation,510,Health maintenance organizations: Total
+20_511_NB,20,Percent participation,511,Health maintenance organizations: Traditional
+20_512_NB,20,Percent participation,512,Health maintenance organizations: Open access
+20_513_NB,20,Percent participation,513,Health maintenance organizations: Type of plan not determinable
+20_514_NB,20,Percent participation,514,Health maintenance organizations: With annual deductible
+20_515_NB,20,Percent participation,515,Health maintenance organizations: With no annual deductible
+20_516_NB,20,Percent participation,516,Health maintenance organizations: With annual deductible not determinable
+20_532_NB,20,Percent participation,532,Health maintenance organizations: With coinsurance
+20_533_NB,20,Percent participation,533,Health maintenance organizations: With no coinsurance
+20_534_NB,20,Percent participation,534,Health maintenance organizations: With coinsurance not determinable
+20_542_NB,20,Percent participation,542,Health maintenance organizations: With annual out-of-pocket maximum
+20_543_NB,20,Percent participation,543,Health maintenance organizations: With no annual out-of-pocket maximum
+20_544_NB,20,Percent participation,544,Health maintenance organizations: With annual out-of-pocket maximum not determinable
+20_545_NB,20,Percent participation,545,Health maintenance organizations: With annual family out-of-pocket maximum
+20_546_NB,20,Percent participation,546,Health maintenance organizations: With no annual family out-of-pocket maximum
+20_547_NB,20,Percent participation,547,Health maintenance organizations: With annual individual out-of-pocket maximum
+20_553_NB,20,Percent participation,553,Health maintenance organizations: With no annual individual out-of-pocket maximum
+20_559_NB,20,Percent participation,559,Health maintenance organizations: Coverage for inpatient mental health care
+20_560_NB,20,Percent participation,560,Health maintenance organizations: Coverage for outpatient mental health care
+20_561_NB,20,Percent participation,561,Health maintenance organizations: Coverage for hospital room and board
+20_562_NB,20,Percent participation,562,Health maintenance organizations: Coverage for inpatient surgery
+20_563_NB,20,Percent participation,563,Health maintenance organizations: Coverage for physician office visit
+20_564_NB,20,Percent participation,564,Health maintenance organizations: Coverage for outpatient surgery
+20_565_NB,20,Percent participation,565,"Hospital room and board benefits: All medical plans, coverage not determinable"
+20_566_NB,20,Percent participation,566,"Hospital room and board benefits: All medical plans, coverage with limits"
+20_567_NB,20,Percent participation,567,"Hospital room and board benefits: All medical plans, full coverage"
+20_569_NB,20,Percent participation,569,"Hospital room and board benefits: Fee-for-service plans, coverage with limits"
+20_570_NB,20,Percent participation,570,"Hospital room and board benefits: Fee-for-service plans, full coverage"
+20_571_NB,20,Percent participation,571,"Hospital room and board benefits: Health maintenance organizations plans, coverage not determinable"
+20_572_NB,20,Percent participation,572,"Hospital room and board benefits: Health maintenance organizations plans, coverage with limits"
+20_573_NB,20,Percent participation,573,"Hospital room and board benefits: Health maintenance organizations plans, full coverage"
+20_574_NB,20,Percent participation,574,"Hospital room and board benefits: All medical plans, coinsurance only"
+20_575_NB,20,Percent participation,575,"Hospital room and board benefits: All medical plans, copayment and coinsurance"
+20_576_NB,20,Percent participation,576,"Hospital room and board benefits: All medical plans, copayment only"
+20_578_NB,20,Percent participation,578,"Hospital room and board benefits: Fee-for-service plans, coinsurance only"
+20_579_NB,20,Percent participation,579,"Hospital room and board benefits: Fee-for-service plans, copayment and coinsurance"
+20_580_NB,20,Percent participation,580,"Hospital room and board benefits: Fee-for-service plans, copayment only"
+20_582_NB,20,Percent participation,582,"Hospital room and board benefits: Health maintenance organizations plans, coinsurance only"
+20_583_NB,20,Percent participation,583,"Hospital room and board benefits: Health maintenance organizations plans, copayment and coinsurance"
+20_584_NB,20,Percent participation,584,"Hospital room and board benefits: Health maintenance organizations plans, copayment only"
+20_587_NB,20,Percent participation,587,"Inpatient mental health care benefits: All medical plans, coverage with limits"
+20_588_NB,20,Percent participation,588,"Inpatient mental health care benefits: All medical plans, full coverage"
+20_590_NB,20,Percent participation,590,"Inpatient mental health care benefits: Fee-for-service plans, coverage with limits"
+20_591_NB,20,Percent participation,591,"Inpatient mental health care benefits: Fee-for-service plans, full coverage"
+20_592_NB,20,Percent participation,592,"Inpatient mental health care benefits: Health maintenance organizations plans, coverage not determinable"
+20_593_NB,20,Percent participation,593,"Inpatient mental health care benefits: Health maintenance organizations plans, coverage with limits"
+20_594_NB,20,Percent participation,594,"Inpatient mental health care benefits: Health maintenance organizations plans, full coverage"
+20_596_NB,20,Percent participation,596,"Inpatient surgery benefits: All medical plans, coverage with limits"
+20_597_NB,20,Percent participation,597,"Inpatient surgery benefits: All medical plans, full coverage"
+20_599_NB,20,Percent participation,599,"Inpatient surgery benefits: Fee-for-service plans, coverage with limits"
+20_600_NB,20,Percent participation,600,"Inpatient surgery benefits: Fee-for-service plans, full coverage"
+20_601_NB,20,Percent participation,601,"Inpatient surgery benefits: Health maintenance organizations plans, coverage not determinable"
+20_602_NB,20,Percent participation,602,"Inpatient surgery benefits: Health maintenance organizations plans, coverage with limits"
+20_603_NB,20,Percent participation,603,"Inpatient surgery benefits: Health maintenance organizations plans, full coverage"
+20_604_NB,20,Percent participation,604,Mental health care treatment benefits: Coverage for inpatient mental
+20_605_NB,20,Percent participation,605,Mental health care treatment benefits: Coverage for outpatient mental
+20_606_NB,20,Percent participation,606,"Outpatient mental health care benefits: Health maintenance organizations plans, coverage not determinable"
+20_607_NB,20,Percent participation,607,"Outpatient mental health care benefits: Health maintenance organizations plans, coverage with limits"
+20_609_NB,20,Percent participation,609,"Outpatient mental health care benefits: All medical plans, coverage with limits"
+20_610_NB,20,Percent participation,610,"Outpatient mental health care benefits: All medical plans, full coverage"
+20_612_NB,20,Percent participation,612,"Outpatient mental health care benefits: Fee-for-service plans, coverage with limits"
+20_613_NB,20,Percent participation,613,"Outpatient mental health care benefits: Fee-for-service plans, full coverage"
+20_614_NB,20,Percent participation,614,Outpatient prescription drug benefits: Brand-name drugs not on formulary coverage
+20_615_NB,20,Percent participation,615,Outpatient prescription drug benefits: Brand-name drugs on formulary coverage
+20_616_NB,20,Percent participation,616,Outpatient prescription drug benefits: Brand-name drugs on formulary with copayment
+20_617_NB,20,Percent participation,617,Outpatient prescription drug benefits: Brand-name drugs on formulary with no copayment
+20_618_NB,20,Percent participation,618,Outpatient prescription drug benefits: Brand-name drugs on formulary with copayment not determinable
+20_620_NB,20,Percent participation,620,Outpatient prescription drug benefits: Brand-name drugs not on formulary with copayment
+20_621_NB,20,Percent participation,621,Outpatient prescription drug benefits: Brand-name drugs not on formulary with no copayment
+20_622_NB,20,Percent participation,622,Outpatient prescription drug benefits: Brand-name drugs not on formulary with copayment not determinable
+20_624_NB,20,Percent participation,624,Outpatient prescription drug benefits: Generic drugs with copayment not determinable
+20_625_NB,20,Percent participation,625,Outpatient prescription drug benefits: Generic drugs coverage
+20_626_NB,20,Percent participation,626,Outpatient prescription drug benefits: Generic drugs with copayment
+20_627_NB,20,Percent participation,627,Outpatient prescription drug benefits: Generic drugs with no copayment
+20_629_NB,20,Percent participation,629,Outpatient prescription drug benefits: Mail order drugs coverage
+20_630_NB,20,Percent participation,630,"Outpatient surgery benefits: Health maintenance organizations plans, coverage not determinable"
+20_631_NB,20,Percent participation,631,"Outpatient surgery benefits: Health maintenance organizations plans, coverage with limits"
+20_632_NB,20,Percent participation,632,"Outpatient surgery benefits: Health maintenance organizations plans, full coverage"
+20_635_NB,20,Percent participation,635,"Outpatient surgery benefits: All medical plans, coverage with limits"
+20_636_NB,20,Percent participation,636,"Outpatient surgery benefits: All medical plans, full coverage"
+20_639_NB,20,Percent participation,639,"Outpatient surgery benefits: Fee-for-service plans, coverage with limits"
+20_640_NB,20,Percent participation,640,"Outpatient surgery benefits: Fee-for-service plans, full coverage"
+20_642_NB,20,Percent participation,642,"Physician office visit benefits: Health maintenance organizations plans, coverage not determinable"
+20_643_NB,20,Percent participation,643,"Physician office visit benefits: Health maintenance organizations plans, coverage with limits"
+20_644_NB,20,Percent participation,644,"Physician office visit benefits: Health maintenance organizations plans, full coverage"
+20_646_NB,20,Percent participation,646,"Physician office visit benefits: All medical plans, coverage not determinable"
+20_647_NB,20,Percent participation,647,"Physician office visit benefits: All medical plans, coverage with limits"
+20_648_NB,20,Percent participation,648,"Physician office visit benefits: All medical plans, full coverage"
+20_650_NB,20,Percent participation,650,"Physician office visit benefits: Fee-for-service plans, coverage not determinable"
+20_651_NB,20,Percent participation,651,"Physician office visit benefits: Fee-for-service plans, coverage with limits"
+20_652_NB,20,Percent participation,652,"Physician office visit benefits: Fee-for-service plans, full coverage"
+20_654_NB,20,Percent participation,654,Dental care benefits: Preventative services coverage
+20_655_NB,20,Percent participation,655,Dental care benefits: Basic services coverage
+20_656_NB,20,Percent participation,656,Dental care benefits: Major services coverage
+20_657_NB,20,Percent participation,657,"Dental care benefits: Coverage for orthodontia, total"
+20_658_NB,20,Percent participation,658,"Dental care benefits: Coverage for orthodontia, employee and dependent"
+20_659_NB,20,Percent participation,659,"Dental care benefits: Coverage for orthodontia, dependent only"
+20_660_NB,20,Percent participation,660,"Dental care benefits: Coverage for preventive services, full coverage"
+20_661_NB,20,Percent participation,661,"Dental care benefits: Coverage for preventive services, coverage with limits"
+20_662_NB,20,Percent participation,662,Dental care benefits: Coverage for preventive services not determinable
+20_663_NB,20,Percent participation,663,"Dental care benefits: Coverage for basic services, full coverage"
+20_664_NB,20,Percent participation,664,"Dental care benefits: Coverage for basic services, coverage with limits"
+20_665_NB,20,Percent participation,665,Dental care benefits: Coverage for basic services not determinable
+20_666_NB,20,Percent participation,666,"Dental care benefits: Coverage for major services, coverage with limits"
+20_667_NB,20,Percent participation,667,"Dental care benefits: Coverage for major services, no coverage"
+20_672_NB,20,Percent participation,672,"Dental care benefits: Employee and dependent coverage for orthodontia, coverage with limits"
+20_673_NB,20,Percent participation,673,"Dental care benefits: Employee and dependent coverage for orthodontia, no coverage"
+20_676_NB,20,Percent participation,676,"Dental care benefits: Dependent only coverage for orthodontia, coverage with limits"
+20_677_NB,20,Percent participation,677,"Dental care benefits: Dependent only coverage for orthodontia, no coverage"
+20_678_NB,20,Percent participation,678,Dental care benefits: Dependent only coverage for orthodontia not determinable
+20_681_NB,20,Percent participation,681,Dental care benefits: With annual individual deductible
+20_687_NB,20,Percent participation,687,Dental care benefits: With no annual individual deductible
+20_688_NB,20,Percent participation,688,Dental care benefits: With annual individual deductible not determinable
+20_689_NB,20,Percent participation,689,Dental care benefits: With annual family deductible
+20_695_NB,20,Percent participation,695,Dental care benefits: With no annual family deductible
+20_696_NB,20,Percent participation,696,Dental care benefits: With annual plan maximum
+20_702_NB,20,Percent participation,702,Dental care benefits: With no annual plan maximum
+20_703_NB,20,Percent participation,703,Dental care benefits: With annual plan maximum not determinable
+20_704_NB,20,Percent participation,704,Vision care benefits: Coverage for eye exams
+20_705_NB,20,Percent participation,705,"Vision care benefits: Extent of coverage for eye exams, full coverage"
+20_706_NB,20,Percent participation,706,"Vision care benefits: Extent of coverage for eye exams, coverage with limits"
+20_707_NB,20,Percent participation,707,Vision care benefits: Extent of coverage for eye exams not determinable
+20_709_NB,20,Percent participation,709,Vision care benefits: Coverage for glasses
+20_710_NB,20,Percent participation,710,"Vision care benefits: Extent of coverage for glasses, full coverage"
+20_711_NB,20,Percent participation,711,"Vision care benefits: Extent of coverage for glasses, coverage with limits"
+20_712_NB,20,Percent participation,712,Vision care benefits: Extent of coverage for glasses not determinable
+20_714_NB,20,Percent participation,714,Vision care benefits: Coverage for contact lenses
+20_715_NB,20,Percent participation,715,"Vision care benefits: Extent of coverage for contact lenses, full coverage"
+20_716_NB,20,Percent participation,716,"Vision care benefits: Extent of coverage for contact lenses, coverage with limits"
+20_719_NB,20,Percent participation,719,Medical care plans: With coinsurance
+20_720_NB,20,Percent participation,720,Medical care plans: With no coinsurance
+20_722_NB,20,Percent participation,722,Medical care plans: With annual out-of-pocket maximum
+20_723_NB,20,Percent participation,723,Medical care plans: With no annual out-of-pocket maximum
+20_724_NB,20,Percent participation,724,Medical care plans: With annual out-of-pocket maximum not determinable
+20_725_NB,20,Percent participation,725,Medical care plans: With annual deductible
+20_726_NB,20,Percent participation,726,Medical care plans: With no annual deductible
+20_727_NB,20,Percent participation,727,Medical care plans: With annual deductible not determinable
+20_729_NB,20,Percent participation,729,Medical care plans: With variable annual individual deductible
+20_732_NB,20,Percent participation,732,Medical care plans: With variable annual family deductible
+20_733_NB,20,Percent participation,733,Medical care plans: With annual individual deductible
+20_734_NB,20,Percent participation,734,Medical care plans: With no annual individual deductible
+20_735_NB,20,Percent participation,735,Medical care plans: With annual family deductible
+20_736_NB,20,Percent participation,736,Medical care plans: With no annual family deductible
+20_737_NB,20,Percent participation,737,Medical care plans: With individual out-of-pocket maximum
+20_738_NB,20,Percent participation,738,Medical care plans: With no individual out-of-pocket maximum
+20_739_NB,20,Percent participation,739,Medical care plans: With family out-of-pocket maximum
+20_740_NB,20,Percent participation,740,Medical care plans: With no family out-of-pocket maximum
+20_759_NB,20,Percent participation,759,Medical care benefits: With variable coinsurance
+20_776_NB,20,Percent participation,776,Outpatient prescription drug benefits: Subject to an annual deductible
+20_777_NB,20,Percent participation,777,Outpatient prescription drug benefits: Generic drugs limits subject to coinsurance
+20_778_NB,20,Percent participation,778,Outpatient prescription drug benefits: Generic drugs subject to coinsurance limits (floor or ceiling)
+20_779_NB,20,Percent participation,779,Outpatient prescription drug benefits: Generic drugs subject to copayment and coinsurance or some other limits
+20_780_NB,20,Percent participation,780,Outpatient prescription drug benefits: With no cost per fill or refill for generic drugs
+20_781_NB,20,Percent participation,781,Outpatient prescription drug benefits: Generic drugs limits subject to copayment
+20_783_NB,20,Percent participation,783,Outpatient prescription drug benefits: Brand-name drugs limits subject to coinsurance
+20_784_NB,20,Percent participation,784,Outpatient prescription drug benefits: Brand-name drugs limits subject to coinsurance limits (floor or ceiling)
+20_785_NB,20,Percent participation,785,Outpatient prescription drug benefits: Brand-name drugs subject to copayment and coinsurance or some other limits
+20_786_NB,20,Percent participation,786,Outpatient prescription drug benefits: With no cost per fill or refill for brand-name drugs
+20_787_NB,20,Percent participation,787,Outpatient prescription drug benefits: Brand-name drugs limits subject to copayment
+20_789_NB,20,Percent participation,789,Outpatient prescription drug benefits: Brand-name drugs not on formulary limits subject to coinsurance
+20_790_NB,20,Percent participation,790,Outpatient prescription drug benefits: Brand-name drugs not on formulary subject to coinsurance limits (floor or ceiling)
+20_791_NB,20,Percent participation,791,Outpatient prescription drug benefits: Brand-name drugs not on formulary subject to copayment and coinsurance or other limits
+20_792_NB,20,Percent participation,792,Outpatient prescription drug benefits: With no cost per fill or refill for brand-name drugs not on formulary
+20_793_NB,20,Percent participation,793,Outpatient prescription drug benefits: Brand-name drugs not on formulary limits subject to copayment
+21_426_NB,21,10th percentile,426,Non-high deductible health plans: Amount of annual individual deductible (10th percentile)
+21_436_NB,21,10th percentile,436,High deductible health plans: Amount of annual individual deductible (10th percentile)
+21_451_NB,21,10th percentile,451,Fee-for-service plans: Annual individual deductible (10th percentile)
+21_465_NB,21,10th percentile,465,Fee-for-service plans: Annual family deductible (10th percentile)
+21_490_NB,21,10th percentile,490,Fee-for-service plans: Annual individual out-of-pocket maximum amount (10th percentile)
+21_498_NB,21,10th percentile,498,Fee-for-service plans: Annual family out-of-pocket maximum amount (10th percentile)
+21_548_NB,21,10th percentile,548,Health maintenance organizations: Amount of annual individual out-of-pocket maximum (10th percentile)
+21_554_NB,21,10th percentile,554,Health maintenance organizations: Amount of annual family out-of-pocket maximum (10th percentile)
+21_682_NB,21,10th percentile,682,Dental care benefits: Amount of annual individual deductible (10th percentile)
+21_690_NB,21,10th percentile,690,Dental care benefits: Amount of annual family deductible (10th percentile)
+21_697_NB,21,10th percentile,697,Dental care benefits: Amount of annual plan maximum (10th percentile)
+21_749_NB,21,10th percentile,749,Medical care benefits: Amount of annual individual deductible (10th percentile)
+21_754_NB,21,10th percentile,754,Medical care benefits: Amount of annual family deductible (10th percentile)
+21_766_NB,21,10th percentile,766,Medical care benefits: Amount of annual individual out-of-pocket maximum (10th percentile)
+21_771_NB,21,10th percentile,771,Medical care benefits: Amount of annual family out-of-pocket maximum (10th percentile)
+22_427_NB,22,25th percentile,427,Non-high deductible health plans: Amount of annual individual deductible (25th percentile)
+22_437_NB,22,25th percentile,437,High deductible health plans: Amount of annual individual deductible (25th percentile)
+22_452_NB,22,25th percentile,452,Fee-for-service plans: Annual individual deductible (25th percentile)
+22_466_NB,22,25th percentile,466,Fee-for-service plans: Annual family deductible (25th percentile)
+22_491_NB,22,25th percentile,491,Fee-for-service plans: Annual individual out-of-pocket maximum amount (25th percentile)
+22_499_NB,22,25th percentile,499,Fee-for-service plans: Annual family out-of-pocket maximum amount (25th percentile)
+22_549_NB,22,25th percentile,549,Health maintenance organizations: Amount of annual individual out-of-pocket maximum (25th percentile)
+22_555_NB,22,25th percentile,555,Health maintenance organizations: Amount of annual family out-of-pocket maximum (25th percentile)
+22_683_NB,22,25th percentile,683,Dental care benefits: Amount of annual individual deductible (25th percentile)
+22_691_NB,22,25th percentile,691,Dental care benefits: Amount of annual family deductible (25th percentile)
+22_698_NB,22,25th percentile,698,Dental care benefits: Amount of annual plan maximum (25th percentile)
+22_750_NB,22,25th percentile,750,Medical care benefits: Amount of annual individual deductible (25th percentile)
+22_755_NB,22,25th percentile,755,Medical care benefits: Amount of annual family deductible (25th percentile)
+22_767_NB,22,25th percentile,767,Medical care benefits: Amount of annual individual out-of-pocket maximum (25th percentile)
+22_772_NB,22,25th percentile,772,Medical care benefits: Amount of annual family out-of-pocket maximum (25th percentile)
+23_419_NB,23,Median,419,"Medical care plans: Eligibility requirements, median service requirement (in months)"
+23_428_NB,23,Median,428,Non-high deductible health plans: Amount of annual individual deductible (50th percentile-median)
+23_438_NB,23,Median,438,High deductible health plans: Amount of annual individual deductible (50th percentile-median)
+23_453_NB,23,Median,453,Fee-for-service plans: Annual individual deductible (50th percentile-median)
+23_460_NB,23,Median,460,Fee-for-service plans: Median annual variable individual deductible (most generous coverage)
+23_461_NB,23,Median,461,Fee-for-service plans: Median annual variable individual deductible amount (in-network)
+23_462_NB,23,Median,462,Fee-for-service plans: Median annual variable individual deductible amount (out-of-network)
+23_467_NB,23,Median,467,Fee-for-service plans: Annual family deductible (50th percentile-median)
+23_474_NB,23,Median,474,Fee-for-service plans: Median annual variable family deductible (most generous coverage)
+23_475_NB,23,Median,475,Fee-for-service plans: Median annual variable family deductible amount (in-network)
+23_476_NB,23,Median,476,Fee-for-service plans: Median annual variable family deductible amount (out-of-network)
+23_484_NB,23,Median,484,Fee-for-service plans: Median variable coinsurance percentage (most generous coverage)
+23_485_NB,23,Median,485,Fee-for-service plans: Median variable coinsurance percentage (in-network)
+23_486_NB,23,Median,486,Fee-for-service plans: Median variable coinsurance percentage (out-of-network)
+23_492_NB,23,Median,492,Fee-for-service plans: Annual individual out-of-pocket maximum amount (50th percentile-median)
+23_500_NB,23,Median,500,Fee-for-service plans: Annual family out-of-pocket maximum amount (50th percentile-median)
+23_550_NB,23,Median,550,Health maintenance organizations: Amount of annual individual out-of-pocket maximum (50th percentile-median)
+23_556_NB,23,Median,556,Health maintenance organizations: Amount of annual family out-of-pocket maximum (50th percentile-median)
+23_577_NB,23,Median,577,"Hospital room and board benefits: All medical plans, median copayment per visit"
+23_581_NB,23,Median,581,"Hospital room and board benefits: Fee-for-service, median copayment per visit"
+23_619_NB,23,Median,619,Outpatient prescription drug benefits: Brand-name drugs on formulary median copayment per prescription
+23_623_NB,23,Median,623,Outpatient prescription drug benefits: Brand-name drugs not on formulary median copayment per prescription
+23_628_NB,23,Median,628,Outpatient prescription drug benefits: Generic drugs median copayment per prescription
+23_641_NB,23,Median,641,"Outpatient surgery benefits: Fee-for-service, median copayment per visit"
+23_645_NB,23,Median,645,"Physician office visit benefits: Health maintenance organizations, median copayment per visit"
+23_649_NB,23,Median,649,"Physician office visit benefits: All medical plans, median copayment per visit"
+23_653_NB,23,Median,653,"Physician office visit benefits: Fee-for-service, median copayment per visit"
+23_669_NB,23,Median,669,Dental care benefits: Median percent of covered charges paid by plan for preventative services
+23_670_NB,23,Median,670,Dental care benefits: Median percent of covered charges paid by plan for basic services
+23_671_NB,23,Median,671,Dental care benefits: Median percent of covered charges paid by plan for major services
+23_675_NB,23,Median,675,"Dental care benefits: Employee and dependent coverage for orthodontia, median percent of covered charges"
+23_679_NB,23,Median,679,"Dental care benefits: Dependent only coverage for orthodontia, median percent covered of charges"
+23_680_NB,23,Median,680,"Dental care benefits: Coverage for orthodontia, median lifetime maximum"
+23_684_NB,23,Median,684,Dental care benefits: Amount of annual individual deductible (50th percentile-median)
+23_692_NB,23,Median,692,Dental care benefits: Amount of annual family deductible (50th percentile-median)
+23_699_NB,23,Median,699,Dental care benefits: Amount of annual plan maximum (50th percentile-median)
+23_708_NB,23,Median,708,Vision care benefits: Median copayments for eye exams
+23_713_NB,23,Median,713,Vision care benefits: Median copayments for glasses
+23_718_NB,23,Median,718,Vision care benefits: Median copayments for contact lenses
+23_742_NB,23,Median,742,Medical care benefits: Median variable annual individual deductible amount for in-network coverage
+23_743_NB,23,Median,743,Medical care benefits: Median variable annual individual deductible amount for out-of-network coverage
+23_744_NB,23,Median,744,Medical care benefits: Median variable annual individual deductible amount for most generous coverage
+23_746_NB,23,Median,746,Medical care benefits: Median variable in-network annual family deductible amount
+23_747_NB,23,Median,747,Medical care benefits: Median variable out-of-network annual family deductible amount
+23_748_NB,23,Median,748,Medical care benefits: Median variable most-generous coverage annual family deductible amount
+23_751_NB,23,Median,751,Medical care benefits: Amount of annual individual deductible (50th percentile - median)
+23_756_NB,23,Median,756,Medical care benefits: Amount of annual family deductible (50th percentile - median)
+23_763_NB,23,Median,763,Medical care benefits: Median variable coinsurance percentage for in-network coverage
+23_764_NB,23,Median,764,Medical care benefits: Median variable coinsurance percentage for out-of-network coverage
+23_765_NB,23,Median,765,Medical care benefits: Median variable coinsurance percentage for most generous coverage
+23_768_NB,23,Median,768,Medical care benefits: Amount of annual individual out-of-pocket maximum (50th percentile - median)
+23_773_NB,23,Median,773,Medical care benefits: Amount of annual family out-of-pocket maximum (50th percentile - median)
+23_782_NB,23,Median,782,Outpatient prescription drugs: Median coinsurance per generic drug prescription
+23_788_NB,23,Median,788,Outpatient prescription drugs: Median coinsurance per brand-name drug prescription
+23_794_NB,23,Median,794,Outpatient prescription drugs: Median coinsurance per brand-name drug not on formulary prescription
+24_429_NB,24,75th percentile,429,Non-high deductible health plans: Amount of annual individual deductible (75th percentile)
+24_439_NB,24,75th percentile,439,High deductible health plans: Amount of annual individual deductible (75th percentile)
+24_454_NB,24,75th percentile,454,Fee-for-service plans: Annual individual deductible (75th percentile)
+24_468_NB,24,75th percentile,468,Fee-for-service plans: Annual family deductible (75th percentile)
+24_493_NB,24,75th percentile,493,Fee-for-service plans: Annual individual out-of-pocket maximum amount (75th percentile)
+24_501_NB,24,75th percentile,501,Fee-for-service plans: Annual family out-of-pocket maximum amount (75th percentile)
+24_551_NB,24,75th percentile,551,Health maintenance organizations: Amount of annual individual out-of-pocket maximum (75th percentile)
+24_557_NB,24,75th percentile,557,Health maintenance organizations: Amount of annual family out-of-pocket maximum (75th percentile)
+24_685_NB,24,75th percentile,685,Dental care benefits: Amount of annual individual deductible (75th percentile)
+24_693_NB,24,75th percentile,693,Dental care benefits: Amount of annual family deductible (75th percentile)
+24_700_NB,24,75th percentile,700,Dental care benefits: Amount of annual plan maximum (75th percentile)
+24_752_NB,24,75th percentile,752,Medical care benefits: Amount of annual individual deductible (75th percentile)
+24_757_NB,24,75th percentile,757,Medical care benefits: Amount of annual family deductible (75th percentile)
+24_769_NB,24,75th percentile,769,Medical care benefits: Amount of annual individual out-of-pocket maximum (75th percentile)
+24_774_NB,24,75th percentile,774,Medical care benefits: Amount of annual family out-of-pocket maximum (75th percentile)
+25_430_NB,25,90th percentile,430,Non-high deductible health plans: Amount of annual individual deductible (90th percentile)
+25_440_NB,25,90th percentile,440,High deductible health plans: Amount of annual individual deductible (90th percentile)
+25_455_NB,25,90th percentile,455,Fee-for-service plans: Annual individual deductible (90th percentile)
+25_469_NB,25,90th percentile,469,Fee-for-service plans: Annual family deductible (90th percentile)
+25_494_NB,25,90th percentile,494,Fee-for-service plans: Annual individual out-of-pocket maximum amount (90th percentile)
+25_502_NB,25,90th percentile,502,Fee-for-service plans: Annual family out-of-pocket maximum amount (90th percentile)
+25_552_NB,25,90th percentile,552,Health maintenance organizations: Amount of annual individual out-of-pocket maximum (90th percentile)
+25_558_NB,25,90th percentile,558,Health maintenance organizations: Amount of annual family out-of-pocket maximum (90th percentile)
+25_694_NB,25,90th percentile,694,Dental care benefits: Amount of annual family deductible (90th percentile)
+25_701_NB,25,90th percentile,701,Dental care benefits: Amount of annual plan maximum (90th percentile)
+25_753_NB,25,90th percentile,753,Medical care benefits: Amount of annual individual deductible (90th percentile)
+25_758_NB,25,90th percentile,758,Medical care benefits: Amount of annual family deductible (90th percentile)
+25_770_NB,25,90th percentile,770,Medical care benefits: Amount of annual individual out-of-pocket maximum (90th percentile)
+25_775_NB,25,90th percentile,775,Medical care benefits: Amount of annual family out-of-pocket maximum (90th percentile)
+27_369_NB,27,Establishments offering benefit,369,% of establishments offering health care benefits
+20_480_NB,20,Percent participation,480,Fee-for-service plans: With fixed coinsurance
+20_568_NB,20,Percent participation,568,Hospital room and board benefits: Fee-for-service plans coverage not determinable
+20_589_NB,20,Percent participation,589,"Inpatient mental health care benefits: Fee-for-service plans, coverage not determinable"
+20_595_NB,20,Percent participation,595,"Inpatient surgery benefits: All medical plans, coverage not determinable"
+20_598_NB,20,Percent participation,598,"Inpatient surgery benefits: Fee-for-service plans, coverage not determinable"
+20_608_NB,20,Percent participation,608,"Outpatient mental health care benefits: All medical plans, coverage not determinable"
+20_611_NB,20,Percent participation,611,"Outpatient mental health care benefits: Fee-for-service plans, coverage not determinable"
+20_634_NB,20,Percent participation,634,"Outpatient surgery benefits: All medical plans, coverage not determinable"
+20_638_NB,20,Percent participation,638,"Outpatient surgery benefits: Fee-for-service plans, coverage not determinable"
+20_674_NB,20,Percent participation,674,"Dental care benefits: Employee and dependent coverage for orthodontia, not determinable"
+23_483_NB,23,Median,483,Fee-for-service plans: Median coinsurance percentage
+23_633_NB,23,Median,633,"Outpatient surgery benefits: Health maintenance organizations plans, median copayment per visit"
+25_686_NB,25,90th percentile,686,Dental care benefits: Amount of annual individual deductible (90th percentile)
+20_668_NB,20,Percent participation,668,Dental care benefits: Coverage for major services not determinable
+20_717_NB,20,Percent participation,717,Vision care benefits: Extent of coverage for contact lenses not determinable
+20_4M2_NB,20,Percent participation,4M2,Medical care plans: With health reimbursement arrangement
+20_4S0_NB,20,Percent participation,4S0,Medical care plans: Coverage for specialist office visit
+20_4S2_NB,20,Percent participation,4S2,"Specialist office visit benefits: All medical plans, coverage not determinable"
+20_4S3_NB,20,Percent participation,4S3,"Specialist office visit benefits: All medical plans, coverage with limits"
+20_4S6_NB,20,Percent participation,4S6,"Specialist office visit benefits: All medical plans, copayment only"
+20_4S7_NB,20,Percent participation,4S7,"Specialist office visit benefits: All medical plans, coinsurance only"
+20_4S9_NB,20,Percent participation,4S9,"Specialist office visit benefits: All medical plans, copayment and coinsurance"
+20_728_NB,20,Percent participation,728,Medical care plans: With fixed annual individual deductible
+20_730_NB,20,Percent participation,730,Medical care plans: With other annual individual deductible
+20_731_NB,20,Percent participation,731,Medical care plans: With fixed annual family deductible
+20_761_NB,20,Percent participation,761,Medical care benefits: With fixed coinsurance
+23_4H5_NB,23,Median,4H5,"Hospital room and board benefits: All medical plans, median coinsurance percentage"
+23_4S5_NB,23,Median,4S5,"Specialist office visit benefits: All medical plans, median coinsurance percentage"
+23_4S8_NB,23,Median,4S8,"Specialist office visit benefits: All medical plans, median copayment per visit"
+23_741_NB,23,Median,741,Medical care benefits: Median fixed annual individual deductible amount
+23_745_NB,23,Median,745,Medical care benefits: Median fixed annual family deductible amount
+23_762_NB,23,Median,762,Medical care benefits: Median fixed coinsurance percentage
+23_637_NB,23,Median,637,"Outpatient surgery benefits: All medical plans, median copayment per visit"
+20_457_NB,20,Percent participation,457,Fee-for-service plans: With fixed annual individual deductible
+20_471_NB,20,Percent participation,471,Fee-for-service plans: With fixed annual family deductible
+20_586_NB,20,Percent participation,586,"Inpatient mental health care benefits: All medical plans, coverage not determinable"
+23_458_NB,23,Median,458,"Fee-for-service plans: Annual fixed individual deductible, median amount"
+23_585_NB,23,Median,585,"Hospital room and board benefits: Health maintenance organizations plans, median copayment per visit"
+23_472_NB,23,Median,472,"Fee-for-service plans: Annual fixed family deductible, median amount"
+20_293_NB,20,Percent participation,293,% of workers participating in defined benefit plans and ee contrib. required
+20_294_NB,20,Percent participation,294,% of workers participating in defined benefit plans: Fixed % of annual earnings contrib. method
+20_297_NB,20,Percent participation,297,% of workers participating in defined benefit plans and ee contrib. not req.
+20_800_NB,20,Percent participation,800,Defined benefit plans: With traditional primary formula
+20_801_NB,20,Percent participation,801,Defined benefit plans: With non-traditional primary plan formula
+20_802_NB,20,Percent participation,802,Defined benefit plans: Single employer plan sponsor
+20_803_NB,20,Percent participation,803,Defined benefit plans: Multi-employer plan sponsor
+20_804_NB,20,Percent participation,804,Defined benefit plans: Plans open to new employees
+20_805_NB,20,Percent participation,805,Defined benefit plans: Plans not open to new employees
+20_806_NB,20,Percent participation,806,Defined benefit  plans: Plans open to new employees not determinable
+20_808_NB,20,Percent participation,808,Defined benefit plans open to new employees: No minimum age or service requirement
+20_809_NB,20,Percent participation,809,Defined benefit plans open to new employees: Minimum age and service requirements
+20_810_NB,20,Percent participation,810,Defined benefit plans open to new employees: Minimum service requirement only
+20_811_NB,20,Percent participation,811,Defined benefits plans open to new employee: Minimum age and service requirement not determinable
+20_812_NB,20,Percent participation,812,Defined benefit plans: Benefits integrated with Social Security
+20_813_NB,20,Percent participation,813,Defined benefit plans: Social Security breakpoint integrated formula
+20_815_NB,20,Percent participation,815,Defined benefit plans: Social Security offset integrated formula
+20_816_NB,20,Percent participation,816,Defined benefit plans: Benefits not integrated with Social Security
+20_819_NB,20,Percent participation,819,Defined benefit plans: Cliff vesting requirement
+20_822_NB,20,Percent participation,822,Defined benefit plans: Graded vesting
+20_824_NB,20,Percent participation,824,Non-traditional defined benefit single employer plan sponsor
+20_826_NB,20,Percent participation,826,Non-traditional defined benefit cash balance plans: Employer contribution varies by age
+20_829_NB,20,Percent participation,829,Non-traditional defined benefit cash balance plans: Employer contribution varies by service
+20_830_NB,20,Percent participation,830,Non-traditional defined benefit cash balance plans: Employer contributions varies by Social Security taxable wage base
+20_831_NB,20,Percent participation,831,Non-traditional defined benefit cash balance plans: Variable percentage employer contribution
+20_832_NB,20,Percent participation,832,Non-traditional defined benefit plans: Lump sum payment at normal retirement
+20_833_NB,20,Percent participation,833,Non-traditional defined benefit primary plan formula: Cash balance
+20_835_NB,20,Percent participation,835,Non-traditional defined benefit primary plan formula: Pension equity
+20_837_NB,20,Percent participation,837,Non-traditional defined benefits cash balance plans: Flat rate percentage employer contribution
+20_840_NB,20,Percent participation,840,Non-traditional defined benefits plans: Disability retirement benefits
+20_841_NB,20,Percent participation,841,Non-traditional defined benefits plans: Joint-and-survivor annuity
+20_842_NB,20,Percent participation,842,Non-traditional defined benefits plans: Pre-retirement survivor benefits
+20_843_NB,20,Percent participation,843,Traditional defined benefit multi-employer plan sponsor
+20_844_NB,20,Percent participation,844,Traditional defined benefit plans with disability retirement available
+20_845_NB,20,Percent participation,845,Traditional defined benefit plans with disability retirement not available
+20_846_NB,20,Percent participation,846,Traditional defined benefit plans with disability retirement beginning immediately
+20_847_NB,20,Percent participation,847,Traditional defined benefit plans with disability retirement is deferred
+20_848_NB,20,Percent participation,848,Traditional defined benefit plans with early retirement reductions: Actuarial
+20_849_NB,20,Percent participation,849,Traditional defined benefit plans with early retirement reductions: Flat percent per year
+20_850_NB,20,Percent participation,850,Traditional defined benefits plans with terminal earnings formulas: Percent per year varies
+20_851_NB,20,Percent participation,851,Traditional defined benefit plans with early retirement reductions: Varies by age or service
+20_853_NB,20,Percent participation,853,Traditional defined benefit plans with joint-and-survivor annuity: With choice of percentages
+20_855_NB,20,Percent participation,855,Traditional defined benefit plans with normal retirement requirements: Age < 65 and service 10 or more years
+20_856_NB,20,Percent participation,856,Traditional defined benefit plans with normal retirement requirements: Age < 65 and service < 10 years
+20_858_NB,20,Percent participation,858,Traditional defined benefit plans with normal retirement requirements: Age = 65 and service < 10 years
+20_859_NB,20,Percent participation,859,Traditional defined benefit plans with normal retirement requirements: Age and service
+20_860_NB,20,Percent participation,860,Traditional defined benefit plans with normal retirement requirements: Age only
+20_861_NB,20,Percent participation,861,Traditional defined benefit plans with normal retirement requirements: Age plus service
+20_862_NB,20,Percent participation,862,Traditional defined benefit plans with normal retirement requirements: Service only
+20_868_NB,20,Percent participation,868,Traditional defined benefit plans with post-retirement survivor benefits: Joint-and-survivor-annuity
+20_869_NB,20,Percent participation,869,Traditional defined benefit plans with terminal earnings formulas: Flat percent per year of service
+20_875_NB,20,Percent participation,875,"Traditional defined benefit plans: Availability of early retirement with selected requirements, sum of age plus service"
+20_881_NB,20,Percent participation,881,Traditional defined benefit plans: Early retirement available
+20_887_NB,20,Percent participation,887,Traditional defined benefit plans: Full lump-sum payment
+20_888_NB,20,Percent participation,888,Traditional defined benefit plans: Lump-sum payment available
+20_889_NB,20,Percent participation,889,Traditional defined benefit plans: Lump-sum payment not available
+20_895_NB,20,Percent participation,895,Traditional defined benefit plans: Not subject to maximum years of credited service
+20_896_NB,20,Percent participation,896,Traditional defined benefit plans: Partial lump-sum payment with reduced annuity
+20_897_NB,20,Percent participation,897,Traditional defined benefit plans: Pre-retirement survivor benefits
+20_898_NB,20,Percent participation,898,Traditional defined benefit plans: Subject to maximum years of credited service
+20_899_NB,20,Percent participation,899,Traditional defined benefit primary plan formula: Dollar times years
+20_900_NB,20,Percent participation,900,Traditional defined benefit primary plan formula: Percent of career earnings
+20_901_NB,20,Percent participation,901,Traditional defined benefit primary plan formula: Percent of employer contribution
+20_902_NB,20,Percent participation,902,Traditional defined benefit primary plan formula: Percent of terminal earnings
+20_903_NB,20,Percent participation,903,Traditional defined benefit single plan sponsor
+20_906_NB,20,Percent participation,906,Traditional defined benefits plans with early retirement reductions not determinable
+20_908_NB,20,Percent participation,908,Traditional defined benefits plans with early retirement requirements: Age 55 and 10 or more years of service
+20_909_NB,20,Percent participation,909,Traditional defined benefits plans with early retirement requirements: Age 55 and less than 10 years of service
+20_917_NB,20,Percent participation,917,Traditional defined benefits plans with terminal earnings formulas: High consecutive five year definition
+20_918_NB,20,Percent participation,918,Traditional defined benefits plans with terminal earnings formulas: High five year definition
+20_919_NB,20,Percent participation,919,Traditional defined benefits plans with terminal earnings formulas: Other period definition
+20_920_NB,20,Percent participation,920,Traditional defined benefits plans with terminal earnings formulas: Percent per year varies by earnings
+20_921_NB,20,Percent participation,921,Traditional defined benefits plans with terminal earnings formulas: Percent per year varies by earnings and service
+20_923_NB,20,Percent participation,923,Traditional defined benefits plans with terminal earnings formulas: Percent per year varies by service
+20_924_NB,20,Percent participation,924,Traditional defined benefits plans with terminal earnings formulas: Total five year definition
+20_925_NB,20,Percent participation,925,Traditional defined benefits plans: Lump-sum payment not determinable
+20_943_NB,20,Percent participation,943,Traditional defined benefit plans: Subject to maximum years of credited service not determinable
+20_966_NB,20,Percent participation,966,Traditional defined benefit plans with terminal earnings formulas: Percent per year varies by other method
+20_975_NB,20,Percent participation,975,Traditional defined benefit plans with joint-and-survivor annuity: 50 percent chosen percentage
+20_976_NB,20,Percent participation,976,Traditional defined benefit plans with joint-and-survivor annuity: 67 percent chosen percentage
+20_977_NB,20,Percent participation,977,Traditional defined benefit plans with joint-and-survivor annuity: 75 percent chosen percentage
+20_978_NB,20,Percent participation,978,Traditional defined benefit plans with joint-and-survivor annuity: 100 percent chosen percentage
+20_979_NB,20,Percent participation,979,"Traditional defined benefit plans with joint-and-survivor annuity: Choice of percentage, not listed"
+21_863_NB,21,10th percentile,863,Traditional defined benefit plans with normal retirement service requirements (10th percentile)
+21_870_NB,21,10th percentile,870,Traditional defined benefit plans with terminal earnings formulas: Flat percent per year of service (10th percentile)
+21_876_NB,21,10th percentile,876,Traditional defined benefit plans: Early retirement age requirements (10th percentile)
+21_882_NB,21,10th percentile,882,Traditional defined benefit plans: Early retirement service requirements (10th percentile)
+21_890_NB,21,10th percentile,890,Traditional defined benefit plans: Maximum years of credited service (10th percentile)
+21_910_NB,21,10th percentile,910,Traditional defined benefits plans with normal retirement age requirements (10th percentile)
+22_864_NB,22,25th percentile,864,Traditional defined benefit plans with normal retirement service requirements (25th percentile)
+22_871_NB,22,25th percentile,871,Traditional defined benefit plans with terminal earnings formulas: Flat percent per year of service (25th percentile)
+22_877_NB,22,25th percentile,877,Traditional defined benefit plans: Early retirement age requirements (25th percentile)
+22_883_NB,22,25th percentile,883,Traditional defined benefit plans: Early retirement service requirements (25th percentile)
+22_891_NB,22,25th percentile,891,Traditional defined benefit plans: Maximum years of credited service (25th percentile)
+22_911_NB,22,25th percentile,911,Traditional defined benefits plans with normal retirement age requirements (25th percentile)
+23_296_NB,23,Median,296,Median fixed % of annual earnings ee contrib. for defined benefit plans
+23_821_NB,23,Median,821,Defined benefit plans: Years required for cliff vesting (Median)
+23_865_NB,23,Median,865,Traditional defined benefit plans with normal retirement service requirements (50th percentile-median)
+23_872_NB,23,Median,872,Traditional defined benefit plans with terminal earnings formulas: Flat percent per year of service (50th percentile-median)
+23_878_NB,23,Median,878,Traditional defined benefit plans: Early retirement age requirements (50th percentile-median)
+23_884_NB,23,Median,884,Traditional defined benefit plans: Early retirement service requirements (50th percentile-median)
+23_892_NB,23,Median,892,Traditional defined benefit plans: Maximum years of credited service (50th percentile-median)
+23_912_NB,23,Median,912,Traditional defined benefits plans with normal retirement age requirements (50th percentile-median)
+24_866_NB,24,75th percentile,866,Traditional defined benefit plans with normal retirement service requirements (75th percentile)
+24_873_NB,24,75th percentile,873,Traditional defined benefit plans with terminal earnings formulas: Flat percent per year of service (75th percentile)
+24_879_NB,24,75th percentile,879,Traditional defined benefit plans: Early retirement age requirements (75th percentile)
+24_885_NB,24,75th percentile,885,Traditional defined benefit plans: Early retirement service requirements (75th percentile)
+24_893_NB,24,75th percentile,893,Traditional defined benefit plans: Maximum years of credited service (75th percentile)
+24_913_NB,24,75th percentile,913,Traditional defined benefits plans with normal retirement age requirements (75th percentile)
+25_867_NB,25,90th percentile,867,Traditional defined benefit plans with normal retirement service requirements (90th percentile)
+25_874_NB,25,90th percentile,874,Traditional defined benefit plans with terminal earnings formulas: Flat percent per year of service (90th percentile)
+25_880_NB,25,90th percentile,880,Traditional defined benefit plans: Early retirement age requirements (90th percentile)
+25_886_NB,25,90th percentile,886,Traditional defined benefit plans: Early retirement service requirements (90th percentile)
+25_894_NB,25,90th percentile,894,Traditional defined benefit plans: Maximum years of credited service (90th percentile)
+25_914_NB,25,90th percentile,914,Traditional defined benefits plans with normal retirement age requirements (90th percentile)
+27_371_NB,27,Establishments offering benefit,371,% of establishments offering defined benefit plans
+30_295_NB,30,Mean,295,Mean fixed % of annual earnings ee contrib. for defined benefit plans
+30_820_NB,30,Mean,820,Defined benefit plans: Years required for cliff vesting (Mean)
+30_839_NB,30,Mean,839,Non-traditional defined benefits plans cash balance plans: Mean flat rate percentage employer contribution (in percent)
+20_823_NB,20,Percent participation,823,Defined benefits plans: Vesting requirement not determinable
+20_852_NB,20,Percent participation,852,Traditional defined benefit plans with joint-and-survivor annuity: 50 percent fixed percentage
+20_814_NB,20,Percent participation,814,Defined benefit plans: Social Security cash balance integrated formula
+20_818_NB,20,Percent participation,818,Defined benefit plans: Immediate full vesting requirement
+19_R01_NB,19,Percent participation (unduplicated totals),R01,Defined contribution plan type: Deferred profit sharing
+19_R02_NB,19,Percent participation (unduplicated totals),R02,Defined contribution plan type: Employee stock ownership
+19_R03_NB,19,Percent participation (unduplicated totals),R03,Defined contribution plan type: Money purchase pension
+19_R05_NB,19,Percent participation (unduplicated totals),R05,Defined contribution plan type: Savings and thrift
+19_R06_NB,19,Percent participation (unduplicated totals),R06,Defined contribution plan type: Savings incentive match plan (SIMPLE)
+20_R08_NB,20,Percent participation,R08,Deferred profit-sharing plans: Annuity available
+20_R09_NB,20,Percent participation,R09,Deferred profit-sharing plans: Annuity available not determinable
+20_R10_NB,20,Percent participation,R10,Deferred profit-sharing plans: Annuity not available
+20_R11_NB,20,Percent participation,R11,Deferred profit-sharing plans: Employee contributions allowed
+20_R12_NB,20,Percent participation,R12,Deferred profit-sharing plans: Employee contributions not allowed
+20_R13_NB,20,Percent participation,R13,Deferred profit-sharing plans: Employer contributions method not determinable
+20_R14_NB,20,Percent participation,R14,Deferred profit-sharing plans: Employer contributions not based on pre-determined formula
+20_R15_NB,20,Percent participation,R15,Deferred profit-sharing plans: With emplyee contributions allowed not determinable
+20_R16_NB,20,Percent participation,R16,Deferred profit-sharing plans: With pre-tax employee contributions allowed not determinable
+20_R18_NB,20,Percent participation,R18,Deferred profit-sharing plans: With post-tax employee contributions not allowed
+20_R20_NB,20,Percent participation,R20,Deferred profit-sharing plans: With pre-tax employee contributions allowed
+20_R23_NB,20,Percent participation,R23,Money purchase pension plans: With annuity available
+20_R25_NB,20,Percent participation,R25,Money purchase pension plans: With employee contributions allowed
+20_R26_NB,20,Percent participation,R26,Money purchase pension plans: With no employee contributions not allowed
+20_R27_NB,20,Percent participation,R27,Money purchase pension plans: With employee contributions not determinable
+20_R28_NB,20,Percent participation,R28,Money purchase pension plans: Employer contributions as fixed percent of earnings
+20_R34_NB,20,Percent participation,R34,"Money purchase pension plans: Employer contributions, other"
+20_R35_NB,20,Percent participation,R35,Money purchase pension plans: With post-tax employee contributions allowed
+20_R36_NB,20,Percent participation,R36,Money purchase pension plans: With no post-tax employee contributions allowed
+20_R38_NB,20,Percent participation,R38,Money purchase pension plans: With pre-tax employee contributions allowed
+20_R40_NB,20,Percent participation,R40,Money purchase pension plans: With pre-tax employee contributions not determinable
+20_R44_NB,20,Percent participation,R44,Money purchase pension plans: Method of employer contributions is percent of earnings varies
+20_R55_NB,20,Percent participation,R55,"Money purchase pension plans: Method of retirement benefits distribution, lump sum"
+20_R56_NB,20,Percent participation,R56,"Money purchase pension plans: Method of retirement benefits distribution, installments"
+20_R58_NB,20,Percent participation,R58,"Money purchase pension plans: Method of retirement benefits distribution, not determinable"
+20_R59_NB,20,Percent participation,R59,"Deferred profit-sharing plans: Method of retirement benefits distribution, lump sum"
+20_R60_NB,20,Percent participation,R60,"Deferred profit-sharing plans: Method of retirement benefits distribution, installments"
+20_R62_NB,20,Percent participation,R62,"Deferred profit-sharing plans: Method of retirement benefits distribution, not determinable"
+20_R64_NB,20,Percent participation,R64,"Deferred profit-sharing plans: Allocation formula, proportional to earnings"
+20_R65_NB,20,Percent participation,R65,"Deferred profit-sharing plans: Allocation formula, proportional to employee contributions"
+20_R66_NB,20,Percent participation,R66,"Deferred profit-sharing plans: Allocation formula, based on earnings and service"
+20_R69_NB,20,Percent participation,R69,"Deferred profit-sharing plans: Allocation formula, not determinable"
+20_R70_NB,20,Percent participation,R70,Deferred profit-sharing plans: Employer contributions based on pre-determined formula
+20_R71_NB,20,Percent participation,R71,Money purchase pension plans: Employer contribution based on employee contribution
+20_R73_NB,20,Percent participation,R73,Money purchase pension plans: Employer contribution not based on employee contribution
+20_S01_NB,20,Percent participation,S01,Savings and thrift: Pre-tax contribution
+20_S02_NB,20,Percent participation,S02,Savings and thrift: Post-tax contribution
+20_S03_NB,20,Percent participation,S03,Savings and thrift: Immediate full vesting
+20_S04_NB,20,Percent participation,S04,Savings and thrift: Cliff vesting
+20_S05_NB,20,Percent participation,S05,Savings and thrift: Graded vesting
+20_S06_NB,20,Percent participation,S06,Savings and thrift: Vesting requirement not determinable
+20_S07_NB,20,Percent participation,S07,Savings and thrift: With minimum age or service eligibility requirement
+20_S10_NB,20,Percent participation,S10,Savings and thrift: With no minimum age or service eligibility requirement
+20_S11_NB,20,Percent participation,S11,Savings and thrift: Eligibility requirements not determinable
+20_S12_NB,20,Percent participation,S12,Savings and thrift: Maximum employee contributions not determinable
+20_S13_NB,20,Percent participation,S13,Savings and thrift: Method of employer matching contributions not determinable
+20_S14_NB,20,Percent participation,S14,Savings and thrift: Annuity available
+20_S15_NB,20,Percent participation,S15,"Savings and thrift: Method of distribution of retirement benefits, installments"
+20_S16_NB,20,Percent participation,S16,"Savings and thrift: Method of distribution of retirement benefits, lump sum distribution of benefit"
+20_S17_NB,20,Percent participation,S17,"Savings and thrift: Method of distribution of retirement benefits, other"
+20_S18_NB,20,Percent participation,S18,"Savings and thrift: Method of distribution of retirement benefits, not determinable"
+20_S1A_NB,20,Percent participation,S1A,Savings and thrift: Loans not allowed
+20_S1B_NB,20,Percent participation,S1B,Savings and thrift: Loans not determinable
+20_S1P_NB,20,Percent participation,S1P,Savings and thrift: Method of employer contribution is percent varies by employee contribution
+20_S1Q_NB,20,Percent participation,S1Q,Savings and thrift: Method of employer contribution is discretionary match
+20_S1R_NB,20,Percent participation,S1R,Savings and thrift: Method of employer contribution is length of service
+20_S24_NB,20,Percent participation,S24,Savings and thrift: Maximum employee contributions as percent of earnings
+20_S30_NB,20,Percent participation,S30,"Savings and thrift: Maximum employee contributions, any amount up to Internal Revenue Code limit"
+20_S37_NB,20,Percent participation,S37,"Savings and thrift: Method of employer matching contributions, specified matching percent"
+20_S43_NB,20,Percent participation,S43,"Savings and thrift: Method of employer matching contributions, other"
+20_S44_NB,20,Percent participation,S44,Savings and thrift: With automatic enrollment available
+20_S50_NB,20,Percent participation,S50,Savings and thrift: With no automatic enrollment available
+20_S51_NB,20,Percent participation,S51,Savings and thrift: With automatic enrollment not determinable
+20_S52_NB,20,Percent participation,S52,"Savings and thrift: With automatic enrollment, default contribution as percent of earnings"
+20_S59_NB,20,Percent participation,S59,"Savings and thrift: With automatic enrollment,  default contribution not determinable"
+20_S60_NB,20,Percent participation,S60,Savings and thrift: With automatic escalation available
+20_S61_NB,20,Percent participation,S61,Savings and thrift: With automatic escalation available
+20_S62_NB,20,Percent participation,S62,Savings and thrift: With no automatic escalation available
+20_S63_NB,20,Percent participation,S63,Savings and thrift: With automatic escalation available not determinable
+20_S64_NB,20,Percent participation,S64,Savings and thrift: Employee contribution escalates for predetermined number of years
+20_S66_NB,20,Percent participation,S66,Savings and thrift: Employee contribution escalates to specified % of earnings
+20_S73_NB,20,Percent participation,S73,Savings and thrift: Employee choice of investment for employee funds
+20_S74_NB,20,Percent participation,S74,Savings and thrift: Investment choice for employee funds - company stock
+20_S75_NB,20,Percent participation,S75,Savings and thrift: Investment choice for employee funds - common stock
+20_S76_NB,20,Percent participation,S76,Savings and thrift: Investment choice for employee funds - diversified investments
+20_S77_NB,20,Percent participation,S77,Savings and thrift: Investment choice for employee funds - lifecycle funds
+20_S78_NB,20,Percent participation,S78,Savings and thrift: Investment choice for employee funds - other
+20_S79_NB,20,Percent participation,S79,Savings and thrift: Investment choice for employee funds - exists but not determinable
+20_S81_NB,20,Percent participation,S81,Savings and thrift: Employee choice of investment for employer funds
+20_S82_NB,20,Percent participation,S82,Savings and thrift: Investment choice for employer funds - company stock
+20_S83_NB,20,Percent participation,S83,Savings and thrift: Investment choice for employer funds - common stock
+20_S84_NB,20,Percent participation,S84,Savings and thrift: Investment choice for employer funds - diversified investments
+20_S85_NB,20,Percent participation,S85,Savings and thrift: Investment choice for employer funds - lifecycle funds
+20_S86_NB,20,Percent participation,S86,Savings and thrift: Investment choice for employer funds - other
+20_S87_NB,20,Percent participation,S87,Savings and thrift: Investment choice for employer funds - exists but not determinable
+20_S88_NB,20,Percent participation,S88,Savings and thrift: No investment choice available for employer funds
+20_S89_NB,20,Percent participation,S89,Savings and thrift: Investment choices for employer funds not determinable
+20_S93_NB,20,Percent participation,S93,Savings and thrift: Rollovers allowed
+20_S94_NB,20,Percent participation,S94,Savings and thrift: Rollovers not allowed
+20_S95_NB,20,Percent participation,S95,Savings and thrift: Rollovers not determinable
+20_S96_NB,20,Percent participation,S96,Savings and thrift: Withdrawals allowed
+20_S97_NB,20,Percent participation,S97,Savings and thrift: Withdrawals not allowed
+20_S98_NB,20,Percent participation,S98,Savings and thrift: Withdrawals not determinable
+20_S99_NB,20,Percent participation,S99,Savings and thrift: Loans allowed
+21_R29_NB,21,10th percentile,R29,Money purchase pension plans: Employer contributions as fixed percent of earnings (10th percentile)
+21_S19_NB,21,10th percentile,S19,"Savings and thrift: Maximum employee contribution matched by employer, specified matching percent (10th percentile)"
+21_S25_NB,21,10th percentile,S25,Savings and thrift: Maximum employee contributions as percent of earnings (10th percentile)
+21_S32_NB,21,10th percentile,S32,Savings and thrift: Maximum potential employer contribution (10th percentile)
+21_S38_NB,21,10th percentile,S38,"Savings and thrift: Method of employer matching contributions, specified matching percent (10th percentile)"
+21_S45_NB,21,10th percentile,S45,Savings and thrift: Default enrollment amt as % of the employee maximum amt matched by employer (10th percentile)
+21_S53_NB,21,10th percentile,S53,"Savings and thrift: With automatic enrollment, default contribution as percent of earnings (10th percentile)"
+22_R30_NB,22,25th percentile,R30,Money purchase pension plans: Employer contributions as fixed percent of earnings (25th percentile)
+22_S20_NB,22,25th percentile,S20,"Savings and thrift: Maximum employee contribution matched by employer, specified matching percent (25th percentile)"
+22_S26_NB,22,25th percentile,S26,Savings and thrift: Maximum employee contributions as percent of earnings (25th percentile)
+22_S33_NB,22,25th percentile,S33,Savings and thrift: Maximum potential employer contribution (25th percentile)
+22_S39_NB,22,25th percentile,S39,"Savings and thrift: Method of employer matching contributions, specified matching percent (25th percentile)"
+22_S46_NB,22,25th percentile,S46,Savings and thrift: Default enrollment amt as % of the employee maximum amt matched by employer (25th percentile)
+22_S54_NB,22,25th percentile,S54,"Savings and thrift: With automatic enrollment, default contribution as percent of earnings (25th percentile)"
+23_R31_NB,23,Median,R31,Money purchase pension plans: Employer contributions as fixed percent of earnings (50th percentile-median)
+23_R72_NB,23,Median,R72,Money purchase pension plans: Median employee contribution amount
+23_S08_NB,23,Median,S08,"Savings and thrift: Eligibility requirement, median age requirement (in years)"
+23_S09_NB,23,Median,S09,"Savings and thrift: Eligibility requirement, median service requirement (in months)"
+23_S21_NB,23,Median,S21,"Savings and thrift: Maximum employee contribution matched by employer, specified matching percent (50th percentile-median)"
+23_S27_NB,23,Median,S27,Savings and thrift: Maximum employee contributions as percent of earnings (50th percentile-median)
+23_S34_NB,23,Median,S34,Savings and thrift: Maximum potential employer contribution (50th percentile-median)
+23_S40_NB,23,Median,S40,"Savings and thrift: Method of employer matching contributions, specified matching percent (50th percentile-median)"
+23_S47_NB,23,Median,S47,Savings and thrift: Default enrollment amt as % of the employee maximum amt matched by employer (50th percentile-median)
+23_S55_NB,23,Median,S55,"Savings and thrift: With automatic enrollment, default contribution as percent of earnings (50th percentile-median)"
+23_S65_NB,23,Median,S65,"Savings and thrift: Employee contribution escalates for predetermined # of yrs, median # of yrs of escalation"
+23_S67_NB,23,Median,S67,"Savings and thrift: Employee contribution escalates to specified % of earnings, median % of earnings after max escalation"
+24_R32_NB,24,75th percentile,R32,Money purchase pension plans: Employer contributions as fixed percent of earnings (75th percentile)
+24_S22_NB,24,75th percentile,S22,"Savings and thrift: Maximum employee contribution matched by employer, specified matching percent (75th percentile)"
+24_S28_NB,24,75th percentile,S28,Savings and thrift: Maximum employee contributions as percent of earnings (75th percentile)
+24_S35_NB,24,75th percentile,S35,Savings and thrift: Maximum potential employer contribution (75th percentile)
+24_S41_NB,24,75th percentile,S41,"Savings and thrift: Method of employer matching contributions, specified matching percent (75th percentile)"
+24_S48_NB,24,75th percentile,S48,Savings and thrift: Default enrollment amt as % of the employee maximum amt matched by employer (75th percentile)
+24_S56_NB,24,75th percentile,S56,"Savings and thrift: With automatic enrollment, default contribution as percent of earnings (75th percentile)"
+25_R33_NB,25,90th percentile,R33,Money purchase pension plans: Employer contributions as fixed percent of earnings (90th percentile)
+25_S23_NB,25,90th percentile,S23,"Savings and thrift: Maximum employee contribution matched by employer, specified matching percent (90th percentile)"
+25_S29_NB,25,90th percentile,S29,Savings and thrift: Maximum employee contributions as percent of earnings (90th percentile)
+25_S36_NB,25,90th percentile,S36,Savings and thrift: Maximum potential employer contribution (90th percentile)
+25_S42_NB,25,90th percentile,S42,"Savings and thrift: Method of employer matching contributions, specified matching percent (90th percentile)"
+25_S49_NB,25,90th percentile,S49,Savings and thrift: Default enrollment amt as % of the employee maximum amt matched by employer (90th percentile)
+25_S57_NB,25,90th percentile,S57,"Savings and thrift: With automatic enrollment, default contribution as percent of earnings (90th percentile)"
+27_372_NB,27,Establishments offering benefit,372,% of establishments offering defined contrib. plans
+20_S1C_NB,20,Percent participation,S1C,Savings and thrift: Investment choice for employee funds not determinable
+20_R19_NB,20,Percent participation,R19,Deferred profit-sharing plans: With post-tax employee contributions not determinable
+20_R37_NB,20,Percent participation,R37,Money purchase pension plans: With post-tax employee contributions not determinable
+20_R45_NB,20,Percent participation,R45,Money purchase pension plans: Method of employer contributions is flat amount
+20_R17_NB,20,Percent participation,R17,Deferred profit-sharing plans: With post-tax employee contributions allowed
+20_R22_NB,20,Percent participation,R22,Money purchase pension plans: With annuity availability not determinable
+33_381_NB,33,Access to benefit - plan and occupation-level,381,Access to payroll deduction IRA
+27_370_NB,27,Establishments offering benefit,370,% of establishments offering retirement benefits
+20_817_NB,20,Percent participation,817,Defined benefit plans: Not covered under Social Security
+20_857_NB,20,Percent participation,857,Traditional defined benefit plans with normal retirement requirements: Age = 65 and service 10 year or more
+20_904_NB,20,Percent participation,904,Traditional defined benefits plans with disability retirement coverage beginning not determinable
+20_905_NB,20,Percent participation,905,Traditional defined benefits plans with disability retirement coverage not determinable
+20_915_NB,20,Percent participation,915,Traditional defined benefits plans with post-retirement survivor benefits: Other annuity
+20_916_NB,20,Percent participation,916,Traditional defined benefits plans with terminal earnings formulas: Definition not determinable
+20_922_NB,20,Percent participation,922,Traditional defined benefits plans with terminal earnings formulas: Percent per year varies by other method
+20_926_NB,20,Percent participation,926,Defined benefit plans: State government sponsor
+20_927_NB,20,Percent participation,927,Defined benefit plans: Local government sponsor
+20_928_NB,20,Percent participation,928,Defined benefit plans open to new employees: With minimum age or service requirement
+20_930_NB,20,Percent participation,930,Defined benefit plans open to new employees: With service requirements of 6 months or less
+20_932_NB,20,Percent participation,932,Traditional defined benefit plans with terminal earnings formulas: Total three years
+20_933_NB,20,Percent participation,933,Traditional defined benefit plans with terminal earnings formulas: High consecutive three years
+20_934_NB,20,Percent participation,934,Traditional defined benefit plans with terminal earnings formulas: High three years
+20_935_NB,20,Percent participation,935,Traditional defined benefit plans with terminal earnings formulas: One year
+20_936_NB,20,Percent participation,936,Traditional defined benefit plans with terminal earnings formulas: Other period
+20_939_NB,20,Percent participation,939,Traditional defined benefit plans with normal retirement requirements: Age = 55 and service 30 years or more
+20_940_NB,20,Percent participation,940,Traditional defined benefit plans with normal retirement requirements: Age = 62 and service 10 years of more
+20_944_NB,20,Percent participation,944,Traditional defined benefit plans: Pre-retirement survivor benefits not available
+20_945_NB,20,Percent participation,945,Traditional defined benefit plans: Pre-retirement survivor benefits not determinable
+20_946_NB,20,Percent participation,946,Traditional defined benefit plans with normal retirement requirements: Age = 55 and service < 30 years
+20_947_NB,20,Percent participation,947,Traditional defined benefit plans with normal retirement requirements: Age = 62 and service < 10 years
+20_948_NB,20,Percent participation,948,Traditional defined benefit plans with normal retirement requirements: No age requirement and service = 30 years
+20_949_NB,20,Percent participation,949,Traditional defined benefit plans with normal retirement requirements: Age < 62 and service < 10 years
+20_950_NB,20,Percent participation,950,Traditional defined benefit plans with normal retirement requirements: Age < 62 and service 10 or more years
+20_951_NB,20,Percent participation,951,Traditional defined benefit plans with normal retirement requirements: Age < 65 and service < 10 years
+20_952_NB,20,Percent participation,952,Traditional defined benefit plans with normal retirement requirements: Age < 65 and service 10 or more years
+20_953_NB,20,Percent participation,953,Traditional defined benefit plans with early retirement requirements: Age < 55 and service 10 or more years
+20_955_NB,20,Percent participation,955,Traditional defined benefit plans with early retirement requirements: Age = 55 and service 10 or more years
+20_956_NB,20,Percent participation,956,Traditional defined benefit plans with early retirement requirements: Age < 55 and service < 10 years
+20_957_NB,20,Percent participation,957,Traditional defined benefit plans with early retirement requirements: Age = 55 and service < 10 years
+20_958_NB,20,Percent participation,958,Traditional defined benefit plans with early retirement requirements: No minimum age requirement
+23_959_NB,23,Median,959,Traditional defined benefit plans with normal retirement requirements: Median combined age plus service (in years)
+30_960_NB,30,Mean,960,Traditional defined benefit plans with normal retirement requirements: Mean combined age plus service (in years)
+20_941_NB,20,Percent participation,941,Traditional defined benefit plans: Early retirement not available
+20_854_NB,20,Percent participation,854,Traditional defined benefit plans with joint-and-survivor annuity: Other fixed percentage
+20_942_NB,20,Percent participation,942,Traditional defined benefit plans: Early retirement not determinable
+20_R24_NB,20,Percent participation,R24,Money purchase pension plans: With annuity not available
+20_R41_NB,20,Percent participation,R41,Money purchase pension plans: Maximum employee contributions as a percent of earnings up to Internal Revenue Code limit
+20_R42_NB,20,Percent participation,R42,"Money purchase pension plans: Maximum employee contributions, any amount up to Internal Revenue Code limit"
+20_S1S_NB,20,Percent participation,S1S,Savings and thrift: Method of employer contribution is other
+21_R50_NB,21,10th percentile,R50,"Money purchase pension plans: Maximum employee contributions, percent of earnings (10th percentile)"
+22_R51_NB,22,25th percentile,R51,"Money purchase pension plans: Maximum employee contributions, percent of earnings (25th percentile)"
+23_R52_NB,23,Median,R52,"Money purchase pension plans: Maximum employee contributions, percent of earnings (50th percentile-median)"
+24_R53_NB,24,75th percentile,R53,"Money purchase pension plans: Maximum employee contributions, percent of earnings (75th percentile)"
+25_R54_NB,25,90th percentile,R54,"Money purchase pension plans: Maximum employee contributions, percent of earnings (90th percentile)"
+30_S1T_NB,30,Mean,S1T,"Savings and thrift: Maximum employee contributions, mean percent of earnings up to Internal Revenue Code"
