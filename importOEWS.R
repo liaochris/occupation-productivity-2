@@ -10,7 +10,7 @@ library(mgsub)
 library(foreach)
 library(vroom)
 
-setwd("~/Google Drive/Non-Academic Work/Research/Traina/occupation-productivity-2/")
+setwd("~/scratch-midway2/aoccupation-productivity-2/")
 #starting this year we have files
 '%ni%' <- Negate('%in%')
 

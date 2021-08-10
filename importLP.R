@@ -109,7 +109,7 @@ colnames(data_all_expanded) <- toupper(colnames(data_all_expanded))
 #generating wide tables for labor productivity data to make merging easier
 lp_tbl1 <- dcast(data_all_expanded, YEAR + NAICS + INDUSTRY_CODE + INDUSTRY_TEXT +
                 SEASONAL_CODE + SEASONAL_TEXT + SECTOR_CODE + SECTOR_TEXT + 
-                AREA_CODE + AREA_TEXT ~ MEASURE_CODE_EXPANDED, value.var = "VALUE")
+                  AREA_CODE + AREA_TEXT ~ MEASURE_CODE_EXPANDED, value.var = "VALUE")
 colnames(lp_tbl1) <- paste(colnames(lp_tbl1), "IP", sep = "_")
 colnames(lp_tbl1)[1] <- "YEAR"
 #colnames(lp_tbl1)[2] <- "NAICS"
@@ -121,7 +121,7 @@ cols <- c("MEASURE_CODE_EXPANDED", "MEASURE_CODE", "DURATION_CODE", "MEASURE_TEX
 lp_desc <- unique(data_all_expanded[,..cols])
 lp_desc$MEASURE_CODE_EXPANDED <- paste(lp_desc$MEASURE_CODE_EXPANDED, "IP", sep = "_")
 lp_desc <- lp_desc[order(MEASURE_CODE_EXPANDED)]
-  
+
 fwrite(lp_tbl1, "Merge/LP_agg.csv")
 fwrite(lp_desc, "Merge/LP_desc.csv")
 

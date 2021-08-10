@@ -10,7 +10,8 @@ library(mgsub)
 library(foreach)
 library(vroom)
 
-setwd("~/Google Drive/Non-Academic Work/Research/Traina/occupation-productivity-2/")
+setwd("~/scratch-midway2/occupation-productivity-2/")
+
 #starting this year we have files
 '%ni%' <- Negate('%in%')
 
@@ -46,6 +47,7 @@ subcell <- read_delim("Data/NCS_wage/nw.subcell_id.txt",
 subcell <- data.table(subcell)
 
 #read in series
+
 series <- fread("Data/NCS_wage/nw.series.txt")
 series_expanded <- series
 data_all <- fread("Data/NCS_wage/nw.data.1.AllData.txt")

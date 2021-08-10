@@ -1,103 +1,165 @@
 # Import libraries
 library(data.table)
-library("readxl")
-library(dplyr)
-library(testthat)
 library(readr)
+library(dplyr)
+library(haven)
+library("doMC")
+library(future)
+library(vroom)
+library(RCurl)
+library(zoo)
+library(collections)
+library(glue)
 library(stringr)
 library(tidyr)
-library(mgsub)
-library(foreach)
-library(vroom)
+library(Rfast)
+library(parallel)
+library(doParallel)
+plan(multisession)
+# disable scientific notation
+options(scipen = 999)
+registerDoMC(cores = 100)
 
-setwd("~/Google Drive/Non-Academic Work/Research/Traina/occupation-productivity-2/")
+setwd("~/scratch-midway2/occupation-productivity/")
+registerDoParallel(cores = 27)
+
 #starting this year we have files
 '%ni%' <- Negate('%in%')
 
 OEWS <- fread("Merge/OEWS_agg.csv")
-OEWS_min <- unique(OEWS[,.SD, .SDcols = !c("NAICS_TITLE_OE", "OCC_TITLE_OE", "ANNUAL_OE", 
-                                           "GROUP_OE", "HOURLY_OE", "LEVEL_OE")])
-OEWS_min$OCC_CODE <- as.numeric(gsub("-", "", OEWS_min$OCC_CODE))
-OEWS_min[str_length(OEWS_min$NAICS) == 2]$NAICS <- str_pad(OEWS_min[str_length(OEWS_min$NAICS) == 2]$NAICS, 6, "right", "0")
+OEWS_min <- unique(OEWS[,.SD, .SDcols = c("industry_code_oe", "soc_code", "year", "area_code_oe")])
+colnames(OEWS_min) <- c("NAICS", "SOC_CODE", "YEAR", "AREA_CODE")
 
-#productivity
-MFP <- fread("Merge/MFP_agg.csv")
-MFP_min <- unique(MFP[,.SD, .SDcols = !c("SECTOR_CODE_MP", "SECTOR_NAME_MP")])
-MFP_min$NAICS <- as.character(MFP_min$NAICS)
+####################################################################################
+#################CREATE MULTIPLE LEVELS OF INDUSTRY GRANULARITY#####################
+####################################################################################
+#Create Level
+OEWS_min[,`LEVEL_OE`:= as.numeric(ifelse(as.numeric(OEWS_min$NAICS) %% 10 != 0, 
+                                         6, NA))]
+OEWS_min[is.na(`LEVEL_OE`),
+         `LEVEL_OE`:= as.numeric(ifelse(as.numeric(OEWS_min[is.na(`LEVEL_OE`), NAICS]) %% 100 != 0, 
+                                        5, NA))]
+OEWS_min[is.na(`LEVEL_OE`),
+         `LEVEL_OE`:= as.numeric(ifelse(as.numeric(OEWS_min[is.na(`LEVEL_OE`), NAICS]) %% 1000 != 0, 
+                                        4, NA))]
+OEWS_min[is.na(`LEVEL_OE`),
+         `LEVEL_OE`:= as.numeric(ifelse(as.numeric(OEWS_min[is.na(`LEVEL_OE`), NAICS]) %% 10000 != 0, 
+                                        3, NA))]
+OEWS_min[is.na(as.numeric(OEWS_min[,`NAICS`])), `LEVEL_OE` := 2]
+OEWS_min[is.na(`LEVEL_OE`), `LEVEL_OE` := 0]
+
+# SIX DIGIT INDUSTRY 
+OEWS_min[,`NAICS_6d`:=as.numeric(ifelse(OEWS_min$LEVEL_OE == 6, OEWS_min$NAICS, NA))]
+# FIVE DIGIT INDUSTRY
+null_6 <- OEWS_min[is.na(NAICS_6d)]
+present_6 <- OEWS_min[!is.na(NAICS_6d)]
+OEWS_min[is.na(NAICS_6d), `NAICS_5d`:=as.numeric(ifelse(null_6$LEVEL_OE == 5, null_6$NAICS, NA))]
+OEWS_min[!is.na(NAICS_6d),`NAICS_5d`:=as.numeric(str_pad(substr(present_6$NAICS_6d, 1, 5), 
+                                                         6, side = "right", pad = "0"))]
+# FOUR DIGIT INDUSTRY
+null_5 <- OEWS_min[is.na(NAICS_5d)]
+present_5 <- OEWS_min[!is.na(NAICS_5d)]
+OEWS_min[is.na(NAICS_5d), `NAICS_4d`:=as.numeric(ifelse(null_5$LEVEL_OE == 4, null_5$NAICS, NA))]
+OEWS_min[!is.na(NAICS_5d),`NAICS_4d`:=as.numeric(str_pad(substr(present_5$NAICS_5d, 1, 4), 
+                                                         6, side = "right", pad = "0"))]
+# THREE DIGIT INDUSTRY
+null_4 <- OEWS_min[is.na(NAICS_4d)]
+present_4 <- OEWS_min[!is.na(NAICS_4d)]
+OEWS_min[is.na(NAICS_4d), 
+         `NAICS_3d`:=as.numeric(ifelse(null_4$LEVEL_OE == 3, 
+                                       unlist(lapply(null_4$NAICS, function (x) gsub("A", "0", x))), 
+                                       NA))]
+OEWS_min[!is.na(NAICS_4d),`NAICS_3d`:=as.numeric(str_pad(substr(present_4$NAICS_4d, 1, 3), 
+                                                         6, side = "right", pad = "0"))]
+# TWO DIGIT INDUSTRY
+null_3 <- OEWS_min[is.na(NAICS_3d)]
+present_3 <- OEWS_min[!is.na(NAICS_3d)]
+OEWS_min[is.na(NAICS_3d), `NAICS_2d`:=ifelse(null_3$LEVEL_OE == 2, null_3$NAICS, NA)]
+OEWS_min[!is.na(NAICS_3d),`NAICS_2d`:=as.numeric(str_pad(substr(present_3$NAICS_3d, 1, 2), 
+                                                         6, side = "right", pad = "0"))]
+
+# ONE DIGIT INDUSTRY
+OEWS_min[,`NAICS_1d`:=as.numeric(str_pad(substr(OEWS_min$NAICS_2d, 1, 1), 
+                                        6, side = "right", pad = "0"))]
+
+# ZERO DIGIT INDUSTRY
+OEWS_min[,`NAICS_0d`:=0]
+
+####################################################################################
+#################CREATE MULTIPLE LEVELS OF OCCUPATION GRANULARITY###################
+####################################################################################
+
+# SIX DIGIT OCCUPATIONS
+#ASSIGNING OCCUPATION LEVELS
+OEWS_min[OEWS_min$SOC_CODE == 0, `LEVEL_OCC_OE`:= 0]
+OEWS_min[is.na(LEVEL_OCC_OE) & OEWS_min$SOC_CODE %% 10 ** 4 == 0, `LEVEL_OCC_OE` := 2]
+OEWS_min[is.na(LEVEL_OCC_OE) & OEWS_min$SOC_CODE %% 10 ** 3 == 0, `LEVEL_OCC_OE` := 3]
+OEWS_min[is.na(LEVEL_OCC_OE) & OEWS_min$SOC_CODE %% 10 ** 1 == 0, `LEVEL_OCC_OE` := 5]
+OEWS_min[is.na(LEVEL_OCC_OE), `LEVEL_OCC_OE` := 6]
+
+OEWS_min[,`OCC_6d`:=as.numeric(ifelse(OEWS_min$LEVEL_OCC_OE == 6, OEWS_min$SOC_CODE, NA))]
+
+# FIVE DIGIT OCCUPATIONS
+null_6 <- OEWS_min[is.na(OCC_6d)]
+present_6 <- OEWS_min[!is.na(OCC_6d)]
+OEWS_min[is.na(OCC_6d), `OCC_5d`:=as.numeric(ifelse(null_6$LEVEL_OCC_OE == 5, null_6$SOC_CODE, NA))]
+OEWS_min[!is.na(OCC_6d),`OCC_5d`:=as.numeric(str_pad(substr(present_6$OCC_6d, 1, 5), 
+                                                     6, side = "right", pad = "0"))]
+# THREE DIGIT OCCUPATIONS
+null_4 <- OEWS_min[is.na(OCC_5d)]
+present_4 <- OEWS_min[!is.na(OCC_5d)]
+OEWS_min[is.na(OCC_5d), `OCC_3d`:=as.numeric(ifelse(null_4$LEVEL_OCC_OE == 3, null_4$SOC_CODE, NA))]
+OEWS_min[!is.na(OCC_5d),`OCC_3d`:=as.numeric(str_pad(substr(present_4$OCC_5d, 1, 3), 
+                                                     6, side = "right", pad = "0"))]
+
+# TWO DIGIT OCCUPATIONS
+null_3 <- OEWS_min[is.na(OCC_3d)]
+present_3 <- OEWS_min[!is.na(OCC_3d)]
+OEWS_min[is.na(OCC_3d), `OCC_2d`:=as.numeric(ifelse(null_3$LEVEL_OCC_OE == 2, null_3$SOC_CODE, NA))]
+OEWS_min[!is.na(OCC_3d),`OCC_2d`:=as.numeric(str_pad(substr(present_3$OCC_3d, 1, 2), 
+                                                     6, side = "right", pad = "0"))]
+
+#ZERO DIGIT OCCUPATIONS 
+OEWS_min[,`OCC_0d` := 0]
+
+####################################################################################
+########################Merging Labor Productivity Data#############################
+####################################################################################
 LP <- fread("Merge/LP_agg.csv")
-LP_min <- unique(LP[,.SD, .SDcols = !c("INDUSTRY_CODE_IP", "INDUSTRY_TEXT_IP", "SEASONAL_CODE_IP",
-                                       "SEASONAL_TEXT_IP", "SECTOR_CODE_IP", "SECTOR_TEXT_IP", 
-                                       "AREA_CODE_IP", 'AREA_TEXT_IP')])
-mfp_merge <- MFP_min[OEWS_min, on = c("NAICS", "YEAR")]
-lp_merge <- LP_min[mfp_merge, on = c("NAICS", "YEAR")]
+LP_min <- unique(LP[,.SD, .SDcols = c("YEAR", "NAICS_IP", "AREA_CODE_IP")])
+LP_min[,`AREA_CODE_IP` := 10 * `AREA_CODE_IP`]
 
-#occupation characteristics
-ORS <- fread("Merge/ORS_agg.csv")
-ORS_min <- unique(ORS[,.SD, .SDcols = !c("occupation_code_OR", "occupation_text_OR",
-                                         "period_OR", "seasonal_code_OR", "seasonal_text_OR",
-                                         "ownership_code_OR")])
-colnames(ORS_min)[1] <- 'OCC_CODE'
-ORS_merge <- ORS_min[lp_merge, on = c("OCC_CODE")]
+OEWS_min$NAICS_6d <- as.character(OEWS_min$NAICS_6d)
 
-#employer cost
-EC <- fread("Merge/EC_agg.csv")
-EC_min <- unique(EC[,.SD, .SDcols = !c("occupation_text_CM", "seasonal_code_CM",
-                                       "seasonal_text_CM", "owner_text_CM",
-                                       "industry_text_CM", "subcell_code_CM", "subcell_text_CM",
-                                       "area_code_CM", "area_text_CM")])
-EC_min <- EC_min[EC_min$period_CM == "Q02"]
-colnames(EC_min)[1] <- "OCC_CODE"
-colnames(EC_min)[2] <- "YEAR"
-colnames(EC_min)[5] <- "NAICS"
+#perform the merge on 6 digits
+OEWS_min[,'merge_string':=paste(`YEAR`, `NAICS_6d`, `AREA_CODE`, sep = "_")]
+LP_min[,'merge_string':=paste(`YEAR`, `NAICS_IP`, `AREA_CODE_IP`, sep = "_")]
+cols <- unique(c(colnames(LP_min), colnames(OEWS_min)))
+merge <- LP_min[OEWS_min, on = 'merge_string', ..cols, nomatch = 0]
 
-EC_min_all <- EC_min[NAICS == "000000"]
-EC_min_all <- EC_min_all[,.SD, .SDcols = !c("NAICS")]
+#perform the merge on 5 digits
+matched <- unique(merge$merge_string)
+OEWS_min_cols <- colnames(OEWS_min)
+merge_fail <- OEWS_min[`merge_string` %ni% matched,.SD, .SDcols = OEWS_min_cols]
+merge_fail[,'merge_string':=paste(`YEAR`, `NAICS_5d`, `AREA_CODE`, sep = "_")]
+merge_r2 <- LP_min[merge_fail, on = 'merge_string', ..cols, nomatch = 0]
 
-#additional entries created by the differentiation between different owner types
-EC_merge <-  EC_min_all[ORS_merge, on = c("YEAR", "OCC_CODE"), allow.cartesian = TRUE]
+#perform the merge on 4 digits
+matched <- unique(merge_r2$merge_string)
+merge_fail2 <- merge_fail[`merge_string` %ni% matched,.SD, .SDcols = OEWS_min_cols]
+merge_fail2[,'merge_string':=paste(`YEAR`, `NAICS_4d`, `AREA_CODE`, sep = "_")]
+merge_r3 <- LP_min[merge_fail2, on = 'merge_string', ..cols, nomatch = 0]
 
+#perform the merge on 3 digits
+matched <- unique(merge_r3$merge_string)
+merge_fail3 <- merge_fail2[`merge_string` %ni% matched,.SD, .SDcols = OEWS_min_cols]
+merge_fail3[,'merge_string':=paste(`YEAR`, `NAICS_3d`, `AREA_CODE`, sep = "_")]
+merge_r4 <- LP_min[merge_fail3, on = 'merge_string', ..cols, nomatch = 0]
 
-#national compensation surveys
-NCS_B <- fread("Merge/NCS_B_agg.csv")
-NCS_B_min <- unique(NCS_B[,.SD, .SDcols = !c("period_NB",	"occupation_text_NB", "seasonal_code_NB", 
-                                             "seasonal_text_NB", "ownership_text_NB",
-                                             "industry_text_NB", "subcell_code_NB", "subcell_text_NB")])
-colnames(NCS_B_min)[1] <- "OCC_CODE"
-colnames(NCS_B_min)[2] <- "YEAR"
-colnames(NCS_B_min)[4] <- "NAICS"
-NCS_B_min_all <- NCS_B_min[NAICS == "000000"]
-NCS_B_min_all <- NCS_B_min_all[,.SD, .SDcols = !c("NAICS")]
-#additional entries created by the differentiation between different owner types
-NCS_B_merge <-  NCS_B_min_all[EC_merge, on = c("YEAR", "OCC_CODE"), allow.cartesian = TRUE]
+#perform the merge on 2 digits
+matched <- unique(merge_r4$merge_string)
+merge_fail4 <- merge_fail3[`merge_string` %ni% matched,.SD, .SDcols = OEWS_min_cols]
+merge_fail4[,'merge_string':=paste(`YEAR`, `NAICS_2d`, `AREA_CODE`, sep = "_")]
+merge_r5 <- LP_min[merge_fail4, on = 'merge_string', ..cols]
 
-NCS_W <- fread("Merge/NCS_W_agg.csv")
-NCS_W_min <- unique(NCS_W[,.SD, .SDcols = !c("period_NW",	"soc_text_NW", "seasonality_NW", 
-                                             "ownership_text_NW", "industry_text_NW",
-                                             "subcell_id_code_NW", "subcell_id_text_NW")])
-colnames(NCS_W_min)[1] <- "OCC_CODE"
-colnames(NCS_W_min)[2] <- "YEAR"
-colnames(NCS_W_min)[4] <- "NAICS"
-NCS_W_min_all <- NCS_W_min[NAICS == "000000"]
-NCS_W_min_all <- NCS_W_min_all[,.SD, .SDcols = !c("NAICS")]
-#additional entries created by the differentiation between different owner types
-NCS_W_merge <-  NCS_W_min_all[NCS_B_merge, on = c("YEAR", "OCC_CODE"), allow.cartesian = TRUE]
-
-#fwrite(NCS_W_merge, "merged_dataset_noWM.csv")
-#saveRDS(NCS_W_merge, file = "merged_dataset_noWM.RDS") 
-
-#Wage Model
-WM <- fread("Merge/WM_agg.csv")
-WM_min <- unique(WM[,.SD, .SDcols = !c("period_wm",	"soc_text_wm", "area_code_wm", 
-                                       "seasonal_code_wm", "seasonal_text_wm", "ownership_text_wm",
-                                       "industry_text_wm", "subcell_code_wm", "subcell_text_wm")])
-colnames(WM_min)[1] <- "OCC_CODE"
-colnames(WM_min)[2] <- "YEAR"
-colnames(WM_min)[4] <- "NAICS"
-
-WM_min_all <- WM_min[,.SD, .SDcols = !c("NAICS")]
-#additional entries created by the differentiation between different owner types
-WM_merge <-  WM_min_all[NCS_W_merge, on = c("YEAR", "OCC_CODE"), allow.cartesian = TRUE]
-
-#fwrite(WM_merge, "merged_dataset.csv")
-#saveRDS(WM_merge, file = "merged_dataset.RDS") 
-
+LP_merged <- rbind(merge, merge_r2, merge_r3, merge_r4, merge_r5)
