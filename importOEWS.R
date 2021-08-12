@@ -8,85 +8,97 @@ library(stringr)
 library(tidyr)
 library(mgsub)
 library(foreach)
-library(vroom)
 
 setwd("~/Google Drive/Non-Academic Work/Research/Traina/occupation-productivity-2/")
 #starting this year we have files
 '%ni%' <- Negate('%in%')
 
-
-# reading in the various occupational requirement data files - see ip.txt for further information
-area <- read_delim("Data/OEWS/oe.area.txt", delim = "\t")
-area <- data.table(area)
-datatype <- read_delim("Data/OEWS/oe.datatype.txt", delim = "\t") 
-datatype <- data.table(datatype)
-footnote <- read_delim("Data/OEWS/oe.footnote.txt", delim = "\t") 
-footnote <- data.table(footnote)
-industry <- read_delim("Data/OEWS/oe.industry.txt", delim = "\t") %>%
-  select(c(`industry_code`, `industry_name`))
-industry <- data.table(industry)
-occupation <- read_delim("Data/OEWS/oe.occupation.txt", delim = "\t") %>% 
-  select(c(`occupation_code`, `occupation_name`))
-occupation <- data.table(occupation)
-seasonal <- read_delim("Data/OEWS/oe.seasonal.txt", delim = "\t")
-seasonal <- data.table(seasonal)
-sector <- read_delim("Data/OEWS/oe.sector.txt", delim = "\t")
-sector <- data.table(sector)
-
-#read in series
-series <- fread("Data/OEWS/oe.series.txt")
-series_expanded <- series
-data_all <- fread("Data/OEWS/oe.data.1.AllData.txt")
-
-#only include data from all geographic regions
-colnames(series_expanded)[which(colnames(series_expanded) == "footnote_codes")] <- "footnote_code"
-colnames(series_expanded)[which(colnames(series_expanded) == "seasonal")] <- "seasonal_code"
-# function for applying dictionary containing descriptions mapped to codes
-matching_func <- function(col, df) {
-  col_code <- paste(col, "code", sep = "_")
-  # matching descriptions to values
-  cols <- unique(c(colnames(df), colnames(series_expanded)))
-  series_expanded <- series_expanded[df, on = col_code, nomatch = 0, ..cols]
-  series_expanded
+#Importing OEWS data
+OEWS_agg <- data.table()
+for (i in 2002:2010) {
+  for (file in dir(paste("Data/OEWS/", i, sep = ""))) {
+    if (!(grepl("descriptions", file)) && !(grepl("owner", file))) {
+      data <- data.table(read_excel(paste("Data/OEWS/", i, "/", file, sep = "")))
+      colnames(data) <- toupper(colnames(data))
+      colnames(data)[which(colnames(data) == "OCC_GROUP")] <- "GROUP"
+      colnames(data)[which(colnames(data) == "O_GROUP")] <- "GROUP"
+      colnames(data)[which(colnames(data) == "O_GROUP")] <- "GROUP"
+      
+      if ("GROUP" %ni% colnames(data)) {
+        data$GROUP <- ifelse(as.numeric(gsub("-", "", data$OCC_CODE)) %% 10000 == 0, "major", NA)
+        data[as.numeric(gsub("-", "", data$OCC_CODE)) == 0]$GROUP <- "TOTAL"
+      }
+      if ("HOURLY" %ni% colnames(data)) {
+        data$HOURLY <- NA
+      }
+      if ("PCT_RPT" %ni% colnames(data)) {
+        data$PCT_RPT <- NA
+      }
+      for (col in c("OWNERSHIP", "NAICS_LEVEL", "AREA",
+                    "AREA_TITLE", "AREA_TYPE", "I_GROUP",
+                    "OWN_CODE", "JOBS_1000", "LOC_QUOTIENT", "PRIM_STATE")) {
+        if (col %in% colnames(data)) {
+          data <- data %>% select(-col)
+        }
+      }
+      level <- as.numeric(substr(file, 4, 4))
+      if (level %ni% c(3, 4, 5)) {
+        level = 2
+      }
+      data$YEAR <- i
+      data$LEVEL <- level
+      print(i)
+      OEWS_agg <- rbind(OEWS_agg, data)
+    }
+  } 
 }
-area$area_code <- as.numeric(area$area_code)
-area$state_code <- as.numeric(area$state_code)
-series_expanded <- matching_func(c("area", "state", "areatype"), area)
-datatype$datatype_code <- as.numeric(datatype$datatype_code)
-series_expanded <- matching_func("datatype", datatype)
-series_expanded <- matching_func("industry", industry)
-occupation$occupation_code <- as.numeric(occupation$occupation_code)
-series_expanded <- matching_func("occupation", occupation)
-series_expanded <- matching_func("seasonal", seasonal)
-series_expanded <- matching_func("sector", sector)
 
-# merge data_current from the BLS time series data and series_expanded with information on each series
-# matchines descriptors to each numerical value
-colnames(series_expanded) <- str_trim(colnames(series_expanded))
-colnames(data_all) <- str_trim(colnames(data_all))
+OEWS_agg$GROUP <- tolower(OEWS_agg$GROUP)
+OEWS_agg[str_length(OEWS_agg$NAICS) == 2]$NAICS <- str_pad(OEWS_agg[str_length(OEWS_agg$NAICS) == 2]$NAICS, 6, "right", "0")
+OEWS_agg[,`LEVEL`:=ifelse(as.numeric(OEWS_agg$NAICS) %% 10 == 0, OEWS_agg$LEVEL, 6)]
 
-data_all$footnote_codes[is.na(data_all$footnote_codes)] <- ""
+OEWS_agg[is.na(LEVEL) & str_length(NAICS) == 6]$LEVEL = 3
+OEWS_agg[is.na(LEVEL) & str_length(NAICS) == 5]$LEVEL = 2
 
-cols <- unique(c(colnames(data_all), colnames(series_expanded)))
-cols <- cols[cols != 'footnote_codes']
-data_all_expanded <- data_all[series_expanded, on = "series_id", nomatch = 0, ..cols]
-data_all_expanded$series_id <- str_trim(data_all_expanded$series_id)
+OEWS_agg2 <- data.table()
+col_name <- c("AREA", "AREA_TITLE", "AREA_TYPE", "NAICS", "NAICS_TITLE", "OWN_CODE", "OCC_CODE",
+              "OCC_TITLE", "O_GROUP", "TOT_EMP", "EMP_PRSE", "JOBS_1000",
+              "LOC_QUOTIENT", "PCT_TOTAL", "H_MEAN", "A_MEAN", "MEAN_PRSE", "H_PCT10",
+              "H_PCT25", "H_MEDIAN", "H_PCT75", "H_PCT90", "A_PCT10", "A_PCT25", "A_MEDIAN",
+              "A_PCT75",	"A_PCT90", "ANNUAL", "HOURLY", "YEAR")
+for (file in dir("Data/OEWS/")[is.na(as.numeric(dir("Data/OEWS/")))]) {
+  if (file != "original_data") {
+    print(file)
+    data <- fread(paste("Data/OEWS/", file, sep = ""))
+    colnames(data) <- toupper(colnames(data))
+    data <- data[,-c("PRIM_STATE", "I_GROUP", "V30", "V31"), with = FALSE]
+    data$YEAR <- as.numeric(str_sub(file, length(file)-9, length(file)-6))
+    colnames(data) <- col_name
+    print(as.numeric(str_sub(file, length(file)-9, length(file)-6)))
+    OEWS_agg2 <- rbind(OEWS_agg2, data)
+  }
+}
+OEWS_agg2[NAICS == "48-490", `NAICS`:="48-49"]
+OEWS_agg2[NAICS %ni% c("44-45", "31-33", "48-49"), `NAICS`:=str_pad(NAICS, 6, side = "right", pad = "0")]
+OEWS_agg2[as.numeric(NAICS) %% 10 != 0, `LEVEL` := 6]
+OEWS_agg2[as.numeric(NAICS) %% 100 != 0 & is.na(`LEVEL`), `LEVEL` := 5]
+OEWS_agg2[as.numeric(NAICS) %% 1000 != 0 & is.na(`LEVEL`), `LEVEL` := 4]
+OEWS_agg2[as.numeric(NAICS) %% 10000 != 0 & is.na(`LEVEL`), `LEVEL` := 3]
+OEWS_agg2[NAICS %in% c("44-45", "31-33",  "48-49"), `LEVEL` := 2]
+OEWS_agg2[as.numeric(NAICS) %% 100000 != 0 & is.na(`LEVEL`), `LEVEL` := 2]
+OEWS_agg2[NAICS == '000000', `LEVEL` := 0]
+OEWS_agg2[is.na(`LEVEL`), `LEVEL`:= 4]
+OEWS_agg2 <- OEWS_agg2[OWN_CODE == 5]
+OEWS_agg_final <- rbind(OEWS_agg2, OEWS_agg, fill = TRUE)
+
+OEWS_agg_final[is.na(AREA), AREA := 99]
+OEWS_agg_final <- OEWS_agg_final[NAICS != "000001"]
+OEWS_agg_final <- unique(OEWS_agg_final[,-c("O_GROUP"), with = FALSE])
 
 
-#generating wide tables for labor productivity data to make merging easier
-OECS_tbl1 <- dcast(data_all_expanded, occupation_code + year + period + occupation_name + 
-                     seasonal_code + seasonal_text + industry_code + industry_name + 
-                     sector_code + sector_name + state_code + area_code + area_name ~ datatype_code, 
-                   value.var = c("value"))
-colnames(OECS_tbl1) <- paste(colnames(OECS_tbl1), "oe", sep = "_")
-colnames(OECS_tbl1)[1] <- "soc_code"
-colnames(OECS_tbl1)[2] <- "year"
+colnames(OEWS_agg_final)[1] <- "AREA_CODE"
+colnames(OEWS_agg_final)[30] <- "LEVEL_NAICS_OE"
 
-cols <- c("datatype_code", "datatype_name")
-OECS_desc <- unique(data_all_expanded[,..cols])
-OECS_desc$datatype_code <- paste(OECS_desc$datatype_code, "oe", sep = "_")
+OEWS_agg_final[,`OCC_CODE` := as.numeric(gsub("-", "", `OCC_CODE`))]
 
-fwrite(OECS_tbl1, "Merge/OEWS_agg.csv")
-fwrite(OECS_desc, "Merge/OEWS_desc.csv")
-
-
+fwrite(OEWS_agg_final,"Merge/OEWS_agg.csv")

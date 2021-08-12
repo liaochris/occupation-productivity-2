@@ -13,101 +13,168 @@ setwd("~/Google Drive/Non-Academic Work/Research/Traina/occupation-productivity-
 #starting this year we have files
 '%ni%' <- Negate('%in%')
 
-# reading in the various occupational requirement data files - see ip.txt for further information
-additive <- read_delim("Data/Occupational_Requirements/or.additive.txt",
-                       delim = "\t") %>% select(c(`additive_code`, `additive_text`))
-colnames(additive) <- tolower(colnames(additive))
-aspect <- read_delim("Data/Occupational_Requirements/or.aspect.txt",
-                     delim = "\t") 
-colnames(aspect) <- tolower(colnames(aspect))
-category <- read_delim("Data/Occupational_Requirements/or.category.txt",
-                       delim = "\t") %>% select(c(`category_code`, `category_text`))
-colnames(category) <- tolower(colnames(category))
-datatype <- read_delim("Data/Occupational_Requirements/or.datatype.txt",
-                       delim = "\t") %>% select(c(`datatype_code`, `datatype_text`))
-colnames(datatype) <- tolower(colnames(datatype))
-estimate <- read_delim("Data/Occupational_Requirements/or.estimate.txt",
-                       delim = "\t") %>% select(c(`estimate_code`, `estimate_text`))
-colnames(estimate) <- tolower(colnames(estimate))
-footnote <- read_delim("Data/Occupational_Requirements/or.footnote.txt",
-                       delim = "\t") 
-footnote[nrow(footnote) + 1, ] <- list("", "")
-colnames(footnote) <- tolower(colnames(footnote))
-occupation <- read_delim("Data/Occupational_Requirements/or.occupation.txt",
-                         delim = "\t") %>% select(c(`occupation_code`, `soc_code`, `occupation_text`))
-colnames(occupation) <- tolower(colnames(occupation)) 
-requirement <- read_delim("Data/Occupational_Requirements/or.requirement.txt",
-                          delim = "\t") %>% select(c(`requirement_code`, `requirement_text`))
-colnames(requirement) <- tolower(colnames(requirement)) 
-seasonal <- read_delim("Data/Occupational_Requirements/or.seasonal.txt",
-                       delim = "\t") %>% select(c(`seasonal_code`, `seasonal_text`))
-colnames(seasonal) <- tolower(colnames(seasonal)) 
+data_2018_raw <- data.table(read_xlsx("Data/Occupational_Requirements/2018_excel_output.xlsx", sheet = 2))
 
-#read in series
-series <- read_delim("Data/Occupational_Requirements/or.series.txt",
-                     delim = "\t")
-series[is.na(series$footnote_codes),]$footnote_codes <- ""
-series_expanded <- series
-colnames(series_expanded)[which(colnames(series_expanded) == "footnote_codes")] <- "footnote_code"
-colnames(series_expanded)[which(colnames(series_expanded) == "seasonal")] <- "seasonal_code"
+data_2020 <- data.table(read_xlsx("Data/Occupational_Requirements/ors-complete-dataset.xlsx", sheet = 3))
 
-data_all <- read_delim("Data/Occupational_Requirements/or.data.1.AllData.txt",
-                       delim = "\t")
-# function for applying dictionary containing descriptions mapped to codes
-matching_func <- function(col, df) {
-  col_code <- paste(col, "code", sep = "_")
-  # matching descriptions to values
-  series_expanded <- series_expanded %>% inner_join(df)
-  target_col <- which(colnames(series_expanded) == col_code)
-  # reordering dataframe columns
-  series_expanded <- series_expanded[, c(
-    1:target_col,
-    length(colnames(series_expanded)),
-    (target_col + 2):length(colnames(series_expanded)) - 1
-  )]
-  series_expanded
-}
-series_expanded <- matching_func("additive", additive)
-series_expanded <- matching_func("category", category)
-series_expanded <- matching_func("datatype", datatype)
-series_expanded <- matching_func("estimate", estimate)
-series_expanded <- matching_func("occupation", occupation)
-series_expanded <- matching_func("requirement", requirement)
-series_expanded <- matching_func("seasonal", seasonal)
+#crosswalk for 2010 and 2018 SOC Codes
+soc1018 <- data.table(read_xlsx("Data/Occupational_Requirements/soc_2010_to_2018_crosswalk.xlsx", skip = 8))
+soc1018 <- soc1018[`2010 SOC Code` != `2018 SOC Code`]
+soc1018[,`2010 SOC Code`:=as.numeric(gsub("-", "", `2010 SOC Code`))]
+soc1018[,`2018 SOC Code`:=as.numeric(gsub("-", "", `2018 SOC Code`))]
 
-# merge data_current from the BLS time series data and series_expanded with information on each series
-# matchines descriptors to each numerical value
-colnames(series_expanded) <- lapply(colnames(series_expanded), str_trim)
-colnames(data_all) <- lapply(colnames(data_all), str_trim)
+#numerical conversion and filtering out ultraspecific
+data_2018_raw <- data_2018_raw[str_sub(`O*NET-SOC 2010 CODE`, -2) == "00"]
+data_2018_raw$`O*NET-SOC 2010 CODE` <- as.numeric(data_2018_raw$`O*NET-SOC 2010 CODE`)/100
 
-data_all$footnote_codes[is.na(data_all$footnote_codes)] <- ""
-data_all_expanded <- data_all %>% left_join(series_expanded, by = c("series_id")) %>% 
-  select(-c('footnote_codes'))
-data_all_expanded$series_id <- str_trim(data_all_expanded$series_id)
-colnames(aspect)[which(colnames(aspect) == "value")] <- "std_error"
+#converting 2010 SOC Codes to 2018 SOC Codes
+keepcols <- unique(c(colnames(soc1018), colnames(data_2018_raw)))
+data_2018 <- soc1018[data_2018_raw, on = c("2010 SOC Code" = "O*NET-SOC 2010 CODE"), ..keepcols, 
+                     allow.cartesian = TRUE]
+data_2018[!is.na(`2010 SOC Title`), `SOC 2018 CODE`:=`2018 SOC Code`]
+data_2018[is.na(`2010 SOC Title`), `SOC 2018 CODE`:=`O*NET-SOC 2010 CODE`]
+data_2018[!is.na(`2010 SOC Title`), `OCCUPATION`:=`2018 SOC Title`]
 
-aspect$`std_error` <- as.numeric(str_trim(aspect$`std_error`))
+#removing merging document
+remcols <- c("2010 SOC Code", "2010 SOC Title", "2018 SOC Code", "2018 SOC Title",
+             "O*NET-SOC 2010 CODE")
+data_2018 <- data_2018[,-remcols,with = FALSE]
 
-data_all_expanded <- data_all_expanded %>% 
-  left_join(aspect %>% select(-c(`aspect_type`, `footnote_codes`)))
+#adding datatype
+datatype <- fread("Data/Occupational_Requirements/or.datatype.txt")[,c(1,2), with = FALSE]
+data_2018[grepl("hours",`SERIES TITLE`), `DATATYPE`:="Hours"]
+data_2018[grepl("%",`SERIES TITLE`), `DATATYPE`:="Percentage"]
+data_2018[grepl("pounds",`SERIES TITLE`), `DATATYPE`:="Pounds"]
+data_2018[grepl("days",`SERIES TITLE`), `DATATYPE`:="Days"]
+data_2018 <- data_2018[datatype, on = c("DATATYPE" = "datatype_text")]
 
-data_all_expanded <- data.table(data_all_expanded)
+#adding estimate
+estimate <- fread("Data/Occupational_Requirements/or.estimate.txt")[,c(1,2), with = FALSE]
+data_2018[,`ESTIMATE CODE`:= as.numeric(str_sub(`SERIES ID`, -5))]
+keepcols <- unique(c(colnames(data_2018), colnames(estimate)))
+data_2018 <- estimate[data_2018, on = c("estimate_code" = "ESTIMATE CODE" ), ..keepcols]
 
-#how do I deal with requirement code
+semicolon_pos <- data_2018[is.na(`estimate_text`) & grepl("%", `SERIES TITLE`), str_locate(`SERIES TITLE`, ";")[1]]
+
+#Extracting ones with percenages
+data_2018[is.na(`estimate_text`) & grepl("%", `SERIES TITLE`), 
+          `estimate_text`:=str_sub(`SERIES TITLE`,semicolon_pos + 2)]
+data_2018[grepl("% of all workers; ", `estimate_text`), 
+          `estimate_text`:= gsub("% of all workers; ", "Percent of workers, ", `estimate_text`)]
+data_2018[grepl("% of workers in ", `estimate_text`),
+          `estimate_text`:= paste("Percent of workers,",
+                                  str_sub(`estimate_text`, str_locate(`estimate_text`, ";")[,1]+2))]
+
+#Extracting ones with days
+data_2018[grepl("days of", `SERIES TITLE`) & is.na(`estimate_text`),
+          `estimate_text`:= 
+            paste("D",str_sub(`SERIES TITLE`, str_locate(`SERIES TITLE`, "days of")[,1]+1), sep = "")]
+data_2018 <- data_2018[,-c("estimate_code"), with = FALSE]
+
+#adding categories
+category <- fread("Data/Occupational_Requirements/or.category.txt")[,c(1,2), with = FALSE]
+keepcols <- unique(c(colnames(category), colnames(data_2018)))
+data_2018 <- category[data_2018, on = c("category_text" = "CATEGORY"), ..keepcols]
+
+#add category codes
+data_2018[`CATEGORY` == "SVP",`category_code`:=10]
+data_2018[`CATEGORY` == "Post-employment training",`category_code`:=14]
+data_2018[`CATEGORY` == c("Pre-employment training"),`category_code`:=12]
+data_2018[`CATEGORY` == c("Pre-employment training: Certification"),`category_code`:=89]
+data_2018[`CATEGORY` == c("Pre-employment training: Educational Certificate"),`category_code`:=90]
+data_2018[`CATEGORY` ==  c("Pre-employment training: License"),`category_code`:=91]
+data_2018[`CATEGORY` == "High, exposed places",`category_code`:=50]
+data_2018[`CATEGORY` == "Climbing ramps or stairs (structure-related)",`category_code`:=38]
+data_2018[`CATEGORY` == "Climbing ramps or stairs (work-related)",`category_code`:=39]
+data_2018[`CATEGORY` == "Communicating verbally",`category_code`:=55]
+data_2018[`CATEGORY` == "Far visual acuity",`category_code`:=53]
+data_2018[`CATEGORY` == "Fine manipulation: one or both hands",`category_code`:=37]
+data_2018[`CATEGORY` == "Foot/leg controls",`category_code`:=32]
+data_2018[`CATEGORY` == "Foot/leg controls: one or both feet/legs",`category_code`:=33]
+data_2018[`CATEGORY` == "Gross manipulation: one or both hands",`category_code`:=35]
+data_2018[`CATEGORY` == "Keyboarding: Traditional",`category_code`:=20]
+data_2018[`CATEGORY` == "Lifting/carrying Constantly",`category_code`:=27]
+data_2018[`CATEGORY` == "Lifting/carrying Frequently",`category_code`:=26]
+data_2018[`CATEGORY` == "Lifting/carrying Occasionally",`category_code`:=25]
+data_2018[`CATEGORY` == "Lifting/carrying Seldom",`category_code`:=24]
+data_2018[`CATEGORY` == "Near visual acuity",`category_code`:=52]
+data_2018[`CATEGORY` == "Pushing/pulling: Feet/legs",`category_code`:=30]
+data_2018[`CATEGORY` == "Pushing/pulling: Hands/arms",`category_code`:=29]
+data_2018[`CATEGORY` == "Pushing/pulling: one or both feet/legs",`category_code`:=64]
+data_2018[`CATEGORY` == "Pushing/pulling: one or both hands/arms",`category_code`:=63]
+data_2018[`CATEGORY` == "Reaching at/below the shoulder",`category_code`:=18]
+data_2018[`CATEGORY` == "Reaching at/below the shoulder: one or both hands",`category_code`:=19]
+data_2018[`CATEGORY` == "Reaching overhead: one or both hands",`category_code`:=17]
+data_2018[`CATEGORY` == "Sitting vs. standing/walking at will",`category_code`:=15]
+data_2018[`CATEGORY` == "Standing/walking",`category_code`:=77]
+data_2018[`CATEGORY` == "Maximum weight lifted/carried",`category_code`:=79]
+data_2018[`CATEGORY` == "Hearing requirements: Group or conference",`category_code`:=112]
+data_2018[`CATEGORY` == "Hearing requirements: One-on-one",`category_code`:=112]
+data_2018[`CATEGORY` == "Hearing requirements: Other Sounds",`category_code`:=60]
+data_2018[`CATEGORY` == "Associates Degree Time",`category_code`:=91]
+data_2018[`CATEGORY` == "High School Vocational Time",`category_code`:=91]
+data_2018[`CATEGORY` == "Vocational Associates Degree Time",`category_code`:=91]
+data_2018 <- data_2018[,-c("category_text"), with = FALSE]
+
+keepcols <- unique(c(colnames(category), colnames(data_2018)))
+data_2018 <- category[data_2018, on = c("category_code"), ..keepcols]
+
+#additive text
+additive <- fread("Data/Occupational_Requirements/or.additive.txt")[,c(1,2), with = FALSE]
+keepcols <- unique(c(colnames(additive), colnames(data_2018)))
+data_2018$`ADDITIVE CODE` <- as.numeric(data_2018$`ADDITIVE CODE`)
+data_2018 <- additive[data_2018, on = c("additive_code" = "ADDITIVE CODE"), ..keepcols]
+unique(data_2018[is.na(additive_text), additive_code])
+
+data_2018[additive_code == 28, additive_text:= "Crawling"]
+data_2018[additive_code == 62, additive_text:= "Crouching"]
+data_2018[additive_code == 58, additive_text:= "Hearing requirements in group/conference"]
+data_2018[additive_code == 57, additive_text:= "Hearing requirements in one-on-one"]
+data_2018[additive_code == 61, additive_text:= "Hearing Test"]
+data_2018[additive_code == 42, additive_text:= "Kneeling"]
+data_2018[`SERIES ID` == "ORUP1000000000000802", additive_text:= "Kneeling"]
+data_2018[`SERIES ID` == "ORUP1000000000000802", additive_code:= 0]
+data_2018[additive_code == 66, additive_text:= "Hearing Test"]
+data_2018[additive_code == 41, additive_text:= "Stooping"]
+
+#combining 2018 and 2020 data
+data_2018[is.na(category_text), category_text := paste(`CATEGORY`, "- nomatch")]
+data_2018[is.na(`category_code`), `category_code` := ifelse(`additive_code` %in% c(66, 0), 66, 61)]
+data_2018 <- data_2018[,-c("additive_code", "CATEGORY")]
+
+colnames(data_2018)[1:5] <- c("ADDITIVE", "CATEGORY CODE", "CATEGORY", "SERIES_ID",
+                              "SERIES_TITLE")
+colnames(data_2018)[16] <- c("DATATYPE CODE")
+colnames(data_2018)[18] <- c("ESTIMATE TEXT")
+data_2018$YEAR <- 2018
+data_2020$YEAR <- 2020
+
+combined_ORS_data <- rbind(data_2020, data_2018)
+combined_ORS_data$`ESTIMATE CODE` <- as.numeric(combined_ORS_data$`ESTIMATE CODE`)
+combined_ORS_data$`CATEGORY CODE` <- as.numeric(combined_ORS_data$`CATEGORY CODE`)
+combined_ORS_data$`ADDITIVE CODE` <- as.numeric(combined_ORS_data$`ADDITIVE CODE`)
+combined_ORS_data$`DATATYPE CODE` <- as.numeric(combined_ORS_data$`DATATYPE CODE`)
+
+combined_ORS_data$`SOC 2018 CODE` <- as.numeric(combined_ORS_data$`SOC 2018 CODE`)
+
+#filtering out non uq, keep most recent
+combined_ORS_data_filtered <- combined_ORS_data[!duplicated(combined_ORS_data,by = c("SOC 2018 CODE", "ESTIMATE CODE"))]
+
+colnames(combined_ORS_data_filtered)[which(colnames(combined_ORS_data_filtered) == "SOC 2018 CODE")] <- "SOC_2018_CODE"
+colnames(combined_ORS_data_filtered)[which(colnames(combined_ORS_data_filtered) == "ESTIMATE CODE")] <- "ESTIMATE_CODE"
 
 #generating wide tables for labor productivity data to make merging easier
-ORS_tbl1 <- dcast(data_all_expanded, soc_code + occupation_code + occupation_text + 
-                    period + seasonal_code + seasonal_text + ownership_code ~  
-                    estimate_code, value.var = c("value"))
+ORS_tbl1 <- dcast(combined_ORS_data_filtered, `SOC_2018_CODE` + `OCCUPATION`  ~  
+                    `ESTIMATE_CODE`, value.var = c("ESTIMATE"))
 colnames(ORS_tbl1) <- paste(colnames(ORS_tbl1), "OR", sep = "_")
-#colnames(ORS_tbl1)[1] <- "soc_code"
+ORS_tbl1 <- ORS_tbl1[!duplicated(ORS_tbl1, by = c("SOC_2018_CODE_OR"))]
 
 #add dictionary mapping tbl1 to measure estimate text
-cols <- c("estimate_code", "estimate_text", "category_code", 'category_text',
-          'datatype_code', 'datatype_text')
-ors_desc <- unique(data_all_expanded[,..cols])
-ors_desc$estimate_code <- paste(ors_desc$estimate_code, "OR", sep = "_")
-ors_desc <- ors_desc[order(estimate_code)]
+cols <- c("ESTIMATE_CODE", "ESTIMATE TEXT", "CATEGORY CODE", 'CATEGORY',
+          'DATATYPE CODE', 'DATATYPE')
+ors_desc <- unique(combined_ORS_data_filtered[,..cols])
+ors_desc$ESTIMATE_CODE <- paste(ors_desc$ESTIMATE_CODE, "OR", sep = "_")
+ors_desc <- ors_desc[order(ESTIMATE_CODE)]
 
 fwrite(ORS_tbl1, "Merge/ORS_agg.csv")
 fwrite(ors_desc, "Merge/ORS_desc.csv")

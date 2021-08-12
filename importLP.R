@@ -111,17 +111,22 @@ lp_tbl1 <- dcast(data_all_expanded, YEAR + NAICS + INDUSTRY_CODE + INDUSTRY_TEXT
                 SEASONAL_CODE + SEASONAL_TEXT + SECTOR_CODE + SECTOR_TEXT + 
                 AREA_CODE + AREA_TEXT ~ MEASURE_CODE_EXPANDED, value.var = "VALUE")
 colnames(lp_tbl1) <- paste(colnames(lp_tbl1), "IP", sep = "_")
-colnames(lp_tbl1)[1] <- "YEAR"
-#colnames(lp_tbl1)[2] <- "NAICS"
 
+#MODIFICATION TO PREPARE FOR MERGE
+#adjusting area codes to match OEWS area codes
+#none of the other codes will match so no need to change them
+lp_tbl1$AREA_CODE_IP <- as.numeric(lp_tbl1$AREA_CODE_IP)
+#natl
+lp_tbl1[`AREA_CODE_IP` == 0, `AREA_CODE_IP`:=99]
+#state
+lp_tbl1[`AREA_CODE_IP`%%10000 == 0,`AREA_CODE_IP`:=`AREA_CODE_IP`/10000]
 
-#add dictionary mapping tbl3 to measure text
-
+#add dictionary mapping tbl1 to measure text
 cols <- c("MEASURE_CODE_EXPANDED", "MEASURE_CODE", "DURATION_CODE", "MEASURE_TEXT", "DURATION_TEXT")
 lp_desc <- unique(data_all_expanded[,..cols])
 lp_desc$MEASURE_CODE_EXPANDED <- paste(lp_desc$MEASURE_CODE_EXPANDED, "IP", sep = "_")
 lp_desc <- lp_desc[order(MEASURE_CODE_EXPANDED)]
-  
+
 fwrite(lp_tbl1, "Merge/LP_agg.csv")
 fwrite(lp_desc, "Merge/LP_desc.csv")
 

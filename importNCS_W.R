@@ -94,15 +94,30 @@ data_all_expanded$series_id <- str_trim(data_all_expanded$series_id)
 
 data_all_expanded[,`datatype_estimate_code`:=paste(datatype_id_code, estimate_id_code, sep = "_")]
 
+data_all_expanded$value <- as.numeric(data_all_expanded$value) 
+
+data_all_expanded <- data_all_expanded[ownership_code == 1]
+data_all_expanded <- data_all_expanded[level_code == 0]
+data_all_expanded <- data_all_expanded[subcell_id_code == 0]
+
+data_all_expanded_meaned <- data_all_expanded[, mean(value), by = c("soc_code", "soc_text", "year", 
+                                                                    "industry_code", "industry_text", 
+                                                                    "state_code", "area_code", "area_text",
+                                                                    "datatype_estimate_code")]
+
 #generating wide tables for labor productivity data to make merging easier
-NCS_W_tbl1 <- dcast(data_all_expanded, soc_code + year + period + soc_text + 
-                      seasonality + ownership_code + ownership_text + industry_code + 
-                      industry_text + level_code + level_text + state_code + area_code + area_text +
-                      subcell_id_code + subcell_id_text ~ datatype_estimate_code, 
-                    value.var = c("value"))
+NCS_W_tbl1 <- dcast(data_all_expanded_meaned, soc_code + year + soc_text + industry_code + industry_text +
+                      state_code + area_code + area_text ~ datatype_estimate_code, 
+                    value.var = c("V1"))
 colnames(NCS_W_tbl1) <- paste(colnames(NCS_W_tbl1), "NW", sep = "_")
-#colnames(NCS_W_tbl1)[1] <- "soc_code"
-colnames(NCS_W_tbl1)[2] <- "year"
+colnames(NCS_W_tbl1) <- toupper(colnames(NCS_W_tbl1))
+colnames(NCS_W_tbl1)[which(colnames(NCS_W_tbl1) == "SOC_CODE_NW")] <- "OCCUPATION_CODE_NW"
+
+NCS_W_tbl1 <- NCS_W_tbl1[!duplicated(NCS_W_tbl1, by = colnames(NCS_W_tbl1)[colnames(NCS_W_tbl1) != "STATE_CODE_NW"])]
+
+NCS_W_tbl1[AREA_CODE_NW < 1000, `GEO_CODE_NW`:= as.numeric(paste(STATE_CODE_NW, AREA_CODE_NW, sep = ""))]
+NCS_W_tbl1[is.na(`GEO_CODE_NW`), `GEO_CODE_NW`:= as.numeric(AREA_CODE_NW)]
+NCS_W_tbl1[AREA_CODE_NW == 99999, `GEO_CODE_NW`:=99]
 
 cols <- c("datatype_estimate_code", "datatype_id_code", "datatype_id_text", 'estimate_id_code', 
           'estimate_id_text')
