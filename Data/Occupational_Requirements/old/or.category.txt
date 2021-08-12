@@ -1,0 +1,73 @@
+category_code	category_text	display_level	selectable	sort_sequence
+010	Specific vocational preparation	0	T	64
+011	Literacy required	0	T	65
+012	Credentials	0	T	66
+013	Prior work experience	0	T	67
+014	On-the-job training	0	T	68
+015	Choice of sitting or standing	0	T	23
+016	Reaching overhead	0	T	24
+017	Reaching overhead with one or both hands	0	T	25
+018	Reaching at or below the shoulder	0	T	26
+019	Reaching at or below the shoulder with one or both hands	0	T	27
+020	Keyboarding	0	T	28
+024	Lifting or carrying: Seldom	0	T	29
+025	Lifting or carrying: Occasionally	0	T	30
+026	Lifting or carrying: Frequently	0	T	31
+027	Lifting or carrying: Constantly	0	T	32
+029	Pushing or pulling with hands or arms	0	T	33
+030	Pushing or pulling with feet or legs	0	T	34
+031	Driving	0	T	35
+032	Foot or leg controls	0	T	36
+033	Foot or leg controls with one or both feet or legs	0	T	37
+034	Gross manipulation	0	T	38
+035	Gross manipulation with one or both hands	0	T	39
+036	Fine manipulation	0	T	40
+037	Fine manipulation with one or both hands	0	T	41
+038	Climbing structure-related ramps or stairs	0	T	42
+039	Climbing work-related ramps or stairs	0	T	43
+040	Climbing ladders, ropes, or scaffolds	0	T	44
+043	Extreme cold	0	T	13
+044	Extreme heat	0	T	14
+045	Wetness	0	T	15
+046	Humidity	0	T	16
+047	Heavy vibrations	0	T	17
+050	Heights	0	T	18
+051	Proximity to moving mechanical parts	0	T	19
+052	Near vision	0	T	45
+053	Far vision	0	T	46
+054	Peripheral vision	0	T	47
+055	Speaking	0	T	48
+056	Noise intensity level	0	T	20
+059	Hearing requirements: Telephone	0	T	49
+060	Hearing requirements: Other sounds	0	T	50
+063	Pushing or pulling with one or both hands or arms	0	T	51
+064	Pushing or pulling with one or both feet or legs	0	T	52
+065	Outdoors	0	T	21
+068	Strength	0	T	53
+073	Minimum education level	0	T	69
+077	Standing	0	T	54
+078	Sitting	0	T	55
+079	Maximum weight lifted or carried	0	T	56
+081	Hazardous contaminants	0	T	22
+089	Credentials: Certification	0	T	70
+090	Credentials: License	0	T	71
+091	Credentials: Educational certificate	0	T	72
+095	Work review: Supervising others	0	T	1
+096	Work review: Frequency of work being checked	0	T	2
+097	Work review: Presence of supervisor	0	T	3
+098	Pace: Control of workload	0	T	4
+099	Pace: Work pace	0	T	5
+100	Pace: Pause control	0	T	6
+101	Personal contacts: Verbal interactions	0	T	7
+102	Personal contacts: People skills	0	T	8
+103	Problem solving	0	T	9
+104	Interaction with general public	0	T	10
+105	Working around crowds	0	T	11
+106	Telework	0	T	12
+107	Low postures	0	T	57
+108	Crawling	0	T	58
+109	Stooping	0	T	59
+110	Kneeling	0	T	60
+111	Crouching	0	T	61
+112	Hearing requirements: Speech in-person	0	T	62
+113	Hearing requirements: Other remote speech	0	T	63

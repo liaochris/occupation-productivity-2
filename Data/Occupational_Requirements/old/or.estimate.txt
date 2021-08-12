@@ -1,0 +1,336 @@
+estimate_code	estimate_text	display_level	selectable	sort_sequence
+00064	Percent of workers, specific vocational preparation is short demonstration only	0	T	286
+00065	Percent of workers, specific vocational preparation is beyond short demonstration, up to and including 1 month	0	T	287
+00066	Percent of workers, specific vocational preparation is over 1 month, up to and including 3 months	0	T	288
+00067	Percent of workers, specific vocational preparation is over 3 months, up to and including 6 months	0	T	289
+00068	Percent of workers, specific vocational preparation is over 6 months, up to and including 1 year	0	T	290
+00069	Percent of workers, specific vocational preparation is over 1 year, up to and including 2 years	0	T	291
+00070	Percent of workers, specific vocational preparation is over 2 years, up to and including 4 years	0	T	292
+00071	Percent of workers, specific vocational preparation is over 4 years, up to and including 10 years	0	T	293
+00072	Percent of workers, specific vocational preparation is over 10 years	0	T	294
+00075	Percent of workers, no minimum education requirement	0	T	316
+00076	Percent of workers, minimum education level is a high school diploma	0	T	317
+00077	Percent of workers, minimum education level is an associate's degree	0	T	318
+00079	Percent of workers, minimum education level is a master's degree	0	T	319
+00080	Percent of workers, minimum education level is a professional degree	0	T	320
+00081	Percent of workers, minimum education level is a doctorate degree	0	T	323
+00085	Percent of workers, literacy is required	0	T	295
+00086	Percent of workers, literacy is not required	0	T	296
+00098	Percent of workers, credentials are required	0	T	297
+00099	Percent of workers, credentials are not required	0	T	298
+00107	Percent of workers, prior work experience is required	0	T	305
+00108	Days of prior work experience, mean	0	T	299
+00109	Days of prior work experience (10th Percentile)	0	T	300
+00110	Days of prior work experience (25th Percentile)	0	T	301
+00111	Days of prior work experience (50th Percentile - median)	0	T	302
+00112	Days of prior work experience (75th Percentile)	0	T	303
+00113	Days of prior work experience (90th Percentile)	0	T	304
+00114	Percent of workers, prior work experience is not required	0	T	306
+00116	Days of on-the-job training, mean	0	T	307
+00117	Days of on-the-job training (10th Percentile)	0	T	308
+00118	Days of on-the-job training (25th Percentile)	0	T	309
+00119	Days of on-the-job training (50th Percentile - median)	0	T	310
+00120	Days of on-the-job training (75th Percentile)	0	T	311
+00121	Days of on-the-job training (90th Percentile)	0	T	312
+00122	Percent of workers, on-the-job training is required	0	T	313
+00123	Percent of workers, on-the-job training is not required	0	T	314
+00125	Hours of standing, mean	0	T	240
+00126	Hours of standing (10th Percentile)	0	T	241
+00127	Hours of standing (25th Percentile)	0	T	242
+00128	Hours of standing (50th Percentile - median)	0	T	243
+00129	Hours of standing (75th Percentile)	0	T	244
+00130	Hours of standing (90th Percentile)	0	T	245
+00132	Hours of sitting, mean	0	T	249
+00133	Hours of sitting (10th Percentile)	0	T	250
+00134	Hours of sitting (25th Percentile)	0	T	251
+00135	Hours of sitting (50th Percentile - median)	0	T	252
+00136	Hours of sitting (75th Percentile)	0	T	253
+00137	Hours of sitting (90th Percentile)	0	T	254
+00139	Percent of workers, choice of sitting or standing is allowed	0	T	106
+00140	Percent of workers, choice of sitting or standing is not allowed	0	T	107
+00142	Percent of workers, reaching overhead is not required	0	T	109
+00143	Percent of workers, reaching overhead is required, seldom	0	T	110
+00144	Percent of workers, reaching overhead is required, occasionally	0	T	111
+00145	Percent of workers, reaching overhead is required, frequently	0	T	112
+00156	Percent of workers, reaching overhead is required, one hand	0	T	114
+00157	Percent of workers, reaching overhead is required, both hands	0	T	115
+00159	Percent of workers, reaching at or below the shoulder is not required	0	T	117
+00160	Percent of workers, reaching at or below the shoulder is required, seldom	0	T	118
+00161	Percent of workers, reaching at or below the shoulder is required, occasionally	0	T	119
+00162	Percent of workers, reaching at or below the shoulder is required, frequently	0	T	120
+00163	Percent of workers, reaching at or below the shoulder is required, constantly	0	T	121
+00173	Percent of workers, reaching at or below the shoulder is required, one hand	0	T	122
+00174	Percent of workers, reaching at or below the shoulder is required, both hands	0	T	123
+00176	Percent of workers, keyboarding is not required	0	T	125
+00177	Percent of workers, keyboarding is required, seldom	0	T	126
+00178	Percent of workers, keyboarding is required, occasionally	0	T	127
+00179	Percent of workers, keyboarding is required, frequently	0	T	128
+00180	Percent of workers, keyboarding is required, constantly	0	T	129
+00233	Pounds maximum weight lifted or carried, mean	0	T	258
+00234	Pounds maximum weight lifted or carried (10th Percentile)	0	T	259
+00235	Pounds maximum weight lifted or carried (25th Percentile)	0	T	260
+00236	Pounds maximum weight lifted or carried (50th Percentile - median)	0	T	261
+00237	Pounds maximum weight lifted or carried (75th Percentile)	0	T	262
+00238	Pounds maximum weight lifted or carried (90th Percentile)	0	T	263
+00239	Percent of workers, lifting or carrying >1 lb and less than or equal to 10 lbs is required, seldom	0	T	136
+00243	Percent of workers, lifting or carrying  > 100 lbs is required, seldom	0	T	137
+00246	Percent of workers, lifting or carrying  >1 lb and less than or equal to 10 lbs is required, occasionally	0	T	144
+00250	Percent of workers, lifting or carrying  > 100 lbs is required, occasionally	0	T	145
+00253	Percent of workers, lifting or carrying negligible weight is required, frequently	0	T	147
+00254	Percent of workers, lifting or carrying >1 lb and less than or equal to 10 lbs is required, frequently	0	T	148
+00255	Percent of workers, lifting or carrying > 10 lbs and less than or equal to 25 lbs is required, frequently	0	T	149
+00256	Percent of workers, lifting or carrying > 25 lbs and less than or equal to 50 lbs is required, frequently	0	T	150
+00257	Percent of workers, lifting or carrying > 50 lbs is required, frequently	0	T	151
+00259	Percent of workers, lifting or carrying no weight is required, constantly	0	T	154
+00261	Percent of workers, lifting or carrying negligible weight is required, constantly	0	T	155
+00262	Percent of workers, lifting or carrying >1 lb and less than or equal to 10 lbs is required, constantly	0	T	156
+00267	Percent of workers, crawling is not required	0	T	272
+00281	Percent of workers, pushing or pulling with hands or arms is not required	0	T	158
+00282	Percent of workers, pushing or pulling with hands or arms is required, seldom	0	T	159
+00283	Percent of workers, pushing or pulling with hands or arms is required, occasionally	0	T	160
+00284	Percent of workers, pushing or pulling with hands or arms is required, frequently	0	T	161
+00285	Percent of workers, pushing or pulling with hands or arms is required, constantly	0	T	162
+00295	Percent of workers, pushing or pulling with feet or legs is not required	0	T	164
+00296	Percent of workers, pushing or pulling with feet or legs is required, seldom	0	T	165
+00297	Percent of workers, pushing or pulling with feet or legs is required, occasionally	0	T	166
+00311	Percent of workers, driving is not required	0	T	170
+00313	Percent of workers, foot or leg controls is not required	0	T	172
+00314	Percent of workers, foot or leg controls is required, seldom	0	T	173
+00315	Percent of workers, foot or leg controls is required, occasionally	0	T	174
+00316	Percent of workers, foot or leg controls is required, frequently	0	T	175
+00317	Percent of workers, foot or leg controls is required, constantly	0	T	176
+00327	Percent of workers, foot or leg controls is required, one foot or leg	0	T	177
+00328	Percent of workers, foot or leg controls is required, both feet or legs	0	T	178
+00330	Percent of workers, gross manipulation is not required	0	T	180
+00331	Percent of workers, gross manipulation is required, seldom	0	T	181
+00332	Percent of workers, gross manipulation is required, occasionally	0	T	182
+00333	Percent of workers, gross manipulation is required, frequently	0	T	183
+00334	Percent of workers, gross manipulation is required, constantly	0	T	184
+00344	Percent of workers, gross manipulation is required, one hand	0	T	185
+00345	Percent of workers, gross manipulation is required, both hands	0	T	186
+00347	Percent of workers, fine manipulation is not required	0	T	188
+00348	Percent of workers, fine manipulation is required, seldom	0	T	189
+00349	Percent of workers, fine manipulation is required, occasionally	0	T	190
+00350	Percent of workers, fine manipulation is required, frequently	0	T	191
+00351	Percent of workers, fine manipulation is required, constantly	0	T	192
+00361	Percent of workers, fine manipulation is required, one hand	0	T	193
+00362	Percent of workers, fine manipulation is required, both hands	0	T	194
+00364	Percent of workers, climbing structure-related ramps or stairs is required	0	T	195
+00365	Percent of workers, climbing structure-related ramps or stairs is not required	0	T	196
+00367	Percent of workers, climbing work-related ramps or stairs is not required	0	T	198
+00368	Percent of workers, climbing work-related ramps or stairs is required, seldom	0	T	199
+00369	Percent of workers, climbing work-related ramps or stairs is required, occasionally	0	T	200
+00381	Percent of workers, climbing ladders, ropes, or scaffolds is not required	0	T	204
+00382	Percent of workers, climbing ladders, ropes, or scaffolds is required, seldom	0	T	205
+00383	Percent of workers, climbing ladders, ropes, or scaffolds is required, occasionally	0	T	206
+00395	Percent of workers, stooping is not required	0	T	275
+00409	Percent of workers, kneeling is not required	0	T	278
+00423	Percent of workers, not exposed to extreme cold	0	T	37
+00424	Percent of workers, exposed to extreme cold, seldom	0	T	38
+00425	Percent of workers, exposed to extreme cold, occasionally	0	T	39
+00426	Percent of workers, exposed to extreme cold, frequently	0	T	40
+00427	Percent of workers, exposed to extreme cold, constantly	0	T	41
+00437	Percent of workers, not exposed to extreme heat	0	T	43
+00438	Percent of workers, exposed to extreme heat, seldom	0	T	44
+00439	Percent of workers, exposed to extreme heat, occasionally	0	T	45
+00440	Percent of workers, exposed to extreme heat, frequently	0	T	46
+00441	Percent of workers, exposed to extreme heat, constantly	0	T	47
+00451	Percent of workers, not exposed to wetness	0	T	49
+00452	Percent of workers, exposed to wetness, seldom	0	T	50
+00453	Percent of workers, exposed to wetness, occasionally	0	T	51
+00454	Percent of workers, exposed to wetness, frequently	0	T	52
+00455	Percent of workers, exposed to wetness, constantly	0	T	53
+00465	Percent of workers, not exposed to humidity	0	T	55
+00479	Percent of workers, not exposed to heavy vibrations	0	T	61
+00480	Percent of workers, exposed to heavy vibrations, seldom	0	T	62
+00481	Percent of workers, exposed to heavy vibrations, occasionally	0	T	63
+00520	Percent of workers, not exposed to heights	0	T	69
+00521	Percent of workers, exposed to heights, seldom	0	T	70
+00522	Percent of workers, exposed to heights, occasionally	0	T	71
+00534	Percent of workers, not in proximity to moving mechanical parts	0	T	78
+00535	Percent of workers, in proximity to moving mechanical parts, seldom	0	T	79
+00536	Percent of workers, in proximity to moving mechanical parts, occasionally	0	T	80
+00537	Percent of workers, in proximity to moving mechanical parts, frequently	0	T	81
+00538	Percent of workers, in proximity to moving mechanical parts, constantly	0	T	82
+00548	Percent of workers, near vision is required	0	T	209
+00549	Percent of workers, near vision is not required	0	T	210
+00551	Percent of workers, far vision is required	0	T	211
+00552	Percent of workers, far vision is not required	0	T	212
+00554	Percent of workers, peripheral vision is required	0	T	213
+00555	Percent of workers, peripheral vision is not required	0	T	214
+00557	Percent of workers, speaking is not required	0	T	216
+00558	Percent of workers, speaking is required, seldom	0	T	217
+00559	Percent of workers, speaking is required, occasionally	0	T	218
+00560	Percent of workers, speaking is required, frequently	0	T	219
+00561	Percent of workers, speaking is required, constantly	0	T	220
+00571	Percent of workers, exposed to quiet noise	0	T	86
+00572	Percent of workers, exposed to moderate noise	0	T	87
+00573	Percent of workers, exposed to loud noise	0	T	88
+00574	Percent of workers, exposed to very loud noise	0	T	89
+00583	Percent of workers, hearing over the telephone is required	0	T	221
+00584	Percent of workers, hearing over the telephone is not required	0	T	222
+00586	Percent of workers, hearing other sounds is required	0	T	223
+00587	Percent of workers, hearing other sounds is not required	0	T	224
+00592	Percent of workers, crouching is not required	0	T	281
+00606	Percent of workers, pushing or pulling is required, with one hand or arm	0	T	225
+00607	Percent of workers, pushing or pulling is required, with both hands or arms	0	T	226
+00609	Percent of workers, pushing or pulling is required, with one foot or leg	0	T	227
+00610	Percent of workers, pushing or pulling is required, with both feet or legs	0	T	228
+00612	Percent of workers, not exposed to outdoors	0	T	92
+00613	Percent of workers, exposed to outdoors, seldom	0	T	93
+00614	Percent of workers, exposed to outdoors, occasionally	0	T	94
+00615	Percent of workers, exposed to outdoors, frequently	0	T	95
+00616	Percent of workers, exposed to outdoors, constantly	0	T	96
+00661	Percent of workers, strength required is sedentary	0	T	229
+00662	Percent of workers, strength required is light work	0	T	230
+00663	Percent of workers, strength required is medium work	0	T	231
+00664	Percent of workers, strength required is heavy work	0	T	232
+00665	Percent of workers, strength required is very heavy work	0	T	233
+00751	Percent of workers, climbing ladders, ropes, or scaffolds is required	0	T	203
+00752	Percent of workers, climbing work-related ramps or stairs is required	0	T	197
+00753	Percent of workers, speaking is required	0	T	215
+00767	Percent of workers, exposed to extreme cold	0	T	36
+00768	Percent of workers, exposed to extreme heat	0	T	42
+00769	Percent of workers, fine manipulation is required	0	T	187
+00770	Percent of workers, foot or leg controls is required	0	T	171
+00771	Percent of workers, gross manipulation is required	0	T	179
+00772	Percent of workers, not exposed to hazardous contaminants	0	T	100
+00773	Percent of workers, exposed to hazardous contaminants, seldom	0	T	101
+00774	Percent of workers, exposed to hazardous contaminants, occasionally	0	T	102
+00776	Percent of workers, exposed to hazardous contaminants, constantly	0	T	104
+00786	Percent of workers, exposed to hazardous contaminants	0	T	97
+00787	Percent of workers, exposed to hazardous contaminants, fully mitigated	0	T	105
+00788	Percent of workers, utilizing personal protective equipment for hazardous contaminants	0	T	98
+00789	Percent of workers, not utilizing personal protective equipment for hazardous contaminants	0	T	99
+00791	Percent of workers, exposed to heavy vibrations	0	T	60
+00792	Percent of workers, exposed to heights	0	T	66
+00793	Percent of workers, exposed to heights, fully mitigated	0	T	74
+00794	Percent of workers, utilizing personal protective equipment for heights	0	T	67
+00795	Percent of workers, not utilizing personal protective equipment for heights	0	T	68
+00797	Percent of workers, exposed to humidity	0	T	54
+00801	Percent of workers, keyboarding is required	0	T	124
+00803	Percent of workers, minimum education level is a high school vocational degree	0	T	321
+00804	Percent of workers, minimum education level is an associate's vocational degree	0	T	322
+00806	Percent of workers, utilizing personal protective equipment for noise	0	T	84
+00807	Percent of workers, not utilizing personal protective equipment for noise	0	T	85
+00815	Percent of workers, exposed to outdoors	0	T	91
+00822	Percent of workers, in proximity to moving mechanical parts	0	T	75
+00823	Percent of workers, in proximity to moving mechanical parts, fully mitigated	0	T	83
+00824	Percent of workers, utilizing personal protective equipment for proximity to moving mechanical parts	0	T	76
+00825	Percent of workers, not utilizing personal protective equipment for proximity to moving mechanical parts	0	T	77
+00828	Percent of workers, pushing or pulling with feet or legs is required	0	T	163
+00829	Percent of workers, pushing or pulling with hands or arms is required	0	T	157
+00830	Percent of workers, reaching at or below the shoulder is required	0	T	116
+00831	Percent of workers, reaching overhead is required	0	T	108
+00845	Percent of workers, exposed to wetness	0	T	48
+00997	Percent of day where sitting is required, mean	0	T	255
+00998	Percent of day where sitting is required (10th Percentile)	0	T	256
+00999	Percent of day where sitting is required (25th Percentile)	0	T	257
+01000	Percent of day where sitting is required (50th Percentile - median)	0	T	246
+01001	Percent of day where sitting is required (75th Percentile)	0	T	247
+01002	Percent of day where sitting is required (90th Percentile)	0	T	248
+01003	Percent of day where standing is required, mean	0	T	234
+01004	Percent of day where standing is required (10th Percentile)	0	T	235
+01005	Percent of day where standing is required (25th Percentile)	0	T	236
+01006	Percent of day where standing is required (50th Percentile - median)	0	T	237
+01007	Percent of day where standing is required (75th Percentile)	0	T	238
+01008	Percent of day where standing is required (90th Percentile)	0	T	239
+01029	Percent of workers, minimum education level is a bachelor's degree	0	T	315
+01084	Percent of workers, credentials: certification is required	0	T	324
+01085	Percent of workers, credentials: certification is not required	0	T	325
+01087	Percent of workers, credentials: license is required	0	T	334
+01088	Percent of workers, credentials: license is not required	0	T	335
+01090	Percent of workers, credentials: educational certificate is required	0	T	344
+01091	Percent of workers, credentials: educational certificate is not required	0	T	345
+01097	Percent of workers, driving is required	0	T	169
+01099	Percent of workers, lifting or carrying negligible weight is required, seldom	0	T	130
+01100	Percent of workers, lifting or carrying no weight is required, seldom	0	T	131
+01101	Percent of workers, lifting or carrying negligible weight is required, occasionally	0	T	138
+01102	Percent of workers, lifting or carrying no weight is required, occasionally	0	T	139
+01103	Percent of workers, lifting or carrying no weight is required, frequently	0	T	146
+01107	Percent of workers, credentials: certification is required, with no associated time	0	T	326
+01108	Percent of workers, credentials: certification is required, with associated time	0	T	327
+01111	Percent of workers, credentials: license is required, with no associated time	0	T	336
+01112	Percent of workers, credentials: license is required, with associated time	0	T	337
+01115	Days of credentials: certification, mean	0	T	328
+01116	Days of credentials: certification (10th Percentile)	0	T	329
+01117	Days of credentials: certification (25th Percentile)	0	T	330
+01118	Days of credentials: certification (50th Percentile - median)	0	T	331
+01119	Days of credentials: certification (75th Percentile)	0	T	332
+01120	Days of credentials: certification (90th Percentile)	0	T	333
+01121	Days of credentials: license, mean	0	T	338
+01122	Days of credentials: license (10th Percentile)	0	T	339
+01123	Days of credentials: license (25th Percentile)	0	T	340
+01124	Days of credentials: license (50th Percentile - median)	0	T	341
+01125	Days of credentials: license (75th Percentile)	0	T	342
+01126	Days of credentials: license (90th Percentile)	0	T	343
+01127	Percent of workers, credentials: educational certificate is required, with no associated time	0	T	346
+01128	Percent of workers, credentials: educational certificate is required, with associated time	0	T	347
+01135	Days of credentials: educational certificate, mean	0	T	348
+01136	Days of credentials: educational certificate (10th Percentile)	0	T	349
+01137	Days of credentials: educational certificate (25th Percentile)	0	T	350
+01138	Days of credentials: educational certificate (50th Percentile - median)	0	T	351
+01139	Days of credentials: educational certificate (75th Percentile)	0	T	352
+01140	Days of credentials: educational certificate (90th Percentile)	0	T	353
+01149	Percent of workers, supervisory duties are not required	0	T	1
+01150	Percent of workers, supervisory duties are required	0	T	2
+01154	Percent of workers, work reviewed by supervisor more than once per day	0	T	3
+01155	Percent of workers, work reviewed by supervisor once per day	0	T	4
+01156	Percent of workers, work reviewed by supervisor less than once per day, but at least once per week	0	T	5
+01157	Percent of workers, work reviewed by supervisor less often than weekly	0	T	6
+01160	Percent of workers, where supervisor is present	0	T	7
+01161	Percent of workers, where supervisor is not present	0	T	8
+01164	Percent of workers, workload is controlled by machinery, equipment, or software	0	T	9
+01165	Percent of workers, workload is controlled by numerical performance targets	0	T	10
+01166	Percent of workers, workload is controlled by people	0	T	11
+01167	Percent of workers, workload is self-paced	0	T	12
+01168	Percent of workers, workload is controlled by other external source	0	T	13
+01171	Percent of workers, with consistent, generally fast work pace	0	T	14
+01172	Percent of workers, with consistent, generally slow work pace	0	T	15
+01173	Percent of workers, with varying work pace	0	T	16
+01176	Percent of workers, with the ability to pause work	0	T	17
+01177	Percent of workers, without the ability to pause work	0	T	18
+01180	Percent of workers, required to have verbal interaction constantly, every few minutes	0	T	19
+01181	Percent of workers, required to have verbal interaction not constantly, but more than once per hour	0	T	20
+01182	Percent of workers, required to have verbal interaction not more than once per hour, but more than once per day	0	T	21
+01183	Percent of workers, required to have verbal interaction once per day or less often	0	T	22
+01186	Percent of workers, with basic required people skills	0	T	23
+01187	Percent of workers, with more than basic required people skills	0	T	24
+01190	Percent of workers, problem solving is required more than once per day	0	T	25
+01191	Percent of workers, problem solving is required once per day	0	T	26
+01192	Percent of workers, problem solving is required not every day, but at least once per week	0	T	27
+01193	Percent of workers, problem solving is required not every week, but at least once per month	0	T	28
+01194	Percent of workers, problem solving is required less often than monthly, including never	0	T	29
+01197	Percent of workers, interaction with general public is required	0	T	30
+01198	Percent of workers, interaction with general public is not required	0	T	31
+01201	Percent of workers, working around crowds is required	0	T	32
+01202	Percent of workers, working around crowds is not required	0	T	33
+01205	Percent of workers, with telework available	0	T	34
+01206	Percent of workers, with telework not available	0	T	35
+01209	Percent of workers, low postures are not required	0	T	265
+01210	Percent of workers, low postures are required, seldom	0	T	266
+01211	Percent of workers, low postures are required, occasionally	0	T	267
+01212	Percent of workers, low postures are required, frequently	0	T	268
+01216	Percent of workers, low postures are required	0	T	264
+01218	Percent of workers, crawling is required, worker's choice	0	T	270
+01219	Percent of workers, crawling is required	0	T	271
+01222	Percent of workers, stooping is required, worker's choice	0	T	273
+01223	Percent of workers, stooping is required	0	T	274
+01226	Percent of workers, kneeling is required, worker's choice	0	T	276
+01227	Percent of workers, kneeling is required	0	T	277
+01230	Percent of workers, crouching is required, worker's choice	0	T	279
+01231	Percent of workers, crouching is required	0	T	280
+01234	Percent of workers, lifting or carrying > 10 lbs and less than or equal to 25 lbs is required, seldom	0	T	132
+01235	Percent of workers, lifting or carrying  > 25 lbs and less than or equal to 50 lbs is required, seldom	0	T	133
+01236	Percent of workers, lifting or carrying > 50 lbs and less than or equal to 75 lbs is required, seldom	0	T	134
+01237	Percent of workers, lifting or carrying  > 75 lbs and less than or equal to 100 lbs is required, seldom	0	T	135
+01238	Percent of workers, lifting or carrying > 10 lbs and less than or equal to 25 lbs is required, occasionally	0	T	140
+01239	Percent of workers, lifting or carrying > 25 lbs and less than or equal to 50 lbs is required, occasionally	0	T	141
+01240	Percent of workers, lifting or carrying > 50 lbs and less than or equal to 75 lbs is required, occasionally	0	T	142
+01241	Percent of workers, lifting or carrying > 75 lbs and less than or equal to 100 lbs is required, occasionally	0	T	143
+01242	Percent of workers, lifting or carrying > 10 lbs and less than or equal to 25 lbs is required, constantly	0	T	152
+01243	Percent of workers, lifting or carrying  > 25 lbs is required, constantly	0	T	153
+01244	Percent of workers, hearing speech in person is required	0	T	282
+01245	Percent of workers, hearing speech in person is not required	0	T	283
+01248	Percent of workers, hearing other remote speech is required	0	T	284
+01249	Percent of workers, hearing other remote speech is not required	0	T	285

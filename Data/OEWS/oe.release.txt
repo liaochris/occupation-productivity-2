@@ -1,2 +1,0 @@
-release_date	description
-2020A01	May 2020

@@ -6,6 +6,10 @@ Merge/OEWS_agg.csv
 Merge/NCS_W_agg.csv
 Data/NCS_wage/nw.series.txt
 Data/NCS_wage/nw.data.1.AllData.txt
-Data/OEWS/oe.data.1.AllData.txt
-Data/OEWS/oe.data.0.Current.txt
 Data/OEWS/oe.series.txt
+Deprecated/
+Data/Unused
+merge_table.csv
+
+Data/OEWS/all_*
+Data/OEWS/oes_*

@@ -15,4 +15,3 @@ datatype_estimate_code,datatype_id_code,datatype_id_text,estimate_id_code,estima
 35_2_NW,35,Employment relative standard error,2,Wages and salaries
 36_2_NW,36,Hourly earnings relative standard error,2,Wages and salaries
 37_2_NW,37,Weekly earnings relative standard error,2,Wages and salaries
-90_2_NW,90,Model-based estimates,2,Wages and salaries

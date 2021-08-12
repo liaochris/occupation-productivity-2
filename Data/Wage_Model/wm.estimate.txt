@@ -1,2 +1,0 @@
-estimate_code	estimate_text	display_level	selectable	sort_sequence
-02	Average Hourly Wage	1	T	1

@@ -1,9 +1,0 @@
-datatype_code	datatype_text	display_level	selectable	sort_sequence
-D	Cost of compensation (Cost per hour worked)	0	T	39
-L	Average employer cost per employee hour worked at 50th percentile (median), constant dollar	0	T	49
-M	Average employer cost per employee worked at 50th percentile (median), current dollar	0	T	46
-N	Average employer cost per employee hour worked at 90th percentile, current dollar	0	T	47
-P	Percent of total compensation	0	T	40
-R	Average employer cost per employee hour worked at 90th percentile, constant dollar	0	T	50
-T	Average employer cost per employee hour worked at 10th percentile, current dollar	0	T	45
-X	Average employer cost per employee hour worked at 10th percentile, constant dollar	0	T	48

@@ -1,0 +1,5 @@
+datatype_code	datatype_text	display_level	selectable	sort_sequence
+01	Percentage	0	T	1
+02	Days	0	T	2
+03	Hours	0	T	3
+04	Pounds	0	T	4
