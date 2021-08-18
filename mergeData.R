@@ -304,232 +304,6 @@ WM_merged <- WM_merged[,c("YEAR", "NAICS", "OCC_CODE", "AREA_CODE", "LEVEL_NAICS
 
 
 ####################################################################################
-############################# NCS Benefits Data ####################################
-####################################################################################
-
-NCS_B <- fread("Merge/NCS_B_agg.csv")
-
-NCS_B %>% unique_id(`OCCUPATION_CODE_NB`, `YEAR_NB`, `INDUSTRY_CODE_NB`)
-
-NCS_B_min <- NCS_B[,c("OCCUPATION_CODE_NB", "YEAR_NB", "INDUSTRY_CODE_NB"), with = FALSE]
-
-
-#perform the merge on 6 OCC digits, 0 digit industry (higher granularity matches revealed nothing)
-WM_merged[,'merge_string':=paste(`OCC_6d`, `YEAR`, `NAICS_0d`, sep = "_")]
-NCS_B_min[,'merge_string':=paste(`OCCUPATION_CODE_NB`, `YEAR_NB`, `INDUSTRY_CODE_NB`, sep = "_")]
-cols <- unique(c(colnames(NCS_B_min), colnames(WM_merged)))
-merge_r1 <- NCS_B_min[WM_merged, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 3 OCCdigits, 0 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r1$merge_string)
-WM_merged_cols <- colnames(WM_merged)
-merge_fail1 <- WM_merged[`merge_string` %ni% matched,.SD, .SDcols = WM_merged_cols]
-merge_fail1[,'merge_string':=paste(`OCC_3d`, `YEAR`, `NAICS_0d`, sep = "_")]
-merge_r2 <- NCS_B_min[merge_fail1, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 2 OCC digits, 0 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r2$merge_string)
-WM_merged_cols <- colnames(WM_merged)
-merge_fail2 <- merge_fail1[`merge_string` %ni% matched,.SD, .SDcols = WM_merged_cols]
-merge_fail2[,'merge_string':=paste(`OCC_2d`, `YEAR`, `NAICS_0d`, sep = "_")]
-merge_r3 <- NCS_B_min[merge_fail2, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 0 OCC digits, 4 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r3$merge_string)
-WM_merged_cols <- colnames(WM_merged)
-merge_fail3 <- merge_fail2[`merge_string` %ni% matched,.SD, .SDcols = WM_merged_cols]
-merge_fail3[,'merge_string':=paste(`OCC_0d`, `YEAR`, `NAICS_4d`, sep = "_")]
-merge_r4 <- NCS_B_min[merge_fail3, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 0 OCC digits, 3 digit industry 
-matched <- unique(merge_r4$merge_string)
-WM_merged_cols <- colnames(WM_merged)
-merge_fail4 <- merge_fail3[`merge_string` %ni% matched,.SD, .SDcols = WM_merged_cols]
-merge_fail4[,'merge_string':=paste(`OCC_0d`, `YEAR`, `NAICS_3d`, sep = "_")]
-merge_r5 <- NCS_B_min[merge_fail4, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 0 OCC digits, 2 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r5$merge_string)
-WM_merged_cols <- colnames(WM_merged)
-merge_fail5 <- merge_fail4[`merge_string` %ni% matched,.SD, .SDcols = WM_merged_cols]
-merge_fail5[,'merge_string':=paste(`OCC_0d`, `YEAR`, `NAICS_2d`, sep = "_")]
-merge_r6 <- NCS_B_min[merge_fail5, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 0 OCC digits, 0 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r6$merge_string)
-WM_merged_cols <- colnames(WM_merged)
-merge_fail6 <- merge_fail5[`merge_string` %ni% matched,.SD, .SDcols = WM_merged_cols]
-merge_fail6[,'merge_string':=paste(`OCC_0d`, `YEAR`, `NAICS_0d`, sep = "_")]
-merge_r7 <- NCS_B_min[merge_fail6, on = 'merge_string', ..cols]
-
-NCS_B_merged <- rbind(merge_r1, merge_r2, merge_r3, merge_r4, merge_r5, merge_r6, merge_r7)
-
-print(paste("merge rate was", 1-mean(is.na(NCS_B_merged$YEAR_NB))))
-
-# Generate the OCC Level for OCC codes
-NCS_B_merged[as.numeric(`OCCUPATION_CODE_NB`) %% 10 != 0, `LEVEL_OCC_NB` := 6]
-NCS_B_merged[as.numeric(`OCCUPATION_CODE_NB`) %% 100 != 0 & is.na(`LEVEL_OCC_NB`), `LEVEL_OCC_NB` := 5]
-NCS_B_merged[as.numeric(`OCCUPATION_CODE_NB`) %% 10000 != 0 & is.na(`LEVEL_OCC_NB`), `LEVEL_OCC_NB` := 3]
-NCS_B_merged[as.numeric(`OCCUPATION_CODE_NB`) %% 100000 != 0 & is.na(`LEVEL_OCC_NB`), `LEVEL_OCC_NB` := 2]
-NCS_B_merged[`OCCUPATION_CODE_NB` == 0, `LEVEL_OCC_NB`:=0]
-
-# Generate the NAICS Level for BLS codes
-NCS_B_merged[as.numeric(INDUSTRY_CODE_NB) %% 10 != 0, `LEVEL_NAICS_NB` := 6]
-NCS_B_merged[as.numeric(INDUSTRY_CODE_NB) %% 100 != 0 & is.na(`LEVEL_NAICS_NB`), `LEVEL_NAICS_NB` := 5]
-NCS_B_merged[as.numeric(INDUSTRY_CODE_NB) %% 1000 != 0 & is.na(`LEVEL_NAICS_NB`), `LEVEL_NAICS_NB` := 4]
-NCS_B_merged[as.numeric(INDUSTRY_CODE_NB) %% 10000 != 0 & is.na(`LEVEL_NAICS_NB`), `LEVEL_NAICS_NB` := 3]
-NCS_B_merged[as.numeric(INDUSTRY_CODE_NB) %% 100000 != 0 & is.na(`LEVEL_NAICS_NB`), `LEVEL_NAICS_NB` := 2]
-NCS_B_merged[`INDUSTRY_CODE_NB` == "000000", `LEVEL_NAICS_NB`:=0]
-
-# Reformat Merge Table
-NCS_B_merged <- NCS_B_merged[,c("YEAR", "NAICS", "OCC_CODE", "AREA_CODE", "LEVEL_NAICS_OE", "LEVEL_OCC_OE", 
-                                "YEAR_IP", "NAICS_IP", "AREA_CODE_IP", "LEVEL_NAICS_IP",
-                                "SOC_2018_CODE_OR", "LEVEL_OCC_OR",
-                                "YEAR_WM", "OCCUPATION_CODE_WM", "AREA_CODE_WM", "LEVEL_OCC_WM",
-                                "YEAR_NB","INDUSTRY_CODE_NB", "OCCUPATION_CODE_NB", "LEVEL_NAICS_NB", "LEVEL_OCC_NB",
-                                "NAICS_5d", "NAICS_4d", "NAICS_3d", "NAICS_2d", "NAICS_1d", "NAICS_0d", 
-                                "OCC_6d", "OCC_5d", "OCC_3d", "OCC_2d", "OCC_0d"), with = FALSE]
-
-
-####################################################################################
-############################### NCS Wage Data ######################################
-####################################################################################
-
-NCS_W <- fread("Merge/NCS_W_agg.csv")
-
-NCS_W %>% unique_id(`OCCUPATION_CODE_NW`, `YEAR_NW`, `INDUSTRY_CODE_NW`,  `GEO_CODE_NW`)
-NCS_W_min <- NCS_W[,c("OCCUPATION_CODE_NW", "YEAR_NW", "INDUSTRY_CODE_NW", "GEO_CODE_NW"), with = FALSE]
-
-#perform the merge on 6 OCC digits, 3 digit industry (higher granularity matches revealed nothing)
-NCS_B_merged[,'merge_string':=paste(`OCC_6d`, `YEAR`, `NAICS_3d`, `AREA_CODE`, sep = "_")]
-NCS_W_min[,'merge_string':=paste(`OCCUPATION_CODE_NW`, `YEAR_NW`, `INDUSTRY_CODE_NW`, `GEO_CODE_NW`, sep = "_")]
-cols <- unique(c(colnames(NCS_W_min), colnames(NCS_B_merged)))
-merge_r1 <- NCS_W_min[NCS_B_merged, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 6 OCCdigits, 0 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r1$merge_string)
-NCS_B_merged_cols <- colnames(NCS_B_merged)
-merge_fail1 <- NCS_B_merged[`merge_string` %ni% matched,.SD, .SDcols = NCS_B_merged_cols]
-merge_fail1[,'merge_string':=paste(`OCC_6d`, `YEAR`, `NAICS_0d`,`AREA_CODE`, sep = "_")]
-merge_r2 <- NCS_W_min[merge_fail1, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 5 OCC digits, 3 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r2$merge_string)
-NCS_B_merged_cols <- colnames(NCS_B_merged)
-merge_fail2 <- merge_fail1[`merge_string` %ni% matched,.SD, .SDcols = NCS_B_merged_cols]
-merge_fail2[,'merge_string':=paste(`OCC_5d`, `YEAR`, `NAICS_3d`,`AREA_CODE`, sep = "_")]
-merge_r3 <- NCS_W_min[merge_fail2, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 5 OCC digits, 0 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r3$merge_string)
-NCS_B_merged_cols <- colnames(NCS_B_merged)
-merge_fail3 <- merge_fail2[`merge_string` %ni% matched,.SD, .SDcols = NCS_B_merged_cols]
-merge_fail3[,'merge_string':=paste(`OCC_5d`, `YEAR`, `NAICS_0d`,`AREA_CODE`, sep = "_")]
-merge_r4 <- NCS_W_min[merge_fail3, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 3 OCC digits, 3 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r4$merge_string)
-NCS_B_merged_cols <- colnames(NCS_B_merged)
-merge_fail4 <- merge_fail3[`merge_string` %ni% matched,.SD, .SDcols = NCS_B_merged_cols]
-merge_fail4[,'merge_string':=paste(`OCC_3d`, `YEAR`, `NAICS_3d`,`AREA_CODE`, sep = "_")]
-merge_r5 <- NCS_W_min[merge_fail4, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 3 OCC digits, 0 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r5$merge_string)
-NCS_B_merged_cols <- colnames(NCS_B_merged)
-merge_fail5 <- merge_fail4[`merge_string` %ni% matched,.SD, .SDcols = NCS_B_merged_cols]
-merge_fail5[,'merge_string':=paste(`OCC_3d`, `YEAR`, `NAICS_0d`,`AREA_CODE`, sep = "_")]
-merge_r6 <- NCS_W_min[merge_fail5, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 2 OCC digits, 3 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r6$merge_string)
-NCS_B_merged_cols <- colnames(NCS_B_merged)
-merge_fail6 <- merge_fail5[`merge_string` %ni% matched,.SD, .SDcols = NCS_B_merged_cols]
-merge_fail6[,'merge_string':=paste(`OCC_2d`, `YEAR`, `NAICS_3d`,`AREA_CODE`, sep = "_")]
-merge_r7 <- NCS_W_min[merge_fail6, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 2 OCC digits, 2 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r7$merge_string)
-NCS_B_merged_cols <- colnames(NCS_B_merged)
-merge_fail7 <- merge_fail6[`merge_string` %ni% matched,.SD, .SDcols = NCS_B_merged_cols]
-merge_fail7[,'merge_string':=paste(`OCC_2d`, `YEAR`, `NAICS_2d`,`AREA_CODE`, sep = "_")]
-merge_r8 <- NCS_W_min[merge_fail7, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 2 OCC digits, 1 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r8$merge_string)
-NCS_B_merged_cols <- colnames(NCS_B_merged)
-merge_fail8 <- merge_fail7[`merge_string` %ni% matched,.SD, .SDcols = NCS_B_merged_cols]
-merge_fail8[,'merge_string':=paste(`OCC_2d`, `YEAR`, `NAICS_1d`,`AREA_CODE`, sep = "_")]
-merge_r9 <- NCS_W_min[merge_fail8, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 2 OCC digits, 0 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r9$merge_string)
-NCS_B_merged_cols <- colnames(NCS_B_merged)
-merge_fail9 <- merge_fail8[`merge_string` %ni% matched,.SD, .SDcols = NCS_B_merged_cols]
-merge_fail9[,'merge_string':=paste(`OCC_2d`, `YEAR`, `NAICS_0d`,`AREA_CODE`, sep = "_")]
-merge_r10 <- NCS_W_min[merge_fail9, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 0 OCC digits, 3 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r10$merge_string)
-NCS_B_merged_cols <- colnames(NCS_B_merged)
-merge_fail10 <- merge_fail9[`merge_string` %ni% matched,.SD, .SDcols = NCS_B_merged_cols]
-merge_fail10[,'merge_string':=paste(`OCC_0d`, `YEAR`, `NAICS_3d`,`AREA_CODE`, sep = "_")]
-merge_r11 <- NCS_W_min[merge_fail10, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 0 OCC digits, 2 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r11$merge_string)
-NCS_B_merged_cols <- colnames(NCS_B_merged)
-merge_fail11 <- merge_fail10[`merge_string` %ni% matched,.SD, .SDcols = NCS_B_merged_cols]
-merge_fail11[,'merge_string':=paste(`OCC_0d`, `YEAR`, `NAICS_2d`,`AREA_CODE`, sep = "_")]
-merge_r12 <- NCS_W_min[merge_fail11, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 0 OCC digits, 1 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r12$merge_string)
-NCS_B_merged_cols <- colnames(NCS_B_merged)
-merge_fail12 <- merge_fail11[`merge_string` %ni% matched,.SD, .SDcols = NCS_B_merged_cols]
-merge_fail12[,'merge_string':=paste(`OCC_0d`, `YEAR`, `NAICS_1d`,`AREA_CODE`, sep = "_")]
-merge_r13 <- NCS_W_min[merge_fail12, on = 'merge_string', ..cols, nomatch = 0]
-
-#perform the merge on 0 OCC digits, 0 digit industry (higher granularity industry/occ matches revealed nothing)
-matched <- unique(merge_r13$merge_string)
-NCS_B_merged_cols <- colnames(NCS_B_merged)
-merge_fail13 <- merge_fail12[`merge_string` %ni% matched,.SD, .SDcols = NCS_B_merged_cols]
-merge_fail13[,'merge_string':=paste(`OCC_0d`, `YEAR`, `NAICS_0d`,`AREA_CODE`, sep = "_")]
-merge_r14 <- NCS_W_min[merge_fail13, on = 'merge_string', ..cols]
-
-NCS_W_merged <- rbind(merge_r1, merge_r2, merge_r3, merge_r4, merge_r5, merge_r6, merge_r7,
-                      merge_r8, merge_r9, merge_r10, merge_r11, merge_r12, merge_r13, merge_r14)
-
-print(paste("merge rate was", 1-mean(is.na(NCS_W_merged$YEAR_NW))))
-
-# Generate the OCC Level for OCC codes
-NCS_W_merged[as.numeric(`OCCUPATION_CODE_NW`) %% 10 != 0, `LEVEL_OCC_NW` := 6]
-NCS_W_merged[as.numeric(`OCCUPATION_CODE_NW`) %% 100 != 0 & is.na(`LEVEL_OCC_NW`), `LEVEL_OCC_NW` := 5]
-NCS_W_merged[as.numeric(`OCCUPATION_CODE_NW`) %% 10000 != 0 & is.na(`LEVEL_OCC_NW`), `LEVEL_OCC_NW` := 3]
-NCS_W_merged[as.numeric(`OCCUPATION_CODE_NW`) %% 100000 != 0 & is.na(`LEVEL_OCC_NW`), `LEVEL_OCC_NW` := 2]
-NCS_W_merged[`OCCUPATION_CODE_NW` == 0, `LEVEL_OCC_NW`:=0]
-
-# Generate the NAICS Level for BLS codes
-NCS_W_merged[as.numeric(INDUSTRY_CODE_NW) %% 10 != 0, `LEVEL_NAICS_NW` := 6]
-NCS_W_merged[as.numeric(INDUSTRY_CODE_NW) %% 100 != 0 & is.na(`LEVEL_NAICS_NW`), `LEVEL_NAICS_NW` := 5]
-NCS_W_merged[as.numeric(INDUSTRY_CODE_NW) %% 1000 != 0 & is.na(`LEVEL_NAICS_NW`), `LEVEL_NAICS_NW` := 4]
-NCS_W_merged[as.numeric(INDUSTRY_CODE_NW) %% 10000 != 0 & is.na(`LEVEL_NAICS_NW`), `LEVEL_NAICS_NW` := 3]
-NCS_W_merged[as.numeric(INDUSTRY_CODE_NW) %% 100000 != 0 & is.na(`LEVEL_NAICS_NW`), `LEVEL_NAICS_NW` := 2]
-NCS_W_merged[`INDUSTRY_CODE_NW` == "000000", `LEVEL_NAICS_NW`:=0]
-
-# Reformat Merge Table
-NCS_W_merged <- NCS_W_merged[,c("YEAR", "NAICS", "OCC_CODE", "AREA_CODE", "LEVEL_NAICS_OE", "LEVEL_OCC_OE", 
-                                "YEAR_IP", "NAICS_IP", "AREA_CODE_IP", "LEVEL_NAICS_IP",
-                                "SOC_2018_CODE_OR", "LEVEL_OCC_OR",
-                                "YEAR_WM", "OCCUPATION_CODE_WM", "AREA_CODE_WM","LEVEL_OCC_WM",
-                                "YEAR_NB", "INDUSTRY_CODE_NB", "OCCUPATION_CODE_NB", "LEVEL_NAICS_NB", "LEVEL_OCC_NB",
-                                "YEAR_NW", "INDUSTRY_CODE_NW", "OCCUPATION_CODE_NW", "GEO_CODE_NW", "LEVEL_NAICS_NB", "LEVEL_OCC_NB",
-                                "NAICS_5d", "NAICS_4d", "NAICS_3d", "NAICS_2d", "NAICS_1d", "NAICS_0d", 
-                                "OCC_6d", "OCC_5d", "OCC_3d", "OCC_2d", "OCC_0d"), with = FALSE]
-
-
-
-####################################################################################
 ###################### Employer Cost of Employment Data ############################
 ####################################################################################
 
@@ -539,50 +313,50 @@ EC %>% unique_id(`OCCUPATION_CODE_CM`, `YEAR_CM`, `INDUSTRY_CODE_CM`, `AREA_CODE
 EC_min <- EC[,c("OCCUPATION_CODE_CM", "YEAR_CM", "INDUSTRY_CODE_CM", "AREA_CODE_CM"), with = FALSE]
 
 #perform the merge on 6 OCC digits, 0 digit industry (higher granularity matches revealed nothing)
-NCS_W_merged[,'merge_string':=paste(`OCC_6d`, `YEAR`, `NAICS_0d`, `AREA_CODE`, sep = "_")]
+WM_merged[,'merge_string':=paste(`OCC_6d`, `YEAR`, `NAICS_0d`, `AREA_CODE`, sep = "_")]
 EC_min[,'merge_string':=paste(`OCCUPATION_CODE_CM`, `YEAR_CM`, `INDUSTRY_CODE_CM`, `AREA_CODE_CM`, sep = "_")]
-cols <- unique(c(colnames(EC_min), colnames(NCS_W_merged)))
-merge_r1 <- EC_min[NCS_W_merged, on = 'merge_string', ..cols, nomatch = 0]
+cols <- unique(c(colnames(EC_min), colnames(WM_merged)))
+merge_r1 <- EC_min[WM_merged, on = 'merge_string', ..cols, nomatch = 0]
 
 #perform the merge on 3 OCC digits, 0 digit industry (higher granularity industry/occ matches revealed nothing)
 matched <- unique(merge_r1$merge_string)
-NCS_W_merged_cols <- colnames(NCS_W_merged)
-merge_fail1 <- NCS_W_merged[`merge_string` %ni% matched,.SD, .SDcols = NCS_W_merged_cols]
+WM_merged_cols <- colnames(WM_merged)
+merge_fail1 <- WM_merged[`merge_string` %ni% matched,.SD, .SDcols = WM_merged_cols]
 merge_fail1[,'merge_string':=paste(`OCC_3d`, `YEAR`, `NAICS_0d`,`AREA_CODE`, sep = "_")]
 merge_r2 <- EC_min[merge_fail1, on = 'merge_string', ..cols, nomatch = 0]
 
 #perform the merge on 2 OCC digits, 0 digit industry (higher granularity industry/occ matches revealed nothing)
 matched <- unique(merge_r2$merge_string)
-NCS_W_merged_cols <- colnames(NCS_W_merged)
-merge_fail2 <- merge_fail1[`merge_string` %ni% matched,.SD, .SDcols = NCS_W_merged_cols]
+WM_merged_cols <- colnames(WM_merged)
+merge_fail2 <- merge_fail1[`merge_string` %ni% matched,.SD, .SDcols = WM_merged_cols]
 merge_fail2[,'merge_string':=paste(`OCC_2d`, `YEAR`, `NAICS_0d`,`AREA_CODE`, sep = "_")]
 merge_r3 <- EC_min[merge_fail2, on = 'merge_string', ..cols, nomatch = 0]
 
 #perform the merge on 0 OCC digits, 4 digit industry (higher granularity industry/occ matches revealed nothing)
 matched <- unique(merge_r3$merge_string)
-NCS_W_merged_cols <- colnames(NCS_W_merged)
-merge_fail3 <- merge_fail2[`merge_string` %ni% matched,.SD, .SDcols = NCS_W_merged_cols]
+WM_merged_cols <- colnames(WM_merged)
+merge_fail3 <- merge_fail2[`merge_string` %ni% matched,.SD, .SDcols = WM_merged_cols]
 merge_fail3[,'merge_string':=paste(`OCC_0d`, `YEAR`, `NAICS_4d`,`AREA_CODE`, sep = "_")]
 merge_r4 <- EC_min[merge_fail3, on = 'merge_string', ..cols, nomatch = 0]
 
 #perform the merge on 0 OCC digits, 3 digit industry (higher granularity industry/occ matches revealed nothing)
 matched <- unique(merge_r4$merge_string)
-NCS_W_merged_cols <- colnames(NCS_W_merged)
-merge_fail4 <- merge_fail3[`merge_string` %ni% matched,.SD, .SDcols = NCS_W_merged_cols]
+WM_merged_cols <- colnames(WM_merged)
+merge_fail4 <- merge_fail3[`merge_string` %ni% matched,.SD, .SDcols = WM_merged_cols]
 merge_fail4[,'merge_string':=paste(`OCC_0d`, `YEAR`, `NAICS_3d`,`AREA_CODE`, sep = "_")]
 merge_r5 <- EC_min[merge_fail4, on = 'merge_string', ..cols, nomatch = 0]
 
 #perform the merge on 0 OCC digits, 2 digit industry (higher granularity industry/occ matches revealed nothing)
 matched <- unique(merge_r5$merge_string)
-NCS_W_merged_cols <- colnames(NCS_W_merged)
-merge_fail5 <- merge_fail4[`merge_string` %ni% matched,.SD, .SDcols = NCS_W_merged_cols]
+WM_merged_cols <- colnames(WM_merged)
+merge_fail5 <- merge_fail4[`merge_string` %ni% matched,.SD, .SDcols = WM_merged_cols]
 merge_fail5[,'merge_string':=paste(`OCC_0d`, `YEAR`, `NAICS_2d`,`AREA_CODE`, sep = "_")]
 merge_r6 <- EC_min[merge_fail5, on = 'merge_string', ..cols, nomatch = 0]
 
 #perform the merge on 0 OCC digits, 1 digit industry (higher granularity industry/occ matches revealed nothing)
 matched <- unique(merge_r6$merge_string)
-NCS_W_merged_cols <- colnames(NCS_W_merged)
-merge_fail6 <- merge_fail5[`merge_string` %ni% matched,.SD, .SDcols = NCS_W_merged_cols]
+WM_merged_cols <- colnames(WM_merged)
+merge_fail6 <- merge_fail5[`merge_string` %ni% matched,.SD, .SDcols = WM_merged_cols]
 merge_fail6[,'merge_string':=paste(`OCC_0d`, `YEAR`, `NAICS_0d`,`AREA_CODE`, sep = "_")]
 merge_r7 <- EC_min[merge_fail6, on = 'merge_string', ..cols]
 
@@ -610,8 +384,6 @@ EC_merged <- EC_merged[,c("YEAR", "NAICS", "OCC_CODE", "AREA_CODE", "LEVEL_NAICS
                           "YEAR_IP", "NAICS_IP", "AREA_CODE_IP", "LEVEL_NAICS_IP",
                           "SOC_2018_CODE_OR", "LEVEL_OCC_OR",
                           "YEAR_WM", "OCCUPATION_CODE_WM", "AREA_CODE_WM","LEVEL_OCC_WM",
-                          "YEAR_NB", "INDUSTRY_CODE_NB", "OCCUPATION_CODE_NB", "LEVEL_NAICS_NB", "LEVEL_OCC_NB",
-                          "YEAR_NW", "INDUSTRY_CODE_NW", "OCCUPATION_CODE_NW", "GEO_CODE_NW", "LEVEL_NAICS_NB", "LEVEL_OCC_NB",
                           "OCCUPATION_CODE_CM", "YEAR_CM", "INDUSTRY_CODE_CM", "AREA_CODE_CM", "LEVEL_NAICS_CM", "LEVEL_OCC_CM",
                           "NAICS_5d", "NAICS_4d", "NAICS_3d", "NAICS_2d", "NAICS_1d", "NAICS_0d", 
                           "OCC_6d", "OCC_5d", "OCC_3d", "OCC_2d", "OCC_0d"), with = FALSE]

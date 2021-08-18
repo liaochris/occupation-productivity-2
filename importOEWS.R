@@ -67,7 +67,7 @@ col_name <- c("AREA", "AREA_TITLE", "AREA_TYPE", "NAICS", "NAICS_TITLE", "OWN_CO
               "H_PCT25", "H_MEDIAN", "H_PCT75", "H_PCT90", "A_PCT10", "A_PCT25", "A_MEDIAN",
               "A_PCT75",	"A_PCT90", "ANNUAL", "HOURLY", "YEAR")
 for (file in dir("Data/OEWS/")[is.na(as.numeric(dir("Data/OEWS/")))]) {
-  if (file != "original_data") {
+  if (file != "original_data" & !grepl("zip", file)) {
     print(file)
     data <- fread(paste("Data/OEWS/", file, sep = ""))
     colnames(data) <- toupper(colnames(data))
@@ -78,6 +78,7 @@ for (file in dir("Data/OEWS/")[is.na(as.numeric(dir("Data/OEWS/")))]) {
     OEWS_agg2 <- rbind(OEWS_agg2, data)
   }
 }
+OEWS_agg2[, `TOT_EMP`:= as.numeric(gsub(",", "", TOT_EMP))]
 OEWS_agg2[NAICS == "48-490", `NAICS`:="48-49"]
 OEWS_agg2[NAICS %ni% c("44-45", "31-33", "48-49"), `NAICS`:=str_pad(NAICS, 6, side = "right", pad = "0")]
 OEWS_agg2[as.numeric(NAICS) %% 10 != 0, `LEVEL` := 6]
@@ -94,11 +95,9 @@ OEWS_agg_final <- rbind(OEWS_agg2, OEWS_agg, fill = TRUE)
 OEWS_agg_final[is.na(AREA), AREA := 99]
 OEWS_agg_final <- OEWS_agg_final[NAICS != "000001"]
 OEWS_agg_final <- unique(OEWS_agg_final[,-c("O_GROUP"), with = FALSE])
-
-
+  
 colnames(OEWS_agg_final)[1] <- "AREA_CODE"
 colnames(OEWS_agg_final)[30] <- "LEVEL_NAICS_OE"
-
 OEWS_agg_final[,`OCC_CODE` := as.numeric(gsub("-", "", `OCC_CODE`))]
 
 fwrite(OEWS_agg_final,"Merge/OEWS_agg.csv")
