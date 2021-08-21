@@ -98,7 +98,7 @@ ggplot(merge_table_analysis, aes(x=hourly_compensation_pctchange, y=productivity
   #geom_smooth(method=lm, se=FALSE) +
   geom_abline(intercept = 0, slope = 1, color = 'blue', size = 1) +
   ggtitle("productivity_pctchange ~ hourly_compensation_pctchange")
-
+summary(lm(productivity_pctchange ~ hourly_compensation_pctchange, data = merge_table_analysis))
 meaned <- merge_table_analysis[,lapply(.SD, function (x) mean(x, na.rm = TRUE)), 
                              by = c("YEAR", "NAICS"), 
                              .SDcols = c("hourly_compensation_pctchange", "productivity_pctchange")]
@@ -115,77 +115,6 @@ summary(model)
 analysis_subset <- copy(meaned)
 analysis_subset[,`NAICS_2d`:=as.numeric(paste(substr(`NAICS`, 1, 2), "0000", sep = ""))]
 analysis_subset[!is.na(hourly_compensation_pctchange) & !is.na(productivity_pctchange),
-                `residual`:=model$residuals]
-summaryStats(analysis_subset$residual, "residuals")
-percentile_2_5 <-  quantile(analysis_subset$residual, c(.025), na.rm = TRUE)
-print(paste("2.5 percentile", quantile(analysis_subset$residual, c(.025), na.rm = TRUE)))
-percentile_97_5 <-  quantile(analysis_subset$residual, c(.975), na.rm = TRUE)
-print(paste("97.5 percentile", quantile(analysis_subset$residual, c(.975), na.rm = TRUE)))
-
-large_res <- analysis_subset[residual < percentile_2_5 | residual > percentile_97_5]
-year_tb <- table(large_res$YEAR)/table(analysis_subset[YEAR %in% unique(large_res$YEAR), YEAR])
-year_tb_norm <- year_tb/sum(year_tb) * 100
-sort(year_tb_norm)
-
-naics_tb <- sort(table(large_res$NAICS)/table(analysis_subset[NAICS %in% unique(large_res$NAICS), NAICS]))
-naics_tb_norm <- naics_tb/sum(naics_tb) * 100
-sort(naics_tb_norm)
-
-naics2_tb <- sort(table(large_res$NAICS_2d)/table(analysis_subset[NAICS_2d %in% unique(large_res$NAICS_2d), NAICS_2d]))
-naics2_tb_norm <- naics2_tb/sum(naics2_tb) * 100
-sort(naics2_tb_norm)
-
-cols <- colnames(merge_table_analysis)
-merge_table_analysis[OCC_CODE != 0, `percent_employed_occupation`:=100 * total_employment/sum(total_employment,
-                                                                                        na.rm = TRUE), 
-                     by = c("OCC_CODE", "AREA_CODE", "YEAR", "LEVEL_NAICS_OE")]
-merge_table_analysis[OCC_CODE == 0, `percent_employed_occupation`:=100 *total_employment/sum(total_employment,
-                                                                                        na.rm = TRUE), 
-                     by = c("OCC_CODE", "AREA_CODE", "YEAR", "LEVEL_NAICS_OE")]
-merge_table_analysis[,`temp`:=sum(percent_employed_occupation, na.rm = TRUE),
-                     by = c("OCC_CODE", "AREA_CODE", "YEAR", "LEVEL_NAICS_OE")]
-
-occupation_prod <- merge_table_analysis[temp!=0 & !is.na(percent_employed_occupation) & 
-                                          !is.na(productivity_pctchange),
-                                        100/sum(percent_employed_occupation, na.rm = TRUE) * 
-                                          sum(percent_employed_occupation * productivity, 
-                                              na.rm = TRUE)/100,
-                     by = c("OCC_CODE", "AREA_CODE", "YEAR", "LEVEL_NAICS_OE")]
-merge_table_analysis <- occupation_prod[merge_table_analysis, on = c("OCC_CODE", "AREA_CODE", "YEAR", 
-                                                                     "LEVEL_NAICS_OE")]
-merge_table_analysis[,`occupation_productivity_pctchange`:=`V1`]
-merge_table_analysis <- merge_table_analysis[,-c("V1", "temp"), with = FALSE]
-
-pct_cols <- c("hourly_wage")
-merge_table_analysis[!is.na(occupation_productivity_pctchange), paste0("pctchange_", pct_cols):= lapply(.SD, pctChange),
-                     by = c("OCC_CODE", "AREA_CODE", "YEAR", "LEVEL_NAICS_OE"), .SDcols = pct_cols]
-
-#occupation_productivity_pctchange = productivity for occupations
-#wage from OEWS
-ggplot(merge_table_analysis, aes(x=pctchange_hourly_wage, y=occupation_productivity_pctchange)) +
-  stat_summary_bin(fun='mean', bins=100, color='orange', size=2, geom='point')+
-  #geom_point() +
-  geom_smooth(method=lm, se=FALSE) +
-  #geom_abline(intercept = 0, slope = 1, color = 'red', size = 1) +
-  ggtitle("occupation_productivity_pctchange ~ pctchange_hourly_wage")
-summary(lm(occupation_productivity_pctchange ~ pctchange_hourly_wage, data = merge_table_analysis))
-
-meaned2 <- merge_table_analysis[,lapply(.SD, function (x) mean(x, na.rm = TRUE)), 
-                               by = c("YEAR", "NAICS"), 
-                               .SDcols = c("pctchange_hourly_wage", "pctchange_occupation_productivity_index")]
-ggplot(meaned2, aes(x=pctchange_hourly_wage, y=pctchange_occupation_productivity_index)) +
-  #stat_summary_bin(fun='mean', bins=100, color='orange', size=2, geom='point')+
-  geom_point() +
-  #geom_smooth(method=lm, se=FALSE) +
-  geom_abline(intercept = 0, slope = 1, color = 'blue', size = 1) +
-  ggtitle("productivity_pctchange ~ hourly_compensation_pctchange")
-model <- lm(pctchange_occupation_productivity_index ~ pctchange_hourly_wage, data = meaned2)
-summary(model)
-
-#hourly compensation and productivity pct change analysis
-analysis_subset <- copy(meaned2)
-analysis_subset[,`NAICS_2d`:=as.numeric(paste(substr(`NAICS`, 1, 2), "0000", sep = ""))]
-analysis_subset[!is.na(pctchange_hourly_wage) & !is.na(pctchange_occupation_productivity_index),
                 `residual`:=model$residuals]
 summaryStats(analysis_subset$residual, "residuals")
 percentile_2_5 <-  quantile(analysis_subset$residual, c(.025), na.rm = TRUE)

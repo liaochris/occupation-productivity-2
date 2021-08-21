@@ -22,7 +22,7 @@ summaryStats <- function (x, name) {
 
 merge_table_default <- fread("merge_table.csv")
 merge_table <- merge_table_default
-sink("describe_dataset.txt")
+sink("describe_dataset.pdf")
 print("General Base Variable Statistics")
 print("--------------------------------------------------------------------------------")
 print("Decriptive Statistics for Single Variables")
@@ -37,7 +37,7 @@ cat("\n\n")
 print("Industry Codes")
 print(paste("number of unique industry codes", length(unique(merge_table$NAICS))))
 print(paste("distribution of unique industry codes by # digits"))
-table(unique(merge_table[,c("OCC_CODE", "LEVEL_NAICS_OE"), with = FALSE])$LEVEL_NAICS_OE)
+table(unique(merge_table[,c("NAICS", "LEVEL_NAICS_OE"), with = FALSE])$LEVEL_NAICS_OE)
 print(paste("overall distribution of industry codes in table"))
 table(merge_table$LEVEL_NAICS_OE)
 cat("\n\n")
@@ -56,7 +56,7 @@ temp[is.na(classification) & AREA_CODE<100000, classification := "metropolitan a
 temp[is.na(classification), classification := "non metropolitan area"]
 print("distribution of unique codes by area classification")
 table(unique(temp[,c("AREA_CODE", "classification"), with = FALSE])$classification)
-print("table of years")
+print("table of classification counts")
 table(temp$classification)
 cat("\n\n")
 print("2 variable pairs")

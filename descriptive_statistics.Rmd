@@ -1,0 +1,337 @@
+---
+title: "Descriptive Statistics"
+output:
+  html_document: default
+  pdf_document: default
+---
+# Descriptive Statistics for our Merging Dataset
+```{r setup, include=FALSE, message = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(data.table)
+library(ggplot2)
+library(Hmisc)
+library(stringr)
+library(plm)
+library(knitr)
+library(xlsx)
+library(dplyr)
+library(kableExtra)
+options(scipen = 999)
+
+setwd("~/Google Drive/Non-Academic Work/Research/Traina/occupation-productivity-2/")
+
+#starting this year we have files
+'%ni%' <- Negate('%in%')
+
+#summary statistics function
+summaryStats <- function (x, name, var) {
+  print(paste(var, name, sep = " - "))
+  stats_vector <- c(mean(x, na.rm = TRUE), sd(x, na.rm = TRUE), mean(is.na(x)))
+  names(stats_vector) <- c("Mean", "SD", "Missing")
+  return(kable(c(stats_vector, quantile(x, c(0,.1,.25, .50,  .75, .9,1), na.rm = TRUE)),
+        col.names = c(var)) %>% kable_classic_2(full_width = F))
+}
+merge_table_default <- fread("merge_table.csv")
+merge_table <- merge_table_default
+knitr::opts_chunk$set
+```
+## Descriptive Statistics for Single Variables
+### Occupation Codes
+number of unique occupation codes: `r length(unique(merge_table$OCC_CODE))`
+
+distribution of unique occupation codes by # digits:
+```{r base_occupation_codes1, echo = FALSE, results='asis', warning = FALSE}
+kable(table(unique(merge_table[,c("OCC_CODE", "LEVEL_OCC_OE"), with = FALSE])$LEVEL_OCC_OE), col.names = c("occ digits", "freq"))  %>%
+  kable_classic_2(full_width = F)
+```
+overall distribution of occupation codes in table
+```{r base_occupation_codes2, echo = FALSE, results='asis', warning = FALSE}
+kable(table(merge_table$LEVEL_OCC_OE), col.names = c("occ digits", "freq")) %>%
+  kable_classic_2(full_width = F)
+```
+
+### Industry Codes
+number of unique industry codes: `r length(unique(merge_table$NAICS))`
+
+distribution of unique industry codes by # digits
+```{r base_industry_codes1, echo = FALSE, results='asis'}
+kable(table(unique(merge_table[,c("OCC_CODE", "LEVEL_NAICS_OE"), with = FALSE])$LEVEL_NAICS_OE), col.names = c("industry digits", "freq"))  %>%
+  kable_classic_2(full_width = F)
+```
+overall distribution of industry codes in table
+```{r base_industry_codes2, echo = FALSE, results='asis'}
+kable(table(merge_table$LEVEL_NAICS_OE), col.names = c("industry digits", "freq")) %>%
+  kable_classic_2(full_width = F)
+```
+
+
+### Year Codes
+number of years,`r length(unique(merge_table$YEAR))`
+
+table of years
+```{r base_year_codes, echo = FALSE, results='asis'}
+kable(table(merge_table$YEAR), col.names = c("year", "freq")) %>%
+  kable_classic_2(full_width = F)
+```
+### Area Codes
+number of area codes, `r length(unique(merge_table$AREA_CODE))`
+
+distribution of a unique set of codes & all codes by area classification 
+```{r base_area_codes, echo = FALSE, results='asis'}
+temp <- merge_table[,c("AREA_CODE"), with = FALSE]
+temp[AREA_CODE == 99, classification := "national"]
+temp[is.na(classification) & AREA_CODE<100, classification := "state/territory"]
+temp[is.na(classification) & AREA_CODE<100000 & AREA_CODE %% 10 == 0, classification := "city"]
+temp[is.na(classification) & AREA_CODE<100000, classification := "metropolitan area"]
+temp[is.na(classification), classification := "non metropolitan area"]
+kable(table(unique(temp[,c("AREA_CODE", "classification"), with = FALSE])$classification),
+      col.names = c("area classification", "freq")) %>%
+  kable_classic_2(full_width = F)
+kable(table(temp$classification), col.names = c("area classification", "freq")) %>%
+  kable_classic_2(full_width = F)
+```
+table of years
+```{r base_area_codes2, echo = FALSE, results='asis'}
+kable(table(temp$classification), col.names = c("area classification", "freq")) %>%
+  kable_classic_2(full_width = F)
+```
+
+## Two Variable Pairs
+number of unique industry-year pairs, `r dim(unique(merge_table[,c("NAICS", "YEAR"), with = FALSE]))[1]`
+
+number of unique industry-occupation pairs, `r dim(unique(merge_table[,c("NAICS", "OCC_CODE"), with = FALSE]))[1]`
+
+number of unique industry-area pairs, `r dim(unique(merge_table[,c("NAICS", "AREA_CODE"), with = FALSE]))[1]`
+
+number of unique year-occupation pairs, `r dim(unique(merge_table[,c("YEAR", "OCC_CODE"), with = FALSE]))[1]`
+
+number of unique year-area pairs, `r dim(unique(merge_table[,c("YEAR", "AREA_CODE"), with = FALSE]))[1]`
+
+number of unique occupation-area pairs, `r dim(unique(merge_table[,c("OCC_CODE", "AREA_CODE"), with = FALSE]))[1]`
+
+## Three Variable Pairs
+number of unique industry-year-occupation groups, `r dim(unique(merge_table[,c("NAICS", "YEAR", "OCC_CODE"), with = FALSE]))[1]`
+
+number of unique industry-year-area groups, `r dim(unique(merge_table[,c("NAICS", "YEAR", "AREA_CODE"), with = FALSE]))[1]`
+
+number of unique industry-occupation-area groups, `r dim(unique(merge_table[,c("NAICS", "OCC_CODE", "AREA_CODE"), with = FALSE]))[1]`
+
+number of unique year-occupation-area groups, `r dim(unique(merge_table[,c("YEAR", "OCC_CODE", "AREA_CODE"), with = FALSE]))[1]`
+
+## Four Variable Pairs
+number of unique industry-year-occupation-area groups, `r dim(unique(merge_table[,c("NAICS", "YEAR", "OCC_CODE", "AREA_CODE"), with = FALSE]))[1]`
+
+# OEWS Data
+```{r OEWS_precode, echo = FALSE, results='asis', warning=FALSE, include = FALSE, message = FALSE}
+OE_default <- c("YEAR", "NAICS", "OCC_CODE", "AREA_CODE")
+OE_desc <- read.xlsx("Merge/OEWS_desc.xlsx", 1, rowIndex = 9:32, colIndex = 1:2)
+colnames(OE_desc) <- OE_desc[1,]
+OE_desc <- data.table(OE_desc[-1,])
+OE_select <- gsub(" ", "_", toupper(OE_desc[12:dim(OE_desc)[1],]$Field))
+OE <- fread("Merge/OEWS_agg.csv", select = c(OE_default, OE_select))
+merge_table_OE <- OE[merge_table, on = c(OE_default)]
+merge_table_OE[,(OE_select):= lapply(.SD, as.numeric), .SDcols = OE_select]
+```
+
+```{r OEWS_summary, echo = FALSE, results='asis'}
+for (col in OE_select) {
+  print(summaryStats(c(merge_table_OE %>% select(col))[[1]], 
+               OE_desc[Field == tolower(ifelse(col == "LOC_QUOTIENT", "LOC QUOTIENT", col))]$`Field Description`, col))
+  cat("\n")
+}
+```
+# Labor Productivity Data
+```{r LP_precode, echo = FALSE, results='asis', warning=FALSE, include = FALSE, message = FALSE}
+#labor productivity
+LP_default <- c("YEAR_IP", "NAICS_IP", "AREA_CODE_IP")
+LP_desc <- fread("Merge/LP_desc.csv")
+LP_select <- LP_desc$MEASURE_CODE_EXPANDED
+IP <- fread("Merge/LP_agg.csv", select= c(LP_default,LP_select))
+merge_table_IP <- IP[merge_table, on = c(LP_default)]
+merge_table_IP[,(LP_select):= lapply(.SD, as.numeric), .SDcols = LP_select]
+merge_table_IP[NAICS_IP == "", `NAICS_IP`:=NA]
+```
+## General Statistics
+```{r LP_match, echo = FALSE, results='asis'}
+perfect_match <- dim(merge_table_IP[NAICS == NAICS_IP & YEAR == YEAR_IP & AREA_CODE == AREA_CODE_IP])[1]
+agg_match <- dim(merge_table_IP[LEVEL_NAICS_OE - LEVEL_NAICS_IP != 0])[1]
+```
+#### exact industry-year-area matches
+number: `r perfect_match`
+
+proportion: `r perfect_match/dim(merge_table_IP)[1]`
+
+
+#### aggregated industry-year-area matches (industry was aggregated)
+number: `r agg_match`
+
+proportion: `r perfect_match/dim(merge_table_IP)[1]`
+
+table of the number of digits that industries were aggregated by
+```{r LP_match_2, echo = FALSE, results='asis'}
+kable(table(merge_table_IP[LEVEL_NAICS_OE - LEVEL_NAICS_IP != 0, LEVEL_NAICS_OE - LEVEL_NAICS_IP]), col.names = c("digits of industry aggregation", "freq"))  %>%
+  kable_classic_2(full_width = F)
+```
+
+#### missing industry-year-area matches
+number: `r sum(is.na(merge_table_IP$NAICS_IP))`
+
+proportion: `r mean(is.na(merge_table_IP$NAICS_IP))`
+
+#### years covered
+`r sort(unique(merge_table_IP$YEAR_IP))`
+
+
+## Measure Statistics
+```{r LP_summary, echo = FALSE, results='asis'}
+for (col in LP_select) {
+  if (col != "T30_1_IP") {
+      print(summaryStats(c(merge_table_IP %>% select(col))[[1]], 
+               LP_desc[MEASURE_CODE_EXPANDED == col, 
+                             paste(MEASURE_TEXT, DURATION_TEXT)],
+               col))
+    cat("\n")
+  }
+  else {
+    print("T30_1_IP - Value of production (Million $) Annual percent changes couldn't be summarized because of formatting issues, but is a derivative of T30_0_IP")
+  }
+}
+```
+
+# Employer Cost Data
+````{r EC_precode, echo = FALSE, results='asis', warning=FALSE, include = FALSE, message = FALSE}
+EC_default <- c("YEAR_CM", "INDUSTRY_CODE_CM", "OCCUPATION_CODE_CM", "AREA_CODE_CM")
+EC_desc <- fread("Merge/EC_desc.csv")
+EC_select <- EC_desc$estimate_datatype_code
+EC <- fread("Merge/EC_agg.csv", select= c(EC_default,EC_select))
+EC$INDUSTRY_CODE_CM <- as.numeric(EC$INDUSTRY_CODE_CM)
+merge_table_EC <- EC[merge_table, on = c(EC_default)]
+merge_table_EC[,(EC_select):= lapply(.SD, as.numeric), .SDcols = EC_select]
+```
+## General Statistics
+```{r EC_match, echo = FALSE, results='asis', warning=FALSE, include = FALSE, message = FALSE}
+perfect_match <- dim(merge_table_EC[(LEVEL_NAICS_OE - LEVEL_NAICS_CM) == 0 & 
+                                      (LEVEL_OCC_OE - LEVEL_OCC_CM) == 0])[1]
+
+agg_match_ind <- dim(merge_table_EC[(LEVEL_NAICS_OE - LEVEL_NAICS_CM) != 0 & 
+                                      (LEVEL_OCC_OE - LEVEL_OCC_CM) == 0])[1]
+```
+#### exact industry-occupation-year-area matches
+number, `r perfect_match`
+
+proportion, `r perfect_match/dim(merge_table_EC)[1]`
+
+#### aggregated industry-occuation-year-area matches (just industry was aggregated, occupation perfect match)
+table of the number of industry digits that were aggregated
+
+```{r EC_match2, echo = FALSE, results='asis', warning=FALSE, message = FALSE}
+kable(table(merge_table_EC[(LEVEL_NAICS_OE - LEVEL_NAICS_CM) != 0 & 
+                             (LEVEL_OCC_OE - LEVEL_OCC_CM) == 0, LEVEL_NAICS_OE - LEVEL_NAICS_CM]), col.names = c("Number of digits industries aggregated by", "freq")) %>%
+  kable_classic_2(full_width = F)
+
+agg_match_occ <- dim(merge_table_EC[(LEVEL_NAICS_OE - LEVEL_NAICS_CM) == 0 & 
+                                      (LEVEL_OCC_OE - LEVEL_OCC_CM) != 0])[1]
+```
+
+#### aggregated industry-occuation-year-area matches (just occupation was aggregated, industry perfect match)
+number, `r agg_match_occ`
+
+proportion, `r agg_match_occ/dim(merge_table_EC)[1]`
+
+table of the number of digits occupations were aggregated by
+
+```{r EC_match3, echo = FALSE, results='asis', warning=FALSE, message = FALSE}
+kable(table(merge_table_EC[(LEVEL_NAICS_OE - LEVEL_NAICS_CM) == 0 & 
+                       (LEVEL_OCC_OE - LEVEL_OCC_CM) != 0, LEVEL_OCC_OE - LEVEL_OCC_CM]),
+      col.names = c("Number of digits occupations were aggregated by", "freq"))  %>%
+  kable_classic_2(full_width = F)
+temp_match <- merge_table_EC[(LEVEL_NAICS_OE - LEVEL_NAICS_CM) != 0 & 
+                               (LEVEL_OCC_OE - LEVEL_OCC_CM) != 0]
+temp_match[, `occ_dif`:= LEVEL_OCC_OE - LEVEL_OCC_CM]
+temp_match[, `ind_dif`:= LEVEL_NAICS_OE - LEVEL_NAICS_CM]
+agg_match_occ_ind <- dim(temp_match)[1]
+```
+
+#### aggregated industry-occuation-year-area matches (occupation & industry were both aggregated)
+number, `r agg_match_occ_ind`
+
+proportion, `r agg_match_occ_ind/dim(merge_table_EC)[1]`
+
+table of the number of digits occupation-industry pairs were aggregated by
+```{r EC_match4, echo = FALSE, results='asis', warning=FALSE, message = FALSE}
+kable(table(temp_match[,c("occ_dif", "ind_dif"), with = FALSE]), row.names = c(1, 2, 3, 4))  %>%
+  kable_classic_2(full_width = F)
+```
+
+#### missing industry-occupation-year-area matches
+number, `r sum(is.na(merge_table_EC$INDUSTRY_CODE_CM))`
+
+proportion, `r mean(is.na(merge_table_EC$INDUSTRY_CODE_CM))`
+
+
+#### Years covered
+`r sort(unique(merge_table_EC$YEAR_CM))`
+
+
+## Measure Statistics
+```{r EC_summary, echo = FALSE, results='asis', warning=FALSE, message = FALSE}
+for (col in EC_select) {
+  print(summaryStats(c(merge_table_EC %>% select(col))[[1]], 
+               EC_desc[estimate_datatype_code == col, 
+                       paste(estimate_text, datatype_text)],
+               col))
+  cat("\n")
+}
+```
+
+# Wage Model Data
+```{r WM_precode, echo = FALSE, results='asis', warning=FALSE, message = FALSE}
+WM_default <- c("YEAR_WM", "OCCUPATION_CODE_WM", "AREA_CODE_WM")
+WM_desc <- fread("Merge/WM_desc.csv", sep="^")
+WM_select <- WM_desc$MEASURE
+WM <- fread("Merge/WM_agg.csv", select= c(WM_default,WM_select))
+merge_table_WM <- WM[merge_table, on = c(WM_default)]
+merge_table_WM[,(WM_select):= lapply(.SD, as.numeric), .SDcols = WM_select]
+
+perfect_match <- dim(merge_table_WM[LEVEL_OCC_OE - LEVEL_OCC_WM == 0])[1]
+agg_match_occ <- dim(merge_table_WM[LEVEL_OCC_OE - LEVEL_OCC_WM != 0])[1]
+```
+
+## General Statistics
+#### exact occupation-year-area matches
+number, `r perfect_match`
+
+proportion, `r perfect_match/dim(merge_table_WM)[1]`
+
+
+#### aggregated occuation-year-area matches
+number, `r agg_match_occ`
+
+proportion, `r agg_match_occ/dim(merge_table_WM)[1]`
+
+table of the number of digits occupations were aggregated by
+
+```{r WM_match2, echo = FALSE, results='asis', warning=FALSE, message = FALSE}
+kable(table(merge_table_WM[LEVEL_OCC_OE - LEVEL_OCC_WM != 0, LEVEL_OCC_OE - LEVEL_OCC_WM]),
+      col.names = c("# of digits of occupation aggregation", "freq")) %>%
+  kable_classic_2(full_width = F)
+```
+
+#### missing occupation-year-area matches
+number, `r sum(is.na(merge_table_WM$OCCUPATION_CODE_WM))`
+
+proportion, `r mean(is.na(merge_table_WM$OCCUPATION_CODE_WM))`
+
+#### Years covered
+`r sort(unique(merge_table_WM$YEAR_WM))`
+
+## Measure Statistics
+```{r WM_summary, echo = FALSE, results='asis', warning=FALSE, message = FALSE}
+for (col in WM_select) {
+  print(summaryStats(c(merge_table_WM %>% select(col))[[1]], 
+               WM_desc[MEASURE == col, MEASURE],
+               col))
+}
+```
+
+
