@@ -11,5 +11,5 @@ Deprecated/
 Data/Unused
 merge_table.csv
 
-Data/OEWS/all_*
-Data/OEWS/oes_*
+Data/OEWS/all_*.csv
+Data/OEWS/oes_*.csv
